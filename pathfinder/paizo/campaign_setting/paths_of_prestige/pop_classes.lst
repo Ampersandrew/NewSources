@@ -269,13 +269,13 @@ CLASS:Bellflower			STARTSKILLPTS:4	CSKILL:Perception|Ride|Stealth|Survival
 1	ABILITY:Class|AUTOMATIC|Bellflower ~ Class
 
 ###Block
-CLASS:Daggermark			HD:10		TYPE:PC.Prestige	CLASSTYPE:PC	ABB:Arc		MAXLEVEL:10	SOURCEPAGE:p.18	DEFINE:DaggermarkLVL|0	DEFINE:NonEpicDaggermarkLVL|0	BONUS:VAR|DaggermarkLVL|CL	BONUS:VAR|NonEpicDaggermarkLVL|classlevel("APPLIEDAS=NONEPIC")	DESC:Poisoner Devious and crafty toxicologist	
+CLASS:DaggerMark Poisoner			HD:10		TYPE:PC.Prestige	CLASSTYPE:PC	ABB:Arc		MAXLEVEL:10	SOURCEPAGE:p.18	DEFINE:DaggerMarkPoisonerLVL|0	DEFINE:NonEpicDaggerMarkPoisonerLVL|0	BONUS:VAR|DaggerMarkPoisonerLVL|CL	BONUS:VAR|NonEpicDaggerMarkPoisonerLVL|classlevel("APPLIEDAS=NONEPIC")	DESC:Poisoner Devious and crafty toxicologist	
 ###Block
-CLASS:Daggermark			
+CLASS:DaggerMark Poisoner			
 ###Block
-CLASS:Daggermark			STARTSKILLPTS:4	CSKILL:Perception|Ride|Stealth|Survival	
+CLASS:DaggerMark Poisoner			STARTSKILLPTS:4	CSKILL:Perception|Ride|Stealth|Survival	
 
-1	ABILITY:Class|AUTOMATIC|Daggermark ~ Class
+1	ABILITY:Class|AUTOMATIC|DaggerMark Poisoner ~ Class
 
 ###Block
 CLASS:Gray Gardener		HD:10		TYPE:PC.Prestige	CLASSTYPE:PC	ABB:Arc		MAXLEVEL:10	SOURCEPAGE:p.24	DEFINE:GrayGardenerLVL|0	DEFINE:NonEpicGrayGardenerLVL|0	BONUS:VAR|GrayGardenerLVL|CL	BONUS:VAR|NonEpicGrayGardenerLVL|classlevel("APPLIEDAS=NONEPIC")	DESC:Deadly agent of the Revolutionary Council	
