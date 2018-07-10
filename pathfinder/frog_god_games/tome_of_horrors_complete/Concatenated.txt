@@ -7945,7 +7945,7 @@ CE Large outsider (chaotic, demon, evil, extraplanar)
 Init +9; Senses darkvision 60 ft., true seeing; Perception +51
 Aura unholy aura (DC 25)
 
-AC 43, touch 30, flat-footed 38 (+5 Dex, +13 natural, ¿1 size, +9 insight, +7 profane)
+AC 43, touch 30, flat-footed 38 (+5 Dex, +13 natural, Â¿1 size, +9 insight, +7 profane)
 hp 553 (27d10+405)
 Fort +32, Ref +20, Will +20
 DR 20/cold iron and good; Immune acid, cold, electricity, ooze traits; Resist fire 10; SR 34
@@ -19892,7 +19892,7 @@ AAA	KEY:LichShade ~ AAA	CATEGORY:Special Ability	TYPE:LichShadeRaceAbility.RaceA
 Death Throes (Su) When a lich shade is destroyed, it explodes into a burst of choking dust. All creatures within 10 feet must make a DC 20 Fortitude save or take 1d6 points of Constitution damage from the violent choking and necromantic scouring of this supernaturally vile dust. Those who fail the save are also nauseated for 1d6 rounds, while those who succeed are merely sickened for 1d6 rounds. The save DC is Charisma-based.
 
 AAA	KEY:LichShade ~ AAA	CATEGORY:Special Ability	TYPE:LichShadeRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
-Spell Leech (Su) Whenever a spellcaster within 50 feet of a lich shade casts a spell, the spellcaster must make a DC 20 Will save or the spell is lost, as if it were counterspelled. The lost spell's energy is transferred to the lich shade, who can use the magical energy in one of the following three ways. A lich shade can only store the energy of one spell at a time.  Cast: A lich shade can cast the spell on his turn at caster level 11th. When casting spells in this manner, he ignores the spell's material component requirements, but not its focus requirements.  Eldritch Bolt: A lich shade can release the spell as an eldritch bolt of pure magic energy as a standard action (range 50 ft., ranged touch +12, 1d6 damage per 2 levels of the spell used to create it).  Healing: A lich shade can absorb the spell's energy to heal hit points equal to the spell's level ×4. Hit points in excess of his maximum are instead gained as temporary hit points.  These temporary hit points last for 1 hour before fading.
+Spell Leech (Su) Whenever a spellcaster within 50 feet of a lich shade casts a spell, the spellcaster must make a DC 20 Will save or the spell is lost, as if it were counterspelled. The lost spell's energy is transferred to the lich shade, who can use the magical energy in one of the following three ways. A lich shade can only store the energy of one spell at a time.  Cast: A lich shade can cast the spell on his turn at caster level 11th. When casting spells in this manner, he ignores the spell's material component requirements, but not its focus requirements.  Eldritch Bolt: A lich shade can release the spell as an eldritch bolt of pure magic energy as a standard action (range 50 ft., ranged touch +12, 1d6 damage per 2 levels of the spell used to create it).  Healing: A lich shade can absorb the spell's energy to heal hit points equal to the spell's level Ã—4. Hit points in excess of his maximum are instead gained as temporary hit points.  These temporary hit points last for 1 hour before fading.
 
 AAA	KEY:LichShade ~ AAA	CATEGORY:Special Ability	TYPE:LichShadeRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Spell Sense (Su) A lich shade can automatically pinpoint the location of any spellcaster within 100 feet who has cast a spell within the previous round. It can also identify spells as they are being cast and all existing spell effects as if it were under the effects of greater arcane sight.
@@ -20926,7 +20926,7 @@ Vermin Empathy (Ex) This ability functions as a druid's wild empathy, save that 
 -----------------------------------------------
 
 Pestie
-DESC:Pesties are the larger, stealthier cousin of the mites. They lack the fangs of their kin but stand taller¿though they tend to be leaner¿with elongated limbs, long, slender fingers, and large pointed ears.
+DESC:Pesties are the larger, stealthier cousin of the mites. They lack the fangs of their kin but stand tallerÂ¿though they tend to be leanerÂ¿with elongated limbs, long, slender fingers, and large pointed ears.
 CR:1
 XP 600
 N Small fey
