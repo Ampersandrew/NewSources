@@ -14017,16 +14017,16 @@ Languages Auran, Common
 
 
 
-AAA	KEY:AAA ~ Fogwarden	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:Fogwarden ~ AAA	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Animate Dead (Su) The electrical aura of the fogwarden can animate dead creatures within 20 feet. This is otherwise identical to an animate dead (caster level 4th). The animated creatures resemble zombies (and use their stats) and are under the control of the fogwarden that animated them. They are not undead however, and cannot be turned or rebuked. If the fogwarden is slain or moves more than 20 feet from a zombie, the animated creature collapses dead and cannot be animated again.
 
-AAA	KEY:AAA ~ Fogwarden	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:Fogwarden ~ AAA	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Electricity Discharge (Su) Electricity constantly plays across a fogwarden's form. Any metal object (including metal weapons) that contacts a fogwarden's body takes 3d6 points of electricity damage. Magic items receive a DC 13 Reflex saving throw to reduce the damage by half.  Nonmagical items and objects receive no save and automatically take full damage. A creature holding the object or weapon at the time of contact takes 3d6 points of electricity damage as well (DC 13 Reflex save for half).
 
-AAA	KEY:AAA ~ Fogwarden	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Fogwarden ~ AAA	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Gaseous Form (Ex) The fogwarden's natural form is that of fog or mist. This ability is similar to the gaseous form spell (caster level 8th), except that a fogwarden does not lose its supernatural abilities or its lightning bolt ability, and has a fly speed of 40 feet. It is immune to and cannot perform combat maneuvers.
 
-AAA	KEY:AAA ~ Fogwarden	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Fogwarden ~ AAA	CATEGORY:Special Ability	TYPE:FogwardenRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Vulnerability to Sunlight (Ex) Fogwardens shun sunlight. A fogwarden exposed to sunlight is staggered for as long as it remains in the sunlight, and is destroyed utterly after 1 hour of exposure if it cannot escape.
 
 -----------------------------------------------
@@ -15040,13 +15040,13 @@ Languages Common
 
 
 
-AAA	KEY:AAA ~ DustGhoul	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:DustGhoul ~ AAA	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Animate Dust (Su) Once per day, a dust ghoul can cause 1d4 ghostly humanoid-shaped creatures to materialize from an area of dust and earth within 100 feet. The dust ghoul can control and direct these creatures as long as it is "alive" and within 100 feet.  The dust creatures have a speed of 10 feet and each has only one attack; a grapple. Each has a CMB equal to 1/2 dust ghoul's HD + its Strength modifier (+12 CMB for the standard dust ghoul).  A dust creature holds but does not harm creatures it grapples. The dust humanoids are immune to all attacks and spells, except water-based spells and effects. A gallon of water instantly destroys a dust humanoid. If the dust ghoul moves more than 100 feet away from a dust creature, that dust creature collapses into a pile of harmless dust. If the dust ghoul is destroyed, all dust creatures it animated collapse.
 
-AAA	KEY:AAA ~ DustGhoul	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:DustGhoul ~ AAA	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Augmented Critical (Ex) A dust ghoul's claws are razor-sharp. It threatens a critical hit on an attack roll of 19-20.  On a successful critical hit with a claw, it deals triple damage.
 
-AAA	KEY:AAA ~ DustGhoul	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:DustGhoul ~ AAA	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Earth Mastery (Ex) A dust ghoul gains a +1 bonus on attack and damage rolls if its foe is touching the ground. If an opponent is waterborne, the dust ghoul takes a -4 penalty on attack and damage rolls.
 
 AAA	KEY:DustGhoul ~ AAA	CATEGORY:Special Ability	TYPE:DustGhoulRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
@@ -18212,7 +18212,7 @@ Languages telepathy 100 ft.
 AAA	KEY:MarshJelly ~ AAA	CATEGORY:Special Ability	TYPE:MarshJellyRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Death Throes (Ex) A Jubilex-touched marsh jelly deals 3d6 points of acid damage and 3d6 points of profane damage to anything within 10 feet when it is killed. A successful DC 22 Reflex save reduces the acid damage by half (but does not reduce the profane damage).
 
-AAA	KEY:AAA ~ MarshJelly	CATEGORY:Special Ability	TYPE:MarshJellyRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:MarshJelly ~ AAA	CATEGORY:Special Ability	TYPE:MarshJellyRaceAbility.RaceAbility.SpecialQuality	DESC:
 A Jubilex-touched marsh jelly's natural weapons are treated as chaotic-aligned and evil-aligned for the purpose of overcoming damage reduction.
 
 -----------------------------------------------
@@ -18263,7 +18263,7 @@ Energy Absorption (Ex) A mustard jelly is immune to electrical effects and magic
 AAA	KEY:MustardJelly ~ AAA	CATEGORY:Special Ability	TYPE:MustardJellyRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Poison Aura (Ex) The mustard jelly exudes an aura of poison in a 10-foot radius centered on it that slows (as the slow spell) any creature in the area as long as it remains in the area and for 1d4 rounds afterward if it fails a DC 21 Fortitude save. A new save must be made each round a creature is within 10 feet of the mustard jelly. The save DC is Constitution-based.
 
-AAA	KEY:AAA ~ MustardJelly	CATEGORY:Special Ability	TYPE:MustardJellyRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:MustardJelly ~ AAA	CATEGORY:Special Ability	TYPE:MustardJellyRaceAbility.RaceAbility.SpecialQuality	DESC:
 A mustard jelly's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.
 
 -----------------------------------------------
@@ -19184,7 +19184,7 @@ Skills Knowledge (local) +33, Knowledge (nature) +33, Perception +40, Sense Moti
 Languages Aquan, Common, Orc, Sylvan
 
 
-AAA	KEY:AAA ~ LivingLake	CATEGORY:Special Ability	TYPE:LivingLakeRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:LivingLake ~ AAA	CATEGORY:Special Ability	TYPE:LivingLakeRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Engulf (Ex) A living lake that has grabbed an opponent can try to engulf the creature in its body. This ability functions as swallow whole, except for the following changes. An engulfed creature is trapped in the living lake's body, where the ooze inflicts automatic slam damage each round. In addition, an engulfed foe has no air to breathe and must hold its breath or risk drowning (see the Pathfinder Core Rulebook for rules on drowning). A living lake can engulf 1 Gargantuan, 2 Huge, 8 Large, 16 Medium, 32 Small, 64 Tiny, 128 Diminutive, or 512 Fine creatures. If an engulfed creature cuts its way free, living lake simply flows together again and can still use its engulf attack.
 
 -----------------------------------------------
@@ -20364,10 +20364,10 @@ Necrocone (Su) Once every 1d4 rounds, a mortuary cyclone can blast forth a mass 
 AAA	KEY:MortuaryCyclone ~ AAA	CATEGORY:Special Ability	TYPE:MortuaryCycloneRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Unholy Grace (Su) A mortuary cyclone adds its Charisma modifier as a bonus on its saving throws and as a profane bonus to its Armor Class. (The statistics block already reflects these bonuses.)
 
-AAA	KEY:AAA ~ MortuaryCyclone	CATEGORY:Special Ability	TYPE:MortuaryCycloneRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:MortuaryCyclone ~ AAA	CATEGORY:Special Ability	TYPE:MortuaryCycloneRaceAbility.RaceAbility.SpecialQuality	DESC:
 A mortuary cyclone's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.
 
-AAA	KEY:AAA ~ MortuaryCyclone	CATEGORY:Special Ability	TYPE:MortuaryCycloneRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:MortuaryCyclone ~ AAA	CATEGORY:Special Ability	TYPE:MortuaryCycloneRaceAbility.RaceAbility.SpecialQuality	DESC:
 Mortuary Cyclone Spawn A creature killed by a mortuary cyclone's necrocone rises as an undead creature in 1d4 rounds. The type is based on the creature's total HD.  Total HD | Opponent Rises as || Less than 10 | Zombie or skeleton || 11-15 HD | Wraith || 16-20 HD | Spectre || 21+ HD | Dread wraith ||
 
 -----------------------------------------------
@@ -20523,7 +20523,7 @@ Mud Bomb (Su) A mudman can hurl globs of its muddy body mixed with its surroundi
 AAA	KEY:Mudman ~ AAA	CATEGORY:Special Ability	TYPE:MudmanRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Mud Pool (Su) A mudman cannot leave the bounds of the mud pool it dwells in, although these mud pools may be of any size. A mudman's tremorsense extends throughout the entire mud pool, and it gains a +16 bonus on Stealth checks when hiding in a mud pool. A mudman forced out of its mud pool is staggered.
 
-AAA	KEY:AAA ~ Mudman	CATEGORY:Special Ability	TYPE:MudmanRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Mudman ~ AAA	CATEGORY:Special Ability	TYPE:MudmanRaceAbility.RaceAbility.SpecialQuality	DESC:
 A mudman's natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.
 
 -----------------------------------------------
@@ -25901,7 +25901,7 @@ Gear +5 anarchic scythe
 AAA	KEY:SlaadLordofEntropy ~ AAA	CATEGORY:Special Ability	TYPE:SlaadLordofEntropyRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Death Stroke (Su) If the Slaad Lord of Entropy scores a natural 20 on its attack roll with his scythe and confirms the critical hit, that opponent must succeed on a DC 35 Fortitude save or die. Creatures slain can be raised normally, but there is only a 50% chance that such magic works. Even if the Fortitude save succeeds, a creature struck takes 8d6 points of damage (which may be enough to kill it anyway). This ability only functions in the hands of the Slaad Lord of Entropy.
 
-AAA	KEY:AAA ~ SlaadLordofEntropy	CATEGORY:Special Ability	TYPE:SlaadLordofEntropyRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:SlaadLordofEntropy ~ AAA	CATEGORY:Special Ability	TYPE:SlaadLordofEntropyRaceAbility.RaceAbility.SpecialQuality	DESC:
 The Slaad Lord of Entropy's natural weapons, as well as any weapon he wields, are considered chaotic-aligned for the purpose of overcoming damage reduction. The Slaad Lord of Entropy's natural weapons are considered epic weapons for the purpose of overcoming damage reduction.
 
 -----------------------------------------------
@@ -25950,13 +25950,13 @@ Languages Abyssal, Celestial, Common, Daemonic, Draconic, Goblin, Infernal, Slaa
 
 
 
-AAA	KEY:AAA ~ SlaadLordoftheInsane	CATEGORY:Special Ability	TYPE:SlaadLordoftheInsaneRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:SlaadLordoftheInsane ~ AAA	CATEGORY:Special Ability	TYPE:SlaadLordoftheInsaneRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Energy Drain (Su) Living creatures hit by the Slaad Lord's slam attack gain 3 negative levels. The DC is 45 for the Fortitude save to remove a negative level. The DC is Constitution-based.
 
-AAA	KEY:AAA ~ SlaadLordoftheInsane	CATEGORY:Special Ability	TYPE:SlaadLordoftheInsaneRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:SlaadLordoftheInsane ~ AAA	CATEGORY:Special Ability	TYPE:SlaadLordoftheInsaneRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Amorphous (Ex) The Slaad Lord of the Insane is not subject to critical hits, and having no clear front or back, cannot be flanked.
 
-AAA	KEY:AAA ~ SlaadLordoftheInsane	CATEGORY:Special Ability	TYPE:SlaadLordoftheInsaneRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:SlaadLordoftheInsane ~ AAA	CATEGORY:Special Ability	TYPE:SlaadLordoftheInsaneRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Change Shape (Su) The Slaad Lord of the Insane can assume the shape of a humanoid as a standard action. In humanoid form, the slaad lord cannot use its natural weapons and does not deal negative levels. He usually assumes as a human male fighter cloaked in black plate armor wielding an iron black longsword (purportedly the legendary Black Sword: a +3 cold iron longsword that stuns any creature struck, as if by a power word stun spell, for 1d10 minutes if the victim fails a DC 24 Fortitude save).
 
 -----------------------------------------------
@@ -28437,39 +28437,39 @@ d20   | Mutation               ||
 13-20 | No mutation.           ||
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Dual forearm; claw damage increased by one die type (claw damage 1d6+3) and it gains the benefits of wielding a twohanded weapon with that arm.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Dual foreleg; +2 racial bonus to Acrobatics checks, +2 racial bonus on CMD to resist being bull rushed or tripped when standing on solid ground.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Massive scarring; natural armor bonus increases by +1.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Multiple muscles; +2 Strength.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Shortened tendons; +2 Dexterity.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Redundant vital organs; +2 Constitution.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Third leg; +4 racial bonus to Acrobatics checks, +4 racial bonus on CMD to resist being bull rushed or tripped when standing on solid ground, +10 to Speed.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Two arms on one side; gains an additional claw attack when making a full attack and gains the benefits of wielding a twohanded weapon with that arm.
 
 
-AAA	KEY:AAA ~ Troblin	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
+AAA	KEY:Troblin ~ AAA	CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality	DESC:
 Two heads; Gains Superior Two-Weapon Fighting ability (see below) and a +2 racial bonus on Perception checks.
 
 
@@ -30220,13 +30220,13 @@ Languages Abyssal, Common
 
 
 
-AAA	KEY:AAA ~ AbyssalWolf	CATEGORY:Special Ability	TYPE:AbyssalWolfRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:AbyssalWolf ~ AAA	CATEGORY:Special Ability	TYPE:AbyssalWolfRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Keen Scent (Ex) An abyssal wolf can detect prey within 60 feet by sense of smell, as per the scent ability. This range increases to 120 feet if the opponents are upwind; and decreases to 30 feet if downwind. By making a successful DC 15 Wisdom check the abyssal wolf can determine whether a tiefling or half-fiend is present among the opponents.
 
-AAA	KEY:AAA ~ AbyssalWolf	CATEGORY:Special Ability	TYPE:AbyssalWolfRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:AbyssalWolf ~ AAA	CATEGORY:Special Ability	TYPE:AbyssalWolfRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Know Alignment (Su) Abyssal wolves always know the alignment of any creature they look upon. This ability can be negated or dispelled, but the abyssal wolf can activate it again as a free action on its next turn.
 
-AAA	KEY:AAA ~ AbyssalWolf	CATEGORY:Special Ability	TYPE:AbyssalWolfRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+AAA	KEY:AbyssalWolf ~ AAA	CATEGORY:Special Ability	TYPE:AbyssalWolfRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Paralyzing Gaze (Su) Anyone within 40 feet meeting the gaze of an abyssal wolf must make a successful DC 16 Will save or be paralyzed for 2d4 rounds.  Half-fiends and tieflings have a -2 circumstance penalty on this save.  Once a successful save is made, the target is immune to the effects of that abyssal wolf's gaze attack for one day. The save DC is Charisma-based.
 
 -----------------------------------------------
@@ -30690,7 +30690,7 @@ Feats Weapon Finesse
 Skills Perception +6, Swim +11; Racial Modifiers Giant archerfish use their Dexterity modifier for Swim checks.
 
 
-AAA	KEY:AAA ~ GiantArcherfish	CATEGORY:Special Ability	TYPE:GiantArcherfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantArcherfish ~ AAA	CATEGORY:Special Ability	TYPE:GiantArcherfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Water Spray (Ex) By collecting water in its mouth, a giant archerfish can fire a powerful jet of water as a standard action. The attack has a range of 30 feet with no range increment. If the giant archerfish scores a hit, the target is knocked prone.
 
 -----------------------------------------------
@@ -30880,10 +30880,10 @@ Feats Skill Focus (Perception), Weapon Finesse
 Skills Perception +10, Swim +10; Racial Modifiers Giant caribes use their Dexterity modifier for Swim checks.
 
 
-AAA	KEY:AAA ~ Caribe,Giant	CATEGORY:Special Ability	TYPE:Caribe,GiantRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Caribe ~ AAA,Giant	CATEGORY:Special Ability	TYPE:Caribe,GiantRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Frenzy (Ex) A giant caribe that detects blood in the water goes into a killing frenzy, as do all other giant caribes within a 90-foot radius. Frenzied giant caribes attack until either they or their opponents are dead.  A frenzied giant caribe can make one extra attack when making a full attack action. The attack is made using the creature's full base attack. Additionally, it gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. A frenzied giant caribe's swim speed increases by 10 feet. This frenzy lasts for 1 minute and can only be used once per encounter.
 
-AAA	KEY:AAA ~ Caribe,Giant	CATEGORY:Special Ability	TYPE:Caribe,GiantRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Caribe ~ AAA,Giant	CATEGORY:Special Ability	TYPE:Caribe,GiantRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Keen Scent (Ex) A giant caribe can notice creatures by scent in a 90-foot radius underwater and can detect blood in the water at ranges up to 500 feet.
 
 -----------------------------------------------
@@ -30921,7 +30921,7 @@ Feats Ability Focus (electricity discharge), Iron Will, Power Attack, Skill Focu
 Skills Perception +16, Swim +16
 
 
-AAA	KEY:AAA ~ GiantElectricCatfish	CATEGORY:Special Ability	TYPE:GiantElectricCatfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantElectricCatfish ~ AAA	CATEGORY:Special Ability	TYPE:GiantElectricCatfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Electricity Discharge (Ex) Once every 1d4 rounds, a giant electric catfish can generate a pulse of electricity that deals 2d6 points of electricity damage to everything a 10 ft. radius. Living creatures within the area not only take damage but also are stunned for one round. A successful DC 20 Reflex save reduces the electricity damage by half and negates the stunning effect. The save DC is Constitution-based.
 
 -----------------------------------------------
@@ -30953,10 +30953,10 @@ Base Atk +3; CMB +7 (+11 grapple); CMD 19 (23 vs. trip) Feats Skill Focus (Perce
 Modifiers +15 Stealth
 
 
-AAA	KEY:AAA ~ GiantChameleon	CATEGORY:Special Ability	TYPE:GiantChameleonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantChameleon ~ AAA	CATEGORY:Special Ability	TYPE:GiantChameleonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 All-Around Vision (Ex) A giant chameleon can rotate each eye, independently of the other, in a 180 degree radius. This gives it a +4 racial bonus on Perception checks, and it cannot be flanked.
 
-AAA	KEY:AAA ~ GiantChameleon	CATEGORY:Special Ability	TYPE:GiantChameleonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantChameleon ~ AAA	CATEGORY:Special Ability	TYPE:GiantChameleonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Superior Vision (Ex) By magnifying an image, a giant chameleon can see five times as far as a normal human. This grants the chameleon a +4 racial bonus on Perception checks. This bonus stacks with all-around vision.
 
 Giant Horned Chameleon
@@ -31035,13 +31035,13 @@ Feats Skill Focus (Perception)
 Skills Perception +7, Stealth +10, Swim +10; Racial Modifiers Dragonfish use their Dexterity modifier for Swim checks.
 
 
-AAA	KEY:AAA ~ Dragonfish	CATEGORY:Special Ability	TYPE:DragonfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Dragonfish ~ AAA	CATEGORY:Special Ability	TYPE:DragonfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Spines (Ex) A creature that steps on a dragonfish or strikes it with an unarmed strike or a natural weapon takes 1d4 points of piercing damage from the fish's dorsal barbs and is subjected to its poison. Melee weapons do not endanger a user in this way. A charging or running creature must immediately stop if it steps on a dragonfish. A creature that takes more than 2 points of damage from a dragonfish's barb has its speed is reduced by half because its foot is wounded. This movement penalty lasts until the barb is removed, requiring a DC 15 Heal check at least 1 point of magical healing. A failure on the Heal check to remove a dragonfish spine results in 1d4 additional points of damage.
 
-AAA	KEY:AAA ~ Dragonfish	CATEGORY:Special Ability	TYPE:DragonfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Dragonfish ~ AAA	CATEGORY:Special Ability	TYPE:DragonfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Dragonfish Poison (Ex) Spine-injury, save Fort DC 11, frequency 1/round for 6 rounds, effect 1d2 Constitution, cure 1 save
 
-AAA	KEY:AAA ~ Dragonfish	CATEGORY:Special Ability	TYPE:DragonfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Dragonfish ~ AAA	CATEGORY:Special Ability	TYPE:DragonfishRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Camouflage (Ex) It takes a successful DC 20 Perception check to recognize a motionless dragonfish for what it really is.
 
 -----------------------------------------------
@@ -31080,7 +31080,7 @@ Feats Weapon Finesse, Weapon Focus (bite)
 Skills Perception +8, Swim +12; Racial Modifiers Electric eels use their Dexterity modifier for Swim checks.
 
 
-AAA	KEY:AAA ~ ElectricEel	CATEGORY:Special Ability	TYPE:ElectricEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:ElectricEel ~ AAA	CATEGORY:Special Ability	TYPE:ElectricEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Electricity (Ex) Once per hour, an electric eel can produce a jolt of electricity in a 10-foot radius centered on its body. Creatures within 5 feet take 3d8 points of electricity damage. Those further away than 5 feet but within 10 feet take 2d8 points of electricity damage. Affected creatures can make a DC 13 Fortitude save to reduce the damage by half. Electric eels are immune to their own electrical attacks and that of other electric eels. The save DC is Constitution-based.
 
 -----------------------------------------------
@@ -31120,13 +31120,13 @@ Feats Improved Initiative, Lightning Reflexes, Skill Focus (Stealth), Weapon Foc
 Skills Escape Artist +10, Perception +7, Stealth +11, Swim +18; Racial Modifiers +8 Escape Artist
 
 
-AAA	KEY:AAA ~ GiantMorayEel	CATEGORY:Special Ability	TYPE:GiantMorayEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantMorayEel ~ AAA	CATEGORY:Special Ability	TYPE:GiantMorayEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Disease (Ex) Flesh Rot: Bite-injury; save Fort DC 13; onset 1 minute; frequency 1/day; effect 1d6 Con and 1d6  Cha damage; cure 2 consecutive saves. The save DC is Constitution-based.
 
-AAA	KEY:AAA ~ GiantMorayEel	CATEGORY:Special Ability	TYPE:GiantMorayEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantMorayEel ~ AAA	CATEGORY:Special Ability	TYPE:GiantMorayEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Gnaw (Ex) If a giant moray begins a round with a grabbed foe, it inflicts automatic bite damage (2d6+9 points of damage). A giant moray eel possesses a second set of jaws in its throat that aid in swallowing-it can make a second bite attack (+11 attack, 1d6+4) against a foe it has already grabbed.
 
-AAA	KEY:AAA ~ GiantMorayEel	CATEGORY:Special Ability	TYPE:GiantMorayEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantMorayEel ~ AAA	CATEGORY:Special Ability	TYPE:GiantMorayEelRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Water Dependency (Ex) Giant moray eels can survive out of the water for 1 minute per point of Constitution (after that, refer to the drowning rules in the Pathfinder Core Rulebook).
 
 Moray Eel Animal Companion
@@ -31268,7 +31268,7 @@ Feats Lightning Reflexes
 Skills Acrobatics +9 (+13 jumping), Perception +3, Stealth +5, Swim +10; Racial Modifiers +4 Acrobatics (+8 jumping), +4 Stealth
 
 
-AAA	KEY:AAA ~ GiantFrog	CATEGORY:Special Ability	TYPE:GiantFrogRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantFrog ~ AAA	CATEGORY:Special Ability	TYPE:GiantFrogRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Tongue (Ex) A giant frog's tongue is a primary attack with reach equal to three times the frog's normal reach (15 feet for a Medium giant frog). A giant frog's tongue deals no damage on a hit, but can be used to grab. A giant frog does not gain the grappled condition while using its tongue in this manner.
 
 -----------------------------------------------
@@ -31368,7 +31368,7 @@ Feats Weapon Finesse
 Skills Acrobatics +5 (+9 jumping), Perception +3, Stealth +13, Swim +9; Racial Modifiers +4 Acrobatics (+8 jumping), +4 Stealth; uses Dex to swim
 
 
-AAA	KEY:AAA ~ PoisonousFrog	CATEGORY:Special Ability	TYPE:PoisonousFrogRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:PoisonousFrog ~ AAA	CATEGORY:Special Ability	TYPE:PoisonousFrogRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Poison (Ex) Injury; save Fort DC 10; frequency 1/round for 6 rounds; effect 1d2 Con damage; cure 1 save
 
 
@@ -31407,10 +31407,10 @@ Feats Endurance, Skill Focus (Perception)
 Skills Climb +9, Perception +9
 
 
-AAA	KEY:AAA ~ GiantHamster	CATEGORY:Special Ability	TYPE:GiantHamsterRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantHamster ~ AAA	CATEGORY:Special Ability	TYPE:GiantHamsterRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Cheek Pouch (Ex) A giant hamster can try to stuff a grabbed opponent of two sizes smaller than itself into its cheek pouch by making a successful grapple check. A creature stuffed into the giant hamster's cheek pouch takes no damage, and can escape by making a successful DC 16 Strength check or can cut its way out by using a light slashing or piercing weapon to deal 10 points of damage to the cheek (AC 11). Once the creature exits, muscular action closes the hole; another trapped opponent must cut its own way out.  A Large hamster's cheek can hold 1 Small, 2 Tiny, or 8 Diminutive or smaller opponents. The check DC is Strength-based.
 
-AAA	KEY:AAA ~ GiantHamster	CATEGORY:Special Ability	TYPE:GiantHamsterRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantHamster ~ AAA	CATEGORY:Special Ability	TYPE:GiantHamsterRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Immune (Ex) Giant hamsters are immune to all diseases (magical and otherwise).
 
 -----------------------------------------------
@@ -31445,10 +31445,10 @@ Skills Perception +12, Swim +16
 
 
 
-AAA	KEY:AAA ~ Hippopotamus	CATEGORY:Special Ability	TYPE:HippopotamusRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Hippopotamus ~ AAA	CATEGORY:Special Ability	TYPE:HippopotamusRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Capsize (Ex) A submerged hippo that surfaces under a boat less than its space can capsize it by making a CMB check. The DC of this check is 10, or the result of the boat pilot's Profession (sailor) check, whichever is higher. For each size category the boat is larger than the hippo's size, the hippo takes a cumulative -10 penalty on this CMB check.
 
-AAA	KEY:AAA ~ Hippopotamus	CATEGORY:Special Ability	TYPE:HippopotamusRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Hippopotamus ~ AAA	CATEGORY:Special Ability	TYPE:HippopotamusRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Hold Breath (Ex) A hippo can hold its breath for a number of rounds equal to 5 times its Constitution score before it risks drowning.
 
 -----------------------------------------------
@@ -31542,7 +31542,7 @@ Skills Acrobatics +4 (+12 balancing), Climb +10, Perception +10, Stealth +12; Ra
 
 
 
-AAA	KEY:AAA ~ SnowLeopard	CATEGORY:Special Ability	TYPE:SnowLeopardRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:SnowLeopard ~ AAA	CATEGORY:Special Ability	TYPE:SnowLeopardRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Snow Move (Ex) Because of its large, fur-covered paws, the snow leopard suffers no penalties for moving through snow- covered terrain.
 
 -----------------------------------------------
@@ -31764,7 +31764,7 @@ Feats Weapon Finesse
 Skills Acrobatics +11, Climb +15, Perception +10, Stealth +11; Racial Modifiers +8 Acrobatics, +4 Climb, +4 Perception, +4 Stealth. Margays use their Dexterity modifier for Climb checks.
 
 
-AAA	KEY:AAA ~ Margay	CATEGORY:Special Ability	TYPE:MargayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Margay ~ AAA	CATEGORY:Special Ability	TYPE:MargayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Superior Low-Light Vision (Ex) A margay can see three times as far as a human in starlight, moonlight, torchlight, and similar conditions of shadowy illumination. It retains the ability to distinguish color and detail under these conditions.
 
 -----------------------------------------------
@@ -31924,7 +31924,7 @@ Feats Improved Initiative, Skill Focus (Perception), Weapon Finesse
 Skills Perception +14, Swim +18; Racial Modifiers +4 Perception. Giant pikes use their Dexterity modifier for Swim checks.
 
 
-AAA	KEY:AAA ~ GiantPike	CATEGORY:Special Ability	TYPE:GiantPikeRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:GiantPike ~ AAA	CATEGORY:Special Ability	TYPE:GiantPikeRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Ambush (Ex) If a giant pike surprises an opponent, it gains a +4 circumstance bonus to its attack roll in that round of combat.
 
 -----------------------------------------------
@@ -31959,10 +31959,10 @@ Feats Skill Focus (Perception), Weapon FinesseB
 Skills Perception +8, Swim +10
 
 
-AAA	KEY:AAA ~ Quipper	CATEGORY:Special Ability	TYPE:QuipperRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Quipper ~ AAA	CATEGORY:Special Ability	TYPE:QuipperRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Frenzy (Ex) Quippers can detect blood in the water goes into a killing frenzy, as do all other quippers within a 90-foot radius. Frenzied quippers attack until either they or their opponents are dead.  A frenzied quipper can make one extra attack when making a full attack action. The attack is made using the creature's full base attack. Additionally, it gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. A frenzied quipper's swim speed increases by 10 feet. This frenzy lasts for 1 minute and can only be used once per encounter.
 
-AAA	KEY:AAA ~ Quipper	CATEGORY:Special Ability	TYPE:QuipperRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Quipper ~ AAA	CATEGORY:Special Ability	TYPE:QuipperRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Keen Scent (Ex) A quipper can notice creatures by scent in a 90-foot radius underwater and can detect blood in the water at ranges up to 500 feet.
 
 -----------------------------------------------
@@ -32031,7 +32031,7 @@ Feats Weapon Finesse
 Skills Climb +9, Perception +11, Stealth +11, Swim +5; Racial Modifiers +4 Perception, +4 Swim
 
 
-AAA	KEY:AAA ~ DireRaccoon	CATEGORY:Special Ability	TYPE:DireRaccoonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:DireRaccoon ~ AAA	CATEGORY:Special Ability	TYPE:DireRaccoonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Disease (Ex) Filth fever: Bite-injury; save Fort DC 15; onset 1d3 days; frequency 1 day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.
 
 -----------------------------------------------
@@ -32130,7 +32130,7 @@ Feats Iron Will, Power Attack, Skill Focus (Perception), Weapon Focus (antlers)
 Skills Perception +10, Swim +12
 
 
-AAA	KEY:AAA ~ ScytheHorn	CATEGORY:Special Ability	TYPE:ScytheHornRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:ScytheHorn ~ AAA	CATEGORY:Special Ability	TYPE:ScytheHornRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Stampede (Ex) A stampede occurs if three or more creatures with stampede make a trample attack while remaining adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller, and the trample's save DC increases by +2.
 
 Scimitar Horn
@@ -32262,7 +32262,7 @@ Feats Skill Focus (Perception), Weapon FinesseB
 Skills Perception +8, Stealth +9
 
 
-AAA	KEY:AAA ~ Skunk	CATEGORY:Special Ability	TYPE:SkunkRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:Skunk ~ AAA	CATEGORY:Special Ability	TYPE:SkunkRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Musk (Ex) Once per round, and no more than 5 times per day, a skunk can release a cloud of stinking musk that quickly fills a 5-foot area in front of it. A creature within or entering the area must succeed on a DC 10 Fortitude save or be sickened for 1d4 rounds. One round later a second Fortitude save must be made (whether the first one succeeded or not) or the affected creature is blinded for 1d4 rounds. The save DCs are Constitution-based. A delay poison or neutralize poison spell removes the effect from the sickened creature, but does not remove the blindness. Creatures immune to poison are unaffected by the sickened effect but can still be blinded if they fail their save, and creatures resistant to poison receive their normal bonus on both saving throws. The stench is highly potent, and short of magical means of cleaning, all cloth and such material continue to reek for 1d6 months. The odor is so strong that it doubles all chances for random encounters and imposes a -6 penalty on Stealth checks attempted while wearing clothing contaminated with a skunk's musk. Flesh, leather goods, metal goods (weapons, armor, and the like) must be washed in a concentrated mixture of vinegar over period of 1d3 days. Otherwise, the stench clings for at least one week, imposing the same modifiers to random encounters and Stealth checks.
 
 -----------------------------------------------
@@ -32399,7 +32399,7 @@ Feats Weapon Finesse
 Skills Perception +5, Swim +10; Racial Modifiers Small stingrays use their Dexterity modifier for Swim checks.
 
 
-AAA	KEY:AAA ~ SmallStingray	CATEGORY:Special Ability	TYPE:SmallStingrayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:SmallStingray ~ AAA	CATEGORY:Special Ability	TYPE:SmallStingrayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Poison (Ex) Sting-injury; save Fort DC 10; frequency 1/round for 4 rounds; effect 1 Str and paralysis 1d3 rds.; cure 1 save.
 
 -----------------------------------------------
@@ -32435,7 +32435,7 @@ Feats Ability Focus (poison), Skill Focus (Perception)
 Skills Perception +10, Stealth +5, Swim +10
 
 
-AAA	KEY:AAA ~ MediumStingray	CATEGORY:Special Ability	TYPE:MediumStingrayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:MediumStingray ~ AAA	CATEGORY:Special Ability	TYPE:MediumStingrayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Poison (Ex) Sting-injury; save Fort DC 15; frequency 1/round for 4 rounds; effect 1 Str and paralysis 1d4+1 rds.; cure 1 save.
 
 -----------------------------------------------
@@ -32472,7 +32472,7 @@ Feats Ability Focus (poison), Multiattack, Skill Focus (Perception), Toughness
 Skills Perception +11, Stealth +3, Swim +14
 
 
-AAA	KEY:AAA ~ LargeStingray	CATEGORY:Special Ability	TYPE:LargeStingrayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+AAA	KEY:LargeStingray ~ AAA	CATEGORY:Special Ability	TYPE:LargeStingrayRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Poison (Ex) Sting-injury; save Fort DC 19; frequency 1/round for 6 rounds; effect 1d2 Str and paralysis 1d6+2 rds.; cure 1 save.
 
 near coastlines and shores. They sustain themselves on a diet of plankton, aquatic plants, small crabs, and small fish. Larger stingrays, like smaller rays, are found in shallow, warm waters, though these creatures often swim into much deeper waters. Giant stingrays feed on creatures such
