@@ -1,6 +1,7 @@
 
 -----------------------------------------------
 
+
 Ahlinni
 DESC:This creature has a long, straight beak-fully half the length of its body-that tapers to a fine point. Wicked claws sprout from its wings. Its eyes are whitish-pink and its feathers are a mixture of blues, reds, yellows, and greens.
 CR:4
@@ -115,6 +116,7 @@ CR:1/2
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +5
 
 AC 14, touch 14, flat-footed 11 (+3 Dex, +1 size)
@@ -153,6 +155,7 @@ KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast 
 RACESUBTYPE:Psionic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +9
 
 AC 14, touch 14, flat-footed 11 (+3 Dex, +1 size)
@@ -1105,6 +1108,7 @@ CR:6
 KIT:1|N
 SIZE:L
 RACETYPE:Outsider
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses all-around vision, astral scent, darkvision 60 ft.; Perception +16
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
@@ -1186,6 +1190,7 @@ CR:9
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +8; Senses darkvision 60 ft., low-light vision, scent; Perception +13
 
 AC 23, touch 15, flat-footed 19 (+4 Dex, +8 natural, +1 size)
@@ -1220,6 +1225,7 @@ CR:3
 KIT:1|CE
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +5; Senses darkvision 60 ft., low-light vision, scent; Perception +10
 
 AC 14, touch 10, flat-footed 14 (+1Dex, +4 natural, -1size)
@@ -1380,7 +1386,10 @@ OUTPURNAME:Barbegazi
 Barbegazi (Ice Gnome)
 DESC:This humanoid stands just over 3 feet tall and has white hair, glossy white skin and deep blue eyes. Its beard is long and flowing and appears to be made of icicles. Its feet are large and flat.
 CR:1
-N(E) Small humanoid (cold, gnome)
+KIT:1|N
+SIZE:S
+RACETYPE:Humanoid
+RACESUBTYPE:Cold|Gnome
 Init +1; Senses low-light vision; Perception +0
 
 AC 14, touch 12, flat-footed 13 (+1 Dex, +2 natural, +1 size)
@@ -1424,6 +1433,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 
 AC 13, touch 12, flat-footed 12 (+1Dex, +1 natural, +1 size)
@@ -1630,7 +1640,9 @@ OUTPUTNAME:[NAME]
 Bat (Mobat)
 DESC:This creature appears as a large brown bat with razor-sharp fangs, and eyes that glow green.
 CR:3
-N(E) Large Magical Beast
+KIT:1|N
+SIZE:L
+RACETYPE:Magical Beast
 Init +5; Senses blindsense 120 ft., darkvision 60 ft., low-light vision; Perception +10
 
 AC 15, touch 14, flat-footed 10 (+5 Dex, +1 natural, -1 size)
@@ -1851,6 +1863,7 @@ CR:3
 KIT:1|N
 SIZE:M
 RACETYPE:Vermin
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses darkvision 60 ft., scent; Perception +0
 
 AC 18, touch 10, flat-footed 18 (+8 natural)
@@ -2230,6 +2243,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 
 AC 14, touch 13, flat-footed 13 (+2 Dex, +1 natural, +1 size)
@@ -2345,6 +2359,7 @@ CR:4
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +7; Senses darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 16, touch 12, flat-footed 13 (+3 Dex, +4 natural, -1 size)
@@ -2380,6 +2395,7 @@ CR:5
 KIT:1|N
 SIZE:L
 RACETYPE:Monstrous Humanoid
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses darkvision 60 ft., scent; Perception +10
 
 AC 17, touch 9, flat-footed 17 (+8 natural, -1 size)
@@ -3089,6 +3105,7 @@ KIT:1|N
 SIZE:M
 RACETYPE:Magical Beast 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., keen scent, low-light vision; Perception +11
 
 AC 17, touch 13, flat-footed 14 (+3 Dex, +3 natural)
@@ -3363,6 +3380,7 @@ CR:4
 KIT:1|CE
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., low-light vision, scent; Perception +13
 
 AC 18, touch 16, flat-footed 12 (+6 Dex, +2 natural)
@@ -3540,6 +3558,7 @@ KIT:1|NE
 SIZE:H
 RACETYPE:Magical Beast 
 RACESUBTYPE:Evil|Extraplanar
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +11; Senses darkvision 120 ft., low-light vision, scent; Perception +45
 
 AC 40, touch 16, flat-footed 32 (+7 Dex, +1 dodge, +24 natural, -2 size)
@@ -3676,7 +3695,10 @@ Trilling (Ex) By rapidly vibrating its carapace, a chain worm emits a high-pitch
 Cherum
 DESC:This hairless mountain of slick raw burning flesh seems to constantly sizzle and ooze with the stench of burning fat. Two long meaty arms sprout from a hugely obese frame; its head appears to be little more than a bald sloping brow with black pits for eyes. Its maw splits open to reveal cavernous jaws, teeth glowing like huge red hot coals.
 CR:22
-N(E) Colossal aberration (fire)
+KIT:1|N
+SIZE:C
+RACETYPE:Aberration
+RACESUBTYPE:Fire
 Init +8; Senses darkvision 120 ft.; Perception +45
 Aura fiery aura (40 ft., 6d6 fire, DC 36)
 
@@ -3852,7 +3874,10 @@ Wisdom Damage (Su) The incorporeal bite of a church grim deals 1d6 points of hol
 Churr
 DESC:The trees and underbrush in front of you explode forth sending a hail of leaves and brush in your direction. From the tangled mess emerged several feral, ape-like creatures with elongated nails and fangs.
 CR:5
-N (E) Large Monstrous Humanoid
+KIT:1|N
+SIZE:L
+RACETYPE:Monstrous Humanoid
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +11
 
 AC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1size)
@@ -3974,7 +3999,9 @@ Sound-Related Vulnerabilities (Ex) Any magical silence effect or effect that cre
 Clockwork Brain Gear
 DESC:This small copper box glows with a pale blue light.
 CR:3
-N(E) Small construct
+KIT:1|N
+SIZE:S
+RACETYPE:Construct
 Init +0; Senses darkvision 60 ft., low-light vision; Perception +9
 
 AC 10, touch 6, flat-footed 10 (-5 Dex, +4 natural, +1 size)
@@ -4383,6 +4410,7 @@ CR:2
 KIT:1|NG
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +7
 
 AC 16, touch 13, flat-footed 13 (+3 Dex, +3 natural)
@@ -4495,7 +4523,10 @@ Pain Shriek (Su) Twice per day, as a standard action, a corpse orgy can unleash 
 Corpse Rook
 DESC:This creature resembles a three-headed raven with oily black feathers and bright silver talons and beak. A pungent, almost sulfuric odor emanates from the creature. Its wings are tipped with silver feathers.
 CR:5
-N(E) Large Magical Beast
+KIT:1|NE
+SIZE:L
+RACETYPE: Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses all-around vision, darkvision 60 ft., low-light vision, scent; Perception +15
 
 AC 17, touch 12, flat-footed 14 (+3 Dex, +5 natural, -1 size)
@@ -5128,7 +5159,10 @@ OUTPUTNAME:[NAME] Daemon
 Daemon (Guardian)
 DESC:This entity resembles a large bipedal bear-like creature with upward curving horns, elongated fangs, and blackish-gray fur. Its hands end in eagle-like talons.
 CR:6
-N(E) Large outsider (extraplanar)
+KIT:1|N
+SIZE:L
+RACETYPE:Outsider
+RACESUBTYPE:Extraplanar
 Init +1; Senses darkvision 120 ft.; Perception +13
 
 AC 21, touch 10, flat-footed 20 (+1 Dex, +11 natural, -1 size)
@@ -6624,6 +6658,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Outsider 
 RACESUBTYPE:Chaotic|Demon|Evil|Extraplanar
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +12
 
 AC 19, touch 12, flat-footed 17 (+2 Dex, +7 natural)
@@ -9636,6 +9671,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Magical Beast 
 RACESUBTYPE:Cold
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 Aura frightful presence (30 ft., DC 13)
 
@@ -9869,7 +9905,9 @@ Petrifying Gaze (Su) Turn to stone permanently, range 30 feet, Fortitude DC 16 n
 Draconid
 DESC:This hideous creature looks like a cross between a giant spider and dragon or hydra. Where its head should be, two long serpentine necks sprout from its body. Its head and neck are scaled gray, and its spidery torso and eight knobbed legs are covered in short, coarse fur.
 CR:9
-N(E) Huge aberration
+KIT:1|N
+SIZE:H
+RACETYPE:Aberration
 Init +6; Senses darkvision 60 ft.; Perception +23
 
 AC 23, touch 10, flat-footed 21 (+2 Dex, +13 natural, -2 size)
@@ -10673,6 +10711,7 @@ DESC:Beautiful and awesome to behold, this majestic dragon's skin glitters like 
 CR:20
 NG* Huge dragon (extraplanar, good)
 *Wrath dragons can also be lawful good or chaotic good, gaining the lawful or chaotic subtypes respectively
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses dragon senses, scent; Perception +37
 Aura magic circle against evil (10 ft. radius)
 
@@ -10820,7 +10859,9 @@ Skills Fly +13
 Dragonnel
 DESC:This creature looks like a great dragon, at least 20 feet long with a serpentine body, long slender wings and a pointed snout or beak that resembles that of a pteranodon. Its body is colored reddish-violet with lighter shades on its underbelly. A ridge of maroon-colored spines runs the length of its body down the center of its back. A mane of frills, white in color, rings its head.
 CR:6
-N(E) Huge Magical Beast
+KIT:1|N
+SIZE:H
+RACETYPE:Magical Beast
 Init +0; Senses darkvision 60 ft., low-light vision; Perception +0
 
 AC 18, touch 8, flat-footed 18 (+10 natural, -2 size)
@@ -11036,7 +11077,9 @@ DESC:This creature looks like a wingless dragon about 12 feet long whose flesh i
 
 SPLINTER DRAKE
 CR:10
-N(E) Large plant
+KIT:1|N
+SIZE:L
+RACETYPE:Plant
 Init +2; Senses low-light vision; Perception +21
 
 AC 23, touch 11, flat-footed 21 (+2 Dex, +12 natural, -1 size)
@@ -11274,7 +11317,10 @@ Sleep (Su) As a full-round action, a dream spectre can induce sleep in a single 
 Drelb
 DESC This spectral figure is composed of darkness and has no discernible features except its eyes-two small pinpoints of light that burn with a hellish glow.  Drelb (Haunting Custodian).
 CR:5
-N(E) Medium outsider (extraplanar, incorporeal, psionic)
+KIT:1|N
+SIZE:M
+RACETYPE:Outsider
+RACESUBTYPE:Extraplanar|Incorporeal|Psionic
 Init +7; Senses darkvision 60 ft.; Perception +11
 
 AC 15, touch 15, flat-footed 12 (+2 deflection, +3 Dex)
@@ -13036,6 +13082,7 @@ CR:3
 KIT:1|N
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses arcane sight, darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 15, touch 12, flat-footed 13 (+2 Dex, +3 natural)
@@ -13128,6 +13175,7 @@ CR:2
 KIT:1|N
 SIZE:T
 RACETYPE:Aberration
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses blindsense 10 ft., darkvision 60 ft., scent; Perception +8
 
 AC 16, touch 13, flat-footed 15 (+1 Dex, +3 natural, +2 size)
@@ -13734,6 +13782,7 @@ CR:3
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init -1; Senses blindsense 30 ft., scent, tremorsense 60 ft.; Perception +6
 
 AC 18, touch 8, flat-footed 18 (-1 Dex, +10 natural, -1 size)
@@ -13960,6 +14009,7 @@ CR:1
 KIT:1|N
 SIZE:M
 RACETYPE:Vermin
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +4
 
 AC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)
@@ -14111,7 +14161,9 @@ Forgetful Presence (Su) Three times per day, a forgotten one can cause any creat
 Forlarren
 DESC:This creature resembles a hairless satyr. A small ruff of dark hair covers the back of its head. Small horns protrude above its eyes. Its hands end in wicked claws and its face shows a twisted, leering visage.
 CR:2
-N(E) Medium fey
+KIT:1|N
+SIZE:M
+RACETYPE:Fey
 Init +2; Senses low-light vision; Perception +10
 AC 18, touch 12, flat-footed 26 (+2 Dex, +6 natural)
 hp 13 (3d6+3)
@@ -14151,6 +14203,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
 RACESUBTYPE:Augmented Animal|Extraplanar
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +8; Senses darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 24, touch 14, flat-footed 20 (+4 Dex, +10 natural, -1 size)
@@ -14541,7 +14594,10 @@ Gargoyle (Fungus)
 DESC:This creature looks like a winged statue, humanoid in shape, carved from molds, funguses, and mushrooms. Its arms and legs end in clawed hands and feet, and its mouth is lined with fangs carved from the same substances its body is.
 
 CR:5
-N(E) Medium plant (fungus)
+KIT:1|N
+SIZE:M
+RACETYPE:Plant
+RACESUBTYPE:Fungus
 Init +2; Senses low-light vision; Perception +12
 Aura sickening aura (10 ft., DC 16, sickened)
 
@@ -15069,6 +15125,7 @@ CR:3
 KIT:1|CE
 SIZE:M
 RACETYPE:Undead
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., scent; Perception +11
 
 AC 15, touch 13, flat-footed 12 (+3 Dex, +2 natural)
@@ -15313,6 +15370,7 @@ KIT:1|NE
 SIZE:H
 RACETYPE:Humanoid 
 RACESUBTYPE:Earth|Giant
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses low-light vision, scent; Perception +27
 
 AC 24, touch 9, flat-footed 23 (+3 armor, +1 Dex, +12
@@ -15765,6 +15823,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 
 AC 15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)
@@ -16432,6 +16491,7 @@ CR:9
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 AC 18, touch 10, flat-footed 17 (+1 Dex, +8 natural, -1 size)
 hp 95 (10d10+40)
@@ -16578,6 +16638,7 @@ CR:5
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +9
 AC 16, touch 11, flat-footed 14 (+2 Dex, +5 natural, -1 size)
 hp 42 (4d10+16 plus 4)
@@ -16645,6 +16706,7 @@ KIT:1|CN
 SIZE:L
 RACETYPE:Fey 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses keen scent, low-light vision; Perception +13
 
 AC 24, touch 12, flat-footed 21 (+3 Dex, +12 natural, -1 size)
@@ -16713,6 +16775,7 @@ CR:2
 KIT:1|LE
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 14, touch 13, flat-footed 12 (+2 Dex, +1 natural, +1 size)
@@ -16751,6 +16814,7 @@ CR:3
 KIT:1|LE
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +9
 
 AC 15, touch 14, flat-footed 12 (+3 Dex, +1 natural, +1 size)
@@ -17057,6 +17121,7 @@ CR:3
 KIT:1|CN
 SIZE:L
 RACETYPE:Monstrous Humanoid
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses darkvision 60 ft., scent; Perception +7
 
 AC 13, touch 9, flat-footed 13 (+4 natural, -1 size)
@@ -17232,7 +17297,9 @@ Entangle (Su) The hanged man's noose is a 20-ft. length of rope that entangles o
 Hangman Tree
 DESC:A giant oak tree with few leaves and branches stands nearby.
 CR:7
-N(E) Huge plant
+KIT:1|N
+SIZE:H
+RACETYPE:Plant
 Init +3; Senses blindsight 60 ft., low-light vision; Perception +6 Aura hallucinatory spores (50 ft. radius, DC 19, passive 2d6 minutes)
 
 AC 20, touch 7, flat-footed 20 (-1 Dex, +13 natural, -2 size)
@@ -17404,7 +17471,11 @@ Poison (Ex) Sting-injury; save DC 21; frequency 1/round for 6 rounds; effect 1d4
 Hell Moth
 DESC:This creature looks like a giant gray moth with spiraling bands of red and black on its body. It has large, thin, reddish-hued wings.
 CR:6
-N(E) Large aberration (extraplanar)
+KIT:1|N
+SIZE:L
+RACETYPE:Aberration
+RACESUBTYPE:Extraplanar
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +7; Senses darkvision 60 ft., scent; Perception +13
 
 AC 19, touch 12, flat-footed 16 (+3 Dex, +7 natural, -1 size)
@@ -17488,6 +17559,7 @@ KIT:1|CG
 SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +7
 
 AC 15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)
@@ -17522,6 +17594,7 @@ KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast 
 RACESUBTYPE:Cold
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 16, touch 14, flat-footed 13 (+3 Dex, +2 natural, +1 size)
@@ -18105,6 +18178,7 @@ CR:1/2
 KIT:1|N
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +4
 
 AC 15, touch 13, flat-footed 12 (+3 Dex, +2 natural)
@@ -18140,6 +18214,7 @@ CR:3
 KIT:1|N
 SIZE:M
 RACETYPE:Aberration
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +5; Senses darkvision 60 ft., scent; Perception +10
 
 AC 16, touch 11, flat-footed 15 (+1 Dex, +5 natural)
@@ -18183,6 +18258,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Aberration 
 RACESUBTYPE:Chaotic|Evil|Extraplanar
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +5; Senses darkvision 60 ft., scent; Perception +29
 
 AC 17, touch 10, flat-footed 16 (+1 Dex, +7 natural, -1 size)
@@ -18426,7 +18502,10 @@ Smother (Ex) By making a successful grapple check (with a +2 bonus for every vin
 Kamadan
 DESC:This creature resembles a large leopard-like cat with emerald green eyes. From its shoulders sprout six long serpents, blackish-green in color, each about twice the length of a normal human. The serpents' eyes are reddish-yellow.
 CR:4
-N(E) Large Magical Beast
+KIT:1|N
+SIZE:L
+RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 18, touch 13, flat-footed 15 (+2 Dex, +1 dodge,
@@ -18471,7 +18550,9 @@ Poison (Ex) Snakes-injury; save Fort DC 14; frequency 1/round for 6 rounds; effe
 Kampfult
 DESC:This creature is a man-sized monster resembling a tree trunk with six long sinewy tendrils spaced evenly around the upper portion of its body. Six smaller tendrils located at the base of its trunk seem to aid it in locomotion. Its body is dark grayish-green and its tendrils are dark gray changing to dark green at the tips.  Kampfult (Sinewy Mugger).
 CR:2
-N(E) Medium plant
+KIT:1|N
+SIZE:M
+RACETYPE:Plant
 Init +1; Senses blindsight 30 ft; Perception +8
 
 AC 16, touch 11, flat-footed 15 (+1 Dex, +5 natural)
@@ -18504,6 +18585,7 @@ CR:3
 KIT:1|NG
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +8
 
 AC 15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)
@@ -18993,6 +19075,7 @@ KIT:1|N
 SIZE:M
 RACETYPE:Vermin 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses blindsight 30 ft., scent; Perception +0
 
 AC 11, touch 11, flat-footed 10 (+1 Dex)
@@ -19198,6 +19281,7 @@ CR:4
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2 Senses darkvision 60 ft., low-light vision, scent; Perception +9
 
 AC 16, touch 11, flat-footed 14 (+2 Dex, +5 natural, -1 size)
@@ -19268,6 +19352,7 @@ CR:8
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +7; Senses darkvision 60 ft., low-light vision, scent; Perception +16
 
 AC 21, touch 12, flat-footed 18 (+3 Dex, +9 natural, -1 size)
@@ -19302,6 +19387,7 @@ CR:7
 KIT:1|N
 SIZE:H
 RACETYPE:Aberration
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +5; Senses darkvision 60 ft., scent; Perception +12
 
 AC 19, touch 9, flat-footed 18 (+1 Dex, +10 natural, -2 size)
@@ -19542,6 +19628,7 @@ CR:9
 KIT:1|LE
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +14
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1size)
@@ -19940,7 +20027,10 @@ Susceptible to Cold (Ex) Cold-based attacks and effects deal no damage to a mihs
 Mimi
 DESC:This tiny fey resembles a 1-foot tall elf with small bee-like wings, silver hair, milk white skin, and icy blue eyes. It is dressed in colorful garments of blue, silver, or green and carries a tiny short sword in a scabbard slung across its backs, resting between its wings.
 CR:1
-N(G) Tiny fey (cold)
+KIT:1|N
+SIZE:T
+RACETYPE:Fey
+RACESUBTYPE:Cold
 Init +4; Senses low-light vision; Perception +5
 
 AC 19, touch 17, flat-footed 14 (+4 Dex, +1 dodge, +2
@@ -20038,6 +20128,7 @@ CR:1/2
 KIT:1|LE
 SIZE:S
 RACETYPE:Fey
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 90 ft., low-light vision, scent; Perception +5
 
 AC 12, touch 12, flat-footed 11 (+1 Dex, +1 size)
@@ -20089,6 +20180,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Fey
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 90 ft., low-light vision, scent; Perception +5
 
 AC 14, touch 14, flat-footed 11 (+3 Dex, +1 size)
@@ -20267,6 +20359,7 @@ KIT:1|NG
 SIZE:M
 RACETYPE:Outsider 
 RACESUBTYPE:Extraplanar|Good
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 120 ft., keen senses, scent; Perception +21
 
 AC 22, touch 12, flat-footed 20 (+2 Dex, +10 natural)
@@ -20381,6 +20474,7 @@ CR:1/2
 KIT:1|N
 SIZE:S
 RACETYPE:Vermin
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +8
 
 AC 15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)
@@ -20653,6 +20747,7 @@ CR:6
 KIT:1|CN
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 
 AC 18, touch 13, flat-footed 15 (+3 Dex, +5 natural)
@@ -20907,7 +21002,10 @@ Spatio-Temporal Reversal (Ex) A nilbog constantly emanates an aura of confusion 
 Niln
 DESC:A large amorphous cloud of nearly transparent vapor hovers. Small water droplets dance and play around the form and occasionally drop to the ground. Three large sapphire droplets centered on their form function as eyes. When manipulating objects or attacking, nilns form wispy and vaporous tendrils.  Niln (Vapor Horror).
 CR:5
-N(E) Medium outsider (air, extraplanar, water)
+KIT:1|N
+SIZE:M
+RACETYPE:Outsider
+RACESUBTYPE:Air|Extraplanar|Water
 Init +8; Senses darkvision 60ft.; Perception +13
 
 AC 15, touch 14, flat-footed 11 (+4 Dex, +1 natural)
@@ -21200,6 +21298,7 @@ ONYX DEER	CR 5
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., low-light vision, scent; Perception +14
 
 AC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)
@@ -21740,6 +21839,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Humanoid 
 RACESUBTYPE:Orc
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 60 ft., scent; Perception -2
 
 AC 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)
@@ -21829,6 +21929,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Humanoid 
 RACESUBTYPE:Orc
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +2
 
 AC 14, touch 12, flat-footed 12 (+2 armor, +2 Dex)
@@ -21904,7 +22005,10 @@ Orc/Ogre Blood (Ex) For all special abilities and effects, an orog is considered
 Pech
 DESC:This small humanoid stands about the height of a dwarf and has gangly arms and legs. Its hands are broad and its skin is ochre-colored with lighter shades on its palms and feet. Its hair is lightly colored, a mix of reds and browns. Its large bulbous eyes are stark white and lack any discernible pupils.
 CR:3
-N(G) Small fey (earth, extraplanar)
+KIT:1|N
+SIZE:S
+RACETYPE:Fey
+RACESUBTYPE:Earth|Extraplanar
 Init +1; Senses darkvision 60 ft.; Perception +11
 
 AC 17, touch 12, flat-footed 16 (+1 Dex, +5 natural, +1 size)
@@ -22164,7 +22268,10 @@ Tree Stride (Su) As a free action, a phooka can enter a tr and move from it to a
 Phycomid
 DESC:A small blob of decomposing matter covers the ground. Several small mushrooms sprout from the patch.
 CR:4
-N(E) Small plant (fungus)
+KIT:1|N
+SIZE:S
+RACETYPE:Plant
+RACESUBTYPE:Fungus
 Init +0; Senses tremorsense 30 ft.; Perception +0
 
 AC 15, touch 11, flat-footed 15 (+4 natural, +1 size)
@@ -23519,6 +23626,7 @@ CR:9
 KIT:1|NE
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +7; Senses darkvision 60 ft., low-light vision, scent; Perception +13
 
 AC 22, touch 12, flat-footed 19 (+3 Dex, +10 natural, -1 size)
@@ -23557,6 +23665,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60ft., low-light vision, scent; Perception +4
 
 AC 15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)
@@ -23599,6 +23708,7 @@ CR:1/4
 KIT:1|N
 SIZE:T
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60ft., low-light vision, scent; Perception +1
 
 AC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
@@ -23641,6 +23751,7 @@ KIT:1|N
 SIZE:T
 RACETYPE:Magical Beast 
 RACESUBTYPE:Psionic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +9
 
 AC 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
@@ -23726,6 +23837,7 @@ CR:1/2
 KIT:1|N
 SIZE:T
 RACETYPE:Undead
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +8
 
 AC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
@@ -23756,6 +23868,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Undead
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., scent; Perception +8
 
 AC 16, touch 14, flat-footed 13 (+3 Dex, +2 natural, +1 size)
@@ -23988,6 +24101,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Psionic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 120 ft., low-light vision, scent; Perception +11
 
 AC 16, touch 12, flat-footed 13 (+2 Dex, +1 dodge, +4
@@ -24104,6 +24218,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., keen scent, low-light vision; Perception +10
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
@@ -24147,6 +24262,7 @@ CR:3
 KIT:1|NE
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +12
 Aura stench (DC 13, 10 rounds)
 
@@ -24221,6 +24337,7 @@ CR:4
 KIT:1|N
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., low-light vision, scent; Perception +7
 
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
@@ -24256,6 +24373,7 @@ CR:2
 KIT:1|N
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +4; Senses darkvision 60 ft., low-light vision, scent; Perception +10
 
 AC 17, touch 14, flat-footed 13 (+4 Dex, +3 natural)
@@ -24333,6 +24451,7 @@ CR:2
 KIT:1|N
 SIZE:M
 RACETYPE:Monstrous Humanoid
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +6
 
 AC 14, touch 13, flat-footed 11 (+3 Dex, +1 natural)
@@ -24523,7 +24642,10 @@ Vulnerability to Water (Ex): For every 2 gallons of water that hit a sandling, i
 Sandman
 DESC:This creature appears as a slender, lithe humanoid constructed of sand. Delicate features can be seen on its face, and its fingers are long and slender.
 CR:3
-N(E) Medium outsider (elemental, extraplanar, earth)
+KIT:1|N
+SIZE:M
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Earth
 Init +5; Senses darkvision 60 ft.; Perception +7
 Aura sleep aura (20 ft., DC 14)
 
@@ -24765,6 +24887,7 @@ KIT:1|CE
 SIZE:H
 RACETYPE:Dragon 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., low-light vision, scent; Perception +26
 
 AC 27, touch 11, flat-footed 24 (+2 Dex, +1 dodge, +16
@@ -24810,6 +24933,7 @@ KIT:1|LN
 SIZE:G
 RACETYPE:Dragon 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +5; Senses darkvision 60 ft., low-light vision, scent; Perception +24
 
 AC 20, touch 8, flat-footed 18 (+1 Dex, +1 dodge, +12
@@ -24852,6 +24976,7 @@ KIT:1|N
 SIZE:L
 RACETYPE:Dragon 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 60 ft., low-light vision, scent; Perception +9
 
 AC 24, touch 10, flat-footed 23 (+1 Dex, +14 natural, -1 size)
@@ -24891,6 +25016,7 @@ KIT:1|N
 SIZE:M
 RACETYPE:Dragon 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +4; Senses darkvision 60 ft., low-light vision, scent; Perception +11
 
 AC 30, touch 14, flat-footed 26 (+4 Dex, +16 natural)
@@ -24930,6 +25056,7 @@ KIT:1|CN
 SIZE:C
 RACETYPE:Dragon 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +5; Senses darkvision 60 ft., low-light vision, scent; Perception +48
 
 AC 31, touch 4, flat-footed 29 (+1 Dex, +1 dodge, +27
@@ -24975,6 +25102,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Dragon 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +10; Senses darkvision 60 ft., low-light vision, scent; Perception +17
 
 AC 27, touch 15, flat-footed 21 (+6 Dex, +12 natural, -1 size)
@@ -25572,7 +25700,10 @@ Magic Circle against Evil (Su) A greater shedu radiates a continuous magic circl
 Sheet Fungus
 DESC:What at first appeared to be an intricately carved tapestry is apparently alive as it springs at you.
 CR:3
-N(E) Medium plant (fungus)
+KIT:1|N
+SIZE:M
+RACETYPE:Plant
+RACESUBTYPE:Fungus
 Init +3; Senses low-light vision; Perception +6
 
 AC17, touch 13, flat-footed 14 (+3 Dex, +4 natural)
@@ -25729,6 +25860,7 @@ CR:5
 KIT:1|CE
 SIZE:M
 RACETYPE:Aberration
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., skin scent; Perception +11
 
 AC 18, touch 12, flat-footed 16 (+2 Dex, +6 natural)
@@ -26101,6 +26233,7 @@ This creature appears to be a segmented worm or caterpillar with stumpy, almost 
 KIT:1|N
 SIZE:M
 RACETYPE:Aberration
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +8
 
 AC 15, touch 12, flat-footed 13 (+2 Dex, +3 natural)
@@ -26134,6 +26267,7 @@ CR:4
 KIT:1|N
 SIZE:L
 RACETYPE:Aberration
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +10
 
 AC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)
@@ -26427,6 +26561,7 @@ CR:2
 KIT:1|N
 SIZE:T
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +5
 
 AC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
@@ -26630,7 +26765,9 @@ Gear chain shirt, halberd, short sword, heavy crossbow, quiver of 20 crossbow bo
 Sprite
 DESC:This tiny winged elf-like creature has delicate features, transparent wings, and fair skin. It wears brightly colored clothes and its eyes sparkle with light.
 CR:1
-N(G) Small fey
+KIT:1|N
+SIZE:S
+RACETYPE:Fey
 Init +4; Senses low-light vision; Perception +7
 
 AC 16, touch 16, flat-footed 11 (+4 Dex, +1 dodge, +1 size)
@@ -27214,6 +27351,7 @@ KIT:1|N
 SIZE:D
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic|Swarm
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses low-light vision, keen scent; Perception +10
 
 AC 16, touch 16, flat-footed 14 (+2 Dex, +4 size)
@@ -27257,6 +27395,7 @@ KIT:1|N
 SIZE:D
 RACETYPE:Animal 
 RACESUBTYPE:Swarm
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses low-light vision, scent; Perception +9
 
 AC 15, touch 15, flat-footed 14 (+1 Dex, +4 size)
@@ -27297,6 +27436,7 @@ KIT:1|N
 SIZE:T
 RACETYPE:Animal 
 RACESUBTYPE:Swarm
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses low-light vision, scent; Perception +11
 
 AC 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
@@ -27334,6 +27474,7 @@ KIT:1|NE
 SIZE:T
 RACETYPE:Undead 
 RACESUBTYPE:Swarm
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., scent; Perception +24
 
 AC 16, touch 14, flat-footed 14 (+2 Dex, +2 natural, +2 size)
@@ -27421,6 +27562,7 @@ KIT:1|NE
 SIZE:T
 RACETYPE:Undead 
 RACESUBTYPE:Swarm
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., scent; Perception +9
 
 AC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
@@ -27587,6 +27729,7 @@ KIT:1|CN
 SIZE:M
 RACETYPE:Humanoid 
 RACESUBTYPE:Tabaxi
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +2
 
 AC 13, touch 12, flat-footed 11 (+2 Dex, +1 natural)
@@ -27626,6 +27769,7 @@ KIT:1|N
 SIZE:M
 RACETYPE:Monstrous Humanoid 
 RACESUBTYPE:Cold
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +9
 Aura stench (DC 13, 10 rounds)
 
@@ -27659,6 +27803,7 @@ CR:3
 KIT:1|NE
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +4; Senses darkvision 60ft. low-light vision, scent; Perception +8
 
 AC 17, touch 14, flat-footed 13 (+4 Dex, +3 natural)
@@ -27692,6 +27837,7 @@ CR:5
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft. low-light vision, scent, tremorsense 60 ft.; Perception +8
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
@@ -27767,7 +27913,11 @@ Immunity to Temporal Magic (Ex) Temporal crawlers are immune to all time-related
 Tendrul
 DESC:The size of a small whale, this amphibious creature has a pair of powerful flippers with which it pulls itself from the waters to sun itself on the stones. It has a head reminiscent of a piranha, the body of a giant grayish-black seal, and a bony razor-sharp scythe-like tail.
 CR:7
-N(E) Large aberration (aquatic)
+KIT:1|N
+SIZE:L
+RACETYPE:Aberration
+RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., keen scent; Perception +11
 
 AC 21, touch 12, flat-footed 18 (+2 Dex, +1 dodge, +9
@@ -28016,6 +28166,7 @@ CR:5
 KIT:1|N
 SIZE:H
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses darkvision 60 ft., low-light vision, scent; Perception +13
 
 AC 14, touch 8, flat-footed 14 (+6 natural, -2 size)
@@ -28092,6 +28243,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Vermin
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses darkvision 60 ft., scent; Perception +0
 
 AC 17, touch 11, flat-footed 17 (+6 natural, +1 size)
@@ -28488,6 +28640,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Humanoid 
 RACESUBTYPE:Giant
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 90 ft., low-light vision, scent; Perception +7
 
 AC 22, touch 17, flat-footed 15 (+6 Dex, +1 dodge, +5 natural)
@@ -28530,6 +28683,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Humanoid 
 RACESUBTYPE:Cold|Giant
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 90 ft., low-light vision, scent; Perception +2
 
 AC 12, touch 10, flat-footed 11 (+1 Dex, +2 natural, -1 size)
@@ -28576,6 +28730,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Humanoid 
 RACESUBTYPE:Earth|Giant
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses darkvision 60 ft., low-light vision, scent; Perception +5
 
 AC 20, touch 10, flat-footed 19 (+1 Dex, +10 natural, -1 size)
@@ -28621,6 +28776,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Humanoid 
 RACESUBTYPE:Giant
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +3
 
 AC 16, touch 11, flat-footed 14 (+2 Dex, +5 natural, -1 size)
@@ -28663,6 +28819,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Humanoid 
 RACESUBTYPE:Giant
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses darkvision 90 ft., low-light vision, scent; Perception +18
 
 AC 16, touch 9, flat-footed 16 (+7 natural, -1 size)
@@ -28703,6 +28860,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Monstrous Humanoid 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 90 ft., scent; Perception +9
 
 AC 18, touch 12, flat-footed 16 (+2 armor, +2 Dex, +4 natural)
@@ -28753,6 +28911,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Monstrous Humanoid 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 90 ft., scent; Perception +9
 
 AC 18, touch 12, flat-footed 16 (+2 armor, +2 Dex, +4
@@ -28867,6 +29026,7 @@ KIT:1|N
 SIZE:H
 RACETYPE:Magical Beast 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +4; Senses darkvision 60 ft., low-light vision, scent; Perception +15
 
 AC 26, touch 8, flat-footed 26 (+18 natural, -2 size)
@@ -29450,6 +29610,7 @@ CR:1/2
 KIT:1|CE
 SIZE:M
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +0 (+8 in daylight)
 
 AC 14, touch 13, flat-footed 11 (+2 Dex, +1 dodge, +1 natural)
@@ -30192,6 +30353,7 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Chaotic|Evil|Extraplanar
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +7; Senses darkvision 60 ft., keen scent, know alignment,
 low-light vision; Perception +9
 
@@ -30240,6 +30402,7 @@ CR:2
 KIT:1|NE
 SIZE:M
 RACETYPE:Undead
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., scent; Perception +9
 
 AC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)
@@ -30272,6 +30435,7 @@ CR:6
 KIT:1|NE
 SIZE:L
 RACETYPE:Undead
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., scent; Perception +16
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
@@ -30308,6 +30472,7 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Undead 
 RACESUBTYPE:Incorporeal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., scent; Perception +9
 
 AC 14, touch 14, flat-footed 12 (+2 deflection, +2 Dex)
@@ -30395,6 +30560,7 @@ CR:4
 KIT:1|NE
 SIZE:L
 RACETYPE:Magical Beast
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +7; Senses darkvision 60 ft., low-light vision, scent; Perception +11
 
 AC 15, touch 12, flat-footed 12 (+3 Dex, +3 natural, -1 size)
@@ -30667,6 +30833,7 @@ KIT:1|N
 SIZE:M
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses low-light vision, scent; Perception +6
 
 AC 14, touch 13, flat-footed 11 (+3 Dex, +1 natural)
@@ -30701,6 +30868,7 @@ CR:2
 KIT:1|N
 SIZE:L
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses low-light vision, scent; Perception +9
 
 AC 14, touch 12, flat-footed 11 (+3 Dex, +2 natural, -1 size)
@@ -30827,6 +30995,7 @@ CR:8
 KIT:1|N
 SIZE:H
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +0; Senses low-light vision, scent; Perception +20
 
 AC 17, touch 8, flat-footed 17 (+9 natural, -2 size)
@@ -30859,6 +31028,7 @@ KIT:1|N
 SIZE:M
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses low-light vision, keen scent; Perception +10
 
 AC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)
@@ -30935,6 +31105,7 @@ CR:3
 KIT:1|N
 SIZE:L
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses all-around vision, low-light vision, scent, superior vision; Perception +17
 
 AC 14, touch 11, flat-footed 12 (+2 Dex, +3 natural, -1 size)
@@ -30981,6 +31152,7 @@ CR:1/4
 KIT:1|N
 SIZE:M
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses low-light vision, scent; Perception +10
 
 AC 14, touch 13, flat-footed 11 (+2 Dex, +1 dodge, +1 natural)
@@ -31013,6 +31185,7 @@ KIT:1|N
 SIZE:S
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +7
 
 AC 16, touch 13, flat-footed 14 (+2 Dex, +3 natural, +1 size)
@@ -31056,6 +31229,7 @@ KIT:1|N
 SIZE:L
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +4; Senses low-light vision, scent; Perception +8
 
 AC 15, touch 13, flat-footed 11 (+4 Dex, +2 natural, -1 size)
@@ -31095,6 +31269,7 @@ KIT:1|N
 SIZE:L
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses darkvision 60 ft., low-light vision, scent; Perception +7
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
@@ -31150,6 +31325,7 @@ KIT:1|N
 SIZE:L
 RACETYPE:Animal 
 RACESUBTYPE:Aquatic
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses low-light vision, scent; Perception +11
 
 AC 15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)
@@ -31184,6 +31360,7 @@ CR:2
 KIT:1|N
 SIZE:L
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses low-light vision, scent; Perception +13
 
 AC 15, touch 12, flat-footed 12 (+3 Dex, +3 natural, -1 size)
@@ -31215,6 +31392,7 @@ CR:1/3
 KIT:1|N
 SIZE:S
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses low-light vision, scent; Perception +5
 
 AC 15, touch 14, flat-footed 12 (+3 Dex, +1 natural, +1 size)
@@ -31245,6 +31423,7 @@ CR:1
 KIT:1|N
 SIZE:M
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses low-light vision, scent; Perception +3
 
 AC 12, touch 11, flat-footed 11 (+1 Dex, +1 natural)
@@ -31281,6 +31460,7 @@ CR:3
 KIT:1|N
 SIZE:L
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +6; Senses low-light vision, scent; Perception +6
 
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
@@ -31315,6 +31495,7 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +1; Senses low-light vision, scent; Perception +3
 
 AC 14, touch 12, flat-footed 13 (+1 Dex, +2 natural, +1 size)
@@ -31421,6 +31602,7 @@ CR:4
 KIT:1|N
 SIZE:L
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +4; Senses low-light vision, scent; Perception +12
 
 AC 14, touch 9, flat-footed 14 (+5 natural, -1 size)
@@ -31459,6 +31641,7 @@ CR:4
 KIT:1|N
 SIZE:L
 RACETYPE:Animal
+ABILITY:Special Ability|AUTOMATIC|Scent
 Init +2; Senses low-light vision, scent; Perception +10
 
 AC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)
