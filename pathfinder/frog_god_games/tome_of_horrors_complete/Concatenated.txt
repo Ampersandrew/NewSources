@@ -1,4 +1,5 @@
 
+
 -----------------------------------------------
 
 
@@ -7463,7 +7464,8 @@ CR:27
 KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
-RACESUBTYPE:Aquatic|Chaotic|Demon|Evil|Extraplanar) Init +12; Senses Darkvision 60 Ft.|True Seeing; Perception +60 Aura Unholy Aura (DC 27
+RACESUBTYPE:Aquatic|Chaotic|Demon|Evil|Extraplanar)
+Init +12; Senses darkvision 60 Ft., true seeing; Perception +60 Aura Unholy Aura (DC 27
 
 AC 50, touch 35, flat-footed 42 (+8 Dex, +15 natural, -1 size,
 +9 insight, +9 profane)
@@ -7706,7 +7708,8 @@ CR:23
 KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
-RACESUBTYPE:Chaotic|Cold|Demon|Evil|Extraplanar) Init +10; Senses Darkvision 60 Ft.|True Seeing; Perception +45 Aura Unholy Aura (DC 26
+RACESUBTYPE:Chaotic|Cold|Demon|Evil|Extraplanar
+Init +10; Senses darkvision 60 ft.|true seeing; Perception +45 Aura Unholy Aura (DC 26)
 
 AC 43, touch 31, flat-footed 37 (+6 Dex, +12 natural, -1 size, +8 insight, +8 profane)
 hp 536 (29d10+377)
@@ -7964,7 +7967,8 @@ CR:28
 KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
-RACESUBTYPE:Air|Chaotic|Demon|Evil|Extraplanar) Init +14; Senses Darkvision 60 Ft.|True Seeing; Perception +63 (+71 In Daylight
+RACESUBTYPE:Air|Chaotic|Demon|Evil|Extraplanar
+Init +14; Senses darkvision 60 Ft., true seeing; Perception +63 (+71 In Daylight)
 Aura unholy aura (DC 27)
 
 AC 49, touch 37, flat-footed 39 (+10 Dex, +12 natural, -1 size,
@@ -8879,7 +8883,8 @@ CR:21
 KIT:1|LE
 SIZE:M
 RACETYPE:Outsider 
-RACESUBTYPE:Devil|Evil|Extraplanar|Lawful Init +11; Senses Darkvision 60 Ft.|Detect Good|Detect Magic|See In Darkness; Perception +35
+RACESUBTYPE:Devil|Evil|Extraplanar|Lawful
+Init +11; Senses darkvision 60 ft., detect good, detect magic, see in darkness; Perception +35
 
 AC 38, touch 19, flat-footed 37 (+9 armor, +2 Dex, +11 natural, +7 profane)
 hp 270 (20d10+160); regeneration 10 (good, silver)
@@ -12980,7 +12985,8 @@ CR:5
 KIT:1|CE
 SIZE:M
 RACETYPE:Outsider 
-RACESUBTYPE:Chaotic|Elemental|Evil|Extraplanar Init +1; Senses All-Around Vision|Darkvision 60 Ft.;  Perception +15
+RACESUBTYPE:Chaotic|Elemental|Evil|Extraplanar
+Init +1; Senses all-around vision, darkvision 60 Ft.; Perception +15
 
 AC 18, touch 11, flat-footed 17 (+1 Dex, +7 natural)
 hp 68 (8d10+24)
@@ -13868,7 +13874,7 @@ CR:1/2
 KIT:1|N
 SIZE:T
 RACETYPE:Vermin
-Init +4 Senses darkvision 60 ft.; Perception +0
+Init +4; Senses darkvision 60 ft.; Perception +0
 
 AC 17, touch 16, flat-footed 13 (+4 Dex, +1 natural, +2 size)
 hp 5 (1d8+1)
@@ -14411,7 +14417,7 @@ CR:2
 KIT:1|N
 SIZE:S
 RACETYPE:Fey
-F Init +1; Senses low-light vision; Perception +8
+Init +1; Senses low-light vision; Perception +8
 AC 15, touch 12, flat-footed 14 (+1 Dex, +3, natural, +1 size)
 hp 9 (2d6+2)
 Fort +4; Ref +4; Will +4
@@ -17203,7 +17209,7 @@ CR:3
 KIT:1|N
 SIZE:M
 RACETYPE:Aberration
-Init +4 Senses blindsight 30ft.; Perception +7
+Init +4; Senses blindsight 30ft.; Perception +7
 AC 17, touch 14, flat-footed 13 (+4 Dex, +3 natural)
 hp 19 (3d8+6)
 Fort +3; Ref +5; Will +3
@@ -19301,7 +19307,7 @@ KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast
 ABILITY:Special Ability|AUTOMATIC|Scent
-Init +2 Senses darkvision 60 ft., low-light vision, scent; Perception +9
+Init +2; Senses darkvision 60 ft., low-light vision, scent; Perception +9
 
 AC 16, touch 11, flat-footed 14 (+2 Dex, +5 natural, -1 size)
 hp 42 (5d10+15)
@@ -21283,7 +21289,8 @@ CR:7
 KIT:1|N
 SIZE:H
 RACETYPE:Magical Beast 
-RACESUBTYPE:Aquatic|Extraplanar|Fire Init +6; Senses Blindsense 30 Ft.|Keen Scent 180 Ft.; Perception +8
+RACESUBTYPE:Aquatic|Extraplanar|Fire
+Init +6; Senses blindsense 30 ft., keen scent 180 Ft.; Perception +8
 
 AC 19, touch 10, flat-footed 19 (+2 Dex, +9 natural, -2 size)
 hp 85 (10d10+30)
@@ -22661,7 +22668,7 @@ CR:5
 KIT:1|N
 SIZE:M
 RACETYPE:Ooze
-Init +0 Senses blindsight 60 ft.; Perception +0
+Init +0; Senses blindsight 60 ft.; Perception +0
 
 AC 10, touch 10, flat-footed 10
 hp 52 (5d10+25)
@@ -25168,7 +25175,7 @@ KIT:1|N
 SIZE:G
 RACETYPE:Vermin 
 RACESUBTYPE:Aquatic
-Init +0 Senses darkvision 60ft.; Perception +6
+Init +0; Senses darkvision 60ft.; Perception +6
 
 AC 19, touch 6, flat-footed 19 (+13 natural, -4 size)
 hp 164 (15d8+90 plus 7)
@@ -29243,7 +29250,8 @@ CR:1
 KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast 
-RACESUBTYPE:Augmented Animal|Vapor Init +3; Senses Darkvision 60 Ft.|Low-Light Vision|Scent; Perception +1
+RACESUBTYPE:Augmented Animal|Vapor
+Init +3; Senses darkvision 60 ft., low-light vision, scent; Perception +1
 
 AC 15, touch 14, flat-footed 12 (+3 Dex, +1 natural, +1size)
 hp 6 (1d10+1); fast healing 2
@@ -29280,7 +29288,8 @@ CR:4
 KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast 
-RACESUBTYPE:Augmented Vermin|Vapor Init +1; Senses Darkvision 60 Ft.|Low-Light Vision; Perception +11
+RACESUBTYPE:Augmented Vermin|Vapor
+Init +1; Senses darkvision 60 ft., low-light vision; Perception +11
 
 AC 14, touch 10, flat-footed 13 (+1 Dex, +4 natural, -1 size)
 hp 47 (5d10+20); fast healing 2
@@ -32007,7 +32016,7 @@ CR:13
 KIT:1|N
 SIZE:H
 RACETYPE:Animal
-Init +0 [+0 Dex]; Senses low-light vision, scent; Perception +20
+Init +0; Senses low-light vision, scent; Perception +20
 
 AC 23, touch 8, flat-footed 23 (+15 natural, -2 size)
 hp 200 (16d8+112 plus 16)
