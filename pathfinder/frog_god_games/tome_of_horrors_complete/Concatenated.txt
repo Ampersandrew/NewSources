@@ -1,6 +1,5 @@
 
 
-
 -----------------------------------------------
 
 Ahlinni
@@ -4698,7 +4697,7 @@ DESC:This creature resembles a three-headed raven with oily black feathers and b
 CR:5
 KIT:1|NE
 SIZE:L
-RACETYPE: Magical Beast
+RACETYPE:Magical Beast
 ABILITY:Special Ability|AUTOMATIC|Scent
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 BONUS:VAR|DarkvisionRange|60
@@ -7718,8 +7717,10 @@ KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
 RACESUBTYPE:Aquatic|Chaotic|Demon|Evil|Extraplanar)
-Init +12; Senses Darkvision 60 Ft.|True Seeing
-Aura Unholy Aura (DC 27
+BONUS:VAR|DarkvisionRange|60
+ABILITY:Special Ability|AUTOMATIC|True Seeing ~ Constant
+Init +12; Senses
+Aura Unholy Aura (DC 27)
 
 AC 50, touch 35, flat-footed 42 (+8 Dex, +15 natural, -1 size,
 +9 insight, +9 profane)
@@ -7966,9 +7967,11 @@ CR:23
 KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
-RACESUBTYPE:Chaotic|Cold|Demon|Evil|Extraplanar)
-Init +10; Senses Darkvision 60 Ft.|True Seeing
-Aura Unholy Aura (DC 26
+RACESUBTYPE:Chaotic|Cold|Demon|Evil|Extraplanar
+BONUS:VAR|DarkvisionRange|60
+ABILITY:Special Ability|AUTOMATIC|True Seeing ~ Constant
+Init +10; Senses
+Aura Unholy Aura (DC 26)
 
 AC 43, touch 31, flat-footed 37 (+6 Dex, +12 natural, -1 size, +8 insight, +8 profane)
 hp 536 (29d10+377)
@@ -8230,8 +8233,10 @@ CR:28
 KIT:1|CE
 SIZE:L
 RACETYPE:Outsider 
-RACESUBTYPE:Air|Chaotic|Demon|Evil|Extraplanar)
-Init +14; Senses Darkvision 60 Ft.|True Seeing (+71 In Daylight
+RACESUBTYPE:Air|Chaotic|Demon|Evil|Extraplanar
+ABILITY:Special Ability|AUTOMATIC|True Seeing ~ Constant
+BONUS:VAR|DarkvisionRange|60
+Init +14; Senses 
 Aura unholy aura (DC 27)
 
 AC 49, touch 37, flat-footed 39 (+10 Dex, +12 natural, -1 size,
@@ -9180,7 +9185,11 @@ KIT:1|LE
 SIZE:M
 RACETYPE:Outsider 
 RACESUBTYPE:Devil|Evil|Extraplanar|Lawful
-Init +11; Senses Darkvision 60 Ft.|Detect Good|Detect Magic|See In Darkness
+BONUS:VAR|DarkvisionRange|60
+ABILITY:Special Ability|AUTOMATIC|Detect Good ~ Constant
+ABILITY:Special Ability|AUTOMATIC|Detect Magic ~ Constant
+ABILITY:Special Ability|AUTOMATIC|See In Darkness
+Init +11; Senses
 
 AC 38, touch 19, flat-footed 37 (+9 armor, +2 Dex, +11 natural, +7 profane)
 hp 270 (20d10+160); regeneration 10 (good, silver)
@@ -11300,8 +11309,10 @@ OUTPUTNAME:[NAME] Drake
 Drake (Fire) 
 DESC:This creature appears to be a small, red dragon with translucent scales, mottled mauve and burgundy. Heat and steam rise from its body. Its wings are mottled black and its eyes are crimson.
 FIRE DRAKE
-CR:3
-Small dragon (fire)
+CR:3 
+SIZE:S
+RACETYPE:Dragon
+RACESUBTYPE:Fire
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
 Init +1; Senses 
@@ -12902,7 +12913,9 @@ Skills Fly +28, Knowledge (arcana) +17, Knowledge (history) +17, Knowledge (plan
 
 Noble Time Elemental
 CR:14
-Large elemental (elemental, extraplanar, time)
+SIZE:L
+RACETYPE:Elemental
+RACESUBTYPE:Elemental|Extraplanar|Time
 BONUS:VAR|DarkvisionRange|60
 Init +9; Senses 
 
@@ -12936,7 +12949,9 @@ Skills Diplomacy +22, Fly +34, Knowledge (arcana) +27, Knowledge (history) +27, 
 
 Royal Time Elemental
 CR:17
-Large elemental (elemental, extraplanar, time)
+SIZE:L
+RACETYPE:Elemental
+RACESUBTYPE:Elemental|Extraplanar|Time
 BONUS:VAR|DarkvisionRange|60
 Init +9; Senses 
 
@@ -13175,7 +13190,10 @@ Elemental Dragon (Air)
 DESC:This massive creature resembles a huge dragon composed of air and vapor. Its great wings are translucent and look like wisps of smoke. Its eyes are hollow sockets of mist though a glint of bright sunlight can occasionally be seen dancing across the surface. Its great tail appears as wisps of smoke or vapor and seems to trail off into nothingness.
 
 CR:18
-(N)E Huge outsider (air, elemental, extraplanar)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Air|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
 Init +8; Senses 
 
@@ -13225,9 +13243,13 @@ Elemental Dragon (Earth)
 DESC:This creature resembles a 30-foot long dragon composed of stone and earth. Its great wings glisten like polished stone. Its eyes are deep gray and its roar seems to shake the very earth itself.
 
 CR:20
-(N)E Huge outsider (earth, elemental, extraplanar)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Earth|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
 Init +0; Senses 
+
 AC 26, touch 8, flat-footed 26 (+18 natural, -2 size)
 hp 252 (24d10+120)
 Fort +13; Ref +14; Will +15
@@ -13277,9 +13299,12 @@ Elemental Dragon (Fire)
 DESC:This creature appears as a 30-foot long dragon composed of fire. Its eyes burn with a white-hot flame and flames lick the dragon's great mouth as it roars. As it flies overhead, its wings send sheets of flame roaring into the sky and crashing into the ground.
 
 CR:22
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Fire
 BONUS:VAR|DarkvisionRange|60
-(N)E Huge outsider (elemental, extraplanar, fire)
-Init +6; Senses 
+Init +6; Senses
 Aura fiery aura (60 ft., DC 27, 2d8 fire)
 
 AC 30, touch 14, flat-footed 24 (+6 Dex, +16 natural, -2 size)
@@ -13325,7 +13350,10 @@ Elemental Dragon (Water)
 DESC:This creature resembles a massive dragon composed entirely of water. Its wings slosh and drip water as it moves them. Its great mouth opens into a maw of inky darkness. Water drips from its fangs.
 
 CR:18
-(N)E Huge outsider (elemental, extraplanar, water)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Water
 BONUS:VAR|DarkvisionRange|60
 Init +3; Senses 
 
@@ -13382,7 +13410,8 @@ KIT:1|CE
 SIZE:M
 RACETYPE:Outsider 
 RACESUBTYPE:Chaotic|Elemental|Evil|Extraplanar
-Init +1; Senses darkvision 60 Ft.
+BONUS:VAR|DarkvisionRange|60
+Init +1; Senses
 
 AC 18, touch 11, flat-footed 17 (+1 Dex, +7 natural)
 hp 68 (8d10+24)
@@ -14051,9 +14080,12 @@ Heat (Ex) The body of a lesser fire crab generates intense heat, dealing 1d4 poi
 Fire Nymph
 DESC:This creature appears as a very attractive and beautiful female with long, flowing fiery-red hair. Her eyes are pale blue and her skin is lightly colored with a cinnamon hint to it.
 CR:4
-CN(G) Medium outsider (extraplanar, fire)
+KIT:1|CN
+SIZE:M
+RACETYPE:Outsider
+RACESUBTYPE:Extraplanar|Fire
 BONUS:VAR|DarkvisionRange|60
-Init +1; Senses 
+Init +1; Senses
 
 AC 15, touch 12, flat-footed 13 (+1 Dex, +1 dodge, +3 natural)
 hp 13 (2d10+2)
@@ -21948,7 +21980,8 @@ KIT:1|N
 SIZE:H
 RACETYPE:Magical Beast 
 RACESUBTYPE:Aquatic|Extraplanar|Fire
-Init +6; Senses Blindsense 30 Ft.|Keen Scent 180 Ft.
+BONUS:VAR|BlindsenseRange|30
+Init +6; Senses
 
 AC 19, touch 10, flat-footed 19 (+2 Dex, +9 natural, -2 size)
 hp 85 (10d10+30)
@@ -26867,8 +26900,8 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Detect Magic ~ Constant
 ABILITY:Special Ability|AUTOMATIC|See Invisibility ~ Constant
 Init +10; Senses 
-AC 50, touch 24, flat-footed 44 (+6 Dex, +26 natural, +8
-insight)
+AC 50, touch 24, flat-footed 44 (+6 Dex, +26 natural, +8 insight)
+
 hp 820 (40d10+600); fast healing 10
 Fort +39, Ref +28, Will +21
 Defensive Abilities amorphous; DR 20/magic and lawful; Resist acid 10, cold 10, electricity 10, fire 10, sonic 10; SR 37
@@ -28159,7 +28192,10 @@ OUTPUTNAME:[NAME] Swarm
 Swarm (Heat)
 DESC:A hellish-red swirling mass of dancing flames advances toward you.
 CR:7
-N (E) Diminutive outsider (elemental, extraplanar, fire, swarm)
+KIT:1|N
+SIZE:D
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Fire|Swarm
 BONUS:VAR|DarkvisionRange|60
 Init +10; Senses 
 Aura fiery aura (20 ft., DC 16 Fort, 1d6 fire)
@@ -30133,7 +30169,10 @@ KIT:1|N
 SIZE:S
 RACETYPE:Magical Beast 
 RACESUBTYPE:Augmented Animal|Vapor
-Init +3; Senses Darkvision 60 Ft.|Low-Light Vision|Scent
+BONUS:VAR|DarkvisionRange|60
+BONUS:VAR|HasLowLightVision|1
+ABILITY:Special Ability|AUTOMATIC|Scent
+Init +3; Senses
 
 AC 15, touch 14, flat-footed 12 (+3 Dex, +1 natural, +1size)
 hp 6 (1d10+1); fast healing 2
@@ -30171,7 +30210,9 @@ KIT:1|N
 SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Augmented Vermin|Vapor
-Init +1; Senses Darkvision 60 Ft.|Low-Light Vision
+BONUS:VAR|DarkvisionRange|60
+BONUS:VAR|HasLowLightVision|1
+Init +1; Senses
 
 AC 14, touch 10, flat-footed 13 (+1 Dex, +4 natural, -1 size)
 hp 47 (5d10+20); fast healing 2
@@ -31280,7 +31321,6 @@ SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Chaotic|Evil|Extraplanar
 ABILITY:Special Ability|AUTOMATIC|Scent
-ABILITY:Special Ability|AUTOMATIC|Keen Scent
 BONUS:VAR|HasLowLightVision|1
 Init +7; Senses 
 
@@ -32248,7 +32288,9 @@ Water Dependency (Ex) Giant moray eels can survive out of the water for 1 minute
 
 Moray Eel Animal Companion
 Starting Statistics: Size Medium; AC +5 natural armor; Speed swim 30 ft.; Attack bite (1d8); Ability Scores Str 14, Dex 16,
-Con 12, Int 1, Wis 12, Cha 8; Special Qualities low-light vision, grab.
+Con 12, Int 1, Wis 12, Cha 8;
+
+Special Qualities low-light vision, grab.
 
 7th-Level Advancement: Size Large; AC +3 natural armor;
 Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4;
