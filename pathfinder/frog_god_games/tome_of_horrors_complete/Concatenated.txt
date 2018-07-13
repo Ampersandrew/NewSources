@@ -4525,7 +4525,7 @@ DESC:This creature resembles a three-headed raven with oily black feathers and b
 CR:5
 KIT:1|NE
 SIZE:L
-RACETYPE: Magical Beast
+RACETYPE:Magical Beast
 ABILITY:Special Ability|AUTOMATIC|Scent
 Init +3; Senses all-around vision, darkvision 60 ft., low-light vision, scent; Perception +15
 
@@ -7847,8 +7847,7 @@ KIT:1|CE
 SIZE:H
 RACETYPE:Outsider 
 RACESUBTYPE:Chaotic|Demon|Evil|Extraplanar
-Init +10; Senses darkvision 60 ft., life sight 40 ft. (20 rounds),
-true seeing; Perception +65
+Init +10; Senses darkvision 60 ft., life sight 40 ft. (20 rounds), true seeing; Perception +65
 Aura destructive aura (30 ft., +7 damage, 15 rounds); fear (60-ft., Will DC 44, CL 35th), unholy aura (DC 30)
 
 AC 55, touch 35, flat-footed 49 (+6 Dex, +20 natural, -2 size, +9 insight, +12 profane)
@@ -9592,8 +9591,7 @@ KIT:1|LE
 SIZE:L
 RACETYPE:Outsider 
 RACESUBTYPE:Devil|Evil|Extraplanar|Lawful
-Init +12; Senses darkvision 60 ft., detect magic, detect
-good, detect thoughts; Perception +51
+Init +12; Senses darkvision 60 ft., detect magic, detect good, detect thoughts; Perception +51
 Aura fire (5 ft., 1d6 fire plus 1d6 unholy damage)
 
 AC 46, touch 27, flat-footed 38 (+8 Dex, +19 natural, -1 size, +10 profane)
@@ -10931,8 +10929,10 @@ OUTPUTNAME:[NAME] Drake
 Drake (Fire) 
 DESC:This creature appears to be a small, red dragon with translucent scales, mottled mauve and burgundy. Heat and steam rise from its body. Its wings are mottled black and its eyes are crimson.
 FIRE DRAKE
-CR:3
-Small dragon (fire)
+CR:3 
+SIZE:S
+RACETYPE:Dragon
+RACESUBTYPE:Fire
 Init +1; Senses darkvision 60 ft., low-light vision; Perception +7
 
 AC 15, touch 12, flat-footed 14 (+1 Dex, +3 natural, +1 size)
@@ -12496,7 +12496,9 @@ Skills Fly +28, Knowledge (arcana) +17, Knowledge (history) +17, Knowledge (plan
 
 Noble Time Elemental
 CR:14
-Large elemental (elemental, extraplanar, time)
+SIZE:L
+RACETYPE:Elemental
+RACESUBTYPE:Elemental|Extraplanar|Time
 Init +9; Senses darkvision 60 ft.; Perception +33
 
 AC 25, touch 19, flat-footed 19 (+5 Dex, +1 dodge, +4 insight, +6 natural, -1 size)
@@ -12529,7 +12531,9 @@ Skills Diplomacy +22, Fly +34, Knowledge (arcana) +27, Knowledge (history) +27, 
 
 Royal Time Elemental
 CR:17
-Large elemental (elemental, extraplanar, time)
+SIZE:L
+RACETYPE:Elemental
+RACESUBTYPE:Elemental|Extraplanar|Time
 Init +9; Senses darkvision 60 ft.; Perception +39
 
 AC 27, touch 21, flat-footed 21 (+5 Dex, +1dodge, +6 insight, +6 natural, -1 size)
@@ -12761,7 +12765,10 @@ Elemental Dragon (Air)
 DESC:This massive creature resembles a huge dragon composed of air and vapor. Its great wings are translucent and look like wisps of smoke. Its eyes are hollow sockets of mist though a glint of bright sunlight can occasionally be seen dancing across the surface. Its great tail appears as wisps of smoke or vapor and seems to trail off into nothingness.
 
 CR:18
-(N)E Huge outsider (air, elemental, extraplanar)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Air|Elemental|Extraplanar
 Init +8; Senses darkvision 60 ft.; Perception +29
 
 AC 32, touch 16, flat-footed 24 (+8 Dex, +16 natural, -2 size)
@@ -12811,7 +12818,10 @@ Elemental Dragon (Earth)
 DESC:This creature resembles a 30-foot long dragon composed of stone and earth. Its great wings glisten like polished stone. Its eyes are deep gray and its roar seems to shake the very earth itself.
 
 CR:20
-(N)E Huge outsider (earth, elemental, extraplanar)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Earth|Elemental|Extraplanar
 Init +0; Senses darkvision 60 ft.; Perception +28
 AC 26, touch 8, flat-footed 26 (+18 natural, -2 size)
 hp 252 (24d10+120)
@@ -12862,7 +12872,11 @@ Elemental Dragon (Fire)
 DESC:This creature appears as a 30-foot long dragon composed of fire. Its eyes burn with a white-hot flame and flames lick the dragon's great mouth as it roars. As it flies overhead, its wings send sheets of flame roaring into the sky and crashing into the ground.
 
 CR:22
-(N)E Huge outsider (elemental, extraplanar, fire) Init +6; Senses darkvision 60 ft.; Perception +29 Aura fiery aura (60 ft., DC 27, 2d8 fire)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Fire
+Init +6; Senses darkvision 60 ft.; Perception +29 Aura fiery aura (60 ft., DC 27, 2d8 fire)
 
 AC 30, touch 14, flat-footed 24 (+6 Dex, +16 natural, -2 size)
 hp 252 (24d10+120)
@@ -12907,7 +12921,10 @@ Elemental Dragon (Water)
 DESC:This creature resembles a massive dragon composed entirely of water. Its wings slosh and drip water as it moves them. Its great mouth opens into a maw of inky darkness. Water drips from its fangs.
 
 CR:18
-(N)E Huge outsider (elemental, extraplanar, water)
+KIT:1|N
+SIZE:H
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Water
 Init +3; Senses darkvision 60 ft.; Perception +28
 
 AC 27, touch 11, flat-footed 24 (+3 Dex, +16 natural, -2 size)
@@ -13615,7 +13632,10 @@ Heat (Ex) The body of a lesser fire crab generates intense heat, dealing 1d4 poi
 Fire Nymph
 DESC:This creature appears as a very attractive and beautiful female with long, flowing fiery-red hair. Her eyes are pale blue and her skin is lightly colored with a cinnamon hint to it.
 CR:4
-CN(G) Medium outsider (extraplanar, fire)
+KIT:1|CN
+SIZE:M
+RACETYPE:Outsider
+RACESUBTYPE:Extraplanar|Fire
 Init +1; Senses darkvision 60 ft.; Perception +8
 
 AC 15, touch 12, flat-footed 13 (+1 Dex, +1 dodge, +3 natural)
@@ -14476,8 +14496,7 @@ CR:4
 KIT:1|N
 SIZE:M
 RACETYPE:Plant
-Init +6; Senses darkvision 60 ft., low-light vision, tremorsense
-G 60 ft.; Perception +9
+Init +6; Senses darkvision 60 ft., low-light vision, tremorsense 60 ft.; Perception +9
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 33 (6d8+6); fast healing 5
 Fort +6; Ref +4; Will +2
@@ -26045,10 +26064,8 @@ KIT:1|CN
 SIZE:M
 RACETYPE:Outsider 
 RACESUBTYPE:Chaotic|Extraplanar|Shapechanger
-Init +10; Senses darkvision 60 ft., detect magic, see
-invisibility; Perception +61
-AC 50, touch 24, flat-footed 44 (+6 Dex, +26 natural, +8
-insight)
+Init +10; Senses darkvision 60 ft., detect magic, see invisibility; Perception +61
+AC 50, touch 24, flat-footed 44 (+6 Dex, +26 natural, +8 insight)
 hp 820 (40d10+600); fast healing 10
 Fort +39, Ref +28, Will +21
 Defensive Abilities amorphous; DR 20/magic and lawful;
@@ -27309,7 +27326,10 @@ OUTPUTNAME:[NAME] Swarm
 Swarm (Heat)
 DESC:A hellish-red swirling mass of dancing flames advances toward you.
 CR:7
-N (E) Diminutive outsider (elemental, extraplanar, fire, swarm)
+KIT:1|N
+SIZE:D
+RACETYPE:Outsider
+RACESUBTYPE:Elemental|Extraplanar|Fire|Swarm
 Init +10; Senses darkvision 60 ft.; Perception +15
 Aura fiery aura (20 ft., DC 16 Fort, 1d6 fire)
 
@@ -30354,8 +30374,7 @@ SIZE:L
 RACETYPE:Magical Beast 
 RACESUBTYPE:Chaotic|Evil|Extraplanar
 ABILITY:Special Ability|AUTOMATIC|Scent
-Init +7; Senses darkvision 60 ft., keen scent, know alignment,
-low-light vision; Perception +9
+Init +7; Senses darkvision 60 ft., keen scent, know alignment, low-light vision; Perception +9
 
 AC 20, touch 12, flat-footed 17 (+3 Dex, +8 natural, -1 size)
 hp 80 (7d10+35 plus 7)
