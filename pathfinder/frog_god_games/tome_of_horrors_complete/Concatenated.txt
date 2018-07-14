@@ -46,7 +46,7 @@ Init -1; Senses
 
 AC 16 (-1 Dex, +9 natural, -2 size), touch 7, flat-footed 16
 hp 37 (5d8+15)
-Saves Fort +7, Ref +0, Will +2
+Fort +7, Ref +0, Will +2
 DR 5/slashing; Immune plant traits; Weaknesses vulnerability to fire
 
 SA double damage against objects (full attack deals double damage), trample (2d6+7, DC 17)
@@ -78,7 +78,7 @@ Init +0; Senses
 AC 16, touch 10, flat-footed 16 (+6 natural)
 hp 37 (5d8+15)
 Fort +7; Ref +1; Will +3
-DR 5/bludgeoning and magic; Immune electricity, fire, plant traits Weaknesses vulnerability to water
+DR 5/bludgeoning and magic; Immune electricity, fire, plant traits; Weaknesses vulnerability to water
 
 
 Speed 20 ft.
@@ -123,7 +123,7 @@ Init +3; Senses
 AC 14, touch 14, flat-footed 11 (+3 Dex, +1 size)
 hp 6 (1d10+1)
 Fort +3; Ref +5; Will +1
-Defensive Abilities blink; Immune poison; SR 11
+Immune poison; SR 11
 
 
 Speed 40 ft.
@@ -164,7 +164,7 @@ Init +3; Senses
 AC 14, touch 14, flat-footed 11 (+3 Dex, +1 size)
 hp 13 (2d10+2)
 Fort +4; Ref +6; Will +1
-Defensive Abilities blink; Immune poison; SR 12
+Immune poison; SR 12
 
 Speed 40 ft.
 
@@ -202,7 +202,7 @@ Init +2; Senses
 AC 17, touch 11, flat-footed 15 (+2 Dex, +6 natural, -1 size)
 hp 42 (5d10+10 plus 5)
 Fort +6; Ref +6; Will +2
-Defensive Abilities split; Immune petrification; Resist cold 10
+Immune petrification; Resist cold 10
 
 
 Speed 20 ft., climb 20 ft., swim 20 ft.
@@ -245,7 +245,7 @@ Init +4;
 AC 8, touch 8, flat-footed 8 (-2 size)
 hp 138 (12d8+84)
 Fort +15; Ref +6; Will +5
-Defensive Abilities defensive curl; DR 5/piercing or slashing; Immune vermin traits; Resist acid 20
+DR 5/piercing or slashing; Immune vermin traits; Resist acid 20
 
 
 Speed 0 ft. (immobile)
@@ -268,8 +268,7 @@ Skills Perception +9, Stealth -4; Racial Modifiers +4 Stealth, +8 Perception
 AAA	KEY:GreatSeaAnemone ~ AAA	CATEGORY:Special Ability	TYPE:GreatSeaAnemoneRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Acid Cloud (Ex) When provoked, the great sea anemone can eject the contents of its stomach, including any creatures being digested. This forms a cloud of acidic mucous in a 20-foot radius that deals 3d8 points of acid damage (DC 23 Reflex, half) for 1d3 rounds before dissipating.  It can only do this once per minute.  The save DC is Constitution-based.
 
-AAA	KEY:GreatSeaAnemone ~ AAA	CATEGORY:Special Ability	TYPE:GreatSeaAnemoneRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
-Defensive Curl (Ex) As a move action, the great sea anemone can retract its vulnerable front and tendrils into its trunk.  While in this curl it cannot attack with its tendrils, though it can eject its acid cloud and gains a +15 natural armor bonus to AC from the thick, rubbery hide of its trunk.
+AAA	KEY:GreatSeaAnemone ~ AAA	CATEGORY:Special Ability	TYPE:GreatSeaAnemoneRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:Defensive Curl (Ex) As a move action, the great sea anemone can retract its vulnerable front and tendrils into its trunk.  While in this curl it cannot attack with its tendrils, though it can eject its acid cloud and gains a +15 natural armor bonus to AC from the thick, rubbery hide of its trunk.
 
 AAA	KEY:GreatSeaAnemone ~ AAA	CATEGORY:Special Ability	TYPE:GreatSeaAnemoneRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Paralytic Venom (Ex) Tendril-contact; save DC 23; frequency 1/round for 1 round; effect paralyzed 1d6 minutes. The save DC is Constitution-based.
@@ -473,7 +472,7 @@ Aura protective aura
 AC 26, touch 14, flat-footed 22 (+4 Dex, +12 natural; +4 deflection vs. evil)
 hp 76 (8d10+32)
 Fort +10, Ref +10, Will +8; +4 vs. poison, +4 resistance vs. evil
-Defensive Abilities nature's passivism; DR 10/evil; Immune acid, cold, petrification, death effects; Resist electricity 10, fire 10; SR 21
+DR 10/evil; Immune acid, cold, petrification, death effects; Resist electricity 10, fire 10; SR 21
 
 
 Speed 40 ft., fly 60 ft. (good)
@@ -527,7 +526,7 @@ Init +11; Senses
 AC 32, touch 20, flat-footed 25 (+7 Dex, +12 natural, +3 insight)
 hp 199 (19d10+95)
 Fort +16, Ref +20, Will +11
-Defensive Abilities feline passivism, immortality; DR 20/magic and cold iron; Immune mind-affecting effects, psionics; SR 26
+DR 20/magic and cold iron; Immune mind-affecting effects, psionics; SR 26
 
 Speed 60 ft., climb 30 ft.
 
@@ -603,7 +602,7 @@ AC 33, touch 20, flat-footed 25 (+4 armor, +7 Dex, +8 natu-
 ral, +3 insight)
 hp 180 (19d10+76)
 Fort +15, Ref +20, Will +11
-Defensive Abilities feline passivism, immortality; DR 20/magic and cold iron; Immune mind-affecting effects, psionics; SR 26
+DR 20/magic and cold iron; Immune mind-affecting effects, psionics; SR 26
 
 
 Speed 60 ft., climb 30 ft.
@@ -658,7 +657,7 @@ Init +11; Senses
 AC 29, touch 21, flat-footed 22 (+7 Dex, +8 natural, +4 insight)
 hp 142 (15d10+60)
 Fort +13, Ref +18, Will +9
-Defensive Abilities immortality, rodent passivism; DR 15/ magic and cold iron; Immune mind-affecting effects, psionics; SR 24
+DR 15/ magic and cold iron; Immune mind-affecting effects, psionics; SR 24
 
 
 Speed 40 ft., climb 30 ft.
@@ -724,7 +723,7 @@ Init +11; Senses
 AC 31, touch 20, flat-footed 25 (+7 armor, +6 Dex, +4 natural, +4 insight)
 hp 127 (15d10+45)
 Fort +12, Ref +18, Will +9
-Defensive Abilities immortality, rodent passivism; DR 15/ magic and cold iron; Immune mind-affecting effects, psionics; SR 24
+DR 15/ magic and cold iron; Immune mind-affecting effects, psionics; SR 24
 
 
 Speed 40 ft., climb 30 ft.
@@ -807,7 +806,9 @@ Aura unnatural aura (30 ft.)
 AC 15, touch 15, flat-footed 13 (+2 Dex, +3 deflection)
 hp 52 (7d8+21)
 Fort +5; Ref +4; Will +8
-Defensive Abilities incorporeal, channel resistance +2; Immune undead traits Weaknesses resurrection vulnerability, sunlight powerlessness
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
+Immune undead traits; Weaknesses resurrection vulnerability, sunlight powerlessness
 
 Speed fly 60 ft. (perfect)
 
@@ -849,7 +850,6 @@ Init +7; Senses
 AC 19, touch 13, flat-footed 16 (+3 Dex, +6 natural)
 hp 76 (9d10+27)
 Fort +6; Ref +9; Will +9
-Defensive Abilities spider passivism
 
 
 Speed 30 ft., climb 10 ft.
@@ -902,8 +902,6 @@ AC 22, touch 14, flat-footed 18 (+2 armor, +3 Dex, +1 dodge, +6 natural)
 hp 138 (9d10+27 plus 7d6+21 plus 7)
 Fort +8; Ref +11; Will +16
 
-Defensive Abilities spider passivism
-
 Speed 30 ft., climb 10 ft.
 
 Melee bite +15 (1d6+2), 6 slams +15 (1d4+2), or short sword +15/+10/+5 (1d6+2) and 5 short swords +15 (1d6+2), bite +10 (1d6+1 plus poison)
@@ -944,7 +942,8 @@ Init +4; Senses
 AC 16, touch 9, flat-footed 16 (+7 natural, -1 size)
 hp 73 (7d8+42)
 Fort +8; Ref +2; Will +7
-Defensive Abilities absorb arcane energy, amorphous; Immune paralysis, poison, polymorph, sleep effects, stunning
+ABILITY:Special Ability|AUTOMATIC|Amorphous
+Immune paralysis, poison, polymorph, sleep effects, stunning
 
 
 Speed 30 ft., climb 10 ft.
@@ -1244,7 +1243,8 @@ Init +8; Senses
 AC 23, touch 15, flat-footed 19 (+4 Dex, +8 natural, +1 size)
 hp 114 (12d10+48)
 Fort +14; Ref +12; Will +7
-Defensive Abilities ferocity; DR 10/piercing or slashing; Immune poison; Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Ferocity
+DR 10/piercing or slashing; Immune poison; Resist fire 10
 
 Speed 30 ft., burrow 10 ft.
 
@@ -1840,7 +1840,7 @@ Init +0; Senses
 AC 15, touch 9, flat-footed 15 (+6 natural, -1 size)
 hp 30 (4d8+12)
 Fort +7; Ref +1; Will +1
-Defensive Abilities hive mind; Immune mind-affecting effects
+Immune mind-affecting effects
 
 Speed 20 ft.
 
@@ -2011,7 +2011,7 @@ Init +0; Senses
 AC 16, touch 16, flat-footed 11 (+0 Dex, +5 natural, +1 size)
 hp 30 (4d8+12)
 Fort +4; Ref +0; Will +0
-Defensive Abilities ink cloud; Immune mind-affecting effects; Weaknesses water dependent
+Immune mind-affecting effects; Weaknesses water dependent
 
 Speed 10 ft., swim 60 ft.
 
@@ -2128,7 +2128,7 @@ Init +6; Senses
 AC 19, touch 12, flat-footed 17 (+2 Dex, +7 natural)
 hp 67 (9d8+18 plus 9)
 Fort +5; Ref +5; Will +9
-Defensive Abilities channel resistance +2; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
 Speed 30 ft.
 
@@ -2169,7 +2169,7 @@ Init +1; Senses
 AC 25, touch 9, flat-footed 24 (+4 armor, +1Dex, +12 natural, -2 size)
 hp 178 (17d8+102)
 Fort +16; Ref +8; Will +9
-Defensive Abilities rock catching
+ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
 Speed 40 ft., (30 ft. in armor)
 
@@ -2213,7 +2213,8 @@ Init +2; Senses
 AC 30, touch 9, flat-footed 28 (+8 armor, +2Dex, +12 natural, -2 size)
 hp 275 (17d8+136 plus 4d10+32 plus 4)
 Fort +22; Ref +10; Will +10; +1 vs. fear
-Defensive Abilities bravery +1, rock catching
+ABILITY:Special Ability|AUTOMATIC|Rock Catching
+ABILITY:Special Ability|AUTOMATIC|Fighter ~ Bravery	BONUS:VAR|Bravery|1
 
 Speed 40 ft.
 
@@ -2235,10 +2236,7 @@ Skills Climb +18, Craft (any) +9, Intimidate +32, Perception +21; Racial Modifie
 
 Languages Common, Giant
 
-
-Gear 2 potion of cure serious wounds; Other
-
-Gear +2 chainmail, 2 +1 longswords, 2 masterwork spears
+Gear 2 potion of cure serious wounds; Other Gear +2 chainmail, 2 +1 longswords, 2 masterwork spears
 
 
 -----------------------------------------------
@@ -2415,7 +2413,7 @@ Init +1; Senses
 AC 17, touch 11, flat-footed 16 (+1 Dex, +6 natural)
 hp 42 (5d8+15 plus 5)
 Fort +6; Ref +2; Will +6
-Defensive Abilities slippery; Immune undead traits; Resist fire 10
+Resist fire 10
 
 Speed 30 ft.
 
@@ -2532,7 +2530,6 @@ Init +4; Senses
 AC 15, touch 10, flat-footed 15 (+5 natural)
 hp 95 (10d8+50)
 Fort +12; Ref +3; Will +5
-Defensive Abilities camouflage; Immune plant traits
 
 Speed 10 ft., swim 20 ft.
 
@@ -2624,7 +2621,8 @@ Init +7; Senses
 AC 16, touch 16, flat-footed 13 (+3 deflection, +3 Dex)
 hp 60 (8d8+24)
 Fort +5; Ref +5; Will +8
-Defensive Abilities incorporeal, channel resistance +2; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
 Speed 30 ft.
 
@@ -3003,7 +3001,7 @@ Init +7; Senses
 AC 21, touch 12, flat-footed 18 (+3 Dex, +9 natural, -1 size)
 hp 110 (13d8+52)
 Fort +8; Ref +7; Will +10
-Defensive Abilities insubstantial form; DR 10/magic; Immune poison
+DR 10/magic; Immune poison
 
 Speed 20 ft., 40 ft. (average)
 
@@ -3357,7 +3355,6 @@ Init +0; Senses
 AC 16, touch 13, flat-footed 14 (+2 insight, +3 natural, +1 size)
 hp 8 (1d8+1 plus 3)
 Fort +1; Ref +2; Will +6
-Defensive Abilities foresight
 
 Speed 10 ft.
 
@@ -3436,7 +3433,7 @@ Init -1; Senses
 AC 14, touch 9, flat-footed 14 (-1 Dex, +5 natural)
 hp 42 (4d10+20)
 Fort +1; Ref -1; Will +0
-Defensive Abilities shatter weapons; DR 5/-; Immune construct traits, magic
+DR 5/-; Immune construct traits, magic
 
 Speed 20 ft.
 
@@ -3512,7 +3509,6 @@ Init +6; Senses
 AC 18, touch 16, flat-footed 12 (+6 Dex, +2 natural)
 hp 37 (5d10+10)
 Fort +6; Ref +10; Will +3
-Defensive Abilities evasion
 
 Speed 50 ft., climb 20 ft.
 
@@ -3699,7 +3695,7 @@ Init +11; Senses
 AC 40, touch 16, flat-footed 32 (+7 Dex, +1 dodge, +24 natural, -2 size)
 hp 465 (30d10+300); regeneration 10 (good)
 Fort +27; Ref +24; Will +20
-Defensive Abilities immovable; DR 15/epic and good; Immune death effects, disintegration; Resist acid 10, cold 10, electricity 10, fire 10; SR 34
+DR 15/epic and good; Immune death effects, disintegration; Resist acid 10, cold 10, electricity 10, fire 10; SR 34
 
 Speed 60 ft.
 
@@ -3885,7 +3881,7 @@ Init -1; Senses
 AC 15, touch 9, flat-footed 15 (-1 Dex, +6 natural)
 hp 42 (4d10+20)
 Fort +1; Ref +0; Will +3
-Defensive Abilities shatter weapons; DR 5/-; Immune construct traits, magic
+DR 5/-; Immune construct traits, magic
 
 Speed 20 ft.
 
@@ -3979,7 +3975,8 @@ Init +2; Senses
 AC 15, touch 15, flat-footed 13 (+2 deflection, +2 Dex, +1 size)
 hp 37 (5d10+10)
 Fort +6; Ref +6; Will +5
-Defensive Abilities incorporeal, rejuvenation; DR 10/evil; Weaknesses limited domain
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+DR 10/evil; Weaknesses limited domain
 
 Speed fly 40 ft. (perfect)
 
@@ -4069,7 +4066,7 @@ Init -5;
 AC 14, touch 4, flat-footed 14 (-5 Dex, +10 natural, -1 size)
 hp 26 (4d8+8)
 Fort +6; Ref -4; Will +1
-Defensive Abilities camouflage Immune mind-affecting effects
+Immune mind-affecting effects
 
 Speed 5 ft.
 
@@ -4106,7 +4103,7 @@ Init +11; Senses
 AC 20, touch 20, flat-footed 13 (+3 deflection, +7 Dex)
 hp 30 (4d8+12)
 Fort +4; Ref +10; Will +5
-Defensive Abilities natural invisibility; Vulnerable sound related vulnerabilities
+Vulnerable sound related vulnerabilities
 
 Speed fly 50 ft. (perfect); speed of sound
 
@@ -4156,7 +4153,7 @@ Init +0; Senses
 AC 10, touch 6, flat-footed 10 (-5 Dex, +4 natural, +1 size)
 hp 42 (5d10+10 plus 5)
 Fort +3; Ref -4; Will +7
-Defensive Abilities hardness 10; Immune construct traits Weaknesses immobile
+Immune construct traits; Weaknesses immobile
 
 Speed 0 ft.
 
@@ -4486,7 +4483,8 @@ Init +1; Senses
 AC 14, touch 11, flat-footed 13 (+1 Dex, +3 natural)
 hp 16 (2d8+4 plus 2)
 Fort +2, Ref +1, Will +4
-Defensive Abilities deceiving death, channel resistance +2; DR 5/magic and bludgeoning; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
+DR 5/magic and bludgeoning
 
 Speed 20 ft.
 
@@ -4534,7 +4532,7 @@ Init +0; Senses
 AC 34, touch 2, flat-footed 34 (+32 natural, -8 size)
 hp 256 (32d10+80)
 Fort +10; Ref +10; Will +10
-Defensive Abilities light reflection; DR 15/adamantine; Immune construct traits, fire, magic
+DR 15/adamantine; Immune fire, magic
 
 Speed 40 ft.
 
@@ -4560,12 +4558,54 @@ Light Reflection (Ex) The angles and makeup of the jade colossus allows it to re
 
 
 
+-----------------------------------------------
 Ruby Star of Law
 
 Sages speak of a jade colossus located in the City of Brass that has the ruby star of law (a gem of inestimable value) embedded in its forehead. The Jade Guardian (as it is known in the City) is a
+
 CR:18 advanced jade colossus with the following additional ability.
 
-AAA	KEY:JadeColossus ~ AAA	CATEGORY:Special Ability	TYPE:JadeColossusRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+Jade Guardian
+
+OUTPUTNAME:[NAME]  
+Guardian (Jade)
+DESC:This massive automaton stands five times as tall as a normal human and resembles a gigantic humanoid carved of smooth green stone.
+CR:18
+KIT:1|N
+SIZE:C
+RACETYPE:Construct
+BONUS:VAR|DarkvisionRange|60
+BONUS:VAR|HasLowLightVision|1
+Init +0; Senses 
+
+AC 34, touch 2, flat-footed 34 (+34 natural, -8 size)
+hp 256 (32d10+80)
+Fort +10; Ref +10; Will +10
+DR 15/adamantine; Immune fire, magic
+
+Speed 40 ft.
+
+Melee 2 slams +43 (4d8+19)
+
+Space 30 ft.; Reach 30 ft.
+
+Special Attacks breath weapon
+
+Str 53, Dex 14, Con -, Int -, Wis 15, Cha 5
+
+Base Atk +32; CMB +59; CMD 69
+
+
+AAA	KEY:JadeGuardian ~ AAA	CATEGORY:Special Ability	TYPE:JadeGuardianRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
+Breath Weapon (Su) Once every 1d4 rounds, a jade colossus can spray a blast of green energy in either a 60-foot cone or a 120-foot line. A creature in the affected area takes 15d6 points of damage, Reflex half DC 26. A creature slain as the result of this breath weapon transforms into jade. The save DC is Constitution-based. A creature turned to jade has Hardness 6, hp 40. This effect can be reversed by casting stone to flesh, wish, or miracle. The victim remains dead, but can then be raised or resurrected normally.
+
+AAA	KEY:JadeGuardian ~ AAA	CATEGORY:Special Ability	TYPE:JadeGuardianRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+Immunity to Magic (Ex) A jade colossus is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.  A disintegrate spell slows a jade colossus (as the slow spell) for 1d6 rounds, with no saving throw.  A shatter spell deals 3d12 points of damage to a jade colossus, with no saving throw.  A magical attack that deals fire damage breaks any slow effect on the jade colossus and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A jade colossus gets no saving throw against fire effects.
+
+AAA	KEY:JadeGuardian ~ AAA	CATEGORY:Special Ability	TYPE:JadeGuardianRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
+Light Reflection (Ex) The angles and makeup of the jade colossus allows it to reflect any light-based attacks or effects (it cannot reflect natural sunlight however). Reflected light acts as an emanation (lasting 1 round) that blinds all creatures within 40 feet. A creature can attempt a Reflex save DC 26 to avoid being blinded. If the save fails, the creature is blinded for 2d4 rounds (as the blindness spell); creatures that successfully save are instead dazzled for a like amount of time. Undead and similar creatures to whom sunlight is harmful to take 6d6 points of damage (a successful Reflex save DC 26 halves the damage).
+
+AAA	KEY:JadeGuardian ~ AAA	CATEGORY:Special Ability	TYPE:JadeGuardianRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Energy Ray (Su): Once per round as a swift action, the Jade Guardian can fire a ray to a range of 200 feet (requires a successful ranged touch attack to hit). Genies hit by this ray must make a successful Fortitude save (DC 26) or take 6d4 points of Constitution damage. On a successful save, the genie takes onehalf damage. Other creatures are affected as follows: Lawful creatures are slowed (as by the slow spell) for 1d4 rounds (no save). Non-lawful creatures take 6d6 points of force damage (no save) and are stunned for 1d4 rounds (DC 26 Fortitude save negates). Should the ruby star of law ever be claimed as a magic item, treat it as a minor artifact that allows use of the energy ray ability indicated above, save that it requires a standard action to activate.
 
 
@@ -4621,7 +4661,8 @@ Init +6; Senses
 AC 16, touch 16, flat-footed 13 (+3 deflection, +2 Dex, +1 dodge)
 hp 52 (7d8+21)
 Fort +5; Ref +4; Will +6
-Defensive Abilities channel resistance +2, incorporeal; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 Speed fly 50 ft. (good), swim 50 ft.
 
@@ -4872,7 +4913,7 @@ Init +1; Senses
 AC 19, touch 11, flat-footed 18 (+8 deflection, +1 Dex)
 hp 45 (6d8+18)
 Fort +5; Ref +3; Will +6
-Defensive Abilities stalagmite form; DR 5/-
+DR 5/-
 
 Speed 30 ft.
 
@@ -4957,7 +4998,8 @@ Init +7; Senses
 AC 19, touch 19, flat-footed 15 (+5 deflection, +3 Dex, +1 dodge)
 hp 142 (15d8+75)
 Fort +10; Ref +10; Will +15
-Defensive Abilities incorporeal; Immune channel energy, undead traits; SR 22
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+SR 22
 
 Speed fly 50 ft. (perfect)
 
@@ -4996,7 +5038,8 @@ Init +6; Senses
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 56 (7d8+21)
 Fort +5, Ref +4, Will +7
-Defensive Abilities channel resistance +4; DR 10/magic; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
+DR 10/magic
 
 Speed 30 ft.
 
@@ -5480,7 +5523,7 @@ Aura destructive aura (30 ft., +18 damage, 37 rounds)
 AC 60, touch 40, flat-footed 48 (+12 Dex, +9 insight, +20 natural, -1 size, +10 profane)
 hp 857 (49d10+588)
 Fort +39, Ref +40, Will +27
-Defensive Abilities death's embrace; DR 25/good; Immune acid, death effects, disease, poison; Resist cold 10, electricity 10, fire 10; SR 48
+DR 25/good; Immune acid, death effects, disease, poison; Resist cold 10, electricity 10, fire 10; SR 48
 
 Speed 40 ft.
 
@@ -5719,7 +5762,8 @@ ABILITY:Special Ability|AUTOMATIC|See In Darkness
 Init +4; Senses 
 
 AC 18, touch 14, flat-footed 14 (+2 armor, +4 Dex, +2 natural)
-hp 39 (6d8+12) Fort +4, Ref +9, Will +2
+hp 39 (6d8+12)
+Fort +4, Ref +9, Will +2
 Weaknesses light blindness
 
 Speed 30 ft.
@@ -5770,7 +5814,7 @@ AC 16, touch 12, flat-footed 14 (+2 Dex, +4 natural); In ghost
 form AC 14, touch 14, flat-footed 12 (+2 Dex, +2 deflection)
 hp 52 (8d8+16)
 Fort +4, Ref +4, Will +7
-Defensive Abilities channel resistance +2, ghost form; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
 Speed 30 ft.
 
@@ -5934,7 +5978,8 @@ Init +4; Senses
 AC 24, touch 18, flat-footed 23 (+1 dodge, +6 natural, +5 profane, +2 size)
 hp 133 (14d8+70)
 Fort +16; Ref +11; Will +19
-Defensive Abilities channel resistance +4, unholy grace; DR 20/-; Immune acid, cold, electricity, magic, polymorph, turning, undead traits Weaknesses vorpal susceptibility
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
+DR 20/-; Immune acid, cold, electricity, magic, polymorph, turning; Weaknesses vorpal susceptibility
 
 Speed fly 30 ft. (perfect)
 
@@ -5991,7 +6036,8 @@ Aura unnatural aura (30 ft.)
 AC 16, touch 16, flat-footed 14 (+2 Dex, +4 deflection)
 hp 68 (8d8+32)
 Fort +6, Ref +6, Will +8
-Defensive Abilities incorporeal; Immune undead traits; SR 17 Weaknesses vulnerability to iron
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+SR 17; Weaknesses vulnerability to iron
 
 Speed fly 40 ft. (good)
 
@@ -6535,7 +6581,7 @@ Init +2; Senses
 AC 17, touch 13, flat-footed 15 (+2 Dex, +4 natural, +1 size)
 hp 16 (3d10)
 Fort +1; Ref +5; Will +1
-Defensive Abilities chameleon; DR 5/cold iron; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 14
+DR 5/cold iron; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 14
 
 
 Speed 30 ft., fly 50 ft. (good)
@@ -6586,7 +6632,7 @@ AC 23, touch 17, flat-footed 21 (+4 deflection, +2 Dex, +6
 natural, +1 size)
 hp 39 (6d10+6)
 Fort +3; Ref +7; Will +4
-Defensive Abilities slime armor; DR 10/cold iron or good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 16
+DR 10/cold iron or good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 16
 
 Speed 30 ft., fly 50 ft. (good)
 
@@ -6637,7 +6683,7 @@ Init +0; Senses
 AC 27, touch 9, flat-footed 27 (+18 natural, -1 size)
 hp 162 (12d10+96)
 Fort +12, Ref +8, Will +12
-Defensive Abilities scorpions; DR 10/good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 23
+DR 10/good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 23
 
 Speed 40 ft.
 
@@ -7304,7 +7350,8 @@ Init +8; Senses
 AC 18, touch 18, flat-footed 14 (+4 Dex, +4 deflection)
 hp 59 (7d10+21)
 Fort +5, Ref +11, Will +7
-Defensive Abilities incorporeal; DR 10/cold iron or good; Immune cold, electricity, poison; Resist acid 10, fire 10; SR 18 Weaknesses sunlight powerlessness
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+DR 10/cold iron or good; Immune cold, electricity, poison; Resist acid 10, fire 10; SR 18; Weaknesses sunlight powerlessness
 
 Speed fly 40 ft. (perfect)
 
@@ -8122,7 +8169,7 @@ Aura destructive aura (30 ft., +7 damage, 15 rounds); fear (60-ft., Will DC 44, 
 AC 55, touch 35, flat-footed 49 (+6 Dex, +20 natural, -2 size, +9 insight, +12 profane)
 hp 742 (45d10+495); fast healing 5
 Fort +37, Ref +21, Will +35
-Defensive Abilities death's embrace; DR 25/cold iron and good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 46
+DR 25/cold iron and good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 46
 
 Speed 40 ft., fly 60 ft. (average)
 
@@ -8243,7 +8290,7 @@ AC 49, touch 37, flat-footed 39 (+10 Dex, +12 natural, -1 size,
 +9 insight, +9 profane)
 hp 604 (39d10+390); fast healing 5
 Fort +31, Ref +23, Will +30
-Defensive Abilities aerial passivism; DR 25/cold iron and good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 39
+DR 25/cold iron and good; Immune electricity, poison; Resist acid 10, cold 10, fire 10; SR 39
 
 Speed 40 ft., fly 80 ft. (perfect)
 
@@ -8809,7 +8856,6 @@ hp 37 (5d10+10)
 Fort +3, Ref +5, Will +6
 DR 5/good and silver; Immune fire, poison; Resist acid 10,
 cold 10; SR 16
-Defensive Abilities fiery body, oily hide
 
 Speed 30 ft.
 
@@ -9307,7 +9353,7 @@ Init +9; Senses
 AC 40, touch 25, flat-footed 35 (+5 Dex, +15 natural, +10 profane)
 hp 210 (20d10+100); regeneration 5 (good, silver)
 Fort +11, Ref +17, Will +20; +2 on all saves from spells and effects from good-aligned creatures
-Defensive Abilities resistant to good magic DR 15/good and silver; Immune fire, poison; Resist acid 10, cold 10; SR 30
+DR 15/good and silver; Immune fire, poison; Resist acid 10, cold 10; SR 30
 
 Speed 40 ft., fly 60 ft. (average)
 
@@ -9627,7 +9673,7 @@ Init +12; Senses
 AC 74, touch 38, flat-footed 66 (+12 armor, +8 Dex, +24 natural, -1 size, +9 insight, +12 profane)
 hp 943 (51d10+663); regeneration 15 (good, silver)
 Fort +32, Ref +37, Will +38
-Defensive Abilities heavy fortification; DR 25/good and silver; Immune fire, poison; Resist acid 10, cold 10; SR 50
+DR 25/good and silver; Immune fire, poison; Resist acid 10, cold 10; SR 50
 
 Speed 50 ft., fly 80 ft. (good)
 
@@ -10066,7 +10112,6 @@ Init +0;
 AC 14, touch 9, flat-footed 14 (+5 natural, -1 size)
 hp 31 (3d8+18);
 Fort +7; Ref +1; Will -4
-Defensive Abilities transparent; Immune ooze traits
 
 Speed 5 ft., fly 30 ft (poor), swim 40 ft.
 
@@ -11320,7 +11365,7 @@ Init +1; Senses
 AC 15, touch 12, flat-footed 14 (+1 Dex, +3 natural, +1 size)
 hp 30 (4d12+4)
 Fort +5; Ref +5; Will +4
-Defensive Abilities pyrophoric blood (DC 13, 1d3 fire); Immune fire, paralysis, sleep Weaknesses vulnerability to cold
+Immune fire, paralysis, sleep; Weaknesses vulnerability to cold
 
 Speed 20 ft., fly 60 ft. (average)
 
@@ -11571,7 +11616,7 @@ AC 18, touch 16, flat-footed 14 (+4 Dex, +2 natural,
 +2 size)
 hp 13 (3d8)
 Fort +3; Ref +7; Will +3
-Defensive Abilities evasion
+ABILITY:Special Ability|AUTOMATIC|Evasion Output
 
 Speed 10 ft., fly 60 ft. (average)
 
@@ -11605,7 +11650,8 @@ Init +2; Senses
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 38 (5d8+10)
 Fort +5; Ref +3; Will +6
-Defensive Abilities channel resistance +2; Immune undead traits; Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
+Resist fire 10
 
 Speed 30 ft., swim 30 ft.
 
@@ -11663,7 +11709,8 @@ Init +8; Senses
 AC 19, touch 19, flat-footed 13 (+4 deflection, +4 Dex, +1 dodge)
 hp 67 (9d10+18)
 Fort +5; Ref +10; Will +9
-Defensive Abilities incorporeal Weaknesses sunlight powerlessnes
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+Weaknesses sunlight powerlessnes
 
 Speed fly 60 ft. (perfect)
 
@@ -11715,7 +11762,7 @@ Init +7; Senses
 AC 15, touch 15, flat-footed 12 (+2 deflection, +3 Dex)
 hp 50 (6d10+12)
 Fort +6; Ref +8; Will +7
-Defensive Abilities incorporeal
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 Speed 20 ft., fly 20 ft. (good)
 
@@ -11849,7 +11896,7 @@ Init +1;
 AC 11, touch 11, flat-footed 10 (+1 deflection, +1 Dex, -1 size)
 hp 47 (5d8+25)
 Fort +6; Ref +2; Will -4
-Defensive Abilities incorporeal; Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 Speed fly 30 ft. (perfect)
 
@@ -11942,7 +11989,7 @@ AC 15, touch 15, flat-footed 13 (+2 deflection, +2 Dex, +1
 size)
 hp 13 (2d10+2)
 Fort +1; Ref +5; Will +3
-Defensive Abilities distortion; Immune elemental traits, missile weapons, mass-dependent spells
+Immune missile weapons, mass-dependent spells
 
 Speed fly 100 ft. (perfect)
 
@@ -11976,7 +12023,7 @@ Init +4; Senses
 AC 16, touch 16, flat-footed 12 (+2 deflection, +4 Dex)
 hp 24 (4d10+12)
 Fort +4; Ref +8; Will +4
-Defensive Abilities distortion; Immune elemental traits, missile weapons, mass-dependent spells
+Immune missile weapons, mass-dependent spells
 
 Speed fly 100 ft.  (perfect)
 
@@ -12010,7 +12057,7 @@ AC 18, touch 18, flat-footed 11 (+2 deflection, +6 Dex, +1
 dodge, -1 size)
 hp 76 (8d10+32)
 Fort +6; Ref +12; Will +6
-Defensive Abilities distortion; DR 5/-; Immune elemental traits, missile weapons, mass-dependent spells
+DR 5/-; Immune missile weapons, mass-dependent spells
 
 Speed fly 100 ft. (perfect)
 
@@ -12046,7 +12093,7 @@ Init +12; Senses
 AC 19, touch 19, flat-footed 10 (+2 deflection, +8 Dex, +1 dodge, -2 size)
 hp 105 (10d10+50)
 Fort +8; Ref +15; Will +7
-Defensive Abilities distortion; DR 5/-; Immune elemental traits, missile weapons, mass-dependent spells
+DR 5/-; Immune missile weapons, mass-dependent spells
 
 Speed fly 100 ft.  (perfect)
 
@@ -12082,7 +12129,7 @@ Init +13; Senses
 AC 20, touch 20, flat-footed 10 (+2 deflection, +9 Dex, +1 dodge, -2 size)
 hp 136 (13d10+65)
 Fort +9; Ref +16; Will +8
-Defensive Abilities distortion; DR 10/-; Immune elemental traits, missile weapons, mass-dependent spells
+DR 10/-; Immune missile weapons, mass-dependent spells
 
 Speed fly 100 ft. (perfect)
 
@@ -12118,7 +12165,7 @@ Init +14; Senses
 AC 21, touch 21, flat-footed 10 (+2 deflection, +10 Dex, +1 dodge, -2 size)
 hp 168 (16d10+80)
 Fort +10; Ref +20; Will +10
-Defensive Abilities distortion; DR 10/-; Immune elemental traits, missile weapons, mass-dependent spells
+DR 10/-; Immune missile weapons, mass-dependent spells
 
 Speed fly 100 ft. (perfect)
 
@@ -12641,7 +12688,6 @@ Init +0; Senses
 AC 15, touch 11, flat-footed 14 (+4 natural, +1 size)
 hp 11 (2d10)
 Fort +0; Ref +3; Will +3
-Defensive Abilities warp reality; Immune elemental traits
 
 Speed fly 60 ft. (perfect)
 
@@ -12675,7 +12721,6 @@ Init +2; Senses
 AC 16, touch 12, flat-footed 14 (+2 Dex, +4 natural)
 hp 30 (4d10+8)
 Fort +3; Ref +6; Will +4
-Defensive Abilities warp reality; Immune elemental traits
 
 Speed fly 60 ft. (perfect)
 
@@ -12711,7 +12756,7 @@ Init +8; Senses
 AC 18, touch 13, flat-footed 14 (+4 Dex, +5 natural, -1 size)
 hp 68 (8d10+24)
 Fort +5; Ref +10; Will +8
-Defensive Abilities warp reality; DR 5/magic; Immune elemental traits; PR 16
+DR 5/magic; PR 16
 
 Speed fly 60 ft. (perfect)
 
@@ -12749,7 +12794,7 @@ Init +10; Senses
 AC 19, touch 14, flat-footed 13 (+6 Dex, +5 natural, -2 size)
 hp 95 (10d10+40)
 Fort +7; Ref +13; Will +10; reroll Will save 1/day
-Defensive Abilities warp reality; DR 5/magic; Immune elemental traits; PR 18
+DR 5/magic; PR 18
 
 Speed fly 60 ft. (perfect)
 
@@ -12787,7 +12832,7 @@ Init +11; Senses
 AC 23, touch 15, flat-footed 16 (+7 Dex, +8 natural, -2 size)
 hp 123 (13d10+52)
 Fort +8; Ref +15; Will +11; reroll Will save 1/day
-Defensive Abilities warp reality; DR 10/magic; Immune elemental traits; PR 20
+DR 10/magic; PR 20
 
 Speed fly 60 ft. (perfect)
 
@@ -12825,7 +12870,7 @@ Init +12; Senses
 AC 24, touch 16, flat-footed 16 (+8 Dex, +8 natural, -2 size)
 hp 152 (16d10+64)
 Fort +9; Ref +18; Will +14; reroll Will save 1/day
-Defensive Abilities warp reality; DR 10/magic; Immune elemental traits; PR 22
+DR 10/magic; PR 22
 
 Speed fly 60 ft. (perfect)
 
@@ -12892,7 +12937,7 @@ Init +9; Senses
 AC 21, touch 18, flat-footed 15 (+5 Dex, +1 dodge, +2 insight, +3 natural)
 hp 102 (12d10+36)
 Fort +7; Ref +13; Will +10
-Defensive Abilities foresight; DR 10/-; Immune elemental traits, temporal magic; SR 19
+DR 10/-; SR 19
 
 Speed fly 20 ft. (perfect)
 
@@ -12922,7 +12967,7 @@ Init +9; Senses
 AC 25, touch 19, flat-footed 19 (+5 Dex, +1 dodge, +4 insight, +6 natural, -1 size)
 hp 190 (20d10+80)
 Fort +10; Ref +19; Will +18
-Defensive Abilities foresight; DR 15/-; Immune elemental traits, temporal magic; SR 25
+DR 15/-; SR 25
 
 Speed fly 20 ft. (perfect)
 
@@ -12958,7 +13003,7 @@ Init +9; Senses
 AC 27, touch 21, flat-footed 21 (+5 Dex, +1dodge, +6 insight, +6 natural, -1 size)
 hp 228 (24d10+96)
 Fort +14; Ref +21 ; Will +22
-Defensive Abilities foresight; DR 15/-; Immune elemental traits, temporal magic; SR 28
+DR 15/-; SR 28
 
 Speed fly 20 ft. (perfect)
 
@@ -14011,7 +14056,7 @@ Init +0; Senses
 AC 16, touch 9, flat-footed 16 (+7 natural, -1 size)
 hp 30 (4d8 +12)
 Fort +7; Ref +1; Will +1
-Immune fire, vermin traits Vulnerabilities cold
+Immune fire, vermin traits; Vulnerabilities cold
 
 Speed 30 ft., swim 30 ft.
 
@@ -14055,7 +14100,7 @@ Init +2; Senses
 AC 14, touch 13, flat-footed 12 (+2 Dex, +1 natural, +1 size)
 hp 4 (1d8)
 Fort +3; Ref +2; Will +0
-Immune fire, vermin traits Vulnerabilities cold
+Immune fire, vermin traits; Vulnerabilities cold
 
 Speed 20 ft., swim 20 ft.
 
@@ -15366,7 +15411,7 @@ AC 21, touch 14, flat-footed 16 (+4 Dex, +1 dodge, +7
 natural, -1 size)
 hp 97 (13d10+26)
 Fort +6; Ref +12; Will +10
-Defensive Abilities air mastery; Immune acid, fire Weaknesses vulnerability to cold
+Defensive Abilities air mastery; Immune acid, fire; Weaknesses vulnerability to cold
 
 Speed 20 ft., fly 50 ft. (perfect)
 
@@ -15545,7 +15590,7 @@ AC 21, touch 15, flat-footed 15 (+5 Dex, +1 dodge, +6
 natural, -1 size)
 hp 68 (8d8+32)
 Fort +6; Ref +9; Will +7
-Defensive Abilities limited gaseous form; DR 10/magic; Immune fire, undead traits Weaknesses vulnerability to cold
+Defensive Abilities limited gaseous form; DR 10/magic; Immune fire, undead traits; Weaknesses vulnerability to cold
 
 Speed fly 40 ft. (perfect)
 
@@ -15992,7 +16037,7 @@ Init +3; Senses
 AC 19, touch 12, flat-footed 16 (+3 Dex, +7 natural, -1size)
 hp 76 (9d8+36)
 Fort +10; Ref +6; Will +5
-Defensive Abilities rock catching; Immune fire Weaknesses vulnerability to cold
+Defensive Abilities rock catching; Immune fire; Weaknesses vulnerability to cold
 
 Speed 40 ft.
 
@@ -16049,7 +16094,7 @@ AC 29, touch 9, flat-footed 28 (+2 armor, +1 Dex, +18
 natural, -2 size)
 hp 201 (20d8+120)
 Fort +18; Ref +7; Will +9
-Defensive Abilities rock catching; Immune fire Weaknesses vulnerability to cold
+Defensive Abilities rock catching; Immune fire; Weaknesses vulnerability to cold
 
 Speed 40 ft.
 
@@ -16196,7 +16241,7 @@ AC 18, touch 10, flat-footed 16 (+2 Dex, +8 natural, -2 size)
 hp 95 (10d10+30 plus +10)
 Fort +10; Ref +9; Will +6
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
-Immune flanking Weaknesses vulnerability to sunlight
+Immune flanking; Weaknesses vulnerability to sunlight
 
 Speed 20 ft.
 
@@ -17021,7 +17066,7 @@ AC 17, touch 13, flat-footed 15 (+2 Dex, +4 natural, +1 size)
 hp 11 (2d8+2)
 Fort +1; Ref +2; Will +2
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
-DR 5/slashing or piercing; Immune flanking Weaknesses explosion
+DR 5/slashing or piercing; Immune flanking; Weaknesses explosion
 
 Speed 5 ft., fly 60 ft. (average)
 
@@ -17479,7 +17524,7 @@ AC 19, touch 17, flat-footed 13 (+5 Dex, +1 dodge, +2
 natural, +1 size)
 hp 50 (1d6+2 plus 6d8+12 plus 6)
 Fort +4; Ref +10; Will +7
-Defensive Abilities evasion, trap sense +2, uncanny dodge; DR 5/cold iron; SR 17 Weaknesses light blindness
+Defensive Abilities evasion, trap sense +2, uncanny dodge; DR 5/cold iron; SR 17; Weaknesses light blindness
 
 Speed 20 ft.
 
@@ -17662,7 +17707,7 @@ Aura fear (30 ft., DC 19), unnatural aura (30 ft.)
 AC 17, touch 17, flat-footed 14 (+4 deflection, +3 Dex)
 hp 85 (10d8+40)
 Fort +7; Ref +6; Will +10
-Defensive Abilities channel resistance +4, incorporeal; Immune cold, electricity, undead traits; SR 18 Weaknesses vulnerability to dispel evil
+Defensive Abilities channel resistance +4, incorporeal; Immune cold, electricity, undead traits; SR 18; Weaknesses vulnerability to dispel evil
 
 Speed fly 30 ft. (perfect)
 
@@ -17944,7 +17989,7 @@ Init +6; Senses
 
 AC 15, touch 15, flat-footed 12 (+2 deflection, +2 Dex, +1 dodge)
 hp 32 (5d8+10)
-H Fort +3; Ref +3; Will +6
+Fort +3; Ref +3; Will +6
 Defensive Abilities rejuvenation; Immune channel energy, undead traits Weakness vulnerability to dispel evil/good/law/chaos
 
 Speed 20 ft., fly 30 ft. (perfect)
@@ -20046,7 +20091,7 @@ Init +5; Senses
 AC 19, touch 9, flat-footed 18 (+1 Dex, +10 natural, -2 size)
 hp 95 (10d8+40)
 Fort +7; Ref +4; Will +9
-Defensive Abilities amorphous; DR 10/slashing or piercing; Resist cold 10, fire 10 Weaknesses light sensitivity
+Defensive Abilities amorphous; DR 10/slashing or piercing; Resist cold 10, fire 10; Weaknesses light sensitivity
 
 Speed 10 ft., climb 5 ft., fly 40 ft. (poor) L
 
@@ -20662,7 +20707,7 @@ Init +10; Senses
 AC 23, touch 17, flat-footed 16 (+6 Dex, +1 dodge, +6 natural)
 hp 60 (8d10+16)
 Fort +8; Ref +12; Will +4
-Defensive Abilities resistance to missile attacks; DR 10/ magic; Immune electricity, elemental traits; SR 13 Weaknesses susceptible to cold
+Defensive Abilities resistance to missile attacks; DR 10/ magic; Immune electricity, elemental traits; SR 13; Weaknesses susceptible to cold
 
 Speed 20 ft., fly 20 ft. (good)
 
@@ -21570,7 +21615,7 @@ Aura beguiling aura
 AC 25, touch 25, flat-footed 15 (+5 deflection, +9 Dex, +1 dodge)
 hp 126 (12d6+84)
 Fort +11, Ref +17, Will +14
-Defensive Abilities transparency; DR 10/cold iron; Immune cold, poison; SR 21 Weaknesses shawl
+Defensive Abilities transparency; DR 10/cold iron; Immune cold, poison; SR 21; Weaknesses shawl
 
 Speed 30 ft., swim 60 ft
 
@@ -22101,7 +22146,7 @@ Init -5;
 AC 5, touch 5, flat-footed 5 (-5 Dex)
 hp 65 (5d8+40)
 Fort +9, Ref -4, Will -4
-Defensive Abilities transparency; Immune cold, fire, ooze traits Weaknesses water dependent
+Defensive Abilities transparency; Immune cold, fire, ooze traits; Weaknesses water dependent
 
 Speed 10 ft., swim 30 ft.  
 
@@ -22417,7 +22462,7 @@ Init -1;
 AC 4, touch 4, flat-footed 4 (-5 Dex, -1size)
 hp 52 (12d8-12 plus 12)
 Fort +2, Ref -2, Will +1
-Defensive Abilities split (cold and electricity, 10 hp); Immune cold, electricity, ooze traits, undead traits Weaknesses sunlight vulnerability
+Defensive Abilities split (cold and electricity, 10 hp); Immune cold, electricity, ooze traits, undead traits; Weaknesses sunlight vulnerability
 
 Speed 10 ft., climb 10 ft.
 
@@ -22573,7 +22618,7 @@ Init +1; Senses
 AC 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)
 hp 8 (1d10+2 plus 1)
 Fort +4; Ref +2; Will -2
-Defensive Abilities ferocity Weaknesses light sensitivity
+Defensive Abilities ferocity; Weaknesses light sensitivity
 
 Speed 30 ft.
 
@@ -22619,7 +22664,7 @@ Init +0; Senses
 AC 13, touch 10, flat-footed 13 (+3 armor)
 hp 7 (1d10+1 plus 1)
 Fort +3; Ref +0; Will +0
-Defensive Abilities ferocity, invisible in shadows Weaknesses light sensitivity
+Defensive Abilities ferocity, invisible in shadows; Weaknesses light sensitivity
 
 Speed 30 ft.
 
@@ -22835,7 +22880,7 @@ Init +6; Senses
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 45 (6d10+12)
 Fort +7; Ref +7; Will +2
-Defensive Abilities flames of healing; Immune fire, elemental traits Weaknesses vulnerability to cold
+Defensive Abilities flames of healing; Immune fire, elemental traits; Weaknesses vulnerability to cold
 
 Speed 30 ft., fly 60 ft. (average)
 
@@ -24286,7 +24331,7 @@ Init +7; Senses
 AC 19, touch 19, flat-footed 19 (+7 Dex, +1 dodge, +1 size)
 hp 14 (4d6)
 Fort +1; Ref +11; Will +6
-Defensive Abilities evasion, natural invisibility, supernatural speed, uncanny dodge; DR 5/cold iron Weaknesses slow susceptibility
+Defensive Abilities evasion, natural invisibility, supernatural speed, uncanny dodge; DR 5/cold iron; Weaknesses slow susceptibility
 
 Speed 120 ft.
 
@@ -26959,7 +27004,7 @@ Aura intense heat (10 ft., DC 30, 4d6 fire)
 AC 36, touch 8, flat-footed 34 (+2 Dex, +28 natural, -4 size)
 hp 348 (24d10+192 plus 24)
 Fort +18; Ref +18; Will +20
-Defensive Abilities fire absorption; DR 15/adamantine; Immune fire, elemental traits Weaknesses susceptible to rust, vulnerability to cold
+Defensive Abilities fire absorption; DR 15/adamantine; Immune fire, elemental traits; Weaknesses susceptible to rust, vulnerability to cold
 
 Speed 30 ft., burrow 30 ft.
 
@@ -27047,7 +27092,7 @@ Init +1; Senses
 AC 23, touch 7, flat-footed 24 (-1 Dex, + 16 natural, -2 size)
 hp 104 (11d8+44 plus 11)
 Fort +11; Ref +2; Will +4
-Defensive Abilities plant traits Weaknesses vulnerability to fire
+Defensive Abilities plant traits; Weaknesses vulnerability to fire
 
 Speed 10 ft.
 
@@ -27336,7 +27381,7 @@ Init +0;
 AC 16, touch 8, flat-footed 16 (+0 Dex, +8 natural, -2 size)
 hp 102 (12d8+48)
 Fort +12; Ref +4; Will +4
-Defensive Abilities rubbery hide, DR 10/slashing or piercing; Immune mind-affecting effects, vermin traits Weaknesses salt vulnerability
+Defensive Abilities rubbery hide, DR 10/slashing or piercing; Immune mind-affecting effects, vermin traits; Weaknesses salt vulnerability
 
 Speed 20 ft., burrow 10 ft.
 
@@ -27810,7 +27855,7 @@ Init +4; Senses
 AC 20, touch 10, flat-footed 20 (+10 natural)
 hp 95 (10d10+40)
 Fort +11; Ref +5; Will +12
-Defensive Abilities one with the earth; DR 10/magic; Immune earth magic, elemental traits Weaknesses veil
+Defensive Abilities one with the earth; DR 10/magic; Immune earth magic, elemental traits; Weaknesses veil
 
 Speed 30 ft., burrow 30 ft.
 
@@ -28333,7 +28378,7 @@ Init +2; Senses
 AC 14, touch 14, flat-footed 12 (+2 Dex, +2 size)
 hp 18 (4d8)
 Fort +3, Ref +6, Will +3
-Defensive Abilities half damage from piercing and slashing; Immune swarm traits Weaknesses swarm traits
+Defensive Abilities half damage from piercing and slashing; Immune swarm traits; Weaknesses swarm traits
 
 Speed 10 ft., fly 40 ft. (average)
 
@@ -28370,7 +28415,7 @@ Init +6; Senses
 AC 16, touch 14, flat-footed 14 (+2 Dex, +2 natural, +2 size)
 hp 105 (14d8+28 plus 14)
 Fort +8; Ref +8; Will +13
-Defensive Abilities half damage from piercing and slashing; Immune swarm traits, undead traits Weaknesses swarm traits
+Defensive Abilities half damage from piercing and slashing; Immune swarm traits, undead traits; Weaknesses swarm traits
 
 Speed 10 ft., fly 40 ft. (average)
 
@@ -28458,7 +28503,7 @@ Init +6; Senses
 AC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
 hp 39 (6d8+12)
 Fort +4; Ref +6; Will +6
-Defensive Abilities half damage from piercing and slashing, incorporeal form, shadow blend; Immune swarm traits, undead traits Weaknesses swarm traits
+Defensive Abilities half damage from piercing and slashing, incorporeal form, shadow blend; Immune swarm traits, undead traits; Weaknesses swarm traits
 
 Speed 40 ft., climb 60 ft.
 
@@ -29475,7 +29520,8 @@ RACESUBTYPE:Goblinoid
 BONUS:VAR|DarkvisionRange|60
 Init +1; Senses 
 
-AC 13, touch 11, flat-footed 12 (+1 Dex, +2 natural) hp 22 (3d8+6 plus 3); regeneration 2 (acid or fire) Fort +5; Ref +4; Will +1
+AC 13, touch 11, flat-footed 12 (+1 Dex, +2 natural) hp 22 (3d8+6 plus 3); regeneration 2 (acid or fire)
+Fort +5; Ref +4; Will +1
 
 Speed 30 ft.
 
@@ -29804,7 +29850,7 @@ Init +6; Senses
 AC 18, touch 12, flat-footed 16 (+2 armor, +2 Dex, +4 natural)
 hp 13 (2d10+2)
 Fort +1; Ref +5; Will +4
-Defensive Abilities slimy Weaknesses light blindness
+Defensive Abilities slimy; Weaknesses light blindness
 
 Speed 30 ft., swim 30 ft.
 
@@ -29856,7 +29902,7 @@ AC 18, touch 12, flat-footed 16 (+2 armor, +2 Dex, +4
 natural)
 hp 33 (4d10+8 plus 4)
 Fort +3; Ref +6; Will +5
-Defensive Abilities slimy Weaknesses light blindness
+Defensive Abilities slimy; Weaknesses light blindness
 
 Speed 30 ft., swim 30 ft.
 
@@ -29894,7 +29940,7 @@ Init +3; Senses
 AC 19, touch 14, flat-footed 15 (+3 Dex, +1 dodge, +5 natural)
 hp 37 (5d10+10)
 Fort +6; Ref +7; Will +1
-Defensive Abilities insubstantial form; Immune electricity, elemental traits Weaknesses vulnerability to water
+Defensive Abilities insubstantial form; Immune electricity, elemental traits; Weaknesses vulnerability to water
 
 Speed 30 ft., fly 30 ft. (perfect)
 
@@ -30095,7 +30141,7 @@ AC 18, touch 8, flat-footed 18 (+4 armor, -1 Dex, +6 natural, -1 size)
 hp 19 (3d8+6)
 Fort +5; Ref +0; Will +1
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
-Immune flanks Weaknesses multiple personalities
+Immune flanks; Weaknesses multiple personalities
 
 Speed 20 ft. (30 ft. base)
 
@@ -30999,7 +31045,7 @@ Init +1; Senses
 AC 17, touch 11, flat-footed 16 (+1Dex, +6 natural)
 hp 37 (5d8+10 plus 5
 Fort +4; Ref +2; Will +5
-Defensive Abilities channel resistance +2; Immune undead traits Weaknesses resurrection vulnerability
+Defensive Abilities channel resistance +2; Immune undead traits; Weaknesses resurrection vulnerability
 
 Speed 30 ft.
 
