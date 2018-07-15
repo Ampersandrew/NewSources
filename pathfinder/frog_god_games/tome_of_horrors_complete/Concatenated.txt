@@ -13064,7 +13064,7 @@ Init +11; Senses
 AC 30, touch 19, flat-footed 19 (+11 Dex, +11 natural, -2 size)
 hp 205 (30d10+40)
 Fort +10; Ref +21; Will +10
-Defensive Abilities air mastery, insubstantial form; DR 10/ adamantine; Immune construct traits, elemental traits, magic
+DR 10/ adamantine
 
 Speed fly 100 ft. (perfect)
 
@@ -13112,7 +13112,7 @@ Init -1; Senses
 AC 25, touch 7, flat-footed 25 (-1 Dex, +18 natural, -2 size)
 hp 205 (30d10+40)
 Fort +10; Ref +9; Will +10
-Defensive Abilities earth mastery; DR 10/adamantine; Immune construct traits, elemental traits, magic
+DR 10/adamantine
 
 Speed 30 ft.
 
@@ -13197,7 +13197,7 @@ Init +7; Senses
 AC 27, touch 15, flat-footed 20 (+7 Dex, +12 natural, -2 size)
 hp 205 (30d10+40)
 Fort +10; Ref +17; Will +10
-Defensive Abilities water mastery; DR 10/adamantine; Immune construct traits, elemental traits, magic
+DR 10/adamantine
 
 Speed 30 ft., swim 120 ft.
 
