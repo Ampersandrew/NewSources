@@ -682,7 +682,7 @@ Alter Self			KEY:Cacodaemon ~ Alter Self	CATEGORY:Special Ability	TYPE:Cacodaemo
 
 Racial Abilities		KEY:Cadaver ~ Racial Abilities		CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=CadaverRaceAbility	VISIBLE:NO
 Disease				KEY:Cadaver ~ Disease	CATEGORY:Special Ability	TYPE:CadaverRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:Filth fever: Claw and bite-injury; save Fort DC 11; onset 1d3 days; frequency 1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves. The save DC is Charisma-based.
-Reanimation			KEY:Cadaver ~ Reanimation	CATEGORY:Special Ability	TYPE:CadaverRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:When reduced to 0 hit points or less, a cadaver is not destroyed; rather it falls inert and begins the process of reanimating by regaining 1 hit point per round. Hit points lost to magical weapons or spells are not regained. When the creature reaches its full hit point total (minus damage dealt by magical attacks and weapons), it stands up, ready to fight again.  If the creature is destroyed by channeled positive energy, it cannot reanimate. If a cleric casts gentle repose on the cadaver when it is reduced to 0 hit points, it cannot reanimate. A bless spell delays the reanimation, causing the creature to regain hit points at half the normal rate (i.e. 1 hit point every other round).
+Reanimation			KEY:Cadaver ~ Reanimation	CATEGORY:Special Ability	TYPE:CadaverRaceAbility.RaceAbility.SpecialQuality.Supernatural.ModifyHP	DESC:When reduced to 0 hit points or less, a cadaver is not destroyed; rather it falls inert and begins the process of reanimating by regaining 1 hit point per round. Hit points lost to magical weapons or spells are not regained. When the creature reaches its full hit point total (minus damage dealt by magical attacks and weapons), it stands up, ready to fight again.  If the creature is destroyed by channeled positive energy, it cannot reanimate. If a cleric casts gentle repose on the cadaver when it is reduced to 0 hit points, it cannot reanimate. A bless spell delays the reanimation, causing the creature to regain hit points at half the normal rate (i.e. 1 hit point every other round).		ASPECT:NAME|reanimation
 
 ### Caizel
 
@@ -797,7 +797,8 @@ Immortality			KEY:Charon ~ Immortality	CATEGORY:Special Ability	TYPE:CharonRaceA
 ### Cherum
 
 Racial Abilities		KEY:Cherum ~ Racial Abilities		CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=CherumRaceAbility	VISIBLE:NO
-Fast Healing			KEY:Cherum ~ Fast Healing	CATEGORY:Special Ability	TYPE:CherumRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A cherum heals only if it is touching a flame or lava pool that covers at least an area equal to its space (30-foot area).
+Fast Healing			KEY:Cherum ~ Fast Healing	CATEGORY:Special Ability	TYPE:CherumRaceAbility.RaceAbility.SpecialQuality.Extraordinary.ModifyHP	DESC:A cherum heals only if it is touching a flame or lava pool that covers at least an area equal to its space (30-foot area).	ASPECT:NAME|fast healing	ASPECT:Ability Benefit|%1 when touching fire|15
+
 
 ### Choronzon Demon
 
@@ -868,7 +869,7 @@ Independent Clockwork		KEY:Clockwork Overseer ~ Independent Clockwork	CATEGORY:S
 
 Racial Abilities		KEY:Clockwork Parasite ~ Racial Abilities		CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=ClockworkParasiteRaceAbility	VISIBLE:NO
 Control Host			KEY:Clockwork Parasite ~ Control Host	CATEGORY:Special Ability	TYPE:ClockworkParasiteRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:By burrowing into the base of a corpse's skull and attaching itself with its pincers, a parasite clockwork can animate the creature (similar to an animate dead spell). The animated creature uses its own HD, base attack, saves, and hit points. It has an effective Wisdom of 10 and Charisma of 1. It does not have an Intelligence score. The host loses all skills, feats, class abilities, supernatural abilities, and spell-like abilities (including the ability to cast spells) it possessed in life. It retains its AC and any natural attacks it possessed, including proficiency with weapons. A host retains any proficiency with armor and shields it possessed while alive.  Spells such as detect undead or detect magic do not reveal the presence of the parasite or host. So long as the parasite clockwork remains in contact with the host, the control remains in effect.  A host brought to 0 or less hit points is destroyed, but can be repaired by the clockwork parasite using its self-repair ability (though this only works if the host is brought to 0 or less hit points; a host does not gain the self-repair ability of the parasite while "alive").
-Self-Repair			KEY:Clockwork Parasite ~ Self-Repair	CATEGORY:Special Ability	TYPE:ClockworkParasiteRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A clockwork parasite regains 1 hit point per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects).
+Self-Repair			KEY:Clockwork Parasite ~ Self-Repair	CATEGORY:Special Ability	TYPE:ClockworkParasiteRaceAbility.RaceAbility.SpecialQuality.Extraordinary.ModifyHP	DESC:A clockwork parasite regains 1 hit point per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects).		ASPECT:NAME|self-repair	ASPECT:Ability Benefit|%1 (acid, cold, fire)|1
 
 ### Clockwork Scout
 
@@ -878,12 +879,12 @@ Animal Appearance		KEY:Clockwork Scout ~ Animal Appearance	CATEGORY:Special Abil
 ### Clockwork Swarm
 
 Racial Abilities		KEY:Clockwork Swarm ~ Racial Abilities		CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=ClockworkSwarmRaceAbility	VISIBLE:NO
-Self-Repair			KEY:Clockwork Swarm ~ Self-Repair	CATEGORY:Special Ability	TYPE:ClockworkSwarmRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A clockwork swarm regains 3 hit points per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If a clockwork swarm takes damage from an area attack, it is unable to repair itself for 1d6 rounds following the attack. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects) until it has at least 1 hit point (at which time it begins to self-repair at its normal rate of 3 hit points per round).
+Self-Repair			KEY:Clockwork Swarm ~ Self-Repair	CATEGORY:Special Ability	TYPE:ClockworkSwarmRaceAbility.RaceAbility.SpecialQuality.Extraordinary.ModifyHP	DESC:A clockwork swarm regains 3 hit points per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If a clockwork swarm takes damage from an area attack, it is unable to repair itself for 1d6 rounds following the attack. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects) until it has at least 1 hit point (at which time it begins to self-repair at its normal rate of 3 hit points per round).		ASPECT:NAME|self-repair	ASPECT:Ability Benefit|%1 (acid, cold, fire)|3
 
 ### Clockwork Warrior
 
 Racial Abilities		KEY:Clockwork Warrior ~ Racial Abilities		CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=ClockworkWarriorRaceAbility	VISIBLE:NO
-Self-Repair			KEY:Clockwork Warrior ~ Self-Repair	CATEGORY:Special Ability	TYPE:ClockworkWarriorRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A clockwork warrior regains 3 hit points per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects).
+Self-Repair			KEY:Clockwork Warrior ~ Self-Repair	CATEGORY:Special Ability	TYPE:ClockworkWarriorRaceAbility.RaceAbility.SpecialQuality.Extraordinary.ModifyHP	DESC:A clockwork warrior regains 3 hit points per round. Damage dealt from acid, cold, or fire effects cannot be self-repaired. If reduced to 0 or less hit points, it regains 1 hit point per round (but still cannot repair damage caused by acid, cold, or fire effects).	ASPECT:NAME|self-repair	ASPECT:Ability Benefit|%1 (acid, cold, fire)|3
 
 ### Cloud Dragon
 
