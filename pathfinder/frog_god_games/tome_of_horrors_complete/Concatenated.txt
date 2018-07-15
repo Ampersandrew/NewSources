@@ -30706,7 +30706,7 @@ Init +8; Senses
 AC 24, touch 21, flat-footed 19 (+4 Dex, +1 deflection, +1 Dodge, +1 monk, +3 natural, +4 Wis)
 hp 75 (4d10+8 plus 6d8+12 plus 6); fast healing 2
 Fort +8; Ref +13; Will +13; +2 vs. enchantment
-Defensive Abilities evasion, maneuver training, still mind; DR 5/silver; Immune disease, poison; Resist fire 5
+DR 5/silver; Immune disease, poison; Resist fire 5
 
 Speed 50 ft.
 
@@ -30764,7 +30764,7 @@ Init +7; Senses
 AC 17, touch 12, flat-footed 14 (+3 Dex, +5 natural, -1 size)
 hp 75 (10d10+20)
 Fort +7; Ref +10; Will +8
-Defensive Abilities transparency; DR 10/bludgeoning
+DR 10/bludgeoning
 
 Speed 40 ft.
 
@@ -31059,7 +31059,8 @@ Init +1; Senses
 AC 17, touch 11, flat-footed 16 (+1Dex, +6 natural)
 hp 37 (5d8+10 plus 5
 Fort +4; Ref +2; Will +5
-Defensive Abilities channel resistance +2; Immune undead traits; Weaknesses resurrection vulnerability
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
+Weaknesses resurrection vulnerability
 
 Speed 30 ft.
 
@@ -31104,7 +31105,8 @@ Init +6; Senses
 AC 21, touch 11, flat-footed 19 (+2 Dex, +10 natural, -1 size)
 hp 90 (12d8+36); fast healing 5
 Fort +7; Ref +6; Will +9
-Defensive Abilities channel resistance +5; DR 10/bludgeoning and magic; Immune undead traits; Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|5
+DR 10/bludgeoning and magic; Resist fire 10
 
 Speed 30 ft.
 
@@ -31300,7 +31302,6 @@ Init +0;
 AC 13, touch 9, flat-footed 13 (+4 natural,-1 size)
 hp 37 (5d8+15)
 Fort +7; Ref +1; Will +2
-Defensive Abilities camouflage; Immune plant traits
 
 Speed 0 ft.
 
@@ -31338,7 +31339,6 @@ Init +0;
 AC 14, touch 14, flat-footed 14 (+4 size)
 hp 5 (1d10)
 Fort +2; Ref +0; Will +0
-Defensive Abilities sealed mind
 
 Speed 5 ft.
 
@@ -31435,7 +31435,7 @@ Init +2; Senses
 AC 14, touch 12, flat-footed 12 (+2 Dex, +2 natural)
 hp 18 (4d8)
 Fort +1; Ref +3; Will +6
-Defensive Abilities channel resistance +2; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
 Speed 50 ft.
 
@@ -31468,7 +31468,7 @@ Init +6; Senses
 AC 19, touch 11, flat-footed 17 (+2 Dex, +8 natural, -1 size)
 hp 90 (12d8+24 plus 12)
 Fort +6; Ref +6; Will +10
-Defensive Abilities channel resistance +4; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 
 Speed 50 ft.
 
@@ -31505,7 +31505,7 @@ Init +6; Senses
 AC 14, touch 14, flat-footed 12 (+2 deflection, +2 Dex)
 hp 26 (4d8+8)
 Fort +3; Ref +3; Will +5
-Defensive Abilities incorporeal, shadow blend; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 Speed 50 ft.
 
@@ -31632,7 +31632,7 @@ Init +7; Senses
 AC 24, touch 14, flat-footed 20 (+3 Dex, +1 dodge, +10 natural)
 hp 127 (17d6+68)
 Fort +9; Ref +13; Will +13
-Defensive Abilities plant passivism; DR 10/cold iron; Immune wood
+DR 10/cold iron; Immune wood
 
 Speed 30 ft.
 
@@ -32231,7 +32231,6 @@ Init +2; Senses
 AC 16, touch 13, flat-footed 14 (+2 Dex, +3 natural, +1 size)
 hp 9 (2d8)
 Fort +3; Ref +5; Will +0
-Defensive Abilities camouflage, spines
 
 Speed swim 20 ft.
 
@@ -33480,7 +33479,7 @@ Init +1; Senses
 AC 13, touch 11, flat-footed 12 (+1 Dex, +2 natural)
 hp 19 (3d8+3 plus 3)
 Fort +4, Ref +4, Will +1
-Defensive Abilities ferocity
+ABILITY:Special Ability|AUTOMATIC|Ferocity
 
 Speed 40 ft.
 
