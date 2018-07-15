@@ -13245,7 +13245,7 @@ Init +8; Senses
 AC 32, touch 16, flat-footed 24 (+8 Dex, +16 natural, -2 size)
 hp 252 (24d10+120)
 Fort +13; Ref +22; Will +16
-Defensive Abilities air mastery; DR 15/magic and silver; Immune elemental traits
+DR 15/magic and silver
 
 Speed 20 ft., fly 120 ft. (poor)
 
@@ -13298,7 +13298,7 @@ Init +0; Senses
 AC 26, touch 8, flat-footed 26 (+18 natural, -2 size)
 hp 252 (24d10+120)
 Fort +13; Ref +14; Will +15
-Defensive Abilities earth mastery; DR 10/magic and cold iron; Immune elemental traits
+DR 10/magic and cold iron
 
 Speed 20 ft., fly 100 ft. (poor), burrow 20 ft.
 
@@ -13355,7 +13355,7 @@ Aura fiery aura (60 ft., DC 27, 2d8 fire)
 AC 30, touch 14, flat-footed 24 (+6 Dex, +16 natural, -2 size)
 hp 252 (24d10+120)
 Fort +13; Ref +20; Will +16
-DR 10/epic and silver; Immune elemental traits, fire
+DR 10/epic and silver; Immune fire
 Weaknesses vulnerability to cold
 
 Speed 40 ft., fly 100 ft. (poor)
@@ -13405,7 +13405,7 @@ Init +3; Senses
 AC 27, touch 11, flat-footed 24 (+3 Dex, +16 natural, -2 size)
 hp 252 (24d10+120)
 Fort +13; Ref +17; Will +15
-Defensive Abilities water mastery; DR 10/magic and silver; Immune elemental traits
+DR 10/magic and silver
 
 Speed 40 ft., fly 100 ft. (poor), swim 90 ft.
 
@@ -13498,12 +13498,20 @@ Airfiend
 
 Airfiend (Air Subtype)
 DESC:Airfiends are typically found on the Plane of Air. Their weapons are masterwork scimitars forged of an unknown silvery metal. They are constantly cool to the touch and are immune to electricity damage. They have cloud and lightning designs that run the length of the blade.
-Defensive Abilities add air mastery.  Immune add electricity. Weaknesses vulnerability to fire. Speed add fly 30 ft. (perfect)
+Immune add electricity. Weaknesses vulnerability to fire.
+
+Speed add fly 30 ft. (perfect)
+
 Melee 3 scimitars (damage 1d6+4/18-20 plus shock)
+
 Elemental Effect freeze (see below).
+
 Feats Weapon Focus (scimitar)
+
 Skills add Fly +9
+
 Languages Auran
+
 
 
 AAA	KEY:Airfiend ~ AAA	CATEGORY:Special Ability	TYPE:AirfiendRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
@@ -13630,7 +13638,7 @@ by it. When traveling aboveground in daylight hours, they usually cloak
 AC 20, touch 14, flat-footed 16 (+3 Dex, +1 dodge, +6 natural)
 hp 65 (10d8+20); fast healing 5
 Fort +5; Ref +6; Will +9
-Defensive Abilities mind screen; Resist cold 10
+Resist cold 10
 
 Speed 30 ft.
 
@@ -13917,8 +13925,9 @@ Aura fear aura (20 ft., DC 17)
 AC 17, touch 17, flat-footed 14 (+4 deflection, +2 Dex, +1 dodge)
 hp 51 (6d8+24)
 Fort +6; Ref +4; Will +6
-Defensive Abilities channel resistance +2, incorporeal;
-Immune undead traits; Weaknesses daylight vulnerability
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
+Weaknesses daylight vulnerability
 
 Speed fly 30 ft. (good)
 
@@ -14180,8 +14189,8 @@ Init +6; Senses
 AC 16, touch 10, flat-footed 14 (+2 Dex, +6 natural, -2 rage)
 hp 38 (7d8 plus 7)
 Fort +4; Ref +4; Will +6
-Defensive Abilities channel resistance +4; Immune fire, undead traits
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
+Immune fire; Weaknesses vulnerability to cold
 
 Speed 30 ft.
 
@@ -14307,7 +14316,7 @@ Init -1; Senses
 AC 18, touch 8, flat-footed 18 (-1 Dex, +10 natural, -1 size)
 hp 30 (4d10+8)
 Fort +6; Ref +3; Will +2
-Defensive Abilities warp magic; Immune poison;
+Immune poison;
 Resist fire 20
 
 Speed 10 ft., climb 10 ft.
@@ -14571,8 +14580,7 @@ AC 16, touch 16, flat-footed 12 (+2 deflection, +3 Dex, +1
 dodge)
 hp 22 (4d8+4)
 Fort +2; Ref +4; Will +4
-Defensive Abilities electricity discharge (DC 13, 3d6 electricity); DR 10/magic; Immune cold, combat maneuvers, electricity, poison
-Weakness vulnerability to sunlight
+DR 10/magic; Immune cold, combat maneuvers, electricity, poison; Weakness vulnerability to sunlight
 
 Speed fly 40 ft. (good)
 
@@ -14653,7 +14661,6 @@ Init +4; Senses
 AC 19, touch 18, flat-footed 15 (+4 Dex, +1 natural, +4 size)
 hp 10 (3d6)
 Fort +1; Ref +7; Will +6
-Defensive Abilities environmental awareness
 
 Speed 20 ft.
 
@@ -14893,7 +14900,7 @@ Aura despair (10 ft., DC 15)
 AC 15, touch 15, flat-footed 13 (+3 deflection, +2 Dex)
 hp 30 (4d8+12)
 Fort +4; Ref +3; Will +6
-Defensive Abilities incorporeal; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 Speed fly 50 ft. (perfect)
 
@@ -15196,7 +15203,7 @@ Init +2; Senses
 AC 16, touch 12, flat-footed 14 (+2 Dex, +4 natural)
 hp 38 (4d10+16)
 Fort +5; Ref +6; Will +4
-Defensive Abilities reanimation; DR 10/magic
+DR 10/magic
 
 Speed 40 ft., fly 60 ft. (average)
 
@@ -15360,7 +15367,6 @@ AC 21, touch 13, flat-footed 17 (+3 Dex, +1 dodge, +8
 natural, -1 size)
 hp 85 (10d10+30)
 Fort +6; Ref +12; Will +13
-Defensive Abilities air mastery
 
 Speed 20 ft., fly 50 ft. (perfect)
 
@@ -15411,7 +15417,7 @@ AC 21, touch 14, flat-footed 16 (+4 Dex, +1 dodge, +7
 natural, -1 size)
 hp 97 (13d10+26)
 Fort +6; Ref +12; Will +10
-Defensive Abilities air mastery; Immune acid, fire; Weaknesses vulnerability to cold
+Immune acid, fire; Weaknesses vulnerability to cold
 
 Speed 20 ft., fly 50 ft. (perfect)
 
@@ -15590,7 +15596,7 @@ AC 21, touch 15, flat-footed 15 (+5 Dex, +1 dodge, +6
 natural, -1 size)
 hp 68 (8d8+32)
 Fort +6; Ref +9; Will +7
-Defensive Abilities limited gaseous form; DR 10/magic; Immune fire, undead traits; Weaknesses vulnerability to cold
+DR 10/magic; Immune fire; Weaknesses vulnerability to cold
 
 Speed fly 40 ft. (perfect)
 
@@ -15633,7 +15639,8 @@ Init +7; Senses
 AC 21, touch 13, flat-footed 18 (+3 Dex, +8 natural)
 hp 102 (12d8+36 plus 12)
 Fort +9; Ref +9; Will +10
-Defensive Abilities channel resistance +4; Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
+ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 Speed 40 ft., fly 40 ft. (perfect), burrow 20 ft.
 
@@ -15726,7 +15733,8 @@ Init +1; Senses
 AC 23, touch 9, flat-footed 22 (+1 Dex, +14 natural, -2 size)
 hp 152 (16d8+80)
 Fort +15; Ref +8; Will +10
-Defensive Abilities rock catching; DR 10/-; Resist fire 20
+ABILITY:Special Ability|AUTOMATIC|Rock Catching
+DR 10/-; Resist fire 20
 
 Speed 40 ft.
 
@@ -15773,7 +15781,7 @@ Init +1; Senses
 AC 19, touch 9, flat-footed 18 (+1 Dex, +10 natural, -2 size)
 hp 126 (12d8+72
 Fort +14; Ref +5; Will +6
-Defensive Abilities rock catching
+ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
 Speed 30 ft.
 
@@ -15886,7 +15894,7 @@ Init +1; Senses
 AC 28, touch 9, flat-footed 27 (+1 Dex, +19 natural, -2 size)
 hp 321 (26d8+204)
 Fort +23; Ref +11; Will +12
-Defensive Abilities rock catching
+ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
 Speed 40 ft.
 
@@ -15942,7 +15950,7 @@ AC 24, touch 9, flat-footed 23 (+3 armor, +1 Dex, +12
 natural, -2 size)
 hp 218 (19d8+114 plus 19)
 Fort +17; Ref +7; Will +9
-Defensive Abilities rock catching
+ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
 Speed 40 ft.
 Melee greatsword +24/+19/+14 (4d6+16) or 2 slams +23 (2d6+11)
