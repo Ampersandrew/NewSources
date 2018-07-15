@@ -13,7 +13,7 @@ BONUS:VAR|HasLowLightVision|1
 Init +1; Senses 
 
 AC 17, touch 11, flat-footed 16 (+1 Dex, +6 natural)
-hp 30 (4d10+8); fast healing 2
+4 hp 30 (4d10+8); fast healing 2
 Fort +6; Ref +5; Will +1
 Resist sonic 10
 
@@ -47,7 +47,7 @@ Init -1; Senses
 AC 16 (-1 Dex, +9 natural, -2 size), touch 7, flat-footed 16
 hp 37 (5d8+15)
 Fort +7, Ref +0, Will +2
-DR 5/slashing; Immune plant traits; Weaknesses vulnerability to fire
+DR 5/slashing; Weaknesses vulnerability to fire
 
 SA double damage against objects (full attack deals double damage), trample (2d6+7, DC 17)
 
@@ -245,7 +245,7 @@ Init +4;
 AC 8, touch 8, flat-footed 8 (-2 size)
 hp 138 (12d8+84)
 Fort +15; Ref +6; Will +5
-DR 5/piercing or slashing; Immune vermin traits; Resist acid 20
+DR 5/piercing or slashing; Resist acid 20
 
 
 Speed 0 ft. (immobile)
@@ -808,7 +808,7 @@ hp 52 (7d8+21)
 Fort +5; Ref +4; Will +8
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
-Immune undead traits; Weaknesses resurrection vulnerability, sunlight powerlessness
+; Weaknesses resurrection vulnerability, sunlight powerlessness
 
 Speed fly 60 ft. (perfect)
 
@@ -994,7 +994,7 @@ Init +0; Senses
 AC 14, touch 11, flat-footed 14 (+3 natural, +1 size)
 hp 21 (3d8+9)
 Fort +6; Ref +1; Will +1
-Immune plant traits
+
 
 Speed 10 ft.
 
@@ -1028,7 +1028,7 @@ Init +1; Senses
 AC 18, touch 10, flat-footed 17 (+1 Dex, +8 natural, -1size)
 hp 52 (7d8+2)
 Fort +8; Ref +3; Will +2
-DR 10/piercing; Immune plant traits; Resist fire 10, electricity 10
+DR 10/piercing; Resist fire 10, electricity 10
 
 Speed 40 ft.
 
@@ -2363,7 +2363,7 @@ Init +4;
 AC 17, touch 9, flat-footed 17 (+8 natural, -1 size)
 hp 68 (8d8+32)
 Fort +10; Ref +4; Will +4
-Immune plant traits
+
 
 Speed 0 ft. (immobile)
 
@@ -2573,7 +2573,7 @@ Aura despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
 AC 18, touch 10, flat-footed 18 (+8 natural)
 hp 60 (8d8+16 plus 8)
 Fort +4; Ref +2; Will +8
-DR 5/-; Immune undead traits; Resist fire 10
+DR 5/-; Resist fire 10
 Weaknesses vulnerability to cold
 
 Speed 20 ft., marsh move
@@ -2926,7 +2926,7 @@ Init +0; Senses
 AC 23, touch 9, flat-footed 23 (+0 Dex, +14 natural, -1 size)
 hp 85 (10d10+30)
 Fort +3; Ref +3; Will +3
-DR 10/adamantine; Immune construct traits, fire, magic
+DR 10/adamantine; Immune fire, magic
 Weaknesses vulnerability to cold
 
 Speed 30 ft.
@@ -3056,7 +3056,7 @@ Init +2; Senses
 AC 18, touch 12, flat-footed 16 (+2 Dex, +6 natural)
 hp 67 (9d8+18 plus 9)
 Fort +7; Ref +5; Will +8
-DR 10/silver; Immune undead traits; SR 17
+DR 10/silver; SR 17
 
 Speed 30 ft., swim 40 ft.
 
@@ -3433,7 +3433,7 @@ Init -1; Senses
 AC 14, touch 9, flat-footed 14 (-1 Dex, +5 natural)
 hp 42 (4d10+20)
 Fort +1; Ref -1; Will +0
-DR 5/-; Immune construct traits, magic
+DR 5/-; Immune magic
 
 Speed 20 ft.
 
@@ -3881,7 +3881,7 @@ Init -1; Senses
 AC 15, touch 9, flat-footed 15 (-1 Dex, +6 natural)
 hp 42 (4d10+20)
 Fort +1; Ref +0; Will +3
-DR 5/-; Immune construct traits, magic
+DR 5/-; Immune magic
 
 Speed 20 ft.
 
@@ -4153,7 +4153,7 @@ Init +0; Senses
 AC 10, touch 6, flat-footed 10 (-5 Dex, +4 natural, +1 size)
 hp 42 (5d10+10 plus 5)
 Fort +3; Ref -4; Will +7
-Immune construct traits; Weaknesses immobile
+; Weaknesses immobile
 
 Speed 0 ft.
 
@@ -4190,7 +4190,7 @@ Init +4; Senses
 AC 16, touch 16, flat-footed 12 (+4 Dex, +2 size)
 hp 5 (1d10)
 Fort +0; Ref +4; Will +2
-Immune construct traits
+
 
 Speed 20 ft., fly 60 ft. (perfect)
 
@@ -4223,7 +4223,7 @@ Init +1; Senses
 AC 15, touch 14, flat-footed 14 (+1 Dex, +3 natural, +1 size)
 hp 21 (2d10+10)
 Fort +0; Ref +1; Will +1
-Immune construct traits
+
 
 Speed 40 ft.
 
@@ -4254,7 +4254,7 @@ Init +0; Senses
 AC 14, touch 12, flat-footed 12 (+2 natural, +2 size)
 hp 22 (4d10); self-repair 1 (acid, cold, fire)
 Fort +1; Ref +1; Will +0
-Immune construct traits
+
 
 Speed 20 ft.
 
@@ -4289,7 +4289,7 @@ Init +3; Senses
 AC 16, touch 15, flat-footed 13 (+3 Dex, +1 natural, +2 size)
 hp 5 (1d10)
 Fort +0; Ref +3; Will +1
-Immune construct traits
+
 
 Speed 40 ft.
 
@@ -4362,7 +4362,7 @@ Init +0; Senses
 AC 19, touch 9, flat-footed 19 (+10 natural, -1 size)
 hp 68 (7d10+30)
 Fort +2; Ref +2; Will +0
-Immune construct traits
+
 
 Speed 30 ft.
 
@@ -4390,7 +4390,7 @@ Init -2; Senses
 AC 14, touch 8, flat-footed 14 (-2 Dex, +6 natural)
 hp 42 (4d10+20); self-repair 3 (acid, cold, fire)
 Fort +1; Ref -1; Will +0
-Immune construct traits
+
 
 Speed 20 ft.
 
@@ -4454,7 +4454,7 @@ Init +1; Senses
 AC 14, touch 10, flat-footed 13 (+1 Dex, +4 natural, -1 size)
 hp 45 (6d8+18)
 Fort +8; Ref +3; Will +3
-Immune plant traits
+
 
 Speed 5 ft.
 
@@ -4843,7 +4843,7 @@ Init +1; Senses
 AC 16, touch 11, flat-footed 15 (+1 Dex, +5 natural)
 hp 19 (3d8+6)
 Fort +5, Ref +2, Will +1
-Immune vermin traits
+
 Weaknesses water dependency
 
 Speed 30 ft., swim 20 ft.
@@ -4960,7 +4960,7 @@ Init +0; Senses
 AC 15, touch 9, flat-footed 15 (-1 size, +6 natural)
 hp 26 (4d8+8)
 Fort +6, Ref +1, Will +1
-Immune vermin traits
+
 Weaknesses water dependency
 
 Speed 20 ft., swim 40 ft.
@@ -7060,7 +7060,8 @@ RACESUBTYPE:Chaotic|Demon|Evil|Extraplanar
 BONUS:VAR|DarkvisionRange|60
 Init +5; Senses 
 
-AC 23, touch 11, flat-footed 22 (+1 Dex, +12 natural) hp 73 (7d10+35)
+AC 23, touch 11, flat-footed 22 (+1 Dex, +12 natural)
+hp 73 (7d10+35)
 Fort +10, Ref +3, Will +8
 DR 10/cold iron or good; Immune death effects, electricity paralysis, poison; Resist acid 10, cold 10, fire 10; SR 18
 
@@ -11260,7 +11261,7 @@ Init +5; Senses
 AC 18, touch 15, flat-footed 13 (+5 Dex, +3 natural)
 hp 45 (7d8+14)
 Fort +7; Ref +7; Will +3
-Immune vermin traits
+
 
 Speed 20 ft., fly 80 ft. (perfect)
 
@@ -11321,7 +11322,7 @@ Init -3; Senses
 AC 23, touch 3, flat-footed 23 (-3 Dex, +20 natural, -4 size)
 hp 170 (20d10+60)
 Fort +6; Ref +3; Will +6
-DR 15/adamantine; Immune construct traits
+DR 15/adamantine
 Weaknesses vulnerability to fire
 
 Speed Swim 40 ft.
@@ -11515,7 +11516,7 @@ Init +2; Senses
 AC 23, touch 11, flat-footed 21 (+2 Dex, +12 natural, -1 size)
 hp 178 (17d8+102)
 Fort +16; Ref +7; Will +8
-Immune plant traits; Resist fire 10
+; Resist fire 10
 
 Speed 40 ft.
 
@@ -11562,7 +11563,7 @@ Init +3; Senses
 AC 24, touch 12, flat-footed 21 (+3 Dex, +12 natural, -1 size)
 hp 253 (17d8+102 plus 6d10+36 plus 6)
 Fort +21; Ref +13; Will +12
-Immune plant traits; Resist fire 10
+; Resist fire 10
 
 Speed 40 ft.
 
@@ -12238,7 +12239,7 @@ Aura negative energy (10 ft. radius)
 AC 18, touch 15, flat-footed 14 (+3 Dex, +1 dodge, +3 natural, +1 size)
 hp 13 (2d10+2)
 Fort +1; Ref +6; Will +3
-Immune elemental traits
+
 
 Speed fly 60 ft. (good)
 
@@ -12269,7 +12270,7 @@ Aura negative energy (20 ft. radius)
 AC 19, touch 16, flat-footed 13 (+5 Dex, +1 dodge, +3 natural)
 hp 30 (4d10+8)
 Fort +3; Ref +9; Will +4
-DR 5/-; Immune elemental traits
+DR 5/-
 
 Speed fly 60 ft. (good)
 
@@ -12301,7 +12302,7 @@ AC 21, touch 17, flat-footed 13 (+7 Dex, +1 dodge, +4
 natural, -1 size)
 hp 68 (8d10+24)
 Fort +5; Ref +13; Will +6
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12335,7 +12336,7 @@ AC 21, touch 17, flat-footed 12 (+8 Dex, +1 dodge, +4
 natural, -2 size)
 hp 95 (10d10+40)
 Fort +7; Ref +15; Will +7
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12369,7 +12370,7 @@ AC 26, touch 18, flat-footed 16 (+9 Dex, +1 dodge, +8
 natural, -2 size)
 hp 123 (13d10+52)
 Fort +8; Ref +17; Will +8
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12403,7 +12404,7 @@ AC 27, touch 19, flat-footed 16 (+10 Dex, +1 dodge, +8
 natural, -2 size)
 hp 152 (16d10+64)
 Fort +9; Ref +19; Will +10
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12473,7 +12474,7 @@ Aura positive energy (10 ft. radius)
 AC 18, touch 15, flat-footed 14 (+3 Dex, +1 dodge, +3 natural, +1 size)
 hp 13 (2d10+2)
 Fort +1; Ref +6; Will +3
-Immune elemental traits
+
 
 Speed fly 60 ft. (good)
 
@@ -12504,7 +12505,7 @@ Aura positive energy (20 ft. radiu
 AC 19, touch 16, flat-footed 13 (+5 Dex, +1 dodge, +3 natural)
 hp 30 (4d10+8)
 Fort +3; Ref +9; Will +4
-DR 5/-; Immune elemental traits
+DR 5/-
 
 Speed fly 60 ft. (good)
 
@@ -12535,7 +12536,7 @@ Aura positive energy (30 ft. radius)
 AC 21, touch 17, flat-footed 13 (+7 Dex, +1 dodge, +4 natural, -1 size)
 hp 68 (8d10+24)
 Fort +5; Ref +13; Will +6
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12568,7 +12569,7 @@ Aura positive energy (30 ft. radius)
 AC 21, touch 17, flat-footed 12 (+8 Dex, +1 dodge, +4 natural, -2 size)
 hp 95 (10d10+40)
 Fort +7; Ref +15; Will +7
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12602,7 +12603,7 @@ AC 26, touch 18, flat-footed 16 (+9 Dex, +1 dodge, +8
 natural, -2 size)
 hp 123 (13d10+52)
 Fort +8; Ref +17; Will +8
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -12636,7 +12637,7 @@ AC 27, touch 19, flat-footed 16 (+10 Dex, +1 dodge, +8
 natural, -2 size)
 hp 152 (16d10+64)
 Fort +9; Ref +19; Will +10
-DR 10/-; Immune elemental traits
+DR 10/-
 
 Speed fly 60 ft. (good)
 
@@ -13461,7 +13462,7 @@ Init +1; Senses
 AC 18, touch 11, flat-footed 17 (+1 Dex, +7 natural)
 hp 68 (8d10+24)
 Fort +5; Ref +7; Will +6
-DR 5/-; Immune elemental traits
+DR 5/-
 
 Speed 30 ft.
 
@@ -14629,7 +14630,7 @@ Init +0; Senses
 AC 17, touch 9, flat-footed 17 (+8 natural, -1 size)
 hp 52 (5d8+30)
 Fort +10; Ref +1; Will +2
-Immune plant traits
+
 
 Speed 0 ft. (immobile)
 
@@ -14867,7 +14868,7 @@ Init +5; Senses
 AC 18, touch 11, flat-footed 17(+1 Dex, +7 natural)
 hp 37 (5d8+15)
 Fort +7; Ref +2; Will +1
-Immune plant traits; Resist electricity 10
+; Resist electricity 10
 
 Speed 30 ft.
 
@@ -14986,7 +14987,7 @@ Init +5; Senses
 AC 24, touch 9, flat-footed 23 (+1 Dex, +15 natural, -2 size)
 hp 218 (19d8+114 plus 19)
 Fort +17; Ref +7; Will +8
-DR 10/magic and slashing; Immune plant traits; Resist fire 10
+DR 10/magic and slashing; Resist fire 10
 
 Speed 20 ft.
 
@@ -15032,7 +15033,7 @@ Init +6; Senses
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 33 (6d8+6); fast healing 5
 Fort +6; Ref +4; Will +2
-Immune plant traits
+
 
 Speed 30 ft.
 
@@ -15159,7 +15160,7 @@ Aura sickening aura (10 ft., DC 16, sickened)
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 59 (7d8+21 plus 7)
 Fort +8; Ref +4; Will +4
-DR 10/slashing or piercing; Immune plant traits; Resist fire 5
+DR 10/slashing or piercing; Resist fire 5
 
 Speed 40 ft., fly 60 ft. (average)
 
@@ -15546,7 +15547,7 @@ Init -1; Senses
 AC 22, touch 8, flat-footed 22 (-1 Dex, +14 natural, -1 size)
 hp 92 (8d10+48)
 Fort +12; Ref +1; Will +7
-DR 5/-; Immune elemental traits; Resist fire 5; SR 20
+DR 5/-; Resist fire 5; SR 20
 
 Speed 20 ft.
 
@@ -15696,7 +15697,7 @@ Init +3; Senses
 AC 15, touch 13, flat-footed 12 (+3 Dex, +2 natural)
 hp 22 (4d8+4)
 Fort +2; Ref +4; Will +6
-Immune undead traits
+
 
 Speed 20 ft., fly 50 ft. (average)
 
@@ -15956,8 +15957,7 @@ Speed 40 ft.
 Melee greatsword +24/+19/+14 (4d6+16) or 2 slams +23 (2d6+11)
 Ranged rock +14 (2d6+16)
 Space 15 ft.; Reach 15 ft.
-Special Attacks fist of sand (slam +26, 1d8+10 damage; DC 29; CMB +26, CMD 36; AC 20, touch 8, flat-footed 20; hp 69;
-19 rounds), rock throwing (120 ft.)
+Special Attacks fist of sand (slam +26, 1d8+10 damage; DC 29; CMB +26, CMD 36; AC 20, touch 8, flat-footed 20; hp 69; 19 rounds), rock throwing (120 ft.)
 Spell-like Abilities (CL 19th):
 2/day-soften earth and stone, move earth
 1/day- earthquake
@@ -16332,7 +16332,7 @@ Aura unhallowed aura (20 ft.)
 AC 24, touch 8, flat-footed 24 (+16 natural, -2 size)
 hp 147 (14d8+84)
 Fort +15; Ref +6; Will +6
-DR 10/slashing and good; Immune plant traits; SR 22
+DR 10/slashing and good; SR 22
 Weaknesses vulnerability to fire
 
 Speed 30 ft.
@@ -16506,7 +16506,7 @@ Init +1; Senses
 AC 20, touch 10, flat-footed 19 (+1 Dex, +10 natural, -1 size)
 hp 74 (8d10+30)
 Fort +2; Ref +3; Will +2
-DR 10/ adamantine; Immune construct traits, magic
+DR 10/ adamantine; Immune magic
 
 Speed 30 ft.
 
@@ -16556,7 +16556,7 @@ Init -1; Senses
 AC 29, touch 7, flat-footed 29 (-1 Dex, +22 natural, -2 size)
 hp 144 (19d10+40)
 Fort +6; Ref +5; Will +6
-DR 15/adamantine; Immune construct traits, fire, magic, rust; Resist cold 20
+DR 15/adamantine; Immune fire, magic, rust; Resist cold 20
 
 Speed 20 ft.
 
@@ -16597,7 +16597,7 @@ Init +1; Senses
 AC 24, touch 10, flat-footed 23 (+1 Dex, +14 natural, -1 size)
 hp 114 (13d10+30 plus 13)
 Fort +6; Ref +7; Will +6
-DR 10/bludgeoning and magic; Immune construct traits, electricity, magic
+DR 10/bludgeoning and magic; Immune electricity, magic
 
 Speed 30 ft.
 
@@ -16693,7 +16693,7 @@ Init +0; Senses
 AC 25, touch 9, flat-footed 25 (+16 natural, -1 size)
 hp 96 (12d10+30)
 Fort +4; Ref +4; Will +4
-DR 15/adamantine; Immune construct traits, magic
+DR 15/adamantine; Immune magic
 Weaknesses vulnerability to rust
 
 Speed 20 ft.
@@ -16748,7 +16748,7 @@ Aura aura of sickness (10 ft., DC 16, sickened 1d4 minutes)
 AC 18, touch 11, flat-footed 17 (+1 Dex, +7 natural)
 hp 64 (8d10+20)
 Fort +2; Ref +3; Will +2
-DR 10/adamantine; Immune construct traits, magic
+DR 10/adamantine; Immune magic
 Weaknesses rust vulnerability
 
 Speed 30 ft.
@@ -16876,7 +16876,7 @@ Init +0; Senses
 AC 17, touch 10, flat-footed 17 (+7 natural)
 hp 53 (6d10+20)
 Fort +2; Ref +2; Will +2
-DR 5/adamantine and slashing; Immune construct traits, magic
+DR 5/adamantine and slashing; Immune magic
 Weaknesses vulnerability to fire
 
 Speed 30 ft.
@@ -16992,7 +16992,7 @@ Init +0; Senses
 AC 25, touch 9, flat-footed 25 (+16 natural, -1 size)
 hp 107 (14d10+30)
 Fort +4; Ref +4; Will +4
-DR 10/adamantine; Immune construct traits, magic
+DR 10/adamantine; Immune magic
 
 Speed 30 ft.
 
@@ -17911,7 +17911,7 @@ Init +5; Senses
 AC 15, touch 11, flat-footed 14 (+1 Dex, +4 natural)
 hp 22 (4d8+4)
 Fort +2; Ref +2; Will +4
-Immune undead traits
+
 
 Speed 30 ft.
 
@@ -17953,7 +17953,7 @@ Init +3; Senses
 AC 20, touch 7, flat-footed 20 (-1 Dex, +13 natural, -2 size)
 hp 76 (8d8+40)
 Fort +11; Ref +1; Will +5
-Immune plant traits; SR 19
+; SR 19
 Weaknesses paralyzed by cold, slowed by darkness, vulnerability to electricity
 
 Speed 10 ft.
@@ -18061,7 +18061,7 @@ Init +0;
 AC 18, touch 9, flat-footed 18 (+9 natural, -1 size)
 hp 55 (10d8+10)
 Fort +8; Ref +3; Will +3
-Immune vermin traits
+
 
 Speed 10 ft.
 
@@ -18093,7 +18093,7 @@ Init +6; Senses
 AC 23, touch 10, flat-footed 21 (+2 Dex, +13 natural, -2 size)
 hp 120 (16d8+48)
 Fort +13; Ref +7; Will +5
-Immune vermin traits
+
 
 Speed 20 ft., fly 60 ft. (good)
 
@@ -18344,7 +18344,7 @@ Init +1; Senses
 AC 15, touch 10, flat-footed 14 (+1 Dex, +5 natural, -1 size)
 hp 45 (7d8+14)
 Fort +7; Ref +3; Will +3
-Immune vermin traits
+
 
 Speed 20 ft., fly 60 ft. (good)
 
@@ -18418,7 +18418,7 @@ Aura faithless (30 ft.)
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 16 (3d8+3)
 Fort +2; Ref +3; Will +4
-DR 5/magic or silver; Immune undead traits
+DR 5/magic or silver
 
 Speed 30 ft.
 
@@ -18785,7 +18785,7 @@ Init +2; Senses
 AC 20, touch 13, flat-footed 18 (+2 Dex, +7 natural, +1 size)
 hp 15 (1d10+10)
 Fort +0, Ref +2, Will +0
-DR 5/-; Immune construct traits; SR 13
+DR 5/-; SR 13
 
 Speed 40 ft.
 
@@ -18817,7 +18817,7 @@ Init +3; Senses
 AC 15, touch 14, flat-footed 11 (+3 Dex, +1 dodge, +1 natural)
 hp 33 (6d8+6)
 Fort +6; Ref +5; Will +2
-Immune plant traits
+
 
 Speed 30 ft.
 
@@ -19037,7 +19037,7 @@ Init +0;
 AC 9, touch 9, flat-footed 9 (-1 size)
 hp 42 (4d8+24)
 Fort +7; Ref +1; Will -4
-Immune ooze traits
+
 
 Speed 10 ft.
 
@@ -19078,7 +19078,7 @@ Init +0;
 AC 14, touch 10, flat-footed 14 (+4 natural)
 hp 22 (3d8+9)
 Fort +4; Ref +1; Will -4
-Immune ooze traits
+
 
 Speed 20 ft., climb 20 ft.
 
@@ -19156,7 +19156,7 @@ Init -3;
 AC 15, touch 7, flat-footed 15 (-3 Dex, +8 natural)
 hp 30 (4d8+12)
 Fort +7; Ref -2; Will +1
-Immune plant traits
+
 Weaknesses vulnerability to fire
 
 Speed 5 ft.
@@ -19240,7 +19240,7 @@ Init +1;
 AC 16, touch 11, flat-footed 15 (+1 Dex, +5 natural)
 hp 19 (3d8+6)
 Fort +5; Ref +2; Will +2
-Immune plant traits
+
 
 Speed 10 ft.
 
@@ -19658,7 +19658,7 @@ Init +8; Senses
 AC 19, touch 15, flat-footed 14 (+4 Dex, +1 dodge, +4 natural)
 hp 68 (8d8+24 plus 8)
 Fort +5; Ref +6; Will +6
-Immune undead traits
+
 
 Speed 30 ft.  L
 
@@ -19699,7 +19699,7 @@ AC 19, touch 13, flat-footed 15 (+3 Dex, +1 dodge, +6
 natural, -1 size)
 hp 136 (16d8+48 plus 16)
 Fort +10; Ref +8; Will +12
-Immune undead traits
+
 
 Speed 30 ft.
 
@@ -19781,7 +19781,7 @@ Init +1; Senses
 AC 11, touch 11, flat-footed 10 (+1 Dex)
 hp 19 (3d8+6)
 Fort +5, Ref +2, Will +1
-Immune vermin traits
+
 Weaknesses vulnerability to salt
 
 Speed 5 ft., swim 20 ft.
@@ -20151,7 +20151,7 @@ Init +1; Senses
 AC 18, touch 11, flat-footed 17 (+1 Dex, +7 natural)
 hp 45 (6d10+12)
 Fort +7; Ref +6; Will +2
-Immune elemental traits
+
 
 Speed 30 ft., burrow 20 ft.
 
@@ -20290,7 +20290,7 @@ Init +1; Senses
 AC 16, touch 12, flat-footed 15 (+1 Dex, +4 natural, +1 size)
 hp 5 (1d8+1)
 Fort +3; Ref +1; Will +0
-Immune plant traits; Resist fire 10; SR 12
+; Resist fire 10; SR 12
 Weaknesses light blindness
 
 Speed 30 ft., burrow 20 ft.
@@ -21177,7 +21177,7 @@ AC 28, touch 13, flat-footed 27 (+1 Dex, +15 natural, +4
 profane, -2 size)
 hp 263 (31d8+124)
 Fort +20; Ref +17; Will +24
-DR 15/bludgeoning and magic; Immune undead traits; SR 31
+DR 15/bludgeoning and magic; SR 31
 
 Speed 40 ft.
 
@@ -21235,7 +21235,7 @@ Init +2; Senses
 AC 15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)
 hp 4 (1d8)
 Fort +2; Ref +2; Will +0
-Immune vermin traits
+
 
 Speed 30 ft., fly 60 ft. (good)
 
@@ -21351,7 +21351,7 @@ Init +0; Senses
 AC 12, touch 10, flat-footed 12 (+2 natural)
 hp 15 (2d10+4)
 Fort +5, Ref +0, Will +3
-DR 5/magic; Immune elemental traits
+DR 5/magic
 Weaknesses magic
 
 Speed 10 ft.
@@ -21395,7 +21395,7 @@ Init +0; Senses
 AC 20, touch 10, flat-footed 20 (+10 natural)
 hp 40 (5d8+10 plus 5)
 Fort +5; Ref +1; Will +6
-DR 5/-; Immune undead traits; Resist fire 10
+DR 5/-; Resist fire 10
 
 Speed 20 ft., swim 20 ft.
 
@@ -21436,7 +21436,7 @@ Init +9; Senses
 AC 19, touch 16, flat-footed 13 (+5 Dex, +1 dodge, +3 natural)
 hp 67 (9d8+18 plus 9)
 Fort +5; Ref +8; Will +8
-Immune undead traits
+
 
 Speed 10 ft.; fly 70 ft. (average)
 
@@ -21556,7 +21556,7 @@ Init +3; Senses
 AC 18, touch 12, flat-footed 15 (+3 Dex, +6 natural, -1 size)
 hp 46 (3d10+30)
 Fort +1, Ref +, Will +1
-DR 5/bludgeoning; Immune construct traits
+DR 5/bludgeoning
 
 Speed 30 ft.
 
@@ -21595,7 +21595,7 @@ Init +3; Senses
 AC 18, touch 12, flat-footed 15 (+3 Dex, +6 natural, -1 size)
 hp 46 (3d10+30)
 Fort +1, Ref +, Will +1
-DR 5/bludgeoning; Immune construct traits
+DR 5/bludgeoning
 
 Speed 30 ft.
 
@@ -22124,7 +22124,7 @@ Init +0;
 AC 14, touch 14, flat-footed 14 (+4 size)
 hp 6 (1d8+2)
 Fort +2; Ref +0; Will -5
-Immune ooze traits
+
 
 Speed 10 ft.  
 
@@ -22360,7 +22360,7 @@ Init -4;
 AC 5, touch 5, flat-footed 5 (-4 Dex, -1 size)
 hp 55 (5d8+25)
 Fort +6, Ref -3, Will -4
-Immune ooze traits
+
 
 Speed 10 ft., climb 20 ft.
 
@@ -22397,7 +22397,7 @@ Init -5;
 AC 4, touch 4, flat-footed 4 (-5 Dex, -1 size)
 hp 87 (7d8+56)
 Fort +10; Ref -3; Will -3
-Immune ooze traits
+
 
 Speed 20 ft., climb 10 ft.
 
@@ -22863,7 +22863,7 @@ AC 18, touch 18, flat-footed 13 (+3 deflection, +5 Dex)
 hp 114 (12d8+36 plus 24)
 Fort +11; Ref +11; Will +12
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
-Immune undead traits
+
 
 Speed fly 60 ft. (perfect)
 
@@ -23078,7 +23078,7 @@ Init +0; Senses
 AC 15, touch 11, flat-footed 15 (+4 natural, +1 size)
 hp 25 (5d8+5)
 Fort +5; Ref +1; Will +1
-Immune plant traits
+
 
 Speed 10 ft.  
 
@@ -23338,7 +23338,7 @@ Init +2; Senses
 AC 18, touch 12, flat-footed 16 (+2 Dex, +6 natural)
 hp 55 (7d10+14)
 Fort +9; Ref +9; Will +11
-Immune outsider traits
+
 
 Speed 50 ft.
 
@@ -24171,7 +24171,7 @@ Init -1; Senses
 AC 16, touch 10, flat-footed 16 (-1 Dex, +6 natural, +1 size)
 hp 5 (1d10)
 Fort +0; Ref +1; Will +2
-Immune elemental traits; Resist cold 10, fire 10
+; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -24201,7 +24201,7 @@ Init -1; Senses
 AC 17, touch 9, flat-footed 17 (-1 Dex, +8 natural)
 hp 22 (3d10+6)
 Fort +3; Ref +2; Will +3
-Immune elemental traits; Resist cold 10, fire 10
+; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -24230,7 +24230,7 @@ Init -1; Senses
 AC 17, touch 8, flat-footed 17 (-1 Dex, +9 natural, -1 size)
 hp 51 (6d10+18)
 Fort +5; Ref +4; Will +5
-DR 5/-; Immune elemental traits; Resist cold 10, fire 10
+DR 5/-; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -24260,7 +24260,7 @@ Init -1; Senses
 AC 17, touch 7, flat-footed 17 (-1 Dex, +10 natural, -2 size)
 hp 76 (8d10+32)
 Fort +6; Ref +5; Will +6
-DR 5/-; Immune elemental traits; Resist cold 10, fire 10
+DR 5/-; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -24290,7 +24290,7 @@ Init -1; Senses
 AC 19, touch 7, flat-footed 19 (-1 Dex, +12 natural, -2 size)
 hp 95 (10d10+40)
 Fort +7; Ref +6; Will +7
-DR 10/-; Immune elemental traits; Resist cold 10, fire 10
+DR 10/-; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -24320,7 +24320,7 @@ Init -1; Senses
 AC 21, touch 7, flat-footed 21 (-1 Dex, +14 natural, -2 size)
 hp 114 (12d10+48)
 Fort +8; Ref +7; Will +8
-DR 10/-; Immune elemental traits; Resist cold 10, fire 10
+DR 10/-; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -24682,7 +24682,7 @@ Init +2; Senses
 AC 15, touch 14, flat-footed 13 (+2 Dex, +1 natural, +2 size)
 hp 3 (1d8+1)
 Fort +1; Ref +2; Will +3
-Immune undead traits
+
 
 Speed 40 ft., climb 15 ft.
 
@@ -24713,7 +24713,7 @@ Init +3; Senses
 AC 16, touch 14, flat-footed 13 (+3 Dex, +2 natural, +1 size)
 hp 7 (1d8+3)
 Fort +3; Ref +3; Will +3
-Immune undead traits
+
 
 Speed 40 ft., climb 20 ft.
 
@@ -24762,7 +24762,7 @@ Init +3; Senses
 AC 16, touch 14, flat-footed 13 (+3 Dex, +2 natural, +1 size)
 hp 13 (3d8)
 Fort +3; Ref +4; Will +2
-Immune plant traits
+
 
 Speed 20 ft., climb 20 ft.
 
@@ -25481,7 +25481,7 @@ Init +1; Senses
 AC 17, touch 10, flat-footed 16 (+1 Dex, +7 natural, -1 size)
 hp 26 (4d10+4)
 Fort +5; Ref +2; Will +4
-DR 5/bludgeoning; Immune elemental traits
+DR 5/bludgeoning
 Weaknesses vulnerability to water
 
 Speed 30 ft., burrow 20 ft.
@@ -25630,7 +25630,7 @@ Init -5; Senses
 AC 13, touch 7, flat-footed 18 (-5 Dex, +6 natural, +2 size)
 hp 33 (6d10)
 Fort +2; Ref -; Will +2
-DR 5/adamantine; Immune construct traits, magic
+DR 5/adamantine; Immune magic
 
 Speed 0 ft., immobile
 
@@ -25711,7 +25711,7 @@ Init -1; Senses
 AC 19, touch 7, flat-footed 19 (-1 Dex, +12 natural, -2 size)
 hp 67 (9d8+27)
 Fort +9; Ref +4; Will +4
-DR 10/slashing; Immune plant traits
+DR 10/slashing
 Weaknesses vulnerability to fire
 
 Speed 20 ft.
@@ -26041,7 +26041,7 @@ Init +0; Senses
 AC 19, touch 6, flat-footed 19 (+13 natural, -4 size)
 hp 164 (15d8+90 plus 7)
 Fort +15; Ref +5; Will +5
-Immune vermin traits
+
 
 Speed swim 50 ft.
 
@@ -26611,7 +26611,7 @@ Init +3; Senses
 AC17, touch 13, flat-footed 14 (+3 Dex, +4 natural)
 hp 25 (3d8+12)
 Fort +7; Ref +4; Will +3
-DR 5/bludgeoning; Immune plant traits
+DR 5/bludgeoning
 
 Speed fly 40 ft. (good)
 
@@ -26859,7 +26859,7 @@ Init +0; Senses
 AC 14, touch 12, flat-footed 14 (+2 natural, +2 size)
 hp 26 (4d8+8)
 Fort +3; Ref +1; Will +5
-Immune undead traits
+
 
 Speed fly 10 ft. (perfect)
 
@@ -27224,7 +27224,7 @@ Init -1;
 AC 8, touch 8, flat-footed 8 (-1 Dex, -1 size)
 hp 38 (4d8+20)
 Fort +6; Ref +0; Will -4
-Immune ooze traits
+
 
 Speed 20 ft.
 
@@ -28222,7 +28222,7 @@ AC 19, touch 17, flat-footed 14 (+4 Dex, +1 dodge, +2
 natural, +2 size)
 hp 45 (10d6+10)
 Fort +6; Ref +11; Will +8
-DR 5/cold iron; Immune swarm traits; SR 17
+DR 5/cold iron; SR 17
 Weaknesses swarm traits
 
 Speed 20 ft., fly 40 ft. (poor)
@@ -29115,7 +29115,7 @@ Init +2; Senses
 AC 17, touch 12, flat-footed 15 (+2 Dex, +5 natural)
 hp 26 (4d8+8)
 Fort +6; Ref +3; Will +2
-Immune plant traits
+
 
 Speed 50 ft.
 
@@ -29231,7 +29231,7 @@ Init +0; Senses
 AC 17, touch 11, flat-footed 17 (+6 natural, +1 size)
 hp 9 (2d8)
 Fort +3; Ref +0; Will +0
-Immune vermin traits
+
 
 Speed 10 ft.  
 
@@ -29500,7 +29500,7 @@ Init +0; Senses
 AC 13, touch 10, flat-footed 13 (+3 natural)
 hp 13 (2d8+4)
 Fort +5; Ref +0; Will +1
-Immune plant traits
+
 
 Speed 0 ft. (immobile)
 
@@ -29537,7 +29537,8 @@ RACESUBTYPE:Goblinoid
 BONUS:VAR|DarkvisionRange|60
 Init +1; Senses 
 
-AC 13, touch 11, flat-footed 12 (+1 Dex, +2 natural) hp 22 (3d8+6 plus 3); regeneration 2 (acid or fire)
+AC 13, touch 11, flat-footed 12 (+1 Dex, +2 natural)
+hp 22 (3d8+6 plus 3); regeneration 2 (acid or fire)
 Fort +5; Ref +4; Will +1
 
 Speed 30 ft.
@@ -30822,7 +30823,7 @@ Init +7; Senses
 AC 16, touch 12, flat-footed 13 (+3 Dex, +4 natural, -1 size)
 hp 39 (6d8+12)
 Fort +7; Ref +5; Will +3
-DR 5/bludgeoning; Immune plant traits
+DR 5/bludgeoning
 
 Speed 30 ft.
 
@@ -30870,7 +30871,7 @@ Init +7; Senses
 AC 19, touch 12, flat-footed 16 (+3 Dex, +7 natural, -1 size)
 hp 95 (10d10+40)
 Fort +10; Ref +6; Will +8
-DR 10/bludgeoning; Immune elemental traits
+DR 10/bludgeoning
 Weaknesses vulnerability to cold
 
 Speed 40 ft.
@@ -31008,7 +31009,7 @@ Init +4; Senses
 AC 28, touch 9, flat-footed 28 (+19 natural, -1 size)
 hp 178 (17d8+85 plus 17)
 Fort +15; Ref +7; Will +8
-DR 15/magic and slashing; Immune plant traits
+DR 15/magic and slashing
 
 Speed 30 ft., climb 20 ft.
 
@@ -31142,7 +31143,7 @@ Init -1; Senses
 AC 27, touch 7, flat-footed 27 (-1 Dex, +20 natural -2 size)
 hp 210 (20d8+100 plus 20); fast healing 5
 Fort +17; Ref +7; Will +11
-DR 10/magic; Immune plant traits; Resist cold 10, fire 10
+DR 10/magic; Resist cold 10, fire 10
 
 Speed 20 ft.
 
@@ -31229,7 +31230,7 @@ Init +3; Senses
 AC 21, touch 7, flat-footed 21 (-1 Dex, +14 natural, -2 size)
 hp 115 (11d8+66)
 Fort +13; Ref +4; Will +6
-DR 10/magic; Immune plant traits; Resist electricity 10, fire 10; SR 22
+DR 10/magic; Resist electricity 10, fire 10; SR 22
 
 Speed 20 ft.
 
@@ -31694,7 +31695,7 @@ Init +2;
 AC 15, touch 11, flat-footed 13 (+2 Dex, +4 natural, -1 size)
 hp 22 (3d8+9)
 Fort +6; Ref +3; Will +1
-Immune plant traits
+
 
 Speed 5 ft.
 
@@ -31830,7 +31831,7 @@ Init -1; Senses
 AC 13, touch 9, flat-footed 13 (-1 Dex, +4 natural)
 hp 22 (4d8 plus 4)
 Fort +1; Ref +0; Will +4
-DR 5/slashing; Immune undead traits; Resist fire 10
+DR 5/slashing; Resist fire 10
 
 Speed 30 ft., swim 30 ft.
 
