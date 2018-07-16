@@ -279,8 +279,6 @@ Paralytic Venom (Ex) Tendril-contact; save DC 23; frequency 1/round for 1 round;
 
 -----------------------------------------------
 
-Chalkydri
-
 Angel (Chalkydri)
 OUTPUTNAME:[NAME]
 DESC:This angelic-looking creature resembles a muscular humanoid with coppery skin and coppery eyes. It has four large feathery wings of white and carries a longsword swathed in fire.
@@ -337,8 +335,6 @@ If slain, the chalkydri's weapons explode in a blinding flash of fire.
 
 
 -----------------------------------------------
-
-Empyreal
 
 Angel (Empyreal)
 OUTPUTNAME:[NAME]
@@ -404,8 +400,6 @@ Radiant Blast (Su) Once per day, an empyreal can increase the radiance of its fo
 
 -----------------------------------------------
 
-Monadic Deva
-
 Angel (Monadic Deva)
 OUTPUTNAME:[NAME]
 DESC:A very attractive humanlike creature with large, feathery silver wings and strong, broad shoulders; its hair is dark and its eyes are green.
@@ -461,8 +455,6 @@ Solid Blow (Su) If a monadic deva strikes an opponent twice in one round with it
 
 -----------------------------------------------
 
-Movanic Deva
-
 Angel (Movanic Deva)
 OUTPUTNAME:[NAME]
 DESC:This creature resembles a broad-shouldered human with silver hair, white eyes, and large feathery silver wings.
@@ -514,8 +506,6 @@ AAA	KEY:MovanicDeva ~ AAA	CATEGORY:Special Ability	TYPE:MovanicDevaRaceAbility.R
 Nature's Passivism (Ex) Animals and plant creatures do not willingly attack a movanic deva, though they can be forced to do so through magical means however. If the movanic deva attacks a plant or animal, its protection against that creature ends.
 
 -----------------------------------------------
-
-Cat Lord
 
 Cat Lord (Panther Form)
 OUTPUTNAME:Cat Lord [NAME]
@@ -593,8 +583,6 @@ Spit (Ex) Once every 1d4 rounds as a ranged attack, the Cat Lord can spit a line
 
 -----------------------------------------------
 
-Cat Lord
-
 Cat Lord (Human Form)
 OUTPUTNAME:Cat Lord [NAME]
 DESC:The Cat Lord in this form is dark-skinned human dressed in black with black hair, chiseled features, and ruby eyes.
@@ -649,8 +637,6 @@ Gear +5 keen wounding rapier, bracers of armor +4
 
 
 -----------------------------------------------
-
-Mouse Lord
 
 Mouse Lord (Mouse Form)
 OUTPUTNAME:Mouse Lord [NAME]
@@ -718,8 +704,6 @@ AAA	KEY:MouseLord ~ AAA	CATEGORY:Special Ability	TYPE:MouseLordRaceAbility.RaceA
 Rodent Passivism (Ex): Rodents (including dire versions) do not willingly attack the Mouse Lord, though they can be forced to do so by magic. If the Mouse Lord attacks a rodent, its protection against that creature ends.
 
 -----------------------------------------------
-
-Mouse Lord
 
 Mouse Lord (Human Form)
 OUTPUTNAME:Mouse Lord [NAME]
@@ -1124,11 +1108,9 @@ Water Dependent (Su) An asrai can survive on land for 1 hour per 2 points of Con
 
 -----------------------------------------------
 
-Giant Assassin Bug
-
+Assassin Bug (Giant)
 OUTPUTNAME:[NAME] Assassin Bug
 
-Assassin Bug (Giant)
 DESC:This large insect has a narrow head ending in a segmented beak or proboscis. The creature's carapace is dull brownish-black and its front jackknife legs are covered in thousands of small hairs. Two long segmented antennae jut from its head.
 CR:5
 KIT:1|N
@@ -1248,10 +1230,8 @@ Languages Common, Sylvan
 
 -----------------------------------------------
 
-Aurumvorax
-
-OUTPUTNAME:Aurumvorax
 Aurumvorax (Golden Gorger)
+OUTPUTNAME:Aurumvorax
 DESC:This small, feral creature resembles an 8-legged wolf with bright golden fur.
 CR:9
 KIT:1|N
@@ -1597,10 +1577,9 @@ Spores (Ex) A basidirond's slam attack transfers poisonous spores to its opponen
 
 -----------------------------------------------
 
-Crimson Basilisk
-
-OUTPUTNAME:{NAME} Basilisk
 Basilisk (Crimson)
+
+OUTPUTNAME:[NAME] Basilisk
 DESC:This creature looks like a stocky, 8-legged, crimson scaled reptile. A row of bony spines juts from its back and runs the length of its body. Its eyes have a ghostly blue glow.
 CR:6
 KIT:1|N
@@ -1642,10 +1621,9 @@ Wounding Gaze (Su) A living creature within 30 feet that meets the gaze of a cri
 
 -----------------------------------------------
 
-Greater Basilisk
-
-OUTPUTNAME:{NAME} Basilisk
 Basilisk (Greater)
+
+OUTPUTNAME:[NAME] Basilisk
 DESC:This creature looks like a thick-bodied reptile with eight legs. Its eyes glow with an eerie, pale green incandescence.
 CR:7
 KIT:1|N
@@ -1688,10 +1666,8 @@ Poison (Ex) Claw-injury; save Fort DC 18; frequency 1/ round for 6 rounds; effec
 
 -----------------------------------------------
 
-Doombat Bat
-
-OUTPUTNAME:[NAME]
 Bat (Doombat)
+OUTPUTNAME:[NAME]
 DESC:This creature appears as a giant black bat with glowing yellow eyes.
 CR:4
 KIT:1|NE
@@ -1733,10 +1709,8 @@ Yip (Ex) A doombat yips constantly while in combat. The noise interferes with an
 
 -----------------------------------------------
 
-Mobat Bat
-
-OUTPUTNAME:[NAME]
 Bat (Mobat)
+OUTPUTNAME:[NAME]
 DESC:This creature appears as a large brown bat with razor-sharp fangs, and eyes that glow green.
 CR:3
 KIT:1|N
@@ -1827,10 +1801,8 @@ Detect Law (Su): A bedlam can continuously detect law as the spell (caster level
 
 -----------------------------------------------
 
-Giant Blister Beetle
-
-OUTPUTNAME:[NAME] Beetle
 Beetle (Giant Blister)
+OUTPUTNAME:[NAME] Beetle
 DESC:A large beetle with a slick, dark green carapace approaches. The creature snaps its large serrated mandibles, black in color, together as it moves toward you.
 CR:1
 KIT:1|N
@@ -1865,10 +1837,8 @@ Blister Spray (Ex) 20-ft. line, 1d3 acid damage, Reflex DC 12 negates, usable ev
 
 -----------------------------------------------
 
-Giant Boring Beetle
-
-OUTPUTNAME:[NAME] Beetle
 Beetle (Giant Boring)
+OUTPUTNAME:[NAME] Beetle
 DESC:This giant beetle has a greenish-gray carapace and wing-covers, and its legs and mandibles are black.
 CR:3
 KIT:1|N
@@ -1900,10 +1870,8 @@ Hive Mind (Ex) All boring beetles within 1 mile of each other are in constant co
 
 -----------------------------------------------
 
-Giant Death Watch Beetle
-
-OUTPUTNAME:[NAME] Beetle
 Beetle (Giant Death Watch)
+OUTPUTNAME:[NAME] Beetle
 DESC:This creature appears as a giant beetle with a dark green carapace and wing-covers. Its body is covered in leaves and sticks. Its mandibles are silver and its legs are black.
 CR:6
 KIT:1|N
@@ -1939,10 +1907,8 @@ Immunity to Death Effects (Ex) Death watch beetles are immune to any effect that
 
 -----------------------------------------------
 
-Giant Rhinoceros Beetle
-
-OUTPUTNAME:[NAME]
 Beetle (Giant Rhinoceros)
+OUTPUTNAME:[NAME]
 DESC:This creature appears as a giant beetle with a grayish-brown carapace and wing-covers and a large brownish-black "horn" between its mandibles.
 CR:7
 KIT:1|N
@@ -1971,10 +1937,8 @@ Base Atk +7; CMB +14; CMD 24 (32 vs. trip)
 
 -----------------------------------------------
 
-Giant Saw-Toothed Beetle
-
-OUTPUTNAME:[NAME]
 Beetle (Giant Saw-Toothed)
+OUTPUTNAME:[NAME]
 DESC:The most noticeable feature of this beast is its oversized mandibles, jagged and serrated. The beetle's wing covers and carapace are silvery-green and have a dull sheen. Its legs are long and marked with spiraling bands of green and black.
 CR:3
 KIT:1|N
@@ -2001,10 +1965,8 @@ Base Atk +3; CMB +5 (+9 grapple); CMD 15 (23 vs. trip)
 
 -----------------------------------------------
 
-Giant Slicer Beetle
-
-OUTPUTNAME:[NAME] Beetle
 Beetle (Giant Slicer)
+OUTPUTNAME:[NAME] Beetle
 DESC:This creature appears as a giant beetle with a triangular head and two long, razor sharp mandibles. Its body is black in color.
 CR:4
 KIT:1|N
@@ -2040,10 +2002,8 @@ Vorpal Bite (Ex) The mandibles of a slicer beetle are extremely sharp. It gains 
 
 -----------------------------------------------
 
-Giant Water Beetle
-
-OUTPUTNAME:[NAME] Beetle
 Beetle (Giant Water)
+OUTPUTNAME:[NAME] Beetle
 DESC:This giant beetle has a cylindrical and hydrodynamic body that tapers into a pointed tail section. Its wing covers and carapace are brownishblack and its legs are dull yellow. A silver stripe runs along its dorsal side.
 CR:3
 KIT:1|N
@@ -2082,10 +2042,8 @@ Watersense (Ex) A giant water beetle's watersense ability functions exactly like
 
 -----------------------------------------------
 
-Requiem Beetle
-
-OUTPUTNAME:[NAME] Beetle
 Beetle (Requiem)
+OUTPUTNAME:[NAME] Beetle
 DESC:This massive beetle has a dark red carapace, blackish-red wing covers, and black legs. Two large claw-like pincers protrude from its front slashing and ripping the very air around the creature. Its oversized mandibles are dark reddish-black.
 CR:18
 KIT:1|N
@@ -2123,10 +2081,8 @@ Earth-Shaking (Ex): Whenever a requiem beetle moves more than 10 feet in a round
 
 -----------------------------------------------
 
-Belabra
-
-OUTPUTNAME:[NAME] Belabra
 Belabra (Tangler)
+OUTPUTNAME:[NAME] Belabra
 DESC:This creature resembles a man-sized flying jellyfish with twelve long tentacles. Four thin eyestalks protrude from its cap. Its cap is blackishgray and its eyestalks are dark gray.
 CR:3
 KIT:1|N
@@ -2823,10 +2779,8 @@ Two-Weapon Fighting (Ex) In combination with its natural abilities, a bone cobbl
 
 -----------------------------------------------
 
-Lesser Boneneedle
-
-OUTPUTNAME:[NAME] Boneneedle
 Boneneedle (Lesser)
+OUTPUTNAME:[NAME] Boneneedle
 DESC:This creature is about 5 feet in diameter and resembles a bloated yellow bag of pulpy flesh with eight spidery legs. It has two long sharply-curved mandibles protruding from one end of it which you can assume is the front, though the creature seems to be lacking both eyes and a mouth.
 CR:2
 KIT:1|N
@@ -2865,10 +2819,8 @@ Poison (Ex) Bone Needle Poison; Sting-injury; save Fort DC 12; frequency 1/round
 
 -----------------------------------------------
 
-Greater Boneneedle
-
-OUTPUTNAME:[NAME] Boneneedle
 Boneneedle (Greater)
+OUTPUTNAME:[NAME] Boneneedle
 DESC:This creature is about 5 feet in diameter and resembles a bloated yellow bag of pulpy flesh with eight spidery legs. It has two long sharply-curved mandibles protruding from one end of it which you can assume is the front, though the creature seems to be lacking both eyes and a mouth.  A greater boneneedle is a larger version of the standard boneneedle. It is often found acting as the queen or king within a nest.
 CR:4
 KIT:1|N
@@ -3215,10 +3167,8 @@ Poison Use (Ex) Buckawns never risk accidentally poisoning themselves when apply
 
 -----------------------------------------------
 
-Giant Queen Bumblebee
-
-OUTPUTNAME:[NAME]
 Bumblebee (Giant Queen)
+OUTPUTNAME:[NAME]
 DESC:This is a giant-sized bumblebee, much larger than its normal sized counterpart.
 CR:5
 KIT:1|N
@@ -3252,10 +3202,8 @@ Poison (Ex) Sting-injury; save Fortitude DC 16; frequency; 1/round for 6 rounds;
 
 -----------------------------------------------
 
-Giant Worker Bumblebee
-
-OUTPUTNAME:[NAME]
 Bumblebee (Giant Worker)
+OUTPUTNAME:[NAME]
 DESC:This is a giant-sized bumblebee, much larger than its normal sized counterpart.
 CR:3
 KIT:1|N
@@ -4163,10 +4111,8 @@ Howl (Su) A churr can unleash a frightening howl as a standard action in a 60-fo
 
 -----------------------------------------------
 
-Giant Clam
-
-OUTPUTNAME:[NAME]
 Clam (Giant)
+OUTPUTNAME:[NAME]
 DESC:A large brightly colored shell shifts in the currents. Seemingly split or divided down the middle, its interior is a dazzling golden brown.
 CR:2
 KIT:1|N
@@ -4642,10 +4588,8 @@ Fear (Su) A creature viewing a coffer corpse rise after it uses its deceiving de
 
 -----------------------------------------------
 
-Jade Colossus
-
-OUTPUTNAME:[NAME]
 Colossus (Jade)
+OUTPUTNAME:[NAME]
 DESC:This massive automaton stands five times as tall as a normal human and resembles a gigantic humanoid carved of smooth green stone.
 CR:16
 KIT:1|N
@@ -4686,16 +4630,9 @@ Light Reflection (Ex) The angles and makeup of the jade colossus allows it to re
 
 
 -----------------------------------------------
-Ruby Star of Law
 
-Sages speak of a jade colossus located in the City of Brass that has the ruby star of law (a gem of inestimable value) embedded in its forehead. The Jade Guardian (as it is known in the City) is a
-
-CR:18 advanced jade colossus with the following additional ability.
-
-Jade Guardian
-
-OUTPUTNAME:[NAME]
 Guardian (Jade)
+OUTPUTNAME:[NAME]
 DESC:This massive automaton stands five times as tall as a normal human and resembles a gigantic humanoid carved of smooth green stone.
 CR:18
 KIT:1|N
@@ -4736,6 +4673,13 @@ Light Reflection (Ex) The angles and makeup of the jade colossus allows it to re
 AAA	KEY:JadeGuardian ~ AAA	CATEGORY:Special Ability	TYPE:JadeGuardianRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
 Energy Ray (Su): Once per round as a swift action, the Jade Guardian can fire a ray to a range of 200 feet (requires a successful ranged touch attack to hit). Genies hit by this ray must make a successful Fortitude save (DC 26) or take 6d4 points of Constitution damage. On a successful save, the genie takes onehalf damage. Other creatures are affected as follows: Lawful creatures are slowed (as by the slow spell) for 1d4 rounds (no save). Non-lawful creatures take 6d6 points of force damage (no save) and are stunned for 1d4 rounds (DC 26 Fortitude save negates). Should the ruby star of law ever be claimed as a magic item, treat it as a minor artifact that allows use of the energy ray ability indicated above, save that it requires a standard action to activate.
 
+# Ruby Star of Law
+# 
+
+# Sages speak of a jade colossus located in the City of Brass that has the
+# ruby star of law (a gem of inestimable value) embedded in its forehead. The
+# Jade Guardian (as it is known in the City) is a CR:17 advanced jade colossus
+# with the following additional ability.
 
 -----------------------------------------------
 
@@ -4961,10 +4905,8 @@ Web (Ex) As the standard ability but with range 80 ft. In addition the checks in
 
 -----------------------------------------------
 
-Monstrous Crab
-
-OUTPUTNAME:[NAME]
 Crab (Monstrous)
+OUTPUTNAME:[NAME]
 DESC:This creature has a rounded body covered with stubby projections and long spindly spider-like legs. Two monstrous claws protrude from the front of its body.
 CR:2
 C XP 600
@@ -5083,10 +5025,8 @@ Stalagmite Form (Ex): Once per round as a swift action a crag man can transform 
 
 -----------------------------------------------
 
-Monstrous Crayfish
-
-OUTPUTNAME:[NAME]
 Crayfish (Monstrous)
+OUTPUTNAME:[NAME]
 DESC:This creature looks like a giant lobster with a sharp snout and eyes on movable and flickering stalks. Two large claws protrude from its thorax in front of four other pairs of spindly walking legs. Its exoskeleton is dark brown in color.
 CR:3
 KIT:1|N
@@ -5319,10 +5259,8 @@ Immunity to Earth Magic (Ex) Crystallis' are immune to all spells and effects wi
 
 -----------------------------------------------
 
-Cacodaemon
-
-OUTPUTNAME:[NAME]
 Daemon (Cacodaemon)
+OUTPUTNAME:[NAME]
 DESC:This creature is a tall, sleek, ebony humanoid with long thick arms that end in powerful claws. Its head is sleek and hairless. Its eyes are bright fiery red, and its mouth is lined with sharpened teeth and fangs.
 CR:12
 KIT:1|NE
@@ -5375,10 +5313,8 @@ Alter Self (Su) A cacodaemon can assume the shape of any Small or Medium humanoi
 
 -----------------------------------------------
 
-Charon
-
-OUTPUTNAME:Charon (Daemon/[NAME])
 Charon (Boatman of the Lower Planes)
+OUTPUTNAME:Charon (Daemon/[NAME])
 DESC:This creature appears as a skeletal humanoid shrouded in a dark hooded robe. Small pinpoints of crimson light burn in its eye sockets and seem to function as its eyes.
 CR:23
 KIT:1|NE
@@ -5441,10 +5377,8 @@ Immortality (Ex) Charon is native to five Lower Planes (Abyss, Gehenna, Hades, N
 
 -----------------------------------------------
 
-Charonodaemon Daemon
-
-OUTPUTNAME:[NAME]
 Daemon (Charonodaemon)
+OUTPUTNAME:[NAME]
 DESC:This creature appears as a skeletal humanoid shrouded in a dark hooded robe. Small pinpoints of crimson light burn in its eye sockets and seem to function as its eyes.
 CR:9
 KIT:1|NE
@@ -5491,10 +5425,8 @@ Languages Abyssal, Common, Daemonic, Infernal; telepathy 100 ft.
 
 -----------------------------------------------
 
-Derghodaemon Daemon
-
-OUTPUTNAME:[NAME]
 Daemon (Derghodaemon)
+OUTPUTNAME:[NAME]
 DESC:This creature is a tall, bloated, insect-like creature with five arms and three legs. Each of its arms ends in a sharpened, clawed hand. Its legs end in four-toed feet. Its flesh is mottled green and black and its eyes are large and black with no pupils.
 CR:10
 KIT:1|NE
@@ -5549,10 +5481,8 @@ A derghodaemon's natural weapons, as well as any weapons it wields, are treated 
 
 -----------------------------------------------
 
-Guardian Daemon
-
-OUTPUTNAME:[NAME] Daemon
 Daemon (Guardian)
+OUTPUTNAME:[NAME] Daemon
 DESC:This entity resembles a large bipedal bear-like creature with upward curving horns, elongated fangs, and blackish-gray fur. Its hands end in eagle-like talons.
 CR:6
 KIT:1|N
@@ -5593,10 +5523,8 @@ Limited Domain (Ex) The realm of a guardian daemon encompasses only the area it 
 
 -----------------------------------------------
 
-Hydrodaemon Daemon
-
-OUTPUTNAME:[NAME]
 Daemon (Hydrodaemon)
+OUTPUTNAME:[NAME]
 DESC:This massive frog-like creature stands nearly 10 feet tall. Its flesh is warty and dark green and its eyes are sickly yellow. It has large flaps of skin under its arms that seemingly function as wings.
 CR:7
 KIT:1|NE
@@ -5656,10 +5584,8 @@ attack as a standard action. A target hit by the spittle must succeed on a DC 17
 
 -----------------------------------------------
 
-The Oinodaemon Daemon
-
-OUTPUTNAME:[NAME]
 Daemon (The Oinodaemon)
+OUTPUTNAME:[NAME]
 DESC:This creature stands nearly twice as tall as a normal human. Its head resembles that of a diseased and rotting ram with downward, forwardcurving horns. The wool and flesh of its humanoid body seem to pull away or drop away in sickly clumps. Its body is covered in boils, blisters, sores, and scabs. Thick white foam oozes from its mouth and a thin yellow ichor squeezes from its bloodshot eyes.
 CR:37
 KIT:1|NE
@@ -5765,10 +5691,8 @@ The staff's powers automatically overcome any other daemon's spell resistance. A
 
 -----------------------------------------------
 
-Piscodaemon Daemon
-
-OUTPUTNAME:[NAME]
 Daemon (Piscodaemon)
+OUTPUTNAME:[NAME]
 DESC:This large creature resembles a bipedal lobster with long, gangly arms that end in powerful pincers. It has a short fish-like tail on its posterior and a centipede-like head with several small tentacles located just beneath its mouth.
 CR:10
 KIT:1|NE
@@ -6234,10 +6158,8 @@ Vulnerability to Iron (Ex) A cold iron weapon ignores the demiurge's incorporeal
 
 -----------------------------------------------
 
-Shaggy Demodand
-
-OUTPUTNAME:[NAME] Demodand
 Demodand (Shaggy)
+OUTPUTNAME:[NAME] Demodand
 DESC:This creature resembles a man-sized, bipedal, frog-like creature with crimson skin. It is bloated and its skin hangs in great folds about its body. Its eyes are slit-pupiled and black, and its head sports a large, wide, frog-like mouth. Large bat-like wings protrude from its shoulders.
 CR:15
 KIT:1|CE
@@ -6280,10 +6202,8 @@ Gear morningstar
 
 -----------------------------------------------
 
-Slime Demodand
-
-OUTPUTNAME:[NAME] Demodand
 Demodand (Slime)
+OUTPUTNAME:[NAME] Demodand
 DESC:This creature looks to be about 6 or 7 feet tall. It appears as a bloated, slimy, black humanoid with large bat-like wings protruding from its shoulders. Its skin constantly drips and oozes a thick white-gray mucus. It has thick elephantine legs and long, powerful arms that end in razorsharp talons.
 CR:13
 KIT:1|CE
@@ -6334,10 +6254,8 @@ Slimy Hide (Ex) A slime demodand's hide is covered in acidic slime. Creatures at
 
 -----------------------------------------------
 
-Tarry Demodand
-
-OUTPUTNAME:[NAME] Demodand
 Demodand (Tarry)
+OUTPUTNAME:[NAME] Demodand
 DESC:This creature appears as a tall, powerful gray-skinned humanoid with green eyes and a long, oval, amphibious head. Two large, dull gray batlike wings sprout from its shoulders. Its hands end in blackened claws.
 CR:10
 KIT:1|CE
@@ -6387,10 +6305,8 @@ Rage (Ex) A tarry demodand that takes damage in combat has a 50% chance of flyin
 
 -----------------------------------------------
 
-Aeshma Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Aeshma)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature appears to be an 8-foot tall humanoid with basalt-colored skin. Dark hair covers its head and its hair is long and braided. Its arms are well-muscled and its hands end in powerful claws. Its head is human-like and its eyes are sapphire blue. Large leathery, bat-like wings protrude from its shoulders. AKA Rage Demon.
 CR:11
 KIT:1|CE
@@ -6445,10 +6361,8 @@ Rage (Ex) An aeshma that takes 50% or more of its total hit points in damage in 
 
 -----------------------------------------------
 
-AluDemon
-
-OUTPUTNAME:[NAME]-Demon
 Demon (Alu)
+OUTPUTNAME:[NAME]-Demon
 DESC:This shapely female humanoid has dark hair, dark eyes, and a pair of small black horns just above her eyes. Small, black, leathery wings protrude from her shoulders.
 CR:5
 KIT:1|CE
@@ -6493,10 +6407,8 @@ Vampiric Touch (Su) An alu-demon gains temporary hit points equal to the damage 
 
 -----------------------------------------------
 
-Balban Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Balban) (Brute Demon)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature stands at least 12 feet tall with a squat, pot-bellied body, massive arms, and thick, rounded legs. Its head resembles that of a trunkless and tuskless elephant. Four great backward curving horns sprout from its head behind its eyes. Its skin is slate gray with darker areas on its underbelly and back. AKA Brute Demon.
 CR:8
 KIT:1|CE
@@ -6544,10 +6456,8 @@ Pound (Ex) A balban that makes a successful grapple check against a foe smaller 
 
 -----------------------------------------------
 
-Cambion Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Cambion)
+OUTPUTNAME:[NAME] Demon
 DESC:This demonic-looking creature resembles a somewhat stocky humanoid with scaly blue skin, small fangs, and tiny dark horns that protrude above its crimson-colored eyes.
 CR:6
 KIT:1|CE
@@ -6587,10 +6497,8 @@ Gear longsword
 
 -----------------------------------------------
 
-Chaaor Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Chaaor)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature appears as a huge hulking ape-like creature with a bear's head. Two large, downward-curving horns jut from its head. The beast's fur is reddish-black and matted with blood and its hands end in razorsharp claws. AKA Beast Demon.
 CHAAOR
 CR:11
@@ -6636,10 +6544,8 @@ Languages Abyssal, Common; telepathy 100 ft.
 
 -----------------------------------------------
 
-Choronzon Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Choronzon)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature stands at least 20 feet tall with a huge, muscular body. Its massive arms and legs end in wicked claws. Its rounded, squat head, sits atop an extremely thick, almost nonexistent neck. The creature's gaping maw is filled with sharp fangs. Two large swept back horns jut from its head just above its rounded eyes. AKA Chaos Demon.
 CR:18
 KIT:1|CE
@@ -6700,10 +6606,8 @@ Whisper of Madness (Su) When summoned, a demon of corruption automatically estab
 
 -----------------------------------------------
 
-Azizou Corruptor Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon Corruptor (Azizou)
+OUTPUTNAME:[NAME] Demon
 DESC:This small humanoid creature has a jackal-like head, a mouthful of fangs, and large, round eyes with slit-pupils of gray. Its grayish skin is covered in patches of coarse black hair. Membranous wings protrude from its back and its hands and feet end in sharpened claws. AKA  (Pain Demon).
 CR:4
 KIT:1|CE
@@ -6744,10 +6648,8 @@ Languages Abyssal, Common; telepathy 100 ft.
 
 -----------------------------------------------
 
-Barizou Corruptor Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon Corruptor (Barizou)
+OUTPUTNAME:[NAME] Demon
 DESC:This humanoid appears to be halfling-sized or smaller with gray skin, a wolf-like head, membranous wings, and hands and feet that end in sharpened talons. Its mouth is littered with a row of razor-sharp fangs. Its back is mottled with sickly patches of bluish-gray. AKA (Assassin Demon).
 CR:3
 KIT:1|CE
@@ -6795,10 +6697,8 @@ Sneak Attack (Ex): Anytime a barizou's opponent is denied its Dexterity bonus to
 
 -----------------------------------------------
 
-Geruzou Corruptor Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon Corruptor (Geruzou)
+OUTPUTNAME:[NAME] Demon
 DESC:This humanoid appears to stand nearly 4 feet tall and has a horse-like head with downward-curving horns jutting from its head. Its mouth is filled with long, sharp teeth and its hands and feet end in sharpened claws. A pair of large, membranous wings jut from its back and its flesh is sickly gray and appears to be covered with a thick layer of slimy mucus. AKA Slime Demon.
 CR:5
 KIT:1|CE
@@ -6849,10 +6749,8 @@ Spit Slime (Ex): Once every 1d4 rounds as a standard action, a geruzou can spit 
 
 -----------------------------------------------
 
-Daraka Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Daraka)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature is a tall black-skinned humanoid. Its head is that of a black-furred ram with downward curving horns. Its body appears to be a mass of writhing flesh. AKA  (Swarm Demon).
 CR:12
 KIT:1|CE
@@ -6903,10 +6801,8 @@ Scorpions (Ex) A daraka's body is swarming with thousands of tiny scorpions. Cre
 
 -----------------------------------------------
 
-GalluDemon
-
-OUTPUTNAME:[NAME]-Demon
 Demon (Gallu)
+OUTPUTNAME:[NAME]-Demon
 DESC:This creature looks like a 9-foot tall faceless black-skinned humanoid with long wicked talons. Its otherwise featureless face has a mouth filled with rows of sharpened teeth. It wears no clothing or armor of any kind. AKA (Faceless Demon).
 CR:6
 KIT:1|CE
@@ -6951,10 +6847,8 @@ Plane Shift (Su) A gallu-demon can enter any of the elemental planes, the Astral
 
 -----------------------------------------------
 
-Gharros Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Gharros)
+OUTPUTNAME:[NAME] Demon
 DESC:This hideous creature appears to be half-scorpion and half-human. Its upper torso is that of a greenish-silver humanoid with long, flowing dark hair and stark white eyes while its lower torso is that of a reddish-brown scorpion. Its tail splits into two separate stingers and the creature's mouth is filled with razor-sharp teeth. AKA (Scorpion Demon).
 CR:14
 KIT:1|CE
@@ -7000,10 +6894,8 @@ Poison (Ex) Sting-injury; save Fort DC 28; frequency 1/round for 6 rounds; effec
 
 -----------------------------------------------
 
-Greruor Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Greruor)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature appears as a massive, squat and bloated frog-like creature with arms in place of its forelegs. Two large horns protrude above deep sunken eyes. AKA (Frog Demon).
 CR:10
 KIT:1|CE
@@ -7059,10 +6951,8 @@ Acid and Fire Spittle (Ex) Once every 1d4 rounds, a greruor can spit a 30-ft. lo
 
 -----------------------------------------------
 
-Mallor Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Mallor)
+OUTPUTNAME:[NAME] Demon
 DESC:This large creature appears to be a human with the lower torso of a giant coral snake. Its human frame is crimson-colored. AKA (Serpent Demon).
 MALLOR DEMON
 CR:3
@@ -7122,10 +7012,8 @@ Poison (Ex) Claw-injury; save Fort DC 27; frequency 1/ round for 6 rounds; effec
 
 -----------------------------------------------
 
-Mehrim Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Mehrim)
+OUTPUTNAME:[NAME] Demon
 DESC:This entity looks like an oversized black goat with three horns and jet black, glossy hooves. It exhales a wispy cloud of putrid black smoke as it breathes. AKA (Goat Demon).
 CR:4
 KIT:1|CE
@@ -7168,10 +7056,8 @@ Disease (Su) Demon Fever: Bite-injury; save Fort DC 18; onset 1 day; frequency 1
 
 -----------------------------------------------
 
-Mezzalorn Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Mezzalorn)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature looks like a cross between a giant red-banded wasp and a grotesque olive-skinned humanoid. It has the body of a giant wasp, complete with stinger and wings. The creature possesses two human-like arms that end in wicked claws. Its human-like head sports a mouth filled with fangs and two small horns that jut from its head. AKA (Wasp Demon).
 CR:11
 KIT:1|CE
@@ -7221,10 +7107,8 @@ Poison (Ex) Sting-injury; save Fort DC 22; frequency 1/round for 6 rounds; effec
 
 -----------------------------------------------
 
-Nabasu Demon
-
-OUTPUTNAME:[NAME]
 Demon (Nabasu)
+OUTPUTNAME:[NAME]
 
 DESC:This creature is tall and thin with large, leathery, scaled, bat-like wings. Its skin is stretched tightly over its bones to the point that its underlying muscles can be seen clearly. Its skin is pale gray. Its hands end in long fingers tipped with razor-sharp talons. Its mouth is filled with tusk-like teeth, dominated by two overgrown tusks that jut upward from its bottom jaw. Its eyes glow with an eerie yellow light. AKA (Death Stealer Demon).
 
@@ -7240,10 +7124,8 @@ Plane Shift (Su) Three times per day a nabasu demonling can shift to the Materia
 
 -----------------------------------------------
 
-Nabasu Demonling
-
-OUTPUTNAME:Nabasu [NAME]
 Nabasu (Demonling)
+OUTPUTNAME:Nabasu [NAME]
 DESC:This creature is tall and thin with large, leathery, scaled, bat-like wings. Its skin is stretched tightly over its bones to the point that its underlying muscles can be seen clearly. Its skin is pale gray. Its hands end in long fingers tipped with razor-sharp talons. Its mouth is filled with tusk-like teeth, dominated by two overgrown tusks that jut upward from its bottom jaw. Its eyes glow with an eerie yellow light. AKA (Death Stealer Demon).
 CR:7
 KIT:1|CE
@@ -7289,10 +7171,8 @@ Feed (Su) When a nabasu creates a ghoul with its gaze attack, it gains a growth 
 
 -----------------------------------------------
 
-Mature Nabasu
-
-OUTPUTNAME:[NAME] Nabasu
 Nabasu (Mature)
+OUTPUTNAME:[NAME] Nabasu
 DESC:This creature is tall and thin with large, leathery, scaled, bat-like wings. Its skin is stretched tightly over its bones to the point that its underlying muscles can be seen clearly. Its skin is pale gray. Its hands end in long fingers tipped with razor-sharp talons. Its mouth is filled with tusk-like teeth, dominated by two overgrown tusks that jut upward from its bottom jaw. Its eyes glow with an eerie yellow light. AKA (Death Stealer Demon).
 CR:10
 KIT:1|CE
@@ -7343,10 +7223,8 @@ Paralysis Aura (Su) As a free action, once per day, a mature nabasu can release 
 
 -----------------------------------------------
 
-Nerizo Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Nerizo)
+OUTPUTNAME:[NAME] Demon
 DESC:This man-sized feral-looking creature has dark bluish-black skin. Its arms end in sharpened claws and its feet are splayed hooves. A long, snake-like barbed tail trails behind it. Its hairless head is long and oval and its eyes are large and crimson. AKA (Hound Demon).
 CR:9
 KIT:1|CE
@@ -7390,10 +7268,8 @@ Posion (Ex) Sting-injury; save Fort DC 22; frequency 1 round for 4 rounds; effec
 
 -----------------------------------------------
 
-Nysrock Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Nysrock)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature looks like a 14-foot long cobra with a demonic humanoid head and blackish-blue scales. Two downward-curving horns jut from the sides of its head. Its tail ends in a barbed stinger. A leathery hood flares from its neck. AKA (Cobra Demon).
 CR:13
 KIT:1|CE
@@ -7444,10 +7320,8 @@ Poison (Ex) Sting or spit-injury or contact; save Fort DC 27; frequency 1/round 
 
 -----------------------------------------------
 
-Greater Ooze Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Greater Ooze)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature stands about 8 feet tall. Its head is crocodilian with razorsharp teeth, and its humanoid body appears as an oozy and swirling black mass.
 KIT:1|CE
 SIZE:L
@@ -7494,10 +7368,8 @@ Acid (Ex) The acidic body of a greater ooze demon quickly dissolves organic mate
 
 -----------------------------------------------
 
-Lesser Ooze Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Lesser Ooze)
+OUTPUTNAME:[NAME] Demon
 DESC:This creature appears as a humanoid-shaped swirling form of blackish ooze. Its head is crocodilian and its mouth is lined with sharpened teeth.
 KIT:1|CE
 SIZE:M
@@ -7538,10 +7410,8 @@ Acid (Ex) A lesser ooze demon's acid dissolves only flesh. Any melee hit deals a
 
 -----------------------------------------------
 
-Shadow Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Shadow)
+OUTPUTNAME:[NAME] Demon
 DESC:Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them-the rest is lost in darkness.
 CR:7
 KIT:1|CE
@@ -7595,10 +7465,8 @@ Sunlight Powerlessness (Ex) A shadow demon is utterly powerless in bright light 
 
 -----------------------------------------------
 
-Shrroth Demon
-
-OUTPUTNAME:[NAME]
 Demon (Shrroth)
+OUTPUTNAME:[NAME]
 DESC:This huge creature has the lower torso of an octopus and the upper torso of a copper-skinned humanoid. Its arms end in 6-fingered talons and it wields a wicked trident. A mass of long black hair hangs from its head; from under which protrude two forward-curving, blackish horns. AKA (Squid Demon).
 CR:12
 KIT:1|CE
@@ -7652,10 +7520,8 @@ Jet (Ex) A shrroth can jet backward once per round as a full-round action at a s
 
 -----------------------------------------------
 
-Skitterdark Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Skitterdark)
+OUTPUTNAME:[NAME] Demon
 DESC:A small humanoid-shaped creature no more than 1-foot tall flutters nearby, held aloft by its crimson leathery bat wings. Its body is blood red and somewhat stocky for its size. Its hands end in sharp claws and its eyes and teeth are sickly yellow.
 CR:3
 KIT:1|CE
@@ -7707,10 +7573,8 @@ Profane Claws (Su) Any good-aligned creature hit by a skitterdark's claw attack 
 
 -----------------------------------------------
 
-Stirge Demon
-
-OUTPUTNAME:[NAME] Demon
 Demon (Stirge)
+OUTPUTNAME:[NAME] Demon
 DESC:The creature is a loathsome cross between a human, a stirge, and an abyssal fly. It stands on four stirge-like hind legs and grasps with its humanlike forelimbs, which end in chitinous claw-like fingers. It has the wings of a stirge, though wrinkled and seemingly useless. Its stirgelike head has distinctly human features and is topped with a bristled, backswept mane. Its mouth is tiny and filled with fangs, though its nose is long and sharp and is used to pierce and draw blood.
 CR:10
 KIT:1|CE
@@ -7758,9 +7622,7 @@ Drone (Su) At all times, save when using any spell-like abilities, the stirge de
 -----------------------------------------------
 
 Baphomet
-
 OUTPUTNAME:Baphomet (Demon Lord of Beasts)
-Baphomet
 DESC:An aura of powerful evil permeates the area surrounding this demoniclooking creature. It stands twice the height of a normal man, has powerfully muscled arms and burning crimson eyes. Its body is covered in shaggy black fur and marred with what appear to be century-old battle scars. It wields a wicked-looking halberd.
 CR:25
 KIT:1|CE
@@ -7854,9 +7716,7 @@ and consist of clerics, necromancers, and sorcerers or adepts. Devout followers 
 -----------------------------------------------
 
 Beluiri
-
 OUTPUTNAME:Beluiri (The Temptress) Demon Lord
-Beluiri
 DESC:This creature appears as a bronze-skinned female standing about 6 feet tall. Its head is hairless and features four downward-curving horns jutting just above its forehead. The two lower horns are smaller than the topmost horns. A ridge of small spines runs from the creature's brow down the center of its head and tapers off just below its shoulder blades. Its hands end in razor-sharp talons and its eyes are sapphire blue.
 CR:15
 KIT:1|CE
@@ -7915,9 +7775,7 @@ Seduction (Su) Through body language and movement, Beluiri can fascinate all cre
 -----------------------------------------------
 
 Caizel
-
 OUTPUTNAME:Caizel (Deposed Queen of Succubi) Demon Lord
-Caizel
 DESC:This astonishingly beautiful creature stands about 6 feet tall. Her skin is copper in color and her eyes are blue-green. She has long raven-black hair and her hands end in sharpened claws. She is clad in a robe of gold.
 CR:16
 
@@ -7978,9 +7836,7 @@ Bonerazor: Bonerazor is a finely crafted and perfectly balanced +2 dagger. Becau
 -----------------------------------------------
 
 Dagon
-
 OUTPUTNAME:Dagon (Demon Prince of the Sea) Demon Lord
-Dagon
 DESC:This creature has the upper body, arms, and head of a green-skinned humanoid, and the lower torso of a great scaled fish. A thin, almost translucent fin runs the length of his back, and a long mane of black hair falls from his head and down his finned back. His eyes are crimson.
 CR:27
 KIT:1|CE
@@ -8069,11 +7925,9 @@ Followers of Dagon are mermen, locathah, sahuagin, lizardfolk, skum, and evil hu
 
 -----------------------------------------------
 
-FrazUrbLuu
-
-OUTPUTNAME:Fraz-Urb'luu (Demon Prince of Deception) Demon Lord
 
 Fraz_urb_luu
+OUTPUTNAME:Fraz-Urb'luu (Demon Prince of Deception) Demon Lord
 DESC:This creature appears as a massive hulking ape-like humanoid standing nearly three times as tall as a normal human. Its head sports large, upright, pointed ears and a large round mouth lined with sharpened teeth. Its body is gray and covered with fine, thin blue hair. A long, serpentine tail, gray and yielding to blue near the barbed end, trails behind it. Two large bat-like wings protrude from its back.
 CR:29
 KIT:1|CE
@@ -8152,10 +8006,7 @@ Followers of Fraz-Urb'luu are usually evil humanoids and consist of clerics, pol
 -----------------------------------------------
 
 Jubilex
-
 OUTPUTNAME:Jubilex (The Faceless Lord) Demon Lord
-
-Jubilex
 DESC:This creature resembles a large bubbling mass of greenish-black and foul-smelling liquid. Ooze, slime, and pus constantly squirt and seep from its form. Deep within the oozing form you notice several large red eyes.
 CR:23
 KIT:1|CE
@@ -8323,11 +8174,9 @@ Followers of Kostchtchie are usually frost giants and fiendish frost giants.  Th
 
 -----------------------------------------------
 
-Maphistal
 
+Maphistal
 OUTPUTNAME:Maphistal (Second of Orcus) Demon Lord
-
-Maphistal
 DESC:A stinking aura of death and decay lingers in the air around this ferallooking humanoid. Two great horns protrude upward from its oval head. Huge leathery, bat-like wings sprout from its shoulders, and its lower torso sports two massive legs that end in soot-colored hooves. Short, coarse black hair covers its entire body, except its face and clawed hands.
 CR:21
 KIT:1|CE
@@ -8389,11 +8238,9 @@ Vox: Maphistal's unique weapon is a +3 unholy crushing heavy mace. The crushing 
 
 -----------------------------------------------
 
-Orcus
 
+Orcus
 OUTPUTNAME:Orcus (Demon Prince of the Undead) Demon Lord
-
-Orcus
 DESC:This demonic humanoid is squat and bloated, standing nearly three times as tall as a normal human. It goat-like head sports large, spiraling ramlike horns. Its legs are covered in thick brown fur and end in hooves.  Large powerful arms wield a wicked skull-tipped wand. Two large, black, bat-like wings protrude from its back and a long, snake-like tail, tipped with a sharpened barb, trails behind it.
 CR:35
 KIT:1|CE
@@ -8519,10 +8366,7 @@ The followers of the Prince of Undead are clerics and adepts that venerate death
 -----------------------------------------------
 
 Pazuzu
-
 OUTPUTNAME:Pazuzu (Demon Prince of Air) Demon Lord
-
-Pazuzu
 DESC:This powerfully-built humanoid has the head of a hawk and four great feathery wings spanning its shoulders. Its feathers are red and gold, fading to black at the tip. Its eyes are red and its hands and feet end in hawk-like talons.
 CR:28
 KIT:1|CE
@@ -8620,10 +8464,7 @@ Followers of Pazuzu are evil humanoids that respect and revere the air and sky. 
 -----------------------------------------------
 
 Sonechard
-
 OUTPUTNAME:Sonechard (General of Orcus) Demon Lord
-
-Sonechard
 DESC:This ram-headed humanoid appears to be at least as twice as tall as a human and has leathery gray skin. Large, curved horns,-the left one broken off midway from its starting point-jut from its head. Two large bat-like wings spread from his shoulders. The creature's body is covered in thick, dark hair. Portions of the hair are torn away in areas revealing masses of battle-born scars and damage.
 CR:21
 
@@ -8686,10 +8527,7 @@ Fool's Errand: Sonechard's unique weapon is a +4 unholy wounding heavy pick.
 -----------------------------------------------
 
 Tsathogga
-
 OUTPUTNAME:Tsathogga (The Frog God) Demon Lord
-
-Tsathogga
 DESC:This massive creature appears to be a gigantic frog no less than 60 feet long. Its body is covered in warts and sores, and each oozes putrid, yellowish mucus. Its eyes are red and glow with an inherent evil. The creature's massive mouth sports rows of sharpened teeth, each at least as long as a sword.
 CR:30
 KIT:1|CE
@@ -8786,10 +8624,7 @@ Water.
 -----------------------------------------------
 
 Vepar
-
 OUTPUTNAME:Demon Lord, Vepar (Duke of Dagon) Demon Lord
-
-Vepar
 DESC:This creature appears as a giant-sized merman with coppery-brown skin and silver scales. Its long black hair is braided and it carries a menacing-looking trident.
 CR:21
 KIT:1|CE
@@ -8897,10 +8732,8 @@ Create Spawn (Su) Any humanoid slain by a demonic knight's breath of unlife beco
 
 -----------------------------------------------
 
-Amaimon Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Amaimon)
+OUTPUTNAME:[NAME] Devil
 DESC:This massive creature stands nearly 10 feet tall and looks like a bloated, squat humanoid with scarlet flesh. It has a long curved and forked tail, clawed hands and feet, and a round, squashed head with two small horns just above its sapphire-colored eyes.
 CR:8
 KIT:1|LE
@@ -8948,10 +8781,8 @@ Languages Common, Draconic, Infernal; telepathy 100 ft.
 
 -----------------------------------------------
 
-Blood Reaver Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Blood Reaver)
+OUTPUTNAME:[NAME] Devil
 DESC:This tall reddish-bronze colored humanoid has leathery flesh and gleaming, gold eyes. Its hands end in blood-stained claws, and a long snake-like and forked tail trails behind it. The smell of fresh blood hangs in the air. It wields a wicked dual-headed flail. AKA Garugin.
 CR:8
 KIT:1|LE
@@ -9005,11 +8836,8 @@ Stun (Su) Whenever a blood reaver hits with a dire flail attack, the opponent mu
 
 -----------------------------------------------
 
-Flayer Devil
-
-OUTPUTNAME:[NAME] Devil
-
 Devil (Flayer)
+OUTPUTNAME:[NAME] Devil
 DESC:This hulking brute has leathery, crimson skin, and a large mouth filled with razor-sharp teeth. Large, round horns protrude from the sides of its head. Its hands and feet end in claws, and its eyes are slitted and bronze. AKA Marzach.
 CR:11
 KIT:1|LE
@@ -9065,10 +8893,8 @@ Flensing (Ex) A flayer devil that scores a critical hit with a claw attack rips 
 
 -----------------------------------------------
 
-Ghaddar Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Ghaddar)
+OUTPUTNAME:[NAME] Devil
 DESC:This massive creature stands almost three times as tall as a human and has the head of a donkey. It shuffles with a hunched gait as it moves. Large downward-curving horns protrude from its head. Its body is covered with blackish hair. Its feet are splayed and its eyes are stark white with hollow black pupils.
 CR:16
 KIT:1|LE
@@ -9126,10 +8952,8 @@ Vorpal Bite (Ex) If a ghaddar scores a natural 20 on its attack roll with its bi
 
 -----------------------------------------------
 
-Hellstoker Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Hellstoker)
+OUTPUTNAME:[NAME] Devil
 DESC:This man-sized creature has loosely hanging, rubbery flesh, grayishblack in color, and its entire body is smeared with a yellowish-brown mucus. Its head is ovoid, devoid of hair, and sports upward curving horns. A hardened ridge of bone runs from its brow, across the top of its head, and disappears into its spine. Its long, serpentine tail is dark grayish-red.  AKA Marnasoth.
 KIT:1|LE
 SIZE:M
@@ -9182,10 +9006,8 @@ Oily Hide (Ex) Hellstokers do not secrete oil naturally, but their constant cont
 
 -----------------------------------------------
 
-Lilin Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Lilin)
+OUTPUTNAME:[NAME] Devil
 DESC:A beautiful well-proportioned woman with crimson skin stands before you. Her eyes are dark, almost black as is her hair. A pair of small
 CR:6
 KIT:1|LE
@@ -9232,10 +9054,8 @@ Gear +1 longsword
 
 -----------------------------------------------
 
-Nupperibo Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Nupperibo)
+OUTPUTNAME:[NAME] Devil
 DESC: This vaguely humanoid creature is about as tall as a human and has clawed hands and dark grayish-black flesh. It wields a spear in its clawed hands.
 CR:1
 KIT:1|LE
@@ -9267,10 +9087,8 @@ Gear spear
 
 -----------------------------------------------
 
-Tormentor Devil
-
-OUTPUTNAME:[NAME] Devil
 Devil (Tormentor)
+OUTPUTNAME:[NAME] Devil
 DESC:This reddish-gray scaled humanoid stands taller than a human. Its hands are clawed and its feet cloven. Oversized fangs jut from its upper jaw and drip foul-smelling saliva. Small horns protrude from just above its eyes, curving backwards. Its head and body are hairless and a small curving tail trails behind it. It wields a battleaxe and carries a wickedlybarbed net slung across its back.  AKA Tormentor Devil (Tormentor of Souls).
 CR:7
 KIT:1|LE
@@ -9333,10 +9151,8 @@ Soulcatcher Net: A tormentor devil's net looks like a normal net and follows the
 
 -----------------------------------------------
 
-Alastor
-
-OUTPUTNAME:[NAME]
 Devil (Alastor)
+OUTPUTNAME:[NAME]
 DESC:This entity stands at least 16 feet tall and its body is entirely cloaked in hellish red and yellow flames. Huge bat-like wings spread from its scaled body. Its arms end in clawed hands which hold a tight grip on a wickedly curved battleaxe of iron. Its eyes are black with red pupils and its mouth is filled with rows of fangs.  Alastor (Executioner of Hell).
 CR:23
 KIT:1|LE
@@ -9405,10 +9221,8 @@ Grimfang: Grimfang is a Large +3 unholy vorpal battleaxe. A creature subjected t
 
 -----------------------------------------------
 
-Amon
-
-OUTPUTNAME:[NAME]
 Devil (Amon)
+OUTPUTNAME:[NAME]
 DESC:This wolf-headed humanoid stands at least 9 or 10 feet tall. His fur is brownish-black and his eyes and teeth are yellow. His great clawed hands are brownish in color and covered in shaggy fur.  Amon (Duke of Hell).
 CR:25
 KIT:1|LE
@@ -9477,10 +9291,8 @@ Craver: Amon's unique oversized weapon is a Huge +4 axiomatic thundering heavy m
 
 -----------------------------------------------
 
-Baal
-
-OUTPUTNAME:[NAME]
 Devil (Baal)
+OUTPUTNAME:[NAME]
 DESC:This diabolical-looking golden-skinned humanoid towers over you, dressed in battered bronze chainmail. It wields a large morningstar in its clawed hand as it stares at you. Its bovine head features large round eyes of black, a large nose, wolf-like upright ears, and a large mouth lined with razor-sharp teeth. Tiny forward-curving horns protrude from its forehead.  Baal (Duke of Hell).
 CR:22
 KIT:1|LE
@@ -9539,10 +9351,8 @@ Sheol: Baal's unique weapon is a Large +4 unholy morningstar. As a free action, 
 
 -----------------------------------------------
 
-Baaphel
-
-OUTPUTNAME:[NAME]
 Devil (Baaphel)
+OUTPUTNAME:[NAME]
 DESC:This dog-headed humanoid has grayish-brown, pale scarlet eyes, and two upright crimson horns. Two, large, black bat-like wings sprout from its shoulders. Its hands are clawed and its feet are blackened hooves. A forked crimson tail snakes behind it.  Baaphel (Duke of Hell).
 CR:21
 KIT:1|LE
@@ -9603,10 +9413,8 @@ Hell's Gleaning: Baaphel's unique weapon is a +3 axiomatic keen scythe.
 
 -----------------------------------------------
 
-Caasimolar
-
-OUTPUTNAME:[NAME]
 Devil (Caasimolar)
+OUTPUTNAME:[NAME]
 DESC: A wizened old man with a silver beard and balding head approaches. His eyes are ruby red and small rounded horns jut from his head, just above his eyes. His fingernails are ruby red, as is his long, snaky, thinly, forked tail. He is dressed in robes of purple, white, and amber.  Caasimolar (Former President of Hell).
 CR:23
 KIT:1|LE
@@ -9665,10 +9473,8 @@ Caasimolar's Iron Rod: This 6-foot long iron rod functions as a +3 cold iron goo
 
 -----------------------------------------------
 
-Demoriel
-
-OUTPUTNAME:[NAME]
 Devil (Demoriel)
+OUTPUTNAME:[NAME]
 DESC:This creature is a very attractive female with raven black hair, coal black eyes, amber skin, and a shapely form. Small bat wings protrude from her shoulders, and tiny horns jut from her forehead, just above her eyes.  Demoriel (Twice-Exiled Seductress).
 CR:19
 KIT:1|LE
@@ -9731,10 +9537,8 @@ Reaver: Reaver is Demoriel's finely crafted +3 unholy short sword.
 
 -----------------------------------------------
 
-Geryon
-
-OUTPUTNAME:[NAME]
 Devil (Geryon)
+OUTPUTNAME:[NAME]
 DESC:This towering creature has the upper torso of a humanoid with paw-like hands, blue-furred arms, dark hair, and piercing black eyes, and the lower torso of a massive black and gold banded snake.  Geryon (Arch-Devil).
 CR:29
 KIT:1|LE
@@ -9829,10 +9633,8 @@ Followers of Geryon are evil humanoids that revere serpents, some clans and trib
 
 -----------------------------------------------
 
-Gorson
-
-OUTPUTNAME:[NAME]
 Devil (Gorson)
+OUTPUTNAME:[NAME]
 DESC:This centaur-like creature is at least twice as long as a human and stands about 8 feet tall. Its lower body is that of a great golden lion and its upper body is a coal-black humanoid with glaring crimson eyes. Its mane-like hair is thick, long, and dark brown, and the creature wears it draped over its broad shoulders and down its massive back. Its mouth is lined with sharpened fangs and its arms end in large, powerful hands. Splatters of dried and caked blood can be seen in the creature's mane and fur.  Gorson (The Blood Duke).
 CR:22
 KIT:1|LE
@@ -9891,10 +9693,8 @@ Gear +3 wounding battleaxe
 
 -----------------------------------------------
 
-Hutijin
-
-OUTPUTNAME:[NAME]
 Devil (Hutijin)
+OUTPUTNAME:[NAME]
 DESC:This creature is at least twice as tall as a human and large bat-like wings protruding from its massive shoulders. A whip-like tail trails behind its scaled form. Its hands and feet end in wicked-looking claws and its mouth is filled with sharpened teeth and two oversized fangs. Upward-curving horns project from its head. Its flesh is dark red.  Hutijin (Duke of Hell).
 CR:22
 KIT:1|LE
@@ -9958,10 +9758,8 @@ Fear (Su) Hutijin can cause fear by speaking (this is a free action). Creatures 
 
 -----------------------------------------------
 
-Lilith
-
-OUTPUTNAME:[NAME]
 Devil (Lilith)
+OUTPUTNAME:[NAME]
 DESC:A curvaceous and beautiful woman with cinnamon-brown skin, dark red hair, and shining emerald eyes stands before you. She is scantily clad in scarlet robes and carries a longsword at her side.  Lilith (Former Queen of Hell).
 CR:16
 KIT:1|LE
@@ -10020,10 +9818,8 @@ Amaheuris: Lilith carries a unique +2 axiomatic unholy longsword. Once per day, 
 
 -----------------------------------------------
 
-Lucifer
-
-OUTPUTNAME:[NAME]
 Devil (Lucifer)
+OUTPUTNAME:[NAME]
 DESC:This exquisitely handsome humanoid stands at least 10 feet tall.  His hair is long and jet black as is his neatly-trimmed and forked beard. His hands end in wicked claws and his feet are cloven. A long snake-like, stinger-tipped tail dances behind him and intertwines itself around the massive triple-pronged pitchfork he carries. Two oversized and backward-curving blackened horns jut from his head. He is cloaked in a suit of banded armor that glistens with the color of the night sky.  Lucifer (Prince of Darkness).
 CR:39
 KIT:1|LE
@@ -10203,10 +9999,8 @@ Followers of Lucifer are far and wide and consist of evil humanoids; usually cle
 
 -----------------------------------------------
 
-Moloch
-
-OUTPUTNAME:[NAME]
 Devil (Moloch)
+OUTPUTNAME:[NAME]
 DESC:This massive, barrel-chested hairless humanoid stands nearly as tall as three humans. Its head is squat and large and its oversized mouth is filled with rows of wickedly-sharp teeth. His eyes are sapphire blue and his large, curving horns are black. His flesh is dark brown. He wields a long black metal rod with 6 long pliable metal tails.  Moloch (Arch-Devil).
 CR:26
 KIT:1|LE
@@ -10302,10 +10096,8 @@ clerics, sorcerers, and wizards. Devout followers of Moloch are called Knights o
 
 -----------------------------------------------
 
-Titivilus
-
-OUTPUTNAME:[NAME]
 Devil (Titivilus)
+OUTPUTNAME:[NAME]
 DESC:This 6-foot tall creature resembles a satyr with a round hairless head, the lower torso of a goat, cloven feet, and clawed hands. Small black leathery wings sprout from his back. His eyes are the color of coal.  Titivilus (Duke of Hell).
 CR:20
 KIT:1|LE
@@ -10364,10 +10156,8 @@ Fear Touch (Su) A creature that successfully saves cannot be affected again by T
 
 -----------------------------------------------
 
-Xaphan
-
-OUTPUTNAME:[NAME]
 Devil (Xaphan)
+OUTPUTNAME:[NAME]
 DESC:A massively built satyr-like creature with blackish-brown flesh, this monster tightens its grip on its fiery falchion. Small horns jut from its forehead, just above its golden eyes. Its hair is long and black, and tied back in a braided ponytail. Two, large bat wings protrude from its back.  Xaphan (Duke of Infernus).
 CR:26
 KIT:1|LE
@@ -11664,10 +11454,8 @@ Plane Shift (Sp) A dragon horse can enter the Ethereal Plane, Astral Plane, Elem
 
 -----------------------------------------------
 
-Giant Dragonfly
-
-OUTPUTNAME:[NAME] Dragonfly
 Dragonfly (Giant)
+OUTPUTNAME:[NAME] Dragonfly
 DESC:This insect resembles a normal dragonfly but is about 5 feet long. Its skin glitters beautifully in the sunlight, belying the danger that the creature represents.
 Giant Dragonfly
 CR:4
@@ -11771,10 +11559,8 @@ Winds (Su) At will, a dragonship can cause winds to fill its sails. This operate
 
 -----------------------------------------------
 
-Fire Drake
-
-OUTPUTNAME:[NAME] Drake
 Drake (Fire)
+OUTPUTNAME:[NAME] Drake
 DESC:This creature appears to be a small, red dragon with translucent scales, mottled mauve and burgundy. Heat and steam rise from its body. Its wings are mottled black and its eyes are crimson.
 FIRE DRAKE
 CR:3
@@ -11827,10 +11613,8 @@ comes first.
 
 -----------------------------------------------
 
-Ice Drake
-
-OUTPUTNAME:[NAME] Drake
 Drake (Ice)
+OUTPUTNAME:[NAME] Drake
 DESC:This slender creature looks like a small immature white dragon with icy white scales and sapphire eyes. A chill hangs in the air around the creature. Its claws are sharpened and have icy blue nails.
 ICE DRAKE
 CR:3
@@ -11878,10 +11662,8 @@ Alternate Form (Su) Twice per day, an ice drake can assume the shape of a young 
 
 -----------------------------------------------
 
-Salt Drake
-
-OUTPUTNAME:[NAME] Drake
 Drake (Salt)
+OUTPUTNAME:[NAME] Drake
 DESC:This powerful creature resembles a blue dragon with mottled black wings and crimson eyes. Its ears are frilled and swept back against its head.
 SALT DRAKE
 CR:8
@@ -11928,10 +11710,8 @@ Breath Weapon (Su) A salt drake's breath weapon is a 30 ft. cone of razor-sharp 
 
 -----------------------------------------------
 
-Splinter Drake
-
-OUTPUTNAME:[NAME] Drake
 Drake (Splinter)
+OUTPUTNAME:[NAME] Drake
 DESC:This creature looks like a wingless dragon about 12 feet long whose flesh is actually dark brown bark with a greenish hue. A bushy mane of twigs, branches, leaves, and vines circles its dragon-like head and a series of thorny spines runs the length of its back. Two backward curved horns, apparently constructed of the same hardened bark as its body, jut from the creature's head. A dark brown snake-like tongue flicks across its fangs as it advances.
 
 SPLINTER DRAKE
@@ -12379,10 +12159,8 @@ Undead Bane (Su) Against corporeal undead, an ectoplasm deals 1d8 points of Stre
 
 -----------------------------------------------
 
-Gravity Elemental
-
-OUTPUTNAME:[NAME] Elemental
 Elemental (Gravity)
+OUTPUTNAME:[NAME] Elemental
 DESC:This creature resembles a miniature black hole hovering several feet off the ground. It is a circular region of absolute blackness, with a bizarre distortion around its edges as it warps light waves. Four spiraling, rotating arms of debris and light surround the circular region of darkness. Its facial features are small points of light, almost like stars.
 
 Languages Gravity Manipulation
@@ -12640,10 +12418,8 @@ Skills Fly +33, Perception +19, Sense Motive +19, Stealth +21
 
 -----------------------------------------------
 
-Negative Energy Elemental
-
-OUTPUTNAME:[NAME] Elemental
 Elemental (Negative Energy)
+OUTPUTNAME:[NAME] Elemental
 DESC:This creature appears as a shimmering and wavering sphere of translucent gray energy with small motes of light winking in and out of existence along its spherical form.
 
 NEGATIVE ENERGY ELEMENTAL
@@ -12889,10 +12665,8 @@ Skills Fly +29, Intimidate +19, Knowledge (planes) +19, Knowledge (religion) +19
 
 -----------------------------------------------
 
-Positive Energy Elemental
-
-OUTPUTNAME:[NAME] Elemental
 Elemental (Positive Energy)
+OUTPUTNAME:[NAME] Elemental
 DESC:This creature appears as a shimmering and wavering sphere of brilliant white energy with small motes of light winking in and out of existence along its spherical form.
 
 Languages Positive Energy Manipulation
@@ -13137,10 +12911,8 @@ Skills Fly +29, Intimidate +19, Knowledge (planes) +19, Knowledge (religion) +19
 
 -----------------------------------------------
 
-Psionic Elemental
-
-OUTPUTNAME:[NAME]
 Elemental (Psionic)
+OUTPUTNAME:[NAME]
 DESC:This creature appears as a dark, semi-translucent cloud of swirling vapor. Looking closely at its form reveals two small pinpoints for eyes and a mouth composed of solid bits of matter swirling in the elemental's form.
 
 Languages telepathy 100 ft.
@@ -13383,10 +13155,8 @@ Skills Autohypnosis +21, Bluff +24, Diplomacy +24, Fly +31, Knowledge (planes) +
 
 -----------------------------------------------
 
-Time Elemental
-
-OUTPUTNAME:[NAME] Elemental
 Elemental (Time)
+OUTPUTNAME:[NAME] Elemental
 DESC:This creature appears as a formless cloud of yellowish-red vapor or dust about 5 feet in diameter.
 
 Languages telepathy 100 ft.
@@ -13546,10 +13316,8 @@ Cost 102,500 gp
 
 -----------------------------------------------
 
-Air Elemental Construct
-
-OUTPUTNAME:[NAME] Elemental Construct
 Elemental Construct (Air)
+OUTPUTNAME:[NAME] Elemental Construct
 DESC:This creature resembles a semi-vaporous humanoid, about 9 feet tall composed of air and mist. It has no feet and its legs simply taper off into wispy trails.
 CR:13
 KIT:1|N
@@ -13595,10 +13363,8 @@ Wind Blast (Ex) An air elemental construct can transform the air in radius aroun
 
 -----------------------------------------------
 
-Earth Elemental Construct
-
-OUTPUTNAME:[NAME] Elemental Construct
 Elemental Construct (Earth)
+OUTPUTNAME:[NAME] Elemental Construct
 DESC:This creature appears as a stocky and powerfully built humanoid about 9 or 10 feet tall composed of rock and stone. Its head has no discernable features.
 
 CR:13
@@ -13639,10 +13405,8 @@ Pound (Ex) An earth elemental construct can slam an opponent that is at least tw
 
 -----------------------------------------------
 
-Fire Elemental Construct
-
-OUTPUTNAME:[NAME] Elemental Construct
 Elemental Construct (Fire)
+OUTPUTNAME:[NAME] Elemental Construct
 DESC:A humanoid shaped behemoth of heat and flames approaches; each arm and leg of this being ending in the howling face of a fire elemental.
 CR:13
 KIT:1|N
@@ -13682,10 +13446,8 @@ Immunity to Magic (Ex) A fire elemental construct is immune to any spell or spel
 
 -----------------------------------------------
 
-Water Elemental Construct
-
-OUTPUTNAME:[NAME] Elemental Construct
 Elemental Construct (Water)
+OUTPUTNAME:[NAME] Elemental Construct
 DESC:A humanoid creature composed entirely of water and about 9 feet tall moves silently across the ground, leaving trails of water in its path. Its watery head contain no discernable features.
 CR:13
 KIT:1|N
@@ -13731,10 +13493,8 @@ Water Mastery (Ex) A water elemental construct gains a +2 bonus on attack and da
 
 -----------------------------------------------
 
-Air Elemental Dragon
-
-OUTPUTNAME:[NAME] Elemental Dragon
 Elemental Dragon (Air)
+OUTPUTNAME:[NAME] Elemental Dragon
 DESC:This massive creature resembles a huge dragon composed of air and vapor. Its great wings are translucent and look like wisps of smoke. Its eyes are hollow sockets of mist though a glint of bright sunlight can occasionally be seen dancing across the surface. Its great tail appears as wisps of smoke or vapor and seems to trail off into nothingness.
 
 CR:18
@@ -13785,10 +13545,8 @@ Cyclone (Ex) By beating its wings rapidly back and forth, a hovering elemental a
 
 -----------------------------------------------
 
-Earth Elemental Dragon
-
-OUTPUTNAME:[NAME] Elemental Dragon
 Elemental Dragon (Earth)
+OUTPUTNAME:[NAME] Elemental Dragon
 DESC:This creature resembles a 30-foot long dragon composed of stone and earth. Its great wings glisten like polished stone. Its eyes are deep gray and its roar seems to shake the very earth itself.
 
 CR:20
@@ -13842,10 +13600,8 @@ Meld into Stone (Ex) An elemental earth dragon can meld its body with any stone 
 
 -----------------------------------------------
 
-Fire Elemental Dragon
-
-OUTPUTNAME:[NAME] Elemental Dragon
 Elemental Dragon (Fire)
+OUTPUTNAME:[NAME] Elemental Dragon
 DESC:This creature appears as a 30-foot long dragon composed of fire. Its eyes burn with a white-hot flame and flames lick the dragon's great mouth as it roars. As it flies overhead, its wings send sheets of flame roaring into the sky and crashing into the ground.
 
 CR:22
@@ -13894,10 +13650,8 @@ Rain of Fire (Ex) As a standard action, a hovering elemental fire dragon can rap
 
 -----------------------------------------------
 
-Water Elemental Dragon
-
-OUTPUTNAME:[NAME] Elemental Dragon
 Elemental Dragon (Water)
+OUTPUTNAME:[NAME] Elemental Dragon
 DESC:This creature resembles a massive dragon composed entirely of water. Its wings slosh and drip water as it moves them. Its great mouth opens into a maw of inky darkness. Water drips from its fangs.
 
 CR:18
@@ -14346,10 +14100,8 @@ creature that enters their area.
 
 -----------------------------------------------
 
-Pedipalp
-
-OUTPUTNAME:[NAME]
 False Spider (Pedipalp)
+OUTPUTNAME:[NAME]
 DESC:This creature looks like a cross between a spider and a scorpion. It has six legs and two thin antennae that constantly writhe and wriggle. Two large scorpion-like pincers protrude from just in front of its foremost legs, and a whip-like tail extends from the end of its abdomen.
 
 CR:2
@@ -14395,10 +14147,8 @@ Poison Cloud (Ex) When threatened, a poisonous pedipalp releases a cloud of noxi
 
 -----------------------------------------------
 
-Solifugid
-
-OUTPUTNAME:[NAME]
 False Spider (Solifugid)
+OUTPUTNAME:[NAME]
 DESC:This spiderlike creature has ten leg, the front two ending in sucker-like clamps. Its front sports two spider-like eyes and a set of large, oversized mandibles.
 
 CR:3
@@ -14570,10 +14320,8 @@ Freezing Touch (Su) A fetch's touch is supernaturally cold. It deals an extra 1d
 
 -----------------------------------------------
 
-Greater Fire Crab
-
-OUTPUTNAME:[NAME] Fire Crab
 Fire Crab (Greater)
+OUTPUTNAME:[NAME] Fire Crab
 DESC:A massive crab with a square-shaped reddish-brown carapace covered with dark red and yellow markings scuttles forth, pincers raised. Tiny flames lick its body, erupting at irregular intervals from its underbelly.  Its eyes are perched on the end of two large eyestalks that protrude from the center of the carapace.
 
 CR:3
@@ -14614,10 +14362,8 @@ Creatures attacking a fire crab unarmed or with natural weapons take fire damage
 
 -----------------------------------------------
 
-Lesser Fire Crab
-
-OUTPUTNAME:[NAME] Fire Crab
 Fire Crab (Lesser)
+OUTPUTNAME:[NAME] Fire Crab
 DESC:A dog-sized crab with a square-shaped reddish-brown carapace covered with
 dark red and yellow markings scuttles forth, pincers raised. Tiny flames lick its body, erupting at irregular intervals from its underbelly. Its eyes are perched on the end of two large eyestalks that protrude from the center of the carapace.
 
@@ -14897,10 +14643,8 @@ A flail snail has one mace-like tentacle per Hit Die. Thus, a 6 HD flail snail h
 
 -----------------------------------------------
 
-Giant Flea
-
-OUTPUTNAME:[NAME] Flea
 Flea (Giant)
+OUTPUTNAME:[NAME] Flea
 DESC:A monstrously sized insect with a narrow, oval-shaped carapace leaps forward, lashing its slender hooked legs.
 CR:1/2
 KIT:1|N
@@ -15065,10 +14809,8 @@ Stench Spray (Ex) A flumph can spray a 20-foot line of foulsmelling liquid once 
 
 -----------------------------------------------
 
-Giant Fly
-
-OUTPUTNAME:[NAME] Fly
 Fly (Giant)
+OUTPUTNAME:[NAME] Fly
 DESC:This man-sized insect has large, red, globular eyes, a body covered in hairy bristles, and two rapidly vibrating translucent wings.
 CR:1
 KIT:1|N
@@ -15267,10 +15009,8 @@ Heat Metal (Su) Once per day, by making a melee touch attack, a forlarren can he
 
 -----------------------------------------------
 
-Giant Abyssal Dire Frog
-
-OUTPUTNAME:[NAME] Frog
 Frog (Giant Abyssal Dire)
+OUTPUTNAME:[NAME] Frog
 DESC:This frog appears to be about 12 feet long. Its skin is blackish-green and constantly oozes a milky slime from its body.
 
 CR:4
@@ -15651,10 +15391,8 @@ Gargoyle's natural weapons are treated as magic weapons for the purpose of overc
 
 -----------------------------------------------
 
-Four-Armed Gargoyle
-
-OUTPUTNAME:[NAME] Gargoyle
 Gargoyle (Four-Armed)
+OUTPUTNAME:[NAME] Gargoyle
 DESC:This creature appears to be a hideous and winged humanoid carved of stone. Its ears are oversized and pointed and two large backwardcurving horns just from its head above its eyes. Its four arms end in stony claws.
 
 FOUR-ARMED GARGOYLE
@@ -15692,10 +15430,8 @@ Languages Common, Terran
 
 -----------------------------------------------
 
-Fungus Gargoyle
-
-OUTPUTNAME:[NAME] Gargoyle
 Gargoyle (Fungus)
+OUTPUTNAME:[NAME] Gargoyle
 DESC:This creature looks like a winged statue, humanoid in shape, carved from molds, funguses, and mushrooms. Its arms and legs end in clawed hands and feet, and its mouth is lined with fangs carved from the same substances its body is.
 
 CR:5
@@ -15738,10 +15474,8 @@ Sickening Aura (Su) As a free action, a fungus garg can emanate an aura that sme
 
 -----------------------------------------------
 
-Green Guardian Gargoyle
-
-OUTPUTNAME:[NAME] Gargoyle
 Gargoyle (Green Guardian)
+OUTPUTNAME:[NAME] Gargoyle
 DESC:This winged humanoid creature is carved of a strange green stone with eyes rich black in color.
 CR:4
 KIT:1|CE
@@ -15779,10 +15513,8 @@ Reanimation (Ex) The eyes of a green guardian gargoyle are made of two pieces of
 
 -----------------------------------------------
 
-Margoyle
-
-OUTPUTNAME:[NAME]
 Gargoyle (Margoyle)
+OUTPUTNAME:[NAME]
 DESC:This creature looks like a hideously ugly humanoid chiseled of brown stone. Two large horns protrude from its head, just above its eyes. Four large stony spikes jut from its shoulder blades. Its hands and feet end in sharpened claws.
 CR:5
 
@@ -15818,10 +15550,8 @@ Languages Common, Terran
 
 -----------------------------------------------
 
-Greater Gelid Beetle
-
-OUTPUTNAME:[NAME] Gelid Beetle
 Gelid Beetle (Greater)
+OUTPUTNAME:[NAME] Gelid Beetle
 DESC:A massive stark white beetle with silvery-black legs hungrily raises its dull silver mandibles. Equally spaced on the creature's head stare two sets of dull silvery-black eyes.
 
 CR:9
@@ -15865,10 +15595,8 @@ Cold Cloud (Ex) Once per minute as a free action, a greater gelid beetle can emi
 
 -----------------------------------------------
 
-Lesser Gelid Beetle
-
-OUTPUTNAME:[NAME] Gelid Beetle
 Gelid Beetle (Lesser)
+OUTPUTNAME:[NAME] Gelid Beetle
 DESC:A stark white beetle with silvery-black legs the size of wolf, this creature has dull silver mandibles and two sets of dull silvery-black eyes.
 
 CR:3
@@ -15906,10 +15634,8 @@ Cold Spray (Ex) Once per day a gelid beetle can release a spray in a 10-foot con
 
 -----------------------------------------------
 
-Abasheen
-
-OUTPUTNAME:[NAME]
 Genie (Abasheen)
+OUTPUTNAME:[NAME]
 DESC:This being stands 8 feet tall in flowing robes of purple and gold. Its hair is black and tied back in a ponytail with a ribbon of gold.
 CR:7
 KIT:1|N
@@ -15957,10 +15683,8 @@ Air Mastery (Ex) Airborne creatures take a -1 penalty on attack and damage rolls
 
 -----------------------------------------------
 
-Hawanar
-
-OUTPUTNAME:[NAME]
 Genie (Hawanar)
+OUTPUTNAME:[NAME]
 DESC:This being is twice as tall as a normal human and has reddish skin, no hair, and small fangs. Its lower torso is shrouded in a cyclone of burning embers and flame.
 
 CR:10
@@ -16020,10 +15744,8 @@ Holocone (Su) A hawanar can transform into a vortex of embers and white-hot fire
 
 -----------------------------------------------
 
-Marid Genie
-
+Genie (Marid)
 OUTPUTNAME:[NAME]
-(Marid)
 DESC:This being appears as a powerful and muscled humanoid with bluishgreen skin. It is hairless, save for its dark eyebrows. Its hands end in powerful hands complete with elongated nails, and a wicked smile curls from its lips. It stands nearly three times taller than a normal human.
 CR:9
 KIT:1|CN
@@ -16142,10 +15864,8 @@ Animate Boulders (Sp) A geon can animate rocks within 180 feet at will, controll
 
 -----------------------------------------------
 
-Cinder Ghoul
-
-OUTPUTNAME:[NAME] Ghoul
 Ghoul (Cinder)
+OUTPUTNAME:[NAME] Ghoul
 DESC:This creature is a swirling humanoid cloud of burning ash and charred body parts. A red glow of burning embers can be glimpsed floating within the mass. This creature reeks of smoke and burnt flesh.
 CR:7
 KIT:1|CE
@@ -16188,10 +15908,8 @@ Smoke Inhalation (Su) As a standard action, a cinder ghoul can attempt to force 
 
 -----------------------------------------------
 
-Dust Ghoul
-
-OUTPUTNAME:[NAME] Ghoul
 Ghoul (Dust)
+OUTPUTNAME:[NAME] Ghoul
 DESC:This monster appears as a dust-covered creature with decaying flesh pulled tight over its humanoid frame. Its teeth are pointed fangs and its hands end in wicked, dirt-covered and blood-soaked claws.
 CR:8
 KIT:1|CE
@@ -16243,12 +15961,8 @@ Paralyzing Shriek (Su) Once per minute, a dust ghoul can unleash a hellish shrie
 
 -----------------------------------------------
 
-GhoulStirge
-
-OUTPUTNAME:[NAME]
 Stirge (Ghoul)
-
-OUTPUTNAME:Ghoul-Stirge
+OUTPUTNAME:[NAME]-Stirge
 Ghoul Stirge
 DESC:This human-sized creature looks like a cross between a large bat and
 CR:3
@@ -16284,10 +15998,8 @@ Languages Common (cannot speak)
 
 -----------------------------------------------
 
-Bronze Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Bronze)
+OUTPUTNAME:[NAME] Giant
 DESC:You see a huge muscular being that is often mistaken for a statue of the gods. I t is well proportioned and has flesh that gleams like polished bronze and hair the color of copper wire.
 CR:11
 KIT:1|N
@@ -16333,10 +16045,8 @@ Sardonic Laugh (Su) Once per round as a standard action, a bronze giant can unle
 
 -----------------------------------------------
 
-Cave Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Cave)
+OUTPUTNAME:[NAME] Giant
 DESC:This massive giant has hideously primitive features and gray blotchy flesh. Unkempt, it wears nothing but filthy rags and carries a tremendous greatclub and its eyes glare maliciously. Most disturbing, its protruding tusk-like teeth hang over its swollen lips causing a steady stream of drool.
 CR:9
 KIT:1|CE
@@ -16385,10 +16095,8 @@ Oversized Weapon Use (Ex) A cave giant wields a Gargantuan greatclub without pen
 
 -----------------------------------------------
 
-Ferrous Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Ferrous)
+OUTPUTNAME:[NAME] Giant
 DESC:A towering giant stands 20 feet tall with dark, ruddy skin. His course brown hair and beard are long and wild, and he wears a thick breastplate and dozens of furs.
 CR:17
 KIT:1|N
@@ -16445,10 +16153,8 @@ Weapon and Armor Proficiency (Ex) Ferrous giants are automatically proficient wi
 
 -----------------------------------------------
 
-Jack-In-Irons Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Jack-In-Irons)
+OUTPUTNAME:[NAME] Giant
 DESC:Brutish, warty, hairy, and stinking of oil and iron, this creature has a jutting lower jaws and tusk like teeth, not unlike an orc or hobgoblin of huge size wrapped in chains of iron. It wears belts of skulls and rotting heads about its throat and waist.
 
 CR:17
@@ -16562,10 +16268,8 @@ Weapon and Armor Proficiency (Ex) Sand giants are automatically proficient with 
 
 -----------------------------------------------
 
-Sea Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Sea)
+OUTPUTNAME:[NAME] Giant
 DESC:This huge being has bluish green skin and eyes that reflect light like two silvery moons. Rippling with muscle this creature rises from the depths with a crash of waves on rocks.
 CR:10
 KIT:1|CN
@@ -16616,10 +16320,8 @@ Crushing Pressure (Su) Three times per day as a standard action, a sea giant can
 
 -----------------------------------------------
 
-Smoke Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Smoke)
+OUTPUTNAME:[NAME] Giant
 DESC:This giant resembles a 9-foot tall humanoid with soot-colored skin, dark eyes, and dark hair. It is dressed in dirty, soot-covered clothes, and its hands are caked with dirt and filth
 CR:6
 KIT:1|NE
@@ -16675,10 +16377,8 @@ Smoke Form (Su) A smoke giant's form is solid. As a free action it can change to
 
 -----------------------------------------------
 
-Volcano Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Volcano)
+OUTPUTNAME:[NAME] Giant
 DESC:This 18-foot tall, barrel-chested giant has leathery, reddish brown skin and haunting amber eyes. The creature is tough and wiry, with the strength and texture of copper.
 CR:14
 KIT:1|CN
@@ -16732,10 +16432,8 @@ AAA	KEY:VolcanoGiant ~ AAA	CATEGORY:Special Ability	TYPE:VolcanoGiantRaceAbility
 
 -----------------------------------------------
 
-Wood Giant
-
-OUTPUTNAME:[NAME] Giant
 Giant (Wood)
+OUTPUTNAME:[NAME] Giant
 DESC:This giant resembles a wood elf of about 10 feet tall. It has brownishgreen skin, a bald head, and bright green eyes.
 CR:5
 KIT:1|CG
@@ -17036,10 +16734,8 @@ Luck/Unluck (Su) When a golden cat selects an "owner" it grants that creature go
 
 -----------------------------------------------
 
-Blood Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Blood)
+OUTPUTNAME:[NAME] Golem
 DESC:This creature looks like a hideous, bloated slug, blood red in color. Two long spindly arms protrude from its upper body. It has no other discernible features.
 CR:5
 KIT:1|N
@@ -17087,10 +16783,8 @@ Vulnerability to Magic (Ex) A blood golem is slowed (as the spell) for 1d4 round
 
 -----------------------------------------------
 
-Flagstone Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Flagstone)
+OUTPUTNAME:[NAME] Golem
 DESC:What you thought was a section of ordinary stone floor unfurls itself before your eyes, assuming a humanoid form about 10 feet tall. The words "You shall not pass" echo throughout the area as the creature advances.
 CR:7
 KIT:1|N
@@ -17138,10 +16832,8 @@ Stunning Blow (Ex) Any creature hit by a flagstone golem's slam attack must succ
 
 -----------------------------------------------
 
-Furnace Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Furnace)
+OUTPUTNAME:[NAME] Golem
 DESC:This 20-foot tall construct looks like a humanoid clad in black iron armor. A large grate-covered opening in its abdomen houses a roaring fire in its innards.
 CR:14
 KIT:1|N
@@ -17181,10 +16873,8 @@ Immunity to Magic (Ex) A furnace golem is immune to any spell or spell-like abil
 
 -----------------------------------------------
 
-Gelatinous Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Gelatinous)
+OUTPUTNAME:[NAME] Golem
 DESC:This automaton looks like a humanoid-shaped semi-transparent amoeba. Small indentions appear to serve as the creature's eyes. No other facial features are present.
 CR:10
 KIT:1|N
@@ -17232,10 +16922,8 @@ Transparent (Ex) A gelatinous golem is hard to see, even under ideal conditions,
 
 -----------------------------------------------
 
-Ice Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Ice)
+OUTPUTNAME:[NAME] Golem
 DESC:This automaton is nearly twice as tall as a normal human and seems to be chiseled from ice and snow.
 CR:5
 KIT:1|N
@@ -17278,10 +16966,8 @@ Immunity to Magic (Ex) An ice golem is immune to any spell or spell-like ability
 
 -----------------------------------------------
 
-Iron Maiden Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Iron Maiden)
+OUTPUTNAME:[NAME] Golem
 DESC:A horrific torture device, the iron maiden stands ready for its next victim- only it doesn't stand patiently. It begins to clomp forward on iron legs, its lid slowly swinging open as if hungry for a new soul to torture.
 CR:9
 KIT:1|N
@@ -17333,10 +17019,8 @@ Vulnerability to Rust (Ex) An iron maiden golem is affected normally by rust att
 
 -----------------------------------------------
 
-Magnesium Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Magnesium)
+OUTPUTNAME:[NAME] Golem
 DESC:Silvery-white powder shakes loose from this construct as it stomps across the floor. Its face is a featureless plane except for two gouges where there should be eyes.
 CR:6
 KIT:1|N
@@ -17382,10 +17066,8 @@ The golem is anodized during the creation process by submerging it in a solution
 
 -----------------------------------------------
 
-Mummy Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Mummy)
+OUTPUTNAME:[NAME] Golem
 DESC:This creature appears as a humanoid wrapped in age-worn, filthy bandages. Two glowing red eyes peer from beneath its wrapped form.
 CR:6
 KIT:1|N
@@ -17419,10 +17101,8 @@ Strangulation (Ex) As a standard action a mummy golem can attempt to wrap bandag
 
 -----------------------------------------------
 
-Ooze Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Ooze)
+OUTPUTNAME:[NAME] Golem
 DESC:The ten-foot tall column slides towards you. Its body swirls with changing colors and two pseudo pods wave menacingly in the air.
 CR:8
 KIT:1|N
@@ -17469,10 +17149,8 @@ Fast Healing (Ex) An ooze golem heals 5 points of damage each round so long as i
 
 -----------------------------------------------
 
-Rope Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Rope)
+OUTPUTNAME:[NAME] Golem
 DESC:This construct is a tangled mess of knotted and bundled ropes in roughly humanoid form.
 CR:5
 KIT:1|N
@@ -17508,10 +17186,8 @@ Immunity to Magic (Ex) A rope golem is immune to any spell or spell-like ability
 
 -----------------------------------------------
 
-Stone Guardian Golem
-
+Golem (Stone Guardian)
 OUTPUTNAME:[NAME] Golem
-Golem (Stone) Guardian
 DESC:This automaton looks to be carved from mud and stone. It stands as tall as a human and where its heart would be, if it were alive, is a fist-sized rounded reddish-colored stone.
 CR:4
 KIT:1|N
@@ -17549,10 +17225,8 @@ See Invisibility (Ex) A stone guardian constantly sees invisible creatures and o
 
 -----------------------------------------------
 
-Tallow Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Tallow)
+OUTPUTNAME:[NAME] Golem
 
 This human-sized automaton has been carved from wax. Its face bears no discernible features and appears as a completely smooth surface.
 TALLOW GOLEM
@@ -17588,10 +17262,8 @@ Chemisorb (Ex) A tallow golem can break down and absorb chemicals from a living 
 
 -----------------------------------------------
 
-Witch-Doll Golem
-
+Golem (Witch-Doll)
 OUTPUTNAME:[NAME] Golem
-Golem (Witch)-Doll
 DESC:This bizarre construct appears to be crafted from stuffed human skin, with large button like platters in place of eye holes and crude stitching forming a pinched mouth. Knots of humanoid hair top its head and it is dressed in a patchwork of ill fitting clothes. Large needles and pins pierce the creature where a humanoid's vital organs would be.
 CR:11
 KIT:1|N
@@ -17641,10 +17313,8 @@ Resist Magic (Ex) A witch-doll golem gains a +4 bonus on all saving throws again
 
 -----------------------------------------------
 
-Wood Golem
-
-OUTPUTNAME:[NAME] Golem
 Golem (Wood)
+OUTPUTNAME:[NAME] Golem
 DESC:This automaton is human-sized and resembles a ornately carved wooden statue.
 CR:6
 KIT:1|N
@@ -17769,10 +17439,8 @@ Gorgon A gorgimera's gorgon head breath weapon is usable once every 1d4 rounds (
 
 -----------------------------------------------
 
-Euryale
-
-OUTPUTNAME:[NAME]
 Gorgon (Euryale)
+OUTPUTNAME:[NAME]
 DESC:This hideous creature appears to be almost twice as tall as a normal human. Its upper torso is that of a well proportioned human female with scaly flesh while its lower torso is that of a great black-scaled snake. Small black wings protrude from its back. Instead of hair, its head is covered with writhing, deadly asps. Its mouth is filled with razor-sharpened fangs.
 CR:22
 KIT:1|LE
@@ -17823,10 +17491,8 @@ Poison (Ex) Bite-injury; save Fort DC 28; frequency 1/round for 6 rounds; effect
 
 -----------------------------------------------
 
-Sthenno
-
-OUTPUTNAME:[NAME]
 Gorgon (Sthenno)
+OUTPUTNAME:[NAME]
 DESC:This hideous creature appears to be almost twice as tall as a normal human. Its upper torso is that of a well proportioned human female with scaly flesh while its lower torso is that of a great black-scaled snake. Small black wings protrude from its back. Instead of hair, its head is covered with writhing, deadly asps. Its mouth is filled with razor-sharpened fangs.
 CR:20
 KIT:1|LE
@@ -18018,10 +17684,8 @@ Fascination (Su): Once per round as a standard action, a graymalkin can attempt 
 
 -----------------------------------------------
 
-Slinker Graymalkin
-
-OUTPUTNAME:[NAME]
 Graymalkin (Slinker)
+OUTPUTNAME:[NAME]
 DESC:This creature has the appearance of an emaciated cat with wiry gray fur.  A slinker is referred to in legend as a witch cat, hell cat, or demonic Its eyes are sapphire blue and its ribcage is slightly oversized.  cat that creeps into a family's house and stealing the breath from their
 
 CR:2
@@ -18061,10 +17725,8 @@ Fascination (Su) Will DC 13.
 
 -----------------------------------------------
 
-Tether Graymalkin
-
-OUTPUTNAME:[NAME]
 Graymalkin (Tether)
+OUTPUTNAME:[NAME]
 DESC:This creature has the appearance of an emaciated cat with wiry gray fur. Its eyes are bright emerald green and its tail is unusually long.
 CR:3
 KIT:1|LE
@@ -18697,10 +18359,8 @@ DESC:A monstrously-sized, multi-segmented insect crawls forth on scores of stump
 
 -----------------------------------------------
 
-Larva Helix Moth
-
-OUTPUTNAME:[NAME] Helix Moth
 Helix Moth (Larva)
+OUTPUTNAME:[NAME] Helix Moth
 CR:6
 KIT:1|N
 SIZE:L
@@ -18727,10 +18387,8 @@ Base Atk +7; CMB +11; CMD 21
 
 -----------------------------------------------
 
-Mature Helix Moth
-
-OUTPUTNAME:[NAME] Helix Moth
 Helix Moth (Mature)
+OUTPUTNAME:[NAME] Helix Moth
 CR:10
 DESC:This 20-foot long insect has a black abdomen wrapped with spiraling bands of various color and a white underbelly. Three sets of translucent bluishviolet wings extend from its body. A small black sword-like stinger protrudes from the end of its abdomen and its maw clatters with large gray mandibles.
 CR:10
@@ -18990,10 +18648,8 @@ Heatsense (Ex) Hoar spirits can detect heat (such as that generated by living cr
 
 -----------------------------------------------
 
-Giant Hornet
-
-OUTPUTNAME:[NAME] Hornet
 Hornet (Giant)
+OUTPUTNAME:[NAME] Hornet
 DESC:This massive horse-sized hornet has a black body with white markings on the thorax and abdomen and a cruel looking rapier-length stinger.
 CR:5
 KIT:1|N
@@ -19032,10 +18688,8 @@ Pheromone (Ex) The first time a giant hornet is successfully hit in combat, it r
 
 -----------------------------------------------
 
-Giant Horsefly
-
-OUTPUTNAME:[NAME] Horsefly
 Horsefly (Giant)
+OUTPUTNAME:[NAME] Horsefly
 DESC:This creature looks like an 8-foot long hairy, black fly.
 CR:3
 KIT:1|N
@@ -19175,10 +18829,8 @@ Poison (Ex) Bite-injury; save Fort DC 12 + 1/2 HD + Constitution modifier; frequ
 
 -----------------------------------------------
 
-Cobra-Back Inphidian
-
-OUTPUTNAME:[NAME] Inphidian
 Inphidian (Cobra-Back)
+OUTPUTNAME:[NAME] Inphidian
 DESC:This hideously formed humanoid covered with bluish green scales stands roughly taller than a man. A large flap of skin forms a cobra-like hood that runs from the back of the head, halfway down the spine. Its eyes burn like crimson embers and its long forked tongue flickers. But the creature's most unnerving features are its hands which end in viper heads complete with sharp fangs that drip with venom.
 CR:3
 KIT:1|NE
@@ -19216,10 +18868,8 @@ Spit Poison (Ex) Once every 1d4 rounds, a cobra-back can spit a line of inphidia
 
 -----------------------------------------------
 
-Common Inphidian
-
-OUTPUTNAME:[NAME] Inphidian
 Inphidian (Common)
+OUTPUTNAME:[NAME] Inphidian
 DESC:This strange 6-foot tall humanoid is covered with blue-green scales and its head is almost snake-like in appearance. It has no hair on its head or body. Where its hands should be, are instead the snapping the heads of a cruel fanged vipers.
 CR:3
 KIT:1|NE
@@ -19257,10 +18907,8 @@ Blinding Spray (Ex) Once every 1d4 rounds, a common inphidian can spew forth a 2
 
 -----------------------------------------------
 
-Dancer Inphidian
-
-OUTPUTNAME:[NAME] Inphidian
 Inphidian (Dancer)
+OUTPUTNAME:[NAME] Inphidian
 DESC:A shapely feminine humanoid with pale bluish green scales sways in lithe and elegant rhythm. As she moves, her forked tongue flickers and her eyes burn crimson. Where her hands should be, a viper head sprouts from each wrist.
 CR:3
 KIT:1|NE
@@ -19297,10 +18945,8 @@ Entrancing Dance (Su) a dancer inphidian can sway its body in a rhythmic motion 
 
 -----------------------------------------------
 
-Night Adder Inphidian
-
-OUTPUTNAME:[NAME] Inphidian
 Inphidian (Night Adder)
+OUTPUTNAME:[NAME] Inphidian
 DESC:Dressed in black robes, this creature has black scales covering its entire body. Its head is serpentine and its arms end in snake-like hands resembling black mambas.
 CR:5
 KIT:1|NE
@@ -19340,10 +18986,8 @@ Languages Aklo, Common, Inphidian
 
 -----------------------------------------------
 
-Night Adder Priest Inphidian
-
-OUTPUTNAME:[NAME]
 Inphidian (Night Adder Priest)
+OUTPUTNAME:[NAME]
 CR:7
 Night adder inphidian cleric of Hassith-Kaa 5
 KIT:1|NE
@@ -19402,10 +19046,8 @@ Other Gear chain shirt, cloak of resistance +1, caduseus holy symbol
 
 -----------------------------------------------
 
-Rattler Inphidian
-
-OUTPUTNAME:[NAME] Inphidian
 Inphidian (Rattler)
+OUTPUTNAME:[NAME] Inphidian
 DESC:Ornate diamond shaped patterns cover the flesh of this serpentine horror. The most noticeable feature of his humanoid torso is its arms-they end in snake heads rather than hands. Its snake arms and heads have a distinctive triangular shape with a pit above the nostrils and before the slit-like eyes. This creature has no legs but instead has the lower half of a monstrous rattlesnake complete with a foot long rattle which twitches ominously at the tip.
 
 CR:4
@@ -19553,10 +19195,8 @@ Ambush Leap (Ex) A jaculi is not required to make an Acrobatics check when jumpi
 
 -----------------------------------------------
 
-Marsh Jelly
-
-OUTPUTNAME:[NAME] Jelly
 Jelly (Marsh)
+OUTPUTNAME:[NAME] Jelly
 DESC:This transparent jellyfish-like being occasionally flickers with a weird green inner light that steadily flashes on and off.  This massive jellyfish-like being reeks of the Abyss and flickers with an unusual inner light displaying a disturbing sentience.
 CR:3
 KIT:1|N
@@ -19599,10 +19239,8 @@ Poison (Ex) Tentacle-injury; save DC 14; frequency 1/ round for 4 rounds; effect
 
 -----------------------------------------------
 
-Marsh Jelly
-
-OUTPUTNAME:[NAME] Jelly
 Jelly (Jubilex-Touched Marsh)
+OUTPUTNAME:[NAME] Jelly
 CR:11
 KIT:1|CE
 SIZE:L
@@ -19645,10 +19283,8 @@ A Jubilex-touched marsh jelly's natural weapons are treated as chaotic-aligned a
 
 -----------------------------------------------
 
-Mustard Jelly
-
-OUTPUTNAME:[NAME] Jelly
 Jelly (Mustard)
+OUTPUTNAME:[NAME] Jelly
 DESC:This creature appears to be a yellowish-brown amoeba.
 CR:7
 KIT:1|N
@@ -19698,10 +19334,8 @@ A mustard jelly's natural weapons are treated as magic weapons for the purpose o
 
 -----------------------------------------------
 
-StunJelly
-
-OUTPUTNAME:[NAME] Jelly
 Jelly (Stun)
+OUTPUTNAME:[NAME] Jelly
 DESC:What appears to be a section of the wall comes to life, revealing a slightly translucent protoplasmic creature.
 STUNJELLY
 CR:3
@@ -19740,10 +19374,8 @@ Corrosion (Ex) An opponent that is being engulfed by a stunjelly suffers a -4 pe
 
 -----------------------------------------------
 
-Whip Jelly
-
-OUTPUTNAME:[NAME] Jelly
 Jelly (Whip)
+OUTPUTNAME:[NAME] Jelly
 DESC:This creature looks like a squirming mass of bluish-gray slime with several long writhing tentacles protruding from its form. Veins of dark blue and black snake through its protoplasmic form.
 CR:2
 KIT:1|N
@@ -19778,10 +19410,8 @@ Acid (Ex) A whip jelly secretes a deadly acid that quickly dissolves organic mat
 
 -----------------------------------------------
 
-Monstrous Jellyfish
-
-OUTPUTNAME:[NAME] Jellyfish
 Jellyfish (Monstrous)
+OUTPUTNAME:[NAME] Jellyfish
 DESC:An enormous jelly-like being floats peacefully in the warm waters, trailing long seaweed-like tendrils from its central mass.
 CR:2
 KIT:1|N
@@ -20256,10 +19886,8 @@ Damage 1d4 (S), 1d6 (M); Crit x3, Weight 1 lb., Type slashing.
 
 -----------------------------------------------
 
-KuahLij
-
-OUTPUTNAME:Kuah-Lij
 Kuah Lij
+OUTPUTNAME:Kuah-Lij
 DESC:This creature resembles a gnome that has been stretched vertically to a height of a human. Its features are knobby and elongated. Its hair is
 light and downy, more akin to a soft fur than anything else, and its skin is white with pale blue undertones.
 CR:1/3
@@ -20464,10 +20092,8 @@ Immunity to Metal (Ex) Lava children are completely immune to any metal object o
 
 -----------------------------------------------
 
-Giant Leech
-
-OUTPUTNAME:[NAME] Leech
 Leech (Giant)
+OUTPUTNAME:[NAME] Leech
 DESC:A large bloated leech floats in the muck and slime.
 GIANT LEECH
 CR:2
@@ -20682,10 +20308,8 @@ Engulf (Ex) A living lake that has grabbed an opponent can try to engulf the cre
 
 -----------------------------------------------
 
-Cavern Lizard
-
-OUTPUTNAME:[NAME] Lizard
 Lizard (Cavern)
+OUTPUTNAME:[NAME] Lizard
 DESC:A 10-foot long gray lizard with large wide feet and sapphire-gold bulging eyes stares. Balanced upon thick and muscled, its feet cling to surfaces upon small suction cup-like pads. Its head is angular and somewhat flat and its mouth sports a row of long, serrated teeth. CAVERN LIZARD
 CR:4
 KIT:1|N
@@ -20718,10 +20342,8 @@ Skills Climb +22, Perception +9, Stealth +10 (+14 in areas of natural stone or r
 
 -----------------------------------------------
 
-Fire Lizard
-
-OUTPUTNAME:[NAME] Lizard
 Lizard (Fire)
+OUTPUTNAME:[NAME] Lizard
 DESC:This creature resembles a wingless red dragon. Its scales are gray and dappled in red and brown along its back. Its underbelly is bright red and its eyes are black with yellow pupils.
 
 CR:8
@@ -20759,10 +20381,8 @@ Skills Stealth +11
 
 -----------------------------------------------
 
-Gnasher Lizard
-
-OUTPUTNAME:[NAME] Lizard
 Lizard (Gnasher)
+OUTPUTNAME:[NAME] Lizard
 DESC:This 10-foot long stone-colored lizard has a large, wide gaping maw filled with double rows of dagger-like teeth. Its head is large and flat and sports a ridge of hardened bone that runs the length of its head before tapering off near the middle of its back. Its four legs end in large, flat clawed feet.
 CR:8
 KIT:1|N
@@ -21187,10 +20807,8 @@ Vorpal Bite (Ex) A mawler that scores a critical hit with its bite attack while 
 
 -----------------------------------------------
 
-Greater Medusa
-
-OUTPUTNAME:[NAME] Medusa
 Medusa (Greater)
+OUTPUTNAME:[NAME] Medusa
 DESC:This creature appears as a large female with glistening green scales, snakes for hair, and the lower torso of a giant snake.
 CR:8
 KIT:1|LE
@@ -21283,10 +20901,8 @@ Thought Consumption (Su) A memory child can drain an opponent's thoughts and mem
 
 -----------------------------------------------
 
-Lightning Mephit
-
-OUTPUTNAME:[NAME] Mephit
 Mephit (Lightning)
+OUTPUTNAME:[NAME] Mephit
 DESC:This small creature appears to be a humanoid-shaped being composed of electricity. Bluish-white lighting arcs in small bursts from its body.
 CR:3
 KIT:1|N
@@ -21341,10 +20957,8 @@ Vulnerability to Water (Ex) A lightning mephit takes 1d4 points of damage per ga
 
 -----------------------------------------------
 
-Smoke Mephit
-
-OUTPUTNAME:[NAME] Mephit
 Mephit (Smoke)
+OUTPUTNAME:[NAME] Mephit
 DESC:This small winged humanoid has soot-colored skin, crimson eyes, and dark wings. Small trails of smoke stream from its body as it flies along.
 CR:3
 KIT:1|N
@@ -21964,10 +21578,8 @@ Mortuary Cyclone Spawn A creature killed by a mortuary cyclone's necrocone rises
 
 -----------------------------------------------
 
-Giant Mosquito
-
-OUTPUTNAME:[NAME] Mosquito
 Mosquito (Giant)
+OUTPUTNAME:[NAME] Mosquito
 DESC:This creature looks like an enlarged version of a normal mosquito.
 CR:1/2
 KIT:1|N
@@ -22334,11 +21946,8 @@ Dance of Death (Ex) A necrophidius can entrance opponents by swaying back and fo
 
 -----------------------------------------------
 
-Rattler
-
-OUTPUTNAME:[NAME]
 Necrophidius (Rattler)
-
+OUTPUTNAME:[NAME]
 DESC:This creature monster has a long skeletal body topped with a fanged human skull. Its eyes glow with a hellish red light.  This variation of the necrophidius is constructed from the skeletal remains of a giant rattlesnake. During the creation process, the tail rattle is left intact and magicked to create a confusion effect on those that hear it rattle.
 CR:2
 KIT:1|N
@@ -22990,10 +22599,8 @@ Soulsight (Su) An entropic ooze can automatically detect the location of any liv
 
 -----------------------------------------------
 
-Dark Matter Entropic Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Dark Matter Entropic)
+OUTPUTNAME:[NAME] Ooze
 CR:14
 KIT:1|N
 SIZE:H
@@ -23027,10 +22634,8 @@ A larger, more powerful version of the standard entropic ooze is know as the dar
 
 -----------------------------------------------
 
-Glacial Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Glacial)
+OUTPUTNAME:[NAME] Ooze
 DESC:At first glance what appears to be a snow bank or mound of snow reveals itself to be a sentient creature formed of snow and ice.
 CR:6
 KIT:1|N
@@ -23072,10 +22677,8 @@ Transparent (Ex) A glacial ooze is hard to identify, even under ideal conditions
 
 -----------------------------------------------
 
-Magma Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Magma)
+OUTPUTNAME:[NAME] Ooze
 DESC:This creature appears to be a pool of bubbling and churning molten rock.
 CR:7
 KIT:1|N
@@ -23110,10 +22713,8 @@ Lava (Ex) The magma ooze is formed of molten rock. Any melee hit deals on the oo
 
 -----------------------------------------------
 
-Mercury Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Mercury)
+OUTPUTNAME:[NAME] Ooze
 DESC:This creature resembles a swirling thick pool of silvery-white mercury.
 CR:4
 KIT:1|N
@@ -23147,10 +22748,8 @@ Mercury Poisoning (Ex) Slam-injury; save Fort DC 17; frequency 1/round for 4 rou
 
 -----------------------------------------------
 
-Metallic Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Metallic)
+OUTPUTNAME:[NAME] Ooze
 DESC:A large pile of seemingly unguarded coins lies before you. Ooze, Metallic (Hoard Ooze).
 CR:6
 KIT:1|N
@@ -23187,10 +22786,8 @@ Poison (Ex): Slam-injury; save Fort DC 21; frequency 1/round for 6 rounds; effec
 
 -----------------------------------------------
 
-Undead Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Undead)
+OUTPUTNAME:[NAME] Ooze
 DESC:This creature appears as a large, undulating mass of black goo from which rotted and broken bones protrude.
 CR:6
 KIT:1|NE
@@ -23227,10 +22824,8 @@ Skeletons (Su) As a full-round action, an undead ooze can expel 1d6 skeletons fr
 
 -----------------------------------------------
 
-Vampiric Ooze
-
-OUTPUTNAME:[NAME] Ooze
 Ooze (Vampiric)
+OUTPUTNAME:[NAME] Ooze
 DESC:This creature looks like a thick, bubbling pool of mustard yellow muck or goo.
 CR:8
 KIT:1|CE
@@ -23274,10 +22869,8 @@ DESC:Orc tribes are feared and reviled throughout the planes for their depraviti
 
 -----------------------------------------------
 
-Black Orc
-
-OUTPUTNAME:[NAME] Orc
 Orc (Black)
+OUTPUTNAME:[NAME] Orc
 DESC:This creature resembles a 7-foot tall orc with bluish-black skin and red eyes. Orc, Black (Black Orc of Orcus).
 CR:1/3
 Black orc warrior 1
@@ -23384,10 +22977,8 @@ Gear +1 scale mail, ring of protection +1, +1 longspear, masterwork light crossb
 
 -----------------------------------------------
 
-Blood Orc
-
-OUTPUTNAME:[NAME] Orc
 Orc (Blood)
+OUTPUTNAME:[NAME] Orc
 DESC:This massive creature resembles a powerful orc with bestial jaws and oversized tusks. It wears black armor and carries a wicked greataxe caked in blood. Its armor and hair, like its weapon, is caked with dried blood.
 CR:1/3
 Blood orc warrior 1
@@ -23429,10 +23020,8 @@ Frenzy (Ex) Once per day a blood orc who smells or tastes blood during combat ma
 
 -----------------------------------------------
 
-Ghost Faced Orc
-
-OUTPUTNAME:[NAME] Orc
 Orc (Ghost-Faced)
+OUTPUTNAME:[NAME] Orc
 DESC:This creature looks like an orc whose face and head is painted in a grotesque skull-like pattern.
 CR:1/3
 Ghost-faced orc warrior 1
@@ -23472,10 +23061,8 @@ Invisible in Shadows (Ex) When a ghost-faced orc stands still or moves slowly (n
 
 -----------------------------------------------
 
-Greenskin Orc
-
-OUTPUTNAME:[NAME] Orc
 Orc (Greenskin)
+OUTPUTNAME:[NAME] Orc
 DESC:This creature looks like an ugly orc with green slime colored skin, small tusks, and canine-like eyes.
 CR:1/3
 Greenskin orc warrior 1
@@ -24207,10 +23794,8 @@ Languages Common, Draconic, Giant
 
 -----------------------------------------------
 
-Blood Pudding
-
-OUTPUTNAME:[NAME] Pudding
 Pudding (Blood)
+OUTPUTNAME:[NAME] Pudding
 DESC:A three-foot-tall spheroid blob of blood-red protoplasm seeps a foul smelling and sticky slime.
 CR:5
 KIT:1|N
@@ -24250,10 +23835,8 @@ Slime Grapple (Ex) because of the sticky slime it secretes, a blood pudding gain
 
 -----------------------------------------------
 
-Brown Pudding
-
-OUTPUTNAME:[NAME] Pudding
 Pudding (Brown)
+OUTPUTNAME:[NAME] Pudding
 DESC:This creature appears as a large mass of undulating brown sludge.
 CR:7
 KIT:1|N
@@ -24295,10 +23878,8 @@ Suction (Ex) The brown pudding can create powerful suction against any surfaces 
 
 -----------------------------------------------
 
-Dun Pudding
-
-OUTPUTNAME:[NAME] Pudding
 Pudding (Dun)
+OUTPUTNAME:[NAME] Pudding
 DESC:The ground in this area seems to be alive. Suddenly, a mass of flowing gunk and muck, the same texture and color as the ground, rises from the area and moves in your direction.
 CR:7
 KIT:1|N
@@ -24334,10 +23915,8 @@ Corrosion (Ex) An opponent that is being constricted by a dun pudding suffers a 
 
 -----------------------------------------------
 
-Stone Pudding
-
-OUTPUTNAME:[NAME] Pudding
 Pudding (Stone)
+OUTPUTNAME:[NAME] Pudding
 DESC:A large blob of grayish, stone colored liquid lies upon the floor.
 CR:9
 KIT:1|N
@@ -24380,10 +23959,8 @@ Racial Vulnerability (Ex) a stone pudding is slowed (as by a slow spell) for 3 r
 
 -----------------------------------------------
 
-White Pudding
-
-OUTPUTNAME:[NAME] Pudding
 Pudding (White)
+OUTPUTNAME:[NAME] Pudding
 DESC:A glistening white sheet of snow and ice moves across the area.
 CR:6
 KIT:1|N
@@ -24521,10 +24098,8 @@ Unstable Form (Su) A quantum has a deflection bonus to its Armor Class equal to 
 
 -----------------------------------------------
 
-Acid Quasi-Elemental
-
-OUTPUTNAME:[NAME] Quasi-Elemental
 Quasi-Elemental (Acid)
+OUTPUTNAME:[NAME] Quasi-Elemental
 DESC:What was once a still puddle of green liquid rises up like a wave, lashing out with acid-dripping tendrils. In the midst of the pool, one can barely make out regions of darker green that form a vaguely human face.
 Languages Aquan
 
@@ -24753,10 +24328,8 @@ Skills Knowledge (planes) +13, Perception +15, Stealth +13, Swim +30
 
 -----------------------------------------------
 
-Lightning Quasi-Elemental
-
-OUTPUTNAME:[NAME] Quasi-Elemental
 Quasi-Elemental (Lightning)
+OUTPUTNAME:[NAME] Quasi-Elemental
 DESC:This creature appears as a bluish globe of electrical energy. Lightning plays off and around its body.
 LIGHTNING QUASI-ELEMENTAL
 Languages Auran
@@ -24893,10 +24466,8 @@ Skills Fly +29, Knowledge (planes) +13, Perception +15, Stealth +19
 
 -----------------------------------------------
 
-Obsidian Quasi-Elemental
-
-OUTPUTNAME:[NAME] Quasi-Elemental
 Quasi-Elemental (Obsidian)
+OUTPUTNAME:[NAME] Quasi-Elemental
 DESC:This creature is a powerfully built, roughly humanoid-shaped monolith of black stone. Its hands end in wicked, serrated and jagged claws. No facial features can be discerned.
 
 Languages Terran
@@ -25325,10 +24896,8 @@ Thorns (Ex) From its back, the rakklethorn toad can fire a volley of thorns once
 
 -----------------------------------------------
 
-Barrow Rat
-
-OUTPUTNAME:[NAME] Rat
 Rat (Barrow)
+OUTPUTNAME:[NAME] Rat
 DESC:A chattering swarm of large, sickly looking brown rats emerge from everywhere. The creatures appear both half starved and agitated to aggression.
 CR:1/4
 KIT:1|N
@@ -25369,10 +24938,8 @@ Swarm (Ex) Barrow rats crawl over each other in an attempt to swarm an opponent.
 
 -----------------------------------------------
 
-Brain Rat
-
-OUTPUTNAME:[NAME] Rat
 Rat (Brain)
+OUTPUTNAME:[NAME] Rat
 DESC:This creature is a blackish-brown rat about 1 foot long.
 CR:1/2
 KIT:1|N
@@ -25420,10 +24987,8 @@ At will-detect thoughts (DC 13) 3/day-burning hands (DC 12), daze (DC 11)
 
 -----------------------------------------------
 
-Ethereal Rat
-
-OUTPUTNAME:[NAME] Rat
 Rat (Ethereal)
+OUTPUTNAME:[NAME] Rat
 DESC:This creature is a large grayish-black rat about 2 feet long.
 CR:2
 KIT:1|N
@@ -25461,10 +25026,8 @@ Ethereal Jaunt (Su) An ethereal rat can shift from the Ethereal to the Material 
 
 -----------------------------------------------
 
-Shadow Rat
-
-OUTPUTNAME:[NAME] Rat
 Rat (Shadow)
+OUTPUTNAME:[NAME] Rat
 DESC:This creature appears as a rat with rotting flesh, torn and matted fur, and reddish blazing eyes. Its semi-translucent skin shows discolored bones and muscles.
 CR:1/2
 KIT:1|N
@@ -25543,10 +25106,8 @@ Strength Damage (Su) A shadow rat deals Strength damage to living foes it bites.
 
 -----------------------------------------------
 
-Spore Rat
-
-OUTPUTNAME:[NAME] Rat
 Rat (Spore)
+OUTPUTNAME:[NAME] Rat
 DESC:This creature resembles a dog-sized rat with matted brownish fur and ruby red eyes. Its mouth is lined with sharpened teeth and its claws appear to be razor-sharp.
 CR:2
 KIT:1|N
@@ -26066,10 +25627,8 @@ Languages -
 
 -----------------------------------------------
 
-Stone Roper
-
-OUTPUTNAME:[NAME] Roper
 Roper (Stone)
+OUTPUTNAME:[NAME] Roper
 DESC:This creature is a vaguely cone-shaped creature with six tentacles and a large, gaping mouth filled with serrated teeth.
 CR:6
 KIT:1|CE
@@ -26576,10 +26135,8 @@ Feats: All sea serpents have Swim-By Attack as a bonus feat.
 
 -----------------------------------------------
 
-Brine Sea Serpent
-
-OUTPUTNAME:[NAME] Sea Serpent
 Sea Serpent (Brine)
+OUTPUTNAME:[NAME] Sea Serpent
 DESC:This serpentine creature is about 20 feet long, nose to tail, with two sets of large flippers and a wide body. A finned crest runs the length of its back, head to tail. The body is dark blue with a lighter underbelly, often
 tinged with rust or green highlights.
 CR:14
@@ -26627,10 +26184,8 @@ Poison (Ex) Bite-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect
 
 -----------------------------------------------
 
-Deep Hunter Sea Serpent
-
-OUTPUTNAME:[NAME] Sea Serpent
 Sea Serpent (Deep Hunter)
+OUTPUTNAME:[NAME] Sea Serpent
 DESC:The serpent is about 60 feet long and 10 feet thick. Its body scales are smooth, each about the size of a large shield, and the entire serpent is deep green to jet black in color, with eyes a solid, nearly black red color.
 CR:22
 KIT:1|LN
@@ -26674,10 +26229,8 @@ Poison (Ex) Bite-injury; save Fort DC 29; frequency 1/round for 6 rounds; effect
 
 -----------------------------------------------
 
-Fanged Sea Serpent
-
-OUTPUTNAME:[NAME] Sea Serpent
 Sea Serpent (Fanged)
+OUTPUTNAME:[NAME] Sea Serpent
 DESC:This serpent is 12 to 15 feet long and 5 feet thick. Its body scales are thickened and hardened, which slows it somewhat in water but provides good protection. The serpent's most outstanding features, however, are the rows of long, sharp teeth that fill its mouth. It has large, lidless red eyes with white pupils.
 CR:6
 KIT:1|N
@@ -26717,10 +26270,8 @@ Poison (Ex) Bite-injury; save Fort DC 17; frequency 1/round for 6 rounds; effect
 
 -----------------------------------------------
 
-Gilded Sea Serpent
-
-OUTPUTNAME:[NAME] Sea Serpent
 Sea Serpent (Gilded)
+OUTPUTNAME:[NAME] Sea Serpent
 DESC:This serpent is about 8 feet long and 2 feet thick. Its body scales are small and smooth, with the brilliant luster of gold. It has a long, narrow crocodilian snout and a cluster of antenna-like whiskers sweeping back from just above its jaws.
 CR:5
 KIT:1|N
@@ -26760,10 +26311,8 @@ Poison (Ex): Bite-injury; save Fort DC 15; frequency 1/round for 4 rounds; effec
 
 -----------------------------------------------
 
-Shipbreaker Sea Serpent
-
-OUTPUTNAME:[NAME] Sea Serpent
 Sea Serpent (Shipbreaker)
+OUTPUTNAME:[NAME] Sea Serpent
 DESC:This devastating serpent is over 120 feet long and 15 feet thick. Its body scales are dark gray-brown, festooned with barnacles, seaweed, and other sea life. Its maw is the size of a large wagon, with teeth the size of greatswords.
 CR:25
 KIT:1|CN
@@ -26809,10 +26358,8 @@ Poison (Ex): Bite-injury; save Fort DC 41; frequency 1/round for 6 rounds; effec
 
 -----------------------------------------------
 
-Spitting Sea Serpent
-
-OUTPUTNAME:[NAME] Sea Serpent
 Sea Serpent (Spitting)
+OUTPUTNAME:[NAME] Sea Serpent
 DESC:The body length of a these serpents is roughly 15 to 18 feet, with a girth of up to 3 feet. They are covered with rough-edged scales of brown, green, or blue coloration, giving their hides a mottled appearance.
 Their heads are short, with thick, muscular necks concealed beneath a webbed fringe.
 CR:9
@@ -26860,10 +26407,8 @@ Spit (Ex): The spitting sea serpent can eject a sticky glob of concentrated acid
 
 -----------------------------------------------
 
-Giant Sea Slug
-
-OUTPUTNAME:[NAME] Sea Slug
 Sea Slug (Giant)
+OUTPUTNAME:[NAME] Sea Slug
 DESC:Surfacing from the depths emerges a colossal slug. Its swollen flesh is a hideous mottled greenish-gray and rows of undulating gills line its 30foot long body. Probing with a large set of antennae it gnashes its great mouth exposing a gullet lined with rows and rows of serrated teeth.
 CR:12
 KIT:1|N
@@ -26940,10 +26485,8 @@ Languages Aquan
 
 -----------------------------------------------
 
-Pelagos Sea Spider
-
-OUTPUTNAME:[NAME] Sea Spider
 Sea Spider (Pelagos)
+OUTPUTNAME:[NAME] Sea Spider
 DESC:This creature resembles similar arachnids found on land. Its color ranges
 through various shades of blue and green with distinct black markings. Its legs and bodies are covered with thousands of fine, sticky hairs.
 CR:15
@@ -26992,10 +26535,8 @@ Watersense (Ex) A pelagos can pinpoint the location of anything within 60 feet t
 
 -----------------------------------------------
 
-Monstrous Sea Wasp
-
-OUTPUTNAME:[NAME] Sea Wasp
 Sea Wasp (Monstrous)
+OUTPUTNAME:[NAME] Sea Wasp
 DESC:A translucent blue and nearly invisible in water, this cube-shaped jellyfish has four distinct sides and trails dozens of extremely long tentacles.
 
 
@@ -27297,10 +26838,8 @@ a DC 16 Will save or become shaken as long as the sepulchral guardian is "alive"
 
 -----------------------------------------------
 
-Lesser Shadow
-
-OUTPUTNAME:[NAME] Shadow
 Shadow (Lesser)
+OUTPUTNAME:[NAME] Shadow
 DESC:This creature appears to be a humanoid constructed of living darkness.
 CR:1/2
 KIT:1|CE
@@ -27526,10 +27065,8 @@ Gear leather armor, short sword, spear
 
 -----------------------------------------------
 
-Black Skeleton
-
-OUTPUTNAME:[NAME] Skeleton
 Skeleton (Black)
+OUTPUTNAME:[NAME] Skeleton
 DESC:This creature looks like a skeleton with glistening black bones, seemingly constructed of blackened steel. Small red pinpoints of light burn in its hollowed eye sockets.
 CR:5
 KIT:1|CE
@@ -27573,10 +27110,8 @@ Superior Two-Weapon Fighting (Ex) A black skeleton usually fights with a short s
 
 -----------------------------------------------
 
-Lead Skeleton
-
-OUTPUTNAME:[NAME] Skeleton
 Skeleton (Lead)
+OUTPUTNAME:[NAME] Skeleton
 DESC:This creature appears to be an animated skeleton whose bones have been coated with metal.
 CR:7
 KIT:1|N
@@ -28252,10 +27787,8 @@ Quickness (Ex) A sloth viper is inherently quick and can take an extra standard 
 
 -----------------------------------------------
 
-Giant Slug
-
-OUTPUTNAME:[NAME] Giant
 Slug (Giant)
+OUTPUTNAME:[NAME] Giant
 DESC:Though many times larger, this creature appears to be an enormous grayish slug. A large slime trail marks the ground as it moves.
 CR:8
 KIT:1|N
@@ -28442,10 +27975,8 @@ Inseparable Weapon (Su) A soul reaper has a mystic and magical connection to its
 
 -----------------------------------------------
 
-Skull Spider
-
-OUTPUTNAME:[NAME] Spider
 Spider (Skull)
+OUTPUTNAME:[NAME] Spider
 DESC:This tiny creature appears to be a humanoid skull with eight spidery legs.
 CR:1/4
 KIT:1|N
@@ -29042,10 +28573,8 @@ Watersense (Ex): A sudoth can automatically pinpoint anything in contact with th
 
 -----------------------------------------------
 
-Adamantine Wasp Swarm
-
+Swarm (Adamantine Wasp)
 OUTPUTNAME:[NAME] Swarm
-Swarm (Adamantine) Wasp
 DESC:The sound of metallic clicking drones in your ears as thousands of tiny metal insects descend from the air.
 CR:10
 KIT:1|N
@@ -29082,10 +28611,8 @@ Poison (Ex) Swarm-injury, save Fort DC 17; frequency 1/round for 4 rounds; effec
 
 -----------------------------------------------
 
-Grig Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Grig)
+OUTPUTNAME:[NAME] Swarm
 DESC:Winged man-shaped creatures with blue skin and cricket legs buzz about in a dense mass both hypnotic and frightening.
 
 Spell-like Abilities (CL 10th):
@@ -29134,10 +28661,8 @@ Fiddle (Su) The grigs that make up a grig swarm carry tiny, grig-sized fiddles. 
 
 -----------------------------------------------
 
-Heat Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Heat)
+OUTPUTNAME:[NAME] Swarm
 DESC:A hellish-red swirling mass of dancing flames advances toward you.
 CR:7
 KIT:1|N
@@ -29178,10 +28703,8 @@ Fiery Aura (Ex) Anyone within 20 feet of a heat swarm must succeed on a DC 16 Fo
 
 -----------------------------------------------
 
-Piranha Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Piranha)
+OUTPUTNAME:[NAME] Swarm
 DESC:Beneath your dangling feet swarms a roiling school of fish. Their tiny mouths flash with the glint of sharp, razor-like teeth.
 CR:2
 KIT:1|N
@@ -29224,10 +28747,8 @@ Killing Frenzy (Ex) A piranha swarm that detects blood in the water enters a fre
 
 -----------------------------------------------
 
-Poisonous Frog Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Poisonous Frog)
+OUTPUTNAME:[NAME] Swarm
 DESC:Each frog in the hopping army bears black stripes on its hind legs and sickly, yellowish eyes.
 CR:2
 KIT:1|N
@@ -29266,10 +28787,8 @@ Poison (Ex) Swarm-injury; save Fort DC 12; frequency 1/round for 2 rounds; effec
 
 -----------------------------------------------
 
-Raven Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Raven)
+OUTPUTNAME:[NAME] Swarm
 DESC:A screeching cawing whirlwind of buffeting wings, clawing talons and pecking beaks.
 CR:3
 KIT:1|N
@@ -29350,10 +28869,8 @@ Disease (Su) Raven plague: Swarm-injury; save Fort DC 18; onset 1 day; frequency
 
 -----------------------------------------------
 
-Scarlet Spider Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Scarlet Spider)
+OUTPUTNAME:[NAME] Swarm
 DESC:A whirling storm of scarlet-banded spiders scuttles toward you.
 CR:2
 KIT:1|N
@@ -29392,10 +28909,8 @@ Painful Bite (Ex) The bite of a scarlet spider is extremely painful. A creature 
 
 -----------------------------------------------
 
-Shadow Rat Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Shadow Rat)
+OUTPUTNAME:[NAME] Swarm
 DESC:A squirming and squeaky mass of rats with rotting flesh, torn and matted fur, and reddish blazing eyes moves toward you. Their semi-translucent skin shows discolored bones and muscle.
 CR:4
 KIT:1|NE
@@ -29442,10 +28957,8 @@ Strength Damage (Su) A shadow rat swarm deals Strength damage to living foes ove
 
 -----------------------------------------------
 
-Velvet Ant Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Velvet Ant)
+OUTPUTNAME:[NAME] Swarm
 DESC:A moving carpet of big, red ants with black heads sweeps towards you.
 CR:3
 KIT:1|N
@@ -29482,10 +28995,8 @@ The save DC is Constitution-based.
 
 -----------------------------------------------
 
-Warden Jack Swarm
-
-OUTPUTNAME:[NAME] Swarm
 Swarm (Warden Jack)
+OUTPUTNAME:[NAME] Swarm
 DESC:A carpet of tiny steel spheres rolls towards you.
 
 WARDEN JACK SWARM
@@ -30127,10 +29638,8 @@ Languages Auran, Common
 
 -----------------------------------------------
 
-Giant Tick
-
-OUTPUTNAME:[NAME] Tick
 Tick (Giant)
+OUTPUTNAME:[NAME] Tick
 DESC:Giant ticks appear as 3-foot long ticks. They are otherwise similar to normal ticks.
 CR:1
 KIT:1|N
@@ -30358,10 +29867,8 @@ Smother (Ex) A trapper can try to wrap a creature up to one size smaller than it
 
 -----------------------------------------------
 
-Lightning Treant
-
-OUTPUTNAME:[NAME] Treant
 Treant (Lightning)
+OUTPUTNAME:[NAME] Treant
 DESC:This creature looks like an animated, yet dead, moss-covered tree. Its bark is darkened with age and no leaves appear on its branches.
 CR:8
 KIT:1|NE
@@ -30555,10 +30062,8 @@ Superior Two-Weapon Fighting (Ex) Troblins with two heads automatically gain thi
 
 -----------------------------------------------
 
-Cave Troll
-
-OUTPUTNAME:[NAME] Troll
 Troll (Cave)
+OUTPUTNAME:[NAME] Troll
 DESC:This ugly humanoid appears to be about 6 feet tall. Its leathery skin is blackish-gray and its eyes are yellow. It has long, upright ears, almost elven in nature. Its arms and legs are long and slender and end in wicked-looking claws.
 CR:4
 KIT:1|CE
@@ -30607,10 +30112,8 @@ Spider Climb (Su) A cave troll can climb sheer surfaces as though by a spider cl
 
 -----------------------------------------------
 
-Ice Troll
-
-OUTPUTNAME:[NAME] Troll
 Troll (Ice)
+OUTPUTNAME:[NAME] Troll
 DESC:This large, powerful creature has semitransparent flesh of light blue. Its body is completely hairless and its cold, piercing eyes are stark white.
 CR:3
 KIT:1|CE
@@ -30660,10 +30163,8 @@ Regeneration (Su): If an ice troll loses a limb or body part, the lost portion g
 
 -----------------------------------------------
 
-Rock Troll
-
-OUTPUTNAME:[NAME] Troll
 Troll (Rock)
+OUTPUTNAME:[NAME] Troll
 DESC:This giant creature stands nearly twice as tall as a normal man. Its hide is earth-colored and its hair is dark. Its eyes are deep brown. The
 creature's arms and legs are long and thin and end in sharpened talons. Its feet end in three-toed feet.
 CR:6
@@ -30714,10 +30215,8 @@ Vulnerability to Sunlight (Ex) A rock troll exposed to sunlight (not merely a da
 
 -----------------------------------------------
 
-Swamp Troll
-
-OUTPUTNAME:[NAME] Troll
 Troll (Swamp)
+OUTPUTNAME:[NAME] Troll
 DESC:This large hulking brute has long, thick arms and legs, both of which end in sharpened and filthy claws. Its body is covered with moss and fungus, and its hair is dark brownish-green. Large, upward-curving fangs jut from its lower jaw.
 CR:3
 KIT:1|CE
@@ -30764,10 +30263,8 @@ Swamp Dependent (Ex) Swamp trolls keep their bodies covered in a thick coating o
 
 -----------------------------------------------
 
-Two-Headed Troll
-
-OUTPUTNAME:[NAME] Troll
 Troll (Two-Headed)
+OUTPUTNAME:[NAME] Troll
 DESC:The most discernible feature of this massive brute is its two heads. Its hide is mottled green-gray and covered in coarse, dark hair. Each head is identical: red eyes, drooping nose, and yellow fangs. Its arms and legs end in razor-sharpened claws.
 CR:7
 KIT:1|CE
@@ -30983,10 +30480,8 @@ Rend Armor (Ex) If a tunnel worm grapples an opponent wearing armor, it attempts
 
 -----------------------------------------------
 
-Giant Bog Turtle
-
-OUTPUTNAME:[NAME] Turtle
 Turtle (Giant Bog)
+OUTPUTNAME:[NAME] Turtle
 DESC:This giant turtle has a brownish-green carapace mottled with black splotches. Its head, neck, and limbs are dark green and leathery. Its eyes are pale yellow.
 CR:12
 KIT:1|N
@@ -31748,10 +31243,8 @@ All weirds, regardless of their makeup, are serpent-like creatures about 10 feet
 
 -----------------------------------------------
 
-Blood Weird
-
-OUTPUTNAME:[NAME] Weird
 Weird (Blood)
+OUTPUTNAME:[NAME] Weird
 DESC:This is a 10-foot long, crimson serpent with glistening scales, dark red in color. Bands of black spiral the length of its body and its eyes are a deep reddish-brown in color.
 CR:8
 KIT:1|CE
@@ -31806,10 +31299,8 @@ Transparency (Ex) A blood weird is effectively invisible in its pool until it at
 
 -----------------------------------------------
 
-Fungus Weird
-
-OUTPUTNAME:[NAME] Weird
 Weird (Fungus)
+OUTPUTNAME:[NAME] Weird
 DESC:This creature appears to be a large serpent formed of fungus, plants, and tangled vines. As it moves toward you, it flicks its vine-like tongue and sways back and forth.
 CR:4
 KIT:1|N
@@ -31856,10 +31347,8 @@ Reform (Ex): When reduced to 0 hit points or less, a fungus weird collapses back
 
 -----------------------------------------------
 
-Lava Weird
-
-OUTPUTNAME:[NAME] Weird
 Weird (Lava)
+OUTPUTNAME:[NAME] Weird
 DESC:This serpentine horror coils beneath a haze of shimmering heat waves. As the outer layer of its form cools into hard, black plates, the cracks between these give off the cherry glow of molten rock.
 CR:8
 KIT:1|CE
@@ -31912,10 +31401,8 @@ Transparency (Ex): A lava weird is effectively invisible in its lava pool until 
 
 -----------------------------------------------
 
-Lightning Weird
-
-OUTPUTNAME:[NAME] Weird
 Weird (Lightning)
+OUTPUTNAME:[NAME] Weird
 DESC:The snakelike creature crackles and thrashes like a bolt of lightning. It flares with electrical brilliance as tiny arcs travel up and down its form.
 CR:8
 KIT:1|CE
@@ -32051,10 +31538,8 @@ Plantsense (Ex) A widow creeper can automatically pinpoint the location of anyth
 
 -----------------------------------------------
 
-Barrow Wight
-
-OUTPUTNAME:[NAME] Wight
 Wight (Barrow)
+OUTPUTNAME:[NAME] Wight
 DESC:This creature appears as a rotting humanoid with leathery, gray skin drawn tight over its frame. Its eyes glow crimson. The creature's clothes appear as rotting and tattered rags.
 CR:4
 KIT:1|CE
@@ -32098,10 +31583,8 @@ Resurrection Vulnerability (Su) A raise dead spell cast on a barrow wight destro
 
 -----------------------------------------------
 
-Blood Wight
-
-OUTPUTNAME:[NAME] Wight
 Wight (Blood)
+OUTPUTNAME:[NAME] Wight
 DESC:This creature looks like a tattered and desiccated humanoid about 8 feet covered in fresh blood which seems to ooze and weep from its body. Its clothes hang in rags and are soaked in blood as well. Its hands end in sharpened claws and its eyes display no signs of life.
 CR:9
 KIT:1|N
@@ -32346,9 +31829,7 @@ Death Smoke (Ex) A witherweed that takes at least 1 point of damage from a fire 
 -----------------------------------------------
 
 Wizards Shackle
-
 OUTPUTNAME:Wizard's Shackle
-Wizards Shackle
 DESC:This tiny creature appears to be a gray-green leech.
 CR:1/3
 KIT:1|N
@@ -32390,10 +31871,8 @@ Spell Drain (Su) A wizard's shackle drains spells when attached to an arcane spe
 
 -----------------------------------------------
 
-Abyssal Wolf
-
-OUTPUTNAME:[NAME] Wolf
 Wolf (Abyssal)
+OUTPUTNAME:[NAME] Wolf
 DESC:This creature is a man-sized wolf with deep blackish-blue fur and fiery orange eyes. Its coat is caked with blood, and bits of flesh hang from its toothy maw.
 CR:7
 
@@ -32442,10 +31921,8 @@ Paralyzing Gaze (Su) Anyone within 40 feet meeting the gaze of an abyssal wolf m
 
 -----------------------------------------------
 
-Ghoul Wolf
-
-OUTPUTNAME:[NAME] Wolf
 Wolf (Ghoul)
+OUTPUTNAME:[NAME] Wolf
 DESC:This creature resembles a wolf with matted dark fur torn away in places. Its flesh is sickly gray where its fur is torn away. Its eyes are stark white.
 CR:2
 KIT:1|NE
@@ -32477,10 +31954,8 @@ Skills Perception +9, Stealth +6, Survival +2 (+6 tracking by scent), Swim +5; R
 
 -----------------------------------------------
 
-Ghoul Dire Wolf
-
-OUTPUTNAME:[NAME] Wolf
 Wolf (Ghoul Dire)
+OUTPUTNAME:[NAME] Wolf
 CR:6
 KIT:1|NE
 SIZE:L
@@ -32513,10 +31988,8 @@ Skills Perception +16, Stealth +9, Survival +10 (+14 tracking by scent); Racial 
 
 -----------------------------------------------
 
-Shadow Wolf
-
-OUTPUTNAME:[NAME] Wolf
 Wolf (Shadow)
+OUTPUTNAME:[NAME] Wolf
 DESC:This creature appears as a large black hound formed of darkness. Its eyes burn with a crimson fire.
 CR:3
 KIT:1|CE
@@ -32561,10 +32034,8 @@ Shadow Blend (Ex): In any condition of illumination other than full daylight, a 
 
 -----------------------------------------------
 
-WolfInSheepsClothing
-
-OUTPUTNAME:Wolf-in-Sheep's-Clothing
 Wolf in Sheeps Clothing
+OUTPUTNAME:Wolf-in-Sheep's-Clothing
 DESC:Before you stands a grayish-brown tree stump about 3-4 feet in diameter. Sitting atop the tree stump is a small white-furred rabbit.
 CR:8
 KIT:1|N
@@ -32604,10 +32075,8 @@ Lure-Growth (Ex): A wolf-in-sheep's-clothing can sprout a small furry animal fro
 
 -----------------------------------------------
 
-WolfSpider
-
-OUTPUTNAME:Wolf-Spider
 Wolf Spider
+OUTPUTNAME:Wolf-Spider
 DESC:This creature appears as a large monstrous spider with the head of a wolf. Its eyes are multifaceted like a spider's, and its fangs are complimented by a set of spider-like mandibles.
 CR:4
 KIT:1|NE
@@ -32762,10 +32231,8 @@ destroyed. Reducing the creeper to 0 or less hit points puts it out of commissio
 
 -----------------------------------------------
 
-Giant Yellowjacket
-
-OUTPUTNAME:[NAME] Yellowjacket
 Yellowjacket (Giant)
+OUTPUTNAME:[NAME] Yellowjacket
 DESC:The massive winged insect has a pattern of black and yellow markings on its body and a wicked-looking stinger at the tip of its thorax.
 CR:4
 KIT:1|N
@@ -32849,10 +32316,8 @@ Squeeze (Ex): A yeti that makes a successful grapple check against a Medium or s
 
 -----------------------------------------------
 
-Brine Zombie
-
-OUTPUTNAME:[NAME] Zombie
 Zombie (Brine)
+OUTPUTNAME:[NAME] Zombie
 DESC:This creature appears as a rotting humanoid dressed in tattered and ragged clothing. Its semi-bloated body glistens from the slimy mixture of water and seaweed that hangs from its form. The creature's rotting flesh is blue-green in color. No semblance of life burns in its eyes.
 CR:1
 KIT:1|NE
@@ -32885,10 +32350,8 @@ Gear cutlass
 
 -----------------------------------------------
 
-Giant Archerfish
-
-OUTPUTNAME:[NAME] Archerfish
 Archerfish (Giant)
+OUTPUTNAME:[NAME] Archerfish
 DESC:This silver fish is 3 feet long with vertical black stripes.
 CR:1
 KIT:1|N
@@ -32963,10 +32426,8 @@ DESC:This fish is long and bluish gray fading to mottled silver near it tail. It
 
 -----------------------------------------------
 
-Small Barracuda
-
-OUTPUTNAME:[NAME] Barracuda
 Barracuda (Small)
+OUTPUTNAME:[NAME] Barracuda
 CR:1/4
 KIT:1|N
 SIZE:S
@@ -32994,10 +32455,8 @@ Skills Perception +5, Swim +11; Racial Modifiers Small barracudas use their Dext
 
 -----------------------------------------------
 
-Medium Barracuda
-
-OUTPUTNAME:[NAME] Barracuda
 Barracuda (Medium)
+OUTPUTNAME:[NAME] Barracuda
 CR:1
 KIT:1|N
 SIZE:M
@@ -33026,10 +32485,8 @@ Skills Perception +9, Swim +14; Racial Modifiers Medium barracudas use their Dex
 
 -----------------------------------------------
 
-Giant  Barracuda
-
-OUTPUTNAME:[NAME] Barracuda
 Barracuda (Giant)
+OUTPUTNAME:[NAME] Barracuda
 CR:5
 KIT:1|N
 SIZE:L
@@ -33134,10 +32591,8 @@ Keen Scent (Ex) A giant caribe can notice creatures by scent in a 90-foot radius
 
 -----------------------------------------------
 
-Giant Electric Catfish
-
-OUTPUTNAME:[NAME] Catfish
 Catfish (Giant Electric)
+OUTPUTNAME:[NAME] Catfish
 DESC:A wide mouthed goggle-eyed fish with slippery grey skin and a puffy, bloated body.
 CR:6
 KIT:1|N
@@ -33175,10 +32630,8 @@ Electricity Discharge (Ex) Once every 1d4 rounds, a giant electric catfish can g
 
 -----------------------------------------------
 
-Giant Chameleon
-
-OUTPUTNAME:[NAME] Chameleon
 Chameleon (Giant)
+OUTPUTNAME:[NAME] Chameleon
 DESC:This giant lizard has a pebbly hide and eyes that protrude from the sides of its head such that they appear to be capable of independent movement.
 CR:3
 KIT:1|N
@@ -33305,10 +32758,8 @@ Camouflage (Ex) It takes a successful DC 20 Perception check to recognize a moti
 
 -----------------------------------------------
 
-Electric Eel
-
-OUTPUTNAME:[NAME] Eel
 Eel (Electric)
+OUTPUTNAME:[NAME] Eel
 DESC:The serpentine creature moves sinuously through the water, the tip of its tail sparking with an electrical discharge.
 CR:2
 KIT:1|N
@@ -33347,10 +32798,8 @@ Electricity (Ex) Once per hour, an electric eel can produce a jolt of electricit
 
 -----------------------------------------------
 
-Giant Moray Eel
-
+Eel (Giant Moray)
 OUTPUTNAME:[NAME] Eel
-Eel (Giant) Moray
 DESC:This creature looks like an 8-foot long eel with yellowish-brown splotches on its back.
 CR:5
 KIT:1|N
@@ -33406,10 +32855,8 @@ Water Dependency (Ex) Giant moray eels can survive out of the water for 1 minute
 
 -----------------------------------------------
 
-Gulper Eel
-
-OUTPUTNAME:[NAME] Eel
 Eel (Gulper)
+OUTPUTNAME:[NAME] Eel
 DESC:This strange being of the depths appears to be little more than a large mouth, flaccid body and dangling tail which glows with an unnatural red light.
 CR:5
 KIT:1|N
@@ -33444,10 +32891,8 @@ Skills Perception +11, Swim +15
 
 -----------------------------------------------
 
-Giant Falcon
-
-OUTPUTNAME:[NAME] Falcon
 Falcon (Giant)
+OUTPUTNAME:[NAME] Falcon
 DESC:The raptor swoops through the air with grace and power, a perfect predator.
 CR:2
 KIT:1|N
@@ -33511,10 +32956,8 @@ Skills Acrobatics +5, Perception +5, Stealth +15, Survival +5; Racial Modifiers 
 
 -----------------------------------------------
 
-Giant Frog
-
-OUTPUTNAME:[NAME] Frog
 Frog (Giant)
+OUTPUTNAME:[NAME] Frog
 DESC:This creature is a larger version of a frog. It has razor-sharp teeth lining its mouth.
 CR:1
 KIT:1|N
@@ -33551,10 +32994,8 @@ Tongue (Ex) A giant frog's tongue is a primary attack with reach equal to three 
 
 -----------------------------------------------
 
-Giant Dire Frog
-
+Frog (Giant Dire)
 OUTPUTNAME:[NAME] Frog
-Frog (Giant) Dire
 CR:3
 KIT:1|N
 SIZE:L
@@ -33587,10 +33028,8 @@ Skills Acrobatics +11 (+15 jumping), Perception +6, Stealth +2, Swim +14; Racial
 
 -----------------------------------------------
 
-Killer Frog
-
-OUTPUTNAME:[NAME] Frog
 Frog (Killer)
+OUTPUTNAME:[NAME] Frog
 DESC:This frog stands partially erect and has dark green skin fading to light on its underbelly.
 CR:1
 KIT:1|N
@@ -33622,10 +33061,8 @@ Skills Acrobatics +5 (+9 jumping), Perception +3, Stealth +9, Swim +12; Racial M
 
 -----------------------------------------------
 
-Poisonous Frog
-
-OUTPUTNAME:[NAME] Frog
 Frog (Poisonous)
+OUTPUTNAME:[NAME] Frog
 DESC:This small greenish-brown frog has black stripes on its hind legs.
 CR:1/2
 KIT:1|N
@@ -33659,10 +33096,8 @@ Poison (Ex) Injury; save Fort DC 10; frequency 1/round for 6 rounds; effect 1d2 
 
 -----------------------------------------------
 
-Giant Hamster
-
-OUTPUTNAME:[NAME] Hamster
 Hamster (Giant)
+OUTPUTNAME:[NAME] Hamster
 DESC:What should be a tiny, cuddly creature is instead a behemoth of tan fur and over-sized teeth. Its eyes gleam with a feral intensity.
 CR:3
 KIT:1|N
@@ -33806,10 +33241,8 @@ Skills Acrobatics +3 (+11 balancing), Climb +16, Perception +9, Stealth +11 (+15
 
 -----------------------------------------------
 
-Snow Leopard
-
-OUTPUTNAME:[NAME] Leopard
 Leopard (Snow)
+OUTPUTNAME:[NAME] Leopard
 DESC:Grayish fur covers this large cat that allows it to blend in with the shadow and light of snow drifts.
 CR:3
 KIT:1|N
@@ -33844,10 +33277,8 @@ Snow Move (Ex) Because of its large, fur-covered paws, the snow leopard suffers 
 
 -----------------------------------------------
 
-Cave Lion
-
-OUTPUTNAME:[NAME] Lion
 Lion (Cave)
+OUTPUTNAME:[NAME] Lion
 DESC:This beast resembles a large lion but with over-sized canines and a shorter mane.
 CR:6
 KIT:1|N
@@ -33880,10 +33311,8 @@ Skills Acrobatics +9, Perception +11, Stealth +8 (+12 in heavy growth and tall g
 
 -----------------------------------------------
 
-Mountain Lion
-
-OUTPUTNAME:[NAME] Lion
 Lion (Mountain)
+OUTPUTNAME:[NAME] Lion
 DESC:This large cat has a bushy tail with a black tip. Its fur is otherwise a rusty brown color with a light underbelly.
 CR:3
 KIT:1|N
@@ -33914,10 +33343,8 @@ Skills Acrobatics +12, Climb +7, Perception +10, Stealth +8 (+16 in heavy underg
 
 -----------------------------------------------
 
-Giant RockHorned Lizard
-
+Lizard (Giant Rock-Horned)
 OUTPUTNAME:[NAME] Lizard
-Lizard (Giant Rock-Horned )
 DESC:This giant reddish-brown lizard has small horns protruding form its wedge-shaped head. Lizard, Giant Rock-Horned (Blood Lizard).
 
 CR:3
@@ -34078,10 +33505,8 @@ Superior Low-Light Vision (Ex) A margay can see three times as far as a human in
 
 -----------------------------------------------
 
-Giant Marmoset
-
-OUTPUTNAME:[NAME] Marmoset
 Marmoset (Giant)
+OUTPUTNAME:[NAME] Marmoset
 DESC:The creature has bands of shaggy black and gray fur with a long tail and clawed paws.
 CR:1
 KIT:1|N
@@ -34207,10 +33632,8 @@ Skills Intimidate +11, Perception +9
 
 -----------------------------------------------
 
-Giant Pike
-
-OUTPUTNAME:[NAME] Pike
 Pike (Giant)
+OUTPUTNAME:[NAME] Pike
 DESC:This fish is long and slender with light spots along its body and a tooth- filled maw.
 CR:4
 KIT:1|N
@@ -34324,10 +33747,8 @@ As a familiar, a raccoon provides its master with a +3 bonus on Sleight of Hand 
 
 -----------------------------------------------
 
-Dire Raccoon
-
-Rhinoceros OUTPUTNAME:[NAME] Raccoon
 Raccoon (Dire)
+OUTPUTNAME:[NAME] Raccoon
 DESC:This animal is about the size of a large dog. Its fur is brownish-grey, and its bushy tail is ringed in black. Its paws and ears are black as well, and it has a black and white mask-like marking on its face.
 CR:2
 KIT:1|N
@@ -34361,10 +33782,8 @@ Disease (Ex) Filth fever: Bite-injury; save Fort DC 15; onset 1d3 days; frequenc
 
 -----------------------------------------------
 
-Woolly Rhinoceros
-
-OUTPUTNAME:[NAME] Rhinoceros
 Rhinoceros (Woolly)
+OUTPUTNAME:[NAME] Rhinoceros
 DESC:This creature has massive legs and a stout body with a thick coat of brown fur. From the tip of its elongated nose rise two curving horns.
 CR:10
 KIT:1|N
@@ -34472,10 +33891,8 @@ plains and hills. They use the same statistics for the scythe horn, but have no 
 
 -----------------------------------------------
 
-Giant Seahorse
-
-OUTPUTNAME:[NAME] Seahorse
 Seahorse (Giant)
+OUTPUTNAME:[NAME] Seahorse
 DESC:This aquatic creature resembles an ordinary seahorse with a vaguely equine-shaped head, fins emerging from the base of its head and a curling tail but it extends to a length of 8 feet or more.
 CR:2
 KIT:1|N
@@ -34540,10 +33957,8 @@ Skills Perception +8
 
 -----------------------------------------------
 
-Ram
-
-OUTPUTNAME:[NAME]
 Sheep (Ram)
+OUTPUTNAME:[NAME]
 Curving horns extend from the sides of this sheep's head, giving it a potent butting attack.
 CR:1
 
@@ -34638,10 +34053,8 @@ Skills Acrobatics +10, Perception +9, Stealth +11 (+15 in heavy undergrowth or t
 
 -----------------------------------------------
 
-Dire Smilodon
-
-OUTPUTNAME:[NAME] Smilodon
 Smilodon (Dire)
+OUTPUTNAME:[NAME] Smilodon
 
 DESC:With fangs like swords, this cat's gleaming eyes and wicked claws promise death to anything it sees as prey.
 CR:7
@@ -34675,10 +34088,8 @@ Skills Acrobatics +12, Perception +13, Stealth +11 (+15 in heavy undergrowth or 
 
 -----------------------------------------------
 
-Homotherium Smilodon
-
-OUTPUTNAME:[NAME] Smilodon
 Smilodon (Homotherium)
+OUTPUTNAME:[NAME] Smilodon
 This white-furred cat has short forelegs in comparisons to its loping rear legs. Prominent fangs protrude from its upper jaw.
 HOMOTHERIUM
 CR:5
@@ -34715,10 +34126,8 @@ DESC:A wide, sail-like creature glides through the water dragging a barbed, whip
 
 -----------------------------------------------
 
-Small Stingray
-
-OUTPUTNAME:[NAME] Stingray
 Stingray (Small)
+OUTPUTNAME:[NAME] Stingray
 CR:1/2
 KIT:1|N
 SIZE:S
@@ -34752,10 +34161,8 @@ Poison (Ex) Sting-injury; save Fort DC 10; frequency 1/round for 4 rounds; effec
 
 -----------------------------------------------
 
-Medium Stingray
-
-OUTPUTNAME:[NAME] Stingray
 Stingray (Medium)
+OUTPUTNAME:[NAME] Stingray
 CR:2
 
 KIT:1|N
@@ -34791,10 +34198,8 @@ Poison (Ex) Sting-injury; save Fort DC 15; frequency 1/round for 4 rounds; effec
 
 -----------------------------------------------
 
-Large Stingray
-
-OUTPUTNAME:[NAME] Stingray
 Stingray (Large)
+OUTPUTNAME:[NAME] Stingray
 CR:5
 KIT:1|N
 SIZE:L
@@ -34833,10 +34238,8 @@ near coastlines and shores. They sustain themselves on a diet of plankton, aquat
 
 -----------------------------------------------
 
-Giant Tiger Barb
-
-OUTPUTNAME:[NAME] Tiger Barb
 Tiger Barb (Giant)
+OUTPUTNAME:[NAME] Tiger Barb
 DESC:This fish has a striped pattern like that of a tiger. It swims aggressively towards anything that draws too near.
 
 Base Atk +3; CMB +6; CMD 18 (can't be tripped) Feats Skill Focus (Perception), Weapon Focus (bite) Skills Perception +9, Swim +15
@@ -34873,10 +34276,8 @@ Skills Perception +9, Swim +15
 
 -----------------------------------------------
 
-Giant Tuatara
-
-OUTPUTNAME:[NAME] Tuatara
 Tuatara (Giant)
+OUTPUTNAME:[NAME] Tuatara
 DESC:This reptile has a beak like upper jaw, a long narrow body and is covered in hard scales and short spines running along its back.
 CR:4
 KIT:1|N
