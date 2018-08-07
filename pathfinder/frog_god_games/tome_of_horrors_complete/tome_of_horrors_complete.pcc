@@ -4,12 +4,13 @@ GAMEMODE:Pathfinder
 RANK:6
 STATUS:ALPHA
 GENRE:Fantasy
-BOOKTYPE:Homebrew
-SETTING:My Homebrew Campaign
-PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+PRECAMPAIGN:2,INCLUDES=Advanced Player's Guide,INCLUDES=Bestiary
+!PRECAMPAIGN:1,Pathfinder RPG Core Supplements,Pathfinder RPG for Game Masters
 TYPE:Frog God Games.Tome of Horrors
-PUBNAMELONG:My Homebrew
-PUBNAMESHORT:Homebrew
+PUBNAMELONG:Frog God Games
+PUBNAMESHORT:FGG
 PUBNAMEWEB:http://froggodgames.com/tome-horrors-complete
 SOURCELONG:Tome of Horrors Complete
 SOURCESHORT:TOHC
