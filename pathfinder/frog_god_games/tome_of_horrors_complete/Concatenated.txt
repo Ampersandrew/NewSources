@@ -14,7 +14,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 BONUS:VAR|FastHealingRate|2
 
-Resist sonic 10
+BONUS:VAR|SonicResistanceBonus|10
 
 Speed 40 ft., climb 20 ft.
 
@@ -50,7 +50,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 DR:5/slashing
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to fire
 
 SA double damage against objects (full attack deals double damage), trample (2d6+7, DC 17)
@@ -89,7 +89,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 DR:5/bludgeoning and magic
 Immune electricity
 Immune fire
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to water
 
 
@@ -230,7 +230,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 Immune petrification
-Resist cold 10
+BONUS:VAR|ColdResistanceBonus|10
 
 
 Speed 20 ft., climb 20 ft., swim 20 ft.
@@ -279,8 +279,8 @@ BONUS:VAR|BlindsightRange|40
 
 
 DR:5/piercing or slashing
-Immune vermin traits
-Resist acid 20
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
+BONUS:VAR|AcidResistanceBonus|20
 
 
 Speed 0 ft. (immobile)
@@ -338,8 +338,8 @@ Immune acid
 Immune cold
 Immune petrification
 Immune death effects
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:25
 
 Speed 40 ft., fly 90 ft. (good)
@@ -407,8 +407,8 @@ Immune acid
 Immune cold
 Immune petrification
 Immune death effects
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:26
 
 Speed 40 ft., fly 70 ft. (good)
@@ -482,8 +482,8 @@ Immune acid
 Immune cold
 Immune petrification
 Immune death effects
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:23
 
 Speed 40 ft., fly 90 ft. (good)
@@ -549,8 +549,8 @@ Immune acid
 Immune cold
 Immune petrification
 Immune death effects
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 40 ft., fly 60 ft. (good)
@@ -886,7 +886,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 Immune mind-affecting effects
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 
 Speed 30 ft., burrow 10 ft.
@@ -924,7 +924,7 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weaknesses resurrection vulnerability, sunlight powerlessness
 
 Speed fly 60 ft. (perfect)
@@ -1137,7 +1137,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 10 ft.
 
@@ -1174,9 +1174,9 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:10/piercing
-Immune plant traits
-Resist fire 10
-Resist electricity 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
 
 Speed 40 ft.
 
@@ -1280,7 +1280,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Immune mind-affecting effects
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 
 Speed 30 ft., climb 20 ft., fly 50 ft. (good)
@@ -1420,7 +1420,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Ferocity
 DR:10/piercing or slashing
 Immune poison
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 30 ft., burrow 10 ft.
 
@@ -2567,8 +2567,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 Immune electricity
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerable to sonic
 
 Speed 0 ft.
@@ -2654,7 +2654,7 @@ BONUS:VAR|BlindsightRange|30
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 0 ft. (immobile)
 
@@ -2707,7 +2707,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 30 ft.
 
@@ -2889,8 +2889,8 @@ Aura despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:5/-
-Immune undead traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to cold
 
 Speed 20 ft., marsh move
@@ -3291,7 +3291,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune fire
 Immune magic
 Weaknesses vulnerability to cold
@@ -3442,7 +3442,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:10/silver
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 SR:17
 
 Speed 30 ft., swim 40 ft.
@@ -3866,7 +3866,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 DR:5/-
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
 Speed 20 ft.
@@ -4171,10 +4171,10 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good
 DR:15/epic and good
 Immune death effects
 Immune disintegration
-Resist acid 10
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:34
 
 Speed 60 ft.
@@ -4390,7 +4390,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:5/-
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
 Speed 20 ft.
@@ -4692,7 +4692,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Weaknesses immobile
 
@@ -4733,7 +4733,7 @@ MONSTERCLASS:Construct:1
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
 
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 
 
@@ -4774,7 +4774,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 40 ft.
 
@@ -4810,7 +4810,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 20 ft.
 
@@ -4850,7 +4850,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 40 ft.
 
@@ -4891,8 +4891,8 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune construct traits
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
 Speed 40 ft.
@@ -4935,7 +4935,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 30 ft.
 
@@ -5042,7 +5042,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 5 ft.
 
@@ -5480,7 +5480,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Weaknesses water dependency
 
@@ -5758,7 +5758,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 DR:10/magic
-Resist cold 10
+BONUS:VAR|ColdResistanceBonus|10
 
 Speed 30 ft.
 
@@ -5810,7 +5810,7 @@ BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 DR:10/-
 Immune earth attacks
 Immune earth magic
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 30 ft., burrow 30 ft.
 
@@ -5874,9 +5874,9 @@ Immune acid
 Immune death effects
 Immune disease
 Immune poison;
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 30 ft.
@@ -5943,9 +5943,9 @@ Immune acid
 Immune death effects
 Immune disease
 Immune poison;
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:33
 
 Speed 50 ft.
@@ -6015,9 +6015,9 @@ Immune acid
 Immune death effects
 Immune disease
 Immune poison;
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:19
 
 Speed 40 ft.
@@ -6073,9 +6073,9 @@ DR:10/cold iron or silver
 Immune acid
 Immune flanking
 Immune poison
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 40 ft.
@@ -6143,9 +6143,9 @@ Immune mind-affecting effects
 Immune poison
 Immune polymorph
 Immune sleep
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses limited domain
 
 Speed 30 ft.
@@ -6198,9 +6198,9 @@ Immune acid
 Immune death effects
 Immune disease
 Immune poison;
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:18
 
 Speed 30 ft., fly 40 ft. (average, see below), swim 60 ft.
@@ -6279,9 +6279,9 @@ Immune acid
 Immune death effects
 Immune disease
 Immune poison
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:48
 
 Speed 40 ft.
@@ -6392,9 +6392,9 @@ Immune death effects
 Immune disease
 Immune flanking
 Immune poison
-Resist cold 10
-Resist electricity 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 30 ft., swim 50 ft.
@@ -6905,8 +6905,8 @@ DR:15/good and magic
 Immune acid
 Immune poison
 Immune mindaffecting effects
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:26
 
 Speed 40 ft., fly 50 ft. (average)
@@ -6961,8 +6961,8 @@ DR:10/good and magic
 Immune acid
 Immune poison
 Immune mindaffecting effects
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:24
 
 Speed 40 ft., fly 50 ft. (average)
@@ -7023,8 +7023,8 @@ DR:10/good and magic
 Immune acid
 Immune poison
 Immune mindaffecting effects
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 40 ft., fly 60 ft. (average)
@@ -7085,9 +7085,9 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 40 ft., fly 60 ft. (good)
@@ -7151,9 +7151,9 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 DR:5/cold iron or good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:16
 
 Speed 30 ft., fly 50 ft. (average)
@@ -7207,9 +7207,9 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:19
 
 Speed 40 ft.
@@ -7267,9 +7267,9 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 DR:10/cold iron or good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:17
 
 Speed 30 ft.
@@ -7320,9 +7320,9 @@ BONUS:COMBAT|AC|2|TYPE=Profane
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 30 ft.
@@ -7376,9 +7376,9 @@ BONUS:VAR|AC_Natural_Armor|22|TYPE=Base.STACK
 DR:10/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:29
 
 Speed 40 ft.
@@ -7448,9 +7448,9 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 DR:5/cold iron
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:15
 
 Speed 30 ft., fly 50 ft. (good)
@@ -7498,9 +7498,9 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 DR:5/cold iron
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:14
 
 
@@ -7557,9 +7557,9 @@ BONUS:COMBAT|AC|4|TYPE=Deflection
 DR:10/cold iron or good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:16
 
 Speed 30 ft., fly 50 ft. (good)
@@ -7617,9 +7617,9 @@ BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:23
 
 Speed 40 ft.
@@ -7679,9 +7679,9 @@ BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 DR:10/cold iron
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:17
 
 Speed 30 ft.
@@ -7735,9 +7735,9 @@ BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 DR:15/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:25
 
 Speed 30 ft.
@@ -7796,9 +7796,9 @@ BONUS:COMBAT|AC|3|TYPE=Profane
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 40 ft.
@@ -7864,9 +7864,9 @@ BONUS:COMBAT|AC|5|TYPE=Profane
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:24
 
 Speed 40 ft.
@@ -7934,9 +7934,9 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 DR:10/cold iron
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:15
 
 Speed 40 ft.
@@ -7987,9 +7987,9 @@ BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 DR:10/cold iron
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 10 ft., fly 50 ft. (good)
@@ -8065,11 +8065,12 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/cold iron or good
 Immune death effects
-Immune electricity paralysis
+Immune electricity
+Immune paralysis
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:18
 
 Speed 30 ft., fly 60 ft. (average)
@@ -8127,11 +8128,12 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/cold iron or good
 Immune death effects
-Immune electricity paralysis
+Immune electricity
+Immune paralysis
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 30 ft., fly 60 ft.
@@ -8189,9 +8191,9 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:20
 
 Speed 40 ft.
@@ -8245,9 +8247,9 @@ BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 DR:10/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:24
 
 Speed 40 ft.
@@ -8308,9 +8310,9 @@ BONUS:COMBAT|AC|2|TYPE=Profane
 DR:10/good
 Immune acid
 Immune electricity
-Immune ooze traits
-Resist cold 10
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 30 ft.
@@ -8370,8 +8372,8 @@ Immune polymorph
 Immune poison
 Immune sleep
 Immune stun
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:14
 
 Speed 30 ft.
@@ -8420,8 +8422,8 @@ DR:10/cold iron or good
 Immune cold
 Immune electricity
 Immune poison
-Resist acid 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:18
 Weaknesses sunlight powerlessness
 
@@ -8484,9 +8486,9 @@ BONUS:COMBAT|AC|4|TYPE=Profane
 DR:10/good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:23
 
 Speed 20 ft., swim 60 ft.
@@ -8549,9 +8551,9 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:14
 
 Speed 20 ft., fly 40 ft. (good)
@@ -8610,9 +8612,9 @@ BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 DR:10/good
 Immune electricity and poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:21
 
 Speed 20 ft., fly 60 ft. (good)
@@ -8673,9 +8675,9 @@ BONUS:COMBAT|AC|8|TYPE=Insight
 DR:25/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:36
 
 Speed 50 ft.
@@ -8777,9 +8779,9 @@ BONUS:COMBAT|AC|7|TYPE=Profane
 DR:15/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:26
 
 Speed 40 ft.
@@ -8846,9 +8848,9 @@ BONUS:COMBAT|AC|8|TYPE=Profane
 DR:15/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:27
 
 Speed 40 ft., fly 60 ft. (good)
@@ -8920,9 +8922,9 @@ DR:25/cold iron and good
 Immune electricity
 Immune poison
 Immune waterbased spells and effects
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:38
 
 Speed 20 ft., swim 60 ft.
@@ -9023,9 +9025,9 @@ DR:25/cold iron and good
 Immune electricity
 Immune mind-affecting effects
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:40
 
 Speed 40 ft., fly 60 ft. (perfect)
@@ -9113,8 +9115,8 @@ DR:20/cold iron and good
 Immune acid
 Immune cold
 Immune electricity
-Immune ooze traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
+BONUS:VAR|FireResistanceBonus|10
 SR:34
 
 Speed 30 ft.
@@ -9211,8 +9213,8 @@ DR:20/cold iron and good
 Immune cold
 Immune electricity
 Immune poison
-Resist acid 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:34
 Weaknesses vulnerability to fire
 
@@ -9303,9 +9305,9 @@ BONUS:COMBAT|AC|8|TYPE=Profane
 DR:20/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:32
 
 Speed 40 ft., fly 80 ft. (good)
@@ -9384,9 +9386,9 @@ BONUS:VAR|FastHealingRate|5
 DR:25/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:46
 
 Speed 40 ft., fly 60 ft. (average)
@@ -9519,9 +9521,9 @@ BONUS:VAR|FastHealingRate|5
 DR:25/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:39
 
 Speed 40 ft., fly 80 ft. (perfect)
@@ -9623,9 +9625,9 @@ BONUS:COMBAT|AC|9|TYPE=Profane
 DR:20/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:32
 
 Speed 40 ft., fly 80 ft. (good)
@@ -9699,8 +9701,8 @@ DR:25/cold iron and good
 Immune acid
 Immune electricity
 Immune poison
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:41
 
 Speed 40 ft., swim 20 ft.
@@ -9804,9 +9806,9 @@ BONUS:COMBAT|AC|9|TYPE=Profane
 DR:15/cold iron and good
 Immune electricity
 Immune poison
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:32
 
 Speed 20 ft., swim 60 ft.
@@ -9932,8 +9934,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:10/silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:19
 
 Speed 40 ft.
@@ -9992,8 +9994,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:10/good
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:19
 
 Speed 40 ft.
@@ -10056,8 +10058,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:10/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:22
 
 Speed 40 ft.
@@ -10123,8 +10125,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:10/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:27
 
 Speed 40 ft.
@@ -10186,8 +10188,8 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:5/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:16
 
 Speed 30 ft.
@@ -10253,8 +10255,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:10/silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:17
 
 Speed 30 ft., fly 50 ft. (average)
@@ -10309,8 +10311,8 @@ DR:5/good or silver
 Immune fire
 Immune mind-affecting effects
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 
 Speed 20 ft.
 
@@ -10352,8 +10354,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:5/good or silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:18
 
 Speed 30 ft.
@@ -10429,8 +10431,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:20/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:34
 
 Speed 40 ft., fly 60 ft. (average)
@@ -10510,8 +10512,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:20/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:36
 
 Speed 60 ft.
@@ -10590,8 +10592,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:33
 
 Speed 30 ft. (40 ft. base)
@@ -10658,8 +10660,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:32
 
 Speed 30 ft., fly 50 ft. (good) (40 ft., fly 60 ft. base)
@@ -10730,8 +10732,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:34
 
 Speed 50 ft.
@@ -10801,8 +10803,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:30
 
 Speed 40 ft., fly 60 ft. (average)
@@ -10877,8 +10879,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:20/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:40
 
 Speed 20 ft., fly 50 ft. (average)
@@ -10982,8 +10984,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:33
 
 Speed 50 ft.
@@ -11052,8 +11054,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:20/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:33
 
 Speed 50 ft., fly 100 ft. (average)
@@ -11125,8 +11127,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:27
 
 Speed 40 ft., fly 60 ft. (good)
@@ -11197,8 +11199,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:25/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:50
 
 Speed 50 ft., fly 80 ft. (good)
@@ -11389,8 +11391,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:20/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:37
 
 Speed 40 ft.
@@ -11494,8 +11496,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:15/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:31
 
 Speed 50 ft., fly 60 ft. (average)
@@ -11565,8 +11567,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Silver
 DR:20/good and silver
 Immune fire
 Immune poison
-Resist acid 10
-Resist cold 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
 SR:37
 
 Speed 40 ft., fly 60 ft. (average)
@@ -11922,7 +11924,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
 DR:10/magic
-Resist fire 5
+BONUS:VAR|FireResistanceBonus|5
 
 Speed 40 ft., climb 20 ft.
 
@@ -12997,7 +12999,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Speed 20 ft., fly 80 ft. (perfect)
 
@@ -13069,7 +13071,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|20|TYPE=Base.STACK
 
 DR:15/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Weaknesses vulnerability to fire
 
 Speed Swim 40 ft.
@@ -13282,8 +13284,8 @@ BONUS:VAR|HasLowLightVision|1
 
 
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
-Immune plant traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 40 ft.
 
@@ -13333,8 +13335,8 @@ BONUS:VAR|HasLowLightVision|1
 
 
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
-Immune plant traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 40 ft.
 
@@ -13433,7 +13435,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 30 ft., swim 30 ft.
 
@@ -13653,7 +13655,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
-Resist fire 5
+BONUS:VAR|FireResistanceBonus|5
 
 
 Speed 30 ft., fly 30 ft. (average)
@@ -14092,7 +14094,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14129,7 +14131,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 DR:5/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14167,7 +14169,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14207,7 +14209,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14247,7 +14249,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14285,7 +14287,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14357,7 +14359,7 @@ Aura positive energy (10 ft. radius)
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Speed fly 60 ft. (good)
 
 Melee slam +6 (1d4 plus 1d4 positive energy)
@@ -14392,7 +14394,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:5/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14429,7 +14431,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14468,7 +14470,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14507,7 +14509,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14545,7 +14547,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (good)
 
@@ -14597,7 +14599,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (perfect)
 
@@ -14631,7 +14633,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 60 ft. (perfect)
 
@@ -14670,7 +14672,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 DR:5/magic
 PR 16
@@ -14714,7 +14716,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Fort +7; Ref +13; Will +10; reroll Will save 1/day
 DR:5/magic
@@ -14763,7 +14765,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 Fort +8; Ref +15; Will +11; reroll Will save 1/day
 DR:10/magic
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 PR 20
 
 Speed fly 60 ft. (perfect)
@@ -14810,7 +14812,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 Fort +9; Ref +18; Will +14; reroll Will save 1/day
 DR:10/magic
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 PR 22
 
 Speed fly 60 ft. (perfect)
@@ -14886,7 +14888,7 @@ BONUS:COMBAT|AC|2|TYPE=Insight
 
 
 DR:10/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 SR:19
 
 Speed fly 20 ft. (perfect)
@@ -14926,7 +14928,7 @@ BONUS:COMBAT|AC|4|TYPE=Insight
 
 
 DR:15/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 SR:25
 
 Speed fly 20 ft. (perfect)
@@ -14973,7 +14975,7 @@ BONUS:COMBAT|AC|6|TYPE=Insight
 
 
 DR:15/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 SR:28
 
 Speed fly 20 ft. (perfect)
@@ -15040,7 +15042,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed fly 100 ft. (perfect)
 
@@ -15092,7 +15094,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 30 ft.
 
@@ -15140,8 +15142,8 @@ Aura fiery aura (10 ft., DC 25, 2d8 fire)
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune construct traits
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Immune fire
 Immune magic
 Weaknesses vulnerability to cold
@@ -15188,7 +15190,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 30 ft., swim 120 ft.
 
@@ -15240,7 +15242,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:15/magic and silver
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 20 ft., fly 120 ft. (poor)
 
@@ -15298,7 +15300,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 
 DR:10/magic and cold iron
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 20 ft., fly 100 ft. (poor), burrow 20 ft.
 
@@ -15357,7 +15359,7 @@ Aura fiery aura (60 ft., DC 27, 2d8 fire)
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:10/epic and silver
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Immune fire
 Weaknesses vulnerability to cold
 
@@ -15413,7 +15415,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:10/magic and silver
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 40 ft., fly 100 ft. (poor), swim 90 ft.
 
@@ -15474,7 +15476,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:5/-
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 30 ft.
 
@@ -15664,7 +15666,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:VAR|FastHealingRate|5
 
 
-Resist cold 10
+BONUS:VAR|ColdResistanceBonus|10
 
 Speed 30 ft.
 
@@ -16128,7 +16130,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 Immune fire
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Vulnerabilities cold
 
 Speed 30 ft., swim 30 ft.
@@ -16176,7 +16178,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 Immune fire
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Vulnerabilities cold
 
 Speed 20 ft., swim 20 ft.
@@ -16413,7 +16415,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 Immune poison;
-Resist fire 20
+BONUS:VAR|FireResistanceBonus|20
 
 Speed 10 ft., climb 10 ft.
 
@@ -16619,7 +16621,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Resist acid 10
+BONUS:VAR|AcidResistanceBonus|10
 
 Speed 5 ft., fly 20 ft. (perfect)
 
@@ -16750,7 +16752,7 @@ BONUS:VAR|BlindsightRange|30
 BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Speed 0 ft. (immobile)
 
 Melee 4 leaves +5 touch (grab), 6 stalks +5 (1d4+3)
@@ -16879,8 +16881,8 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
-Resist cold 5
-Resist fire 5
+BONUS:VAR|ColdResistanceBonus|5
+BONUS:VAR|FireResistanceBonus|5
 SR:9
 
 Speed 40 ft., swim 40 ft.
@@ -16922,7 +16924,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|19|TYPE=Base.STACK
 
 Immune electricity (partial)
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses slowed by electricity
 
 Speed 20 ft., swim 30 ft.
@@ -17012,9 +17014,9 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Resist electricity 10
+BONUS:VAR|ElectricityResistanceBonus|10
 
 Speed 30 ft.
 
@@ -17152,8 +17154,8 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 
 DR:10/magic and slashing
-Immune plant traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -17205,7 +17207,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 BONUS:VAR|FastHealingRate|5
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -17343,8 +17345,8 @@ Aura sickening aura (10 ft., DC 16, sickened)
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 DR:10/slashing or piercing
-Immune plant traits
-Resist fire 5
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|5
 
 Speed 40 ft., fly 60 ft. (average)
 
@@ -17758,8 +17760,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 DR:5/-
-Immune elemental traits
-Resist fire 5
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
+BONUS:VAR|FireResistanceBonus|5
 SR:20
 
 Speed 20 ft.
@@ -17961,7 +17963,7 @@ BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 DR:10/-
-Resist fire 20
+BONUS:VAR|FireResistanceBonus|20
 
 Speed 40 ft.
 
@@ -18617,7 +18619,7 @@ Aura unhallowed aura (20 ft.)
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:10/slashing and good
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 SR:22
 Weaknesses vulnerability to fire
 
@@ -18763,7 +18765,7 @@ BONUS:VAR|FastHealingRate|3
 
 DR:10/magic and bludgeoning
 Immune mind-affecting effects
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to magic
 
 Speed 30 ft., swim 30 ft.
@@ -18813,7 +18815,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
 Speed 30 ft.
@@ -18868,11 +18870,11 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|22|TYPE=Base.STACK
 
 DR:15/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune fire
 Immune magic
 Immune rust
-Resist cold 20
+BONUS:VAR|ColdResistanceBonus|20
 
 Speed 20 ft.
 
@@ -18916,7 +18918,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 DR:10/bludgeoning and magic
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune electricity
 Immune magic
 
@@ -19021,7 +19023,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:15/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 Weaknesses vulnerability to rust
 
@@ -19080,7 +19082,7 @@ Aura aura of sickness (10 ft., DC 16, sickened 1d4 minutes)
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 Weaknesses rust vulnerability
 
@@ -19171,8 +19173,8 @@ BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
 BONUS:VAR|FastHealingRate|5
 
-Immune construct traits
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 20 ft.
 
@@ -19221,7 +19223,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:5/adamantine and slashing
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 Weaknesses vulnerability to fire
 
@@ -19263,9 +19265,9 @@ ABILITY:Special Ability|AUTOMATIC|See Invisibility ~ Constant
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Resist cold 5
-Resist fire 5
-Resist electricity 5
+BONUS:VAR|ColdResistanceBonus|5
+BONUS:VAR|FireResistanceBonus|5
+BONUS:VAR|ElectricityResistanceBonus|5
 
 Speed 20 ft.
 
@@ -19310,7 +19312,7 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 DR:10/adamantine and bludgeoning
 Immune cold
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Weaknesses vulnerability to fire
 
 Speed 20 ft.
@@ -19349,7 +19351,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:10/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
 Speed 30 ft.
@@ -19406,7 +19408,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:5/adamantine
 Immune cold
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune electricity
 Weaknesses vulnerability to fire
 
@@ -20393,7 +20395,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 30 ft.
 
@@ -20439,7 +20441,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 SR:19
 Weaknesses paralyzed by cold, slowed by darkness, vulnerability to electricity
 
@@ -20500,7 +20502,7 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 
 Immune channel energy
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weakness vulnerability to dispel evil/good/law/chaos
 
 Speed 20 ft., fly 30 ft. (perfect)
@@ -20560,7 +20562,7 @@ BONUS:VAR|BlindsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Speed 10 ft.
 
@@ -20594,7 +20596,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Speed 20 ft., fly 60 ft. (good)
 
@@ -20638,7 +20640,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
-Resist fire 20
+BONUS:VAR|FireResistanceBonus|20
 
 Speed 10 ft., fly 40 ft. (average)
 
@@ -20689,7 +20691,7 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Fire
 
 
 DR:10/good
-Resist sonic 15
+BONUS:VAR|SonicResistanceBonus|15
 Weaknesses bloated
 
 Speed 30 ft., swim 30 ft.
@@ -20828,7 +20830,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Immune cold
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weaknesses vulnerability to fire
 
 Speed 30 ft.
@@ -20878,7 +20880,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Speed 20 ft., fly 60 ft. (good)
 
 Melee bite +9 (1d3+5), sting +9 (1d4+5 plus poison)
@@ -20921,7 +20923,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Immune mind-affecting effects
 
 Speed 20 ft., fly 60 ft. (good)
@@ -20960,7 +20962,7 @@ Aura faithless (30 ft.)
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 DR:5/magic or silver
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 30 ft.
 
@@ -21361,7 +21363,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:5/-
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 SR:13
 
 Speed 40 ft.
@@ -21400,7 +21402,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Speed 30 ft.
 
 Melee 3 slams +6 (1d6+2 plus grab) or pitchfork +6 (1d6+3)
@@ -21530,9 +21532,9 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:10/slashing or piercing and good
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 5 ft., fly 30 ft. (average)
@@ -21588,7 +21590,7 @@ Immune polymorph
 Immune sleep
 Immune stunning
 Immune visual effects
-Resist cold 10
+BONUS:VAR|ColdResistanceBonus|10
 SR:18
 
 Speed 30 ft.
@@ -21640,7 +21642,7 @@ BONUS:VAR|BlindsightRange|60
 
 
 
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 10 ft.
 
@@ -21683,7 +21685,7 @@ BONUS:VAR|BlindsightRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 Speed 20 ft., climb 20 ft.
 
 Melee 4 tendrils +2 (1d4 plus 1d4 acid)
@@ -21763,7 +21765,7 @@ BONUS:VAR|BlindsenseRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to fire
 
 Speed 5 ft.
@@ -21854,7 +21856,7 @@ BONUS:VAR|BlindsightRange|30
 
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Speed 10 ft.
 
 Melee 6 tendrils +5 (1d3+3 plus grab)
@@ -21975,8 +21977,8 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/slashing or piercing
 Immune electricity
-Immune plant traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 30 ft., swim 50 ft.
 
@@ -22025,7 +22027,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft., swim 30 ft.
 
@@ -22081,7 +22083,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 Immune cold 
 Immune fire
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerabilities (see below)
 
 Speed 10 ft., burrow 30 ft.
@@ -22329,7 +22331,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 30 ft.
 
@@ -22376,7 +22378,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 30 ft.
 
@@ -22416,7 +22418,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 Immune earth magic
 Immune fire
 Immune metal
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses elemental vulnerability, vulnerability to cold
 
 Speed 30 ft.
@@ -22464,7 +22466,7 @@ ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|BlindsightRange|30
 
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Weaknesses vulnerability to salt
 
@@ -22547,8 +22549,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 DR:10/bludgeoning and magic
-Resist cold 10
-Resist electricity 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
 SR:20
 
 Speed 30 ft.
@@ -22834,8 +22836,8 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Amorphous
 DR:10/slashing or piercing
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses light sensitivity
 
 Speed 10 ft., climb 5 ft., fly 40 ft. (poor) L
@@ -22885,7 +22887,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|100
 
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 30 ft., burrow 20 ft.
 
@@ -22937,7 +22939,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/piercing
 Immune fire
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to cold
 
 Speed 40 ft.
@@ -23040,8 +23042,8 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|120
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune plant traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|FireResistanceBonus|10
 SR:12
 Weaknesses light blindness
 
@@ -23420,7 +23422,7 @@ BONUS:VAR|FastHealingRate|2
 
 DR:5/magic
 Immune fire
-Immune outsider traits
+ABILITY:Special Ability|AUTOMATIC|Outsider Traits
 Weakness vulnerability to cold
 
 Speed 30 ft., fly 50 ft. (perfect)
@@ -23641,8 +23643,8 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:10/-
 Immune fire
-Immune elemental traits
-Resist cold 15
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
+BONUS:VAR|ColdResistanceBonus|15
 
 Speed 20 ft., swim 60 ft.
 
@@ -24022,7 +24024,7 @@ BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 BONUS:COMBAT|AC|4|TYPE=Profane
 
 DR:15/bludgeoning and magic
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 SR:31
 
 Speed 40 ft.
@@ -24083,7 +24085,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Speed 30 ft., fly 60 ft. (good)
 
 Melee touch +3 (attach)
@@ -24160,7 +24162,7 @@ RACETYPE:Ooze
 MONSTERCLASS:Ooze:3 
 BONUS:VAR|BlindsightRange|60
 
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 10 ft.
 
@@ -24208,7 +24210,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|120
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 DR:5/magic
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses magic
 
 Speed 10 ft.
@@ -24257,8 +24259,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:5/-
-Immune undead traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft., swim 20 ft.
 
@@ -24305,7 +24307,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Speed 10 ft.; fly 70 ft. (average)
 
 Melee 2 claws +7 (1d4+1), 1 bite +7 (1d6+1)
@@ -24439,7 +24441,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:5/bludgeoning
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 30 ft.
 
@@ -24480,7 +24482,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:5/bludgeoning
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Speed 30 ft.
 
 Melee bite +5 (1d8+3 plus paralysis)
@@ -24854,7 +24856,7 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:10/adamantine
 Immune magic
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 20 ft.
 Melee 2 claws +17 (2d8+6 plus 1d6 fire)
@@ -25061,7 +25063,7 @@ RACETYPE:Ooze
 MONSTERCLASS:Ooze:1 
 BONUS:VAR|BlindsightRange|60
 
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 10 ft.
 
@@ -25102,7 +25104,7 @@ BONUS:VAR|BlindsightRange|60
 
 Immune cold
 Immune fire
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 Weaknesses water dependent
 
 Speed 10 ft., swim 30 ft.
@@ -25149,7 +25151,7 @@ BONUS:VAR|BlindsightRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Immune negative energy
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 SR:24 (against positive energy)
 
 Speed 20 ft. (4 squares), climb 20 ft.
@@ -25194,7 +25196,7 @@ BONUS:VAR|BlindsightRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 Immune negative energy
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 SR:24 (against positive energy)
 
 Speed 20 ft. (4 squares), climb 20 ft.
@@ -25236,7 +25238,7 @@ BONUS:VAR|BlindsightRange|60
 
 DR:5/bludgeoning
 Immune cold
-Immune ooze traits;
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits;
 Weaknesses vulnerable to fire
 
 Speed 20 ft. (4 squares), swim 20 ft.
@@ -25285,7 +25287,7 @@ BONUS:VAR|BlindsightRange|60
 
 
 Immune fire
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 10 ft., climb 10 ft.
 
@@ -25324,7 +25326,7 @@ MONSTERCLASS:Ooze:5
 BONUS:VAR|BlindsightRange|60
 
 
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 10 ft., climb 20 ft.
 
@@ -25363,7 +25365,7 @@ MONSTERCLASS:Ooze:7
 BONUS:VAR|BlindsightRange|60
 
 
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 20 ft., climb 10 ft.
 
@@ -25407,8 +25409,8 @@ BONUS:VAR|BlindsightRange|60
 
 
 Immune cold
-Immune ooze traits
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 20 ft., climb 20 ft.
 
@@ -25452,8 +25454,8 @@ BONUS:VAR|BlindsightRange|60
 
 Immune cold
 Immune electricity
-Immune ooze traits
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weaknesses sunlight vulnerability
 
 Speed 10 ft., climb 10 ft.
@@ -25863,7 +25865,7 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed fly 60 ft. (perfect)
 
@@ -25907,7 +25909,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Immune fire
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to cold
 
 Speed 30 ft., fly 60 ft. (average)
@@ -26015,7 +26017,7 @@ BONUS:VAR|BlindsightRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Immune plant immunities
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 0 ft. (immobile)
 
@@ -26112,7 +26114,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|30
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 10 ft.
 
@@ -26278,8 +26280,8 @@ BONUS:VAR|DarkvisionRange|60
 DR:10/magic and silver
 Immune outsider immunities
 Immune poison;
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Resist electricity
 SR:26
 
@@ -26402,7 +26404,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Immune outsider traits
+ABILITY:Special Ability|AUTOMATIC|Outsider Traits
 
 Speed 50 ft.
 
@@ -26529,8 +26531,8 @@ MONSTERCLASS:Ooze:5
 BONUS:VAR|BlindsightRange|60
 
 Immune mind-affecting effects
-Immune ooze traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses racial vulnerabilities
 
 Speed 30 ft.
@@ -26716,7 +26718,7 @@ BONUS:VAR|BlindsightRange|60
 
 
 
-Resist cold 5
+BONUS:VAR|ColdResistanceBonus|5
 
 Speed 20 ft., climb 20 ft.
 
@@ -26892,7 +26894,7 @@ Aura fumes (5 ft., Fort DC 10)
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Immune acid
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
 Speed 20 ft., swim 80 ft.
@@ -26926,7 +26928,7 @@ Aura fumes (5 ft., Fort DC 13)
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 Immune acid
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
 Speed 20 ft., swim 80 ft.
@@ -26964,7 +26966,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:5/-
 Immune acid
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
 Speed 20 ft., swim 80 ft.
@@ -27004,7 +27006,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:5/-
 Immune acid
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
 Speed 20 ft., swim 80 ft.
@@ -27044,7 +27046,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:10/-
 Immune acid
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
 Speed 20 ft., swim 80 ft.
@@ -27085,7 +27087,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:10/-
 Immune acid
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weakness vulnerability to water
 
 Speed 20 ft., swim 80 ft.
@@ -27158,9 +27160,9 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:5/-
 Immune electricity
-Immune elemental traits
-Resist acid 10
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to water
 
 Speed fly 60 ft. (perfect)
@@ -27198,9 +27200,9 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:5/-
 Immune electricity
-Immune elemental traits
-Resist acid 10
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to water
 
 Speed fly 60 ft. (perfect)
@@ -27240,9 +27242,9 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/-
 Immune electricity
-Immune elemental traits
-Resist acid 10
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to water
 
 Speed fly 60 ft. (perfect)
@@ -27325,8 +27327,8 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -27359,8 +27361,8 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -27394,8 +27396,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 DR:5/-
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -27430,8 +27432,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:5/-
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -27466,8 +27468,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/-
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -27502,8 +27504,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 DR:10/-
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -27606,7 +27608,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 Immune electricity
 Immune fire
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 10 ft.
 
@@ -27896,7 +27898,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 40 ft., climb 15 ft.
 
@@ -27933,7 +27935,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed 40 ft., climb 20 ft.
 
@@ -27985,7 +27987,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 20 ft., climb 20 ft.
 
@@ -28253,7 +28255,7 @@ BONUS:VAR|FastHealingRate|10
 
 DR:10/chaotic and good
 Immune magic
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 30 ft.
 
@@ -28796,7 +28798,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:5/bludgeoning
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
 Speed 30 ft., burrow 20 ft.
@@ -28882,7 +28884,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 Immune cold
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Weaknesses vulnerability to fire
 
 Speed 20 ft.
@@ -28963,7 +28965,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:5/adamantine
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
 Speed 0 ft., immobile
@@ -29054,7 +29056,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/slashing
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to fire
 
 Speed 20 ft.
@@ -29118,7 +29120,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 Immune paralysis and sleep
-Immune dragon traits
+ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
 Speed swim 40 ft.
 
@@ -29172,7 +29174,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 Immune paralysis and sleep
-Immune dragon traits
+ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
 Speed swim 60 ft.
 
@@ -29220,7 +29222,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 Immune paralysis and sleep
-Immune dragon traits
+ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
 Speed swim 30 ft.
 
@@ -29267,7 +29269,7 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 DR:5/gold
 Immune paralysis and sleep
-Immune dragon traits
+ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
 Speed 10 ft.; swim 40 ft.
 
@@ -29316,7 +29318,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 Immune paralysis and sleep
-Immune dragon traits
+ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
 Speed 10 ft.; swim 40 ft.
 
@@ -29367,7 +29369,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 Immune paralysis and sleep
-Immune dragon traits
+ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
 Speed 10 ft.; swim 40 ft.
 
@@ -29418,7 +29420,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Speed swim 50 ft.
 
@@ -29503,9 +29505,9 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
-Resist acid 10
-Resist cold 10
-Resist fire 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed Swim 90 ft.
 
@@ -29853,10 +29855,10 @@ BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 DR:10/adamantine
 Immune cold
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune fire
-Resist acid 10
-Resist electricity 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
 SR:19
 
 Speed 30 ft.
@@ -30059,7 +30061,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 DR:5/bludgeoning
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed fly 40 ft. (good)
 
@@ -30202,7 +30204,7 @@ Immune cold
 Immune electricity
 Immune fire
 Immune magic
-Immune construct traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Speed 30 ft.
 
@@ -30330,7 +30332,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Immune undead traits
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
 Speed fly 10 ft. (perfect)
 
@@ -30390,11 +30392,11 @@ BONUS:VAR|FastHealingRate|15
 
 
 DR:25/magic and lawful
-Resist acid 10
-Resist cold 10
-Resist electricity 10
-Resist fire 10
-Resist sonic 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
+BONUS:VAR|SonicResistanceBonus|10
 SR:40
 
 Speed 40 ft.
@@ -30464,11 +30466,11 @@ BONUS:VAR|FastHealingRate|10
 
 ABILITY:Special Ability|AUTOMATIC|Amorphous
 DR:20/magic and lawful
-Resist acid 10
-Resist cold 10
-Resist electricity 10
-Resist fire 10
-Resist sonic 10
+BONUS:VAR|AcidResistanceBonus|10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
+BONUS:VAR|SonicResistanceBonus|10
 SR:37
 
 Speed 40 ft., fly 60 ft.
@@ -30760,7 +30762,7 @@ BONUS:VAR|BlindsightRange|60
 
 
 
-Immune ooze traits
+ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
 Speed 20 ft.
 
@@ -30955,7 +30957,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:10/slashing or piercing
 Immune mind-affecting effects
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Weaknesses salt vulnerability
 
 Speed 20 ft., burrow 10 ft.
@@ -31594,7 +31596,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed swim 5 ft.
 
@@ -31823,8 +31825,8 @@ BONUS:VAR|HasLowLightVision|1
 
 
 Immune weapon damage
-Immune construct traits
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:21
 Weaknesses swarm traits
 
@@ -31876,7 +31878,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 DR:5/cold iron
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:17
 Weaknesses swarm traits
 
@@ -31928,9 +31930,9 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 Immune fire
 Immune weapon damage
-Immune construct traits
-Immune elemental traits
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits, vulnerability to cold
 
 Speed 30 ft., fly 60 ft. (average)
@@ -31976,7 +31978,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 Immune weapon damage
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
 Speed swim 40 ft.
@@ -32025,7 +32027,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 Immune weapon damage
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
 Speed 10 ft.
@@ -32162,8 +32164,8 @@ BONUS:VAR|DarkvisionRange|60
 
 Immune mind-affecting effects
 Immune weapon damage
-Immune swarm traits
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Weaknesses swarm traits
 
 Speed 10 ft., climb 10 ft.
@@ -32261,8 +32263,8 @@ BONUS:VAR|DarkvisionRange|60
 
 Immune mind-affecting effects
 Immune weapon damage
-Immune swarm traits
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Weaknesses swarm traits
 
 Speed 30 ft., climb 20 ft.
@@ -32310,8 +32312,8 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|30
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 Immune weapon damage
-Immune construct traits
-Immune swarm traits
+ABILITY:Special Ability|AUTOMATIC|Construct Traits
+ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
 Speed 40 ft.
@@ -32526,7 +32528,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 40 ft.
 
@@ -32676,7 +32678,7 @@ BONUS:VAR|RegenerationRate|5
 ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Cold/Fire
 
 
-Resist acid 10
+BONUS:VAR|AcidResistanceBonus|10
 SR:21
 
 Speed 30 ft.
@@ -32888,7 +32890,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 50 ft.
 
@@ -33017,7 +33019,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Speed 10 ft.
 
@@ -33221,8 +33223,8 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Amorphous
 DR:10/slashing or piercing
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 10 ft.
 
@@ -33272,7 +33274,7 @@ BONUS:VAR|FastHealingRate|10
 
 DR:10/slashing
 Immune electricity
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 40 ft.
 
@@ -33325,7 +33327,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 0 ft. (immobile)
 
@@ -34021,8 +34023,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|17|TYPE=Base.STACK
 
 DR:10/magic
-Resist cold 10
-Resist fire 10
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:23
 
 Speed 10 ft., swim 40 ft.
@@ -34157,7 +34159,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 BONUS:VAR|FastHealingRate|2
 
 
-Resist fire 5
+BONUS:VAR|FireResistanceBonus|5
 Weaknesses cold susceptibility
 
 Speed 40 ft., climb 20 ft., swim 20 ft.
@@ -34204,7 +34206,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:VAR|FastHealingRate|2
 
 
-Resist fire 5
+BONUS:VAR|FireResistanceBonus|5
 
 Speed 20 ft., fly 60 ft. (good)
 
@@ -34261,7 +34263,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/bludgeoning or slashing
 Immune electricity
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -34298,7 +34300,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/bludgeoning or slashing
 Immune electricity
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -34335,7 +34337,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/bludgeoning or slashing
 Immune electricity
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -34372,7 +34374,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/bludgeoning or slashing
 Immune electricity
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 Melee 2 claws +6 (1d3+2) or spear +7 (1d6+3 /x3)
@@ -34406,7 +34408,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 DR:5/bludgeoning or slashing
 Immune electricity
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -34446,7 +34448,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:5/bludgeoning or slashing
 Immune electricity
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -34567,7 +34569,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:15/slashing or piercing
 Immune acid
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 40 ft.
 
@@ -34657,7 +34659,7 @@ BONUS:VAR|FastHealingRate|2
 
 DR:5/silver
 Immune poison
-Resist fire 5
+BONUS:VAR|FireResistanceBonus|5
 
 Speed 30 ft.
 
@@ -34709,7 +34711,7 @@ Fort +8; Ref +13; Will +13; +2 vs. enchantment
 DR:5/silver
 Immune disease
 Immune poison
-Resist fire 5
+BONUS:VAR|FireResistanceBonus|5
 
 Speed 50 ft.
 
@@ -34832,7 +34834,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 DR:5/bludgeoning
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft.
 
@@ -34884,7 +34886,7 @@ RACESUBTYPE:Earth|Elemental|Extraplanar|Fire
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:10/bludgeoning
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to cold
 
 Speed 40 ft.
@@ -34946,7 +34948,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/bludgeoning
 Immune electricity
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 50 ft.
 
@@ -35039,7 +35041,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|19|TYPE=Base.STACK
 
 DR:15/magic and slashing
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 30 ft., climb 20 ft.
 
@@ -35147,7 +35149,7 @@ BONUS:VAR|FastHealingRate|5
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|5
 DR:10/bludgeoning and magic
-Resist fire 10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 30 ft.
 
@@ -35193,9 +35195,9 @@ BONUS:VAR|FastHealingRate|5
 
 
 DR:10/magic
-Immune plant traits
-Resist cold 10
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|ColdResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 20 ft.
 
@@ -35243,7 +35245,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 DR:5/magic
 Immune magic
-Immune elemental traits
+ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Speed 40 ft., fly 60 ft. (perfect)
 
@@ -35295,9 +35297,9 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
 DR:10/magic
-Immune plant traits
-Resist electricity 10
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
+BONUS:VAR|ElectricityResistanceBonus|10
+BONUS:VAR|FireResistanceBonus|10
 SR:22
 
 Speed 20 ft.
@@ -35804,7 +35806,7 @@ BONUS:VAR|BlindsightRange|30
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Immune plant traits
+ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 Speed 5 ft.
 
@@ -35857,7 +35859,7 @@ MONSTERCLASS:Vermin:6
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Immune mind-affecting effects
-Immune vermin traits
+ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Speed 20 ft., fly 60 ft. (good)
 
@@ -35951,8 +35953,8 @@ RACESUBTYPE:Aquatic
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 DR:5/slashing
-Immune undead traits
-Resist fire 10
+ABILITY:Special Ability|AUTOMATIC|Undead Traits
+BONUS:VAR|FireResistanceBonus|10
 
 Speed 30 ft., swim 30 ft.
 
