@@ -1,4 +1,5 @@
 
+
 -----------------------------------------------
 
 Ahlinni
@@ -16,7 +17,7 @@ BONUS:VAR|FastHealingRate|2
 
 BONUS:VAR|SonicResistanceBonus|10
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee bite +7 (1d8+2)
 
@@ -55,7 +56,7 @@ Weaknesses vulnerability to fire
 
 SA double damage against objects (full attack deals double damage), trample (2d6+7, DC 17)
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +7 (2d6+5)
 
@@ -93,7 +94,7 @@ ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to water
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +8 (1d6+4)
 
@@ -141,7 +142,7 @@ Immune poison
 SR:11
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +5 (1d4-2)
 
@@ -187,7 +188,7 @@ BONUS:VAR|HasLowLightVision|1
 Immune poison
 SR:12
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +6 (1d4-2) Psi-like Abilities (ML 2nd):
 
@@ -233,7 +234,7 @@ Immune petrification
 BONUS:VAR|ColdResistanceBonus|10
 
 
-Speed 20 ft., climb 20 ft., swim 20 ft.
+MOVE:Walk,20,Climb,20,Swim,20
 
 Melee 2 bites +8 (1d8+3 plus poison)
 
@@ -283,7 +284,7 @@ ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 BONUS:VAR|AcidResistanceBonus|20
 
 
-Speed 0 ft. (immobile)
+MOVE:Walk,0
 
 Melee tendrils +14 (paralysis plus grab)
 
@@ -342,7 +343,8 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:25
 
-Speed 40 ft., fly 90 ft. (good)
+MOVE:Walk,40,Fly,90
+BONUS:VAR|Maneuverability|4
 
 Melee +2 flaming longsword +21/+16/+11 (1d8+8 plus 1d6 fire)
 
@@ -411,7 +413,8 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:26
 
-Speed 40 ft., fly 70 ft. (good)
+MOVE:Walk,40,Fly,70
+BONUS:VAR|Maneuverability|4
 
 Melee +3 flaming longsword +23/+18/+13 (1d8+10 plus 1d6 fire)
 
@@ -486,7 +489,8 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:23
 
-Speed 40 ft., fly 90 ft. (good)
+MOVE:Walk,40,Fly,90
+BONUS:VAR|Maneuverability|4
 
 Melee +3 mace of smiting +20/+15 (1d8+10 plus solid blow)
 
@@ -553,7 +557,8 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 40 ft., fly 60 ft. (good)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee +1 flaming greatsword +13/+8 (2d6+7 plus 1d6 fire)
 
@@ -615,7 +620,7 @@ Immune mind-affecting effects
 Immune psionics
 SR:26
 
-Speed 60 ft., climb 30 ft.
+MOVE:Walk,60,Climb,30
 
 Melee 2 claws +27 (1d6+7 plus grab), bite +26 (1d8+7)
 
@@ -699,7 +704,7 @@ Immune psionics
 SR:26
 
 
-Speed 60 ft., climb 30 ft.
+MOVE:Walk,60,Climb,30
 
 Melee +5 keen wounding rapier +30/+25/+20/+15 (1d6+11/15-20 plus 1 bleed)
 
@@ -763,7 +768,7 @@ Immune psionics
 SR:24
 
 
-Speed 40 ft., climb 30 ft.
+MOVE:Walk,40,Climb,30
 
 Melee bite +22 (2d6+6 plus disease)
 
@@ -835,11 +840,11 @@ Immune mind-affecting effects
 Immune psionics
 SR:24
 
-Speed 40 ft., climb 30 ft.
+MOVE:Walk,40,Climb,30
 
 Melee +4
 
-speed dagger of venom +26/+26/+21/+16 (1d4+7/19-20)
+Speed Dagger Of Venom +26/+26/+21/+16 (1d4+7/19-20)
 
 Spell-Like Abilities (CL 15th)
 
@@ -889,7 +894,7 @@ Immune mind-affecting effects
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 
-Speed 30 ft., burrow 10 ft.
+MOVE:Walk,30,Burrow,10
 
 Melee bite +11 (2d8+9 plus grab)
 
@@ -927,7 +932,8 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weaknesses resurrection vulnerability, sunlight powerlessness
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Special Attacks create spawn, spectral strangulation
 
@@ -974,7 +980,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
 
-Speed 30 ft., climb 10 ft.
+MOVE:Walk,30,Climb,10
 
 Melee bite +12 (1d6+2), 6 slams +12 (1d4+2), or short sword +12/+7 (1d6+2) and 5 short swords +12 (1d6+2), bite +7 (1d6+1 plus poison)
 
@@ -1030,7 +1036,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
-Speed 30 ft., climb 10 ft.
+MOVE:Walk,30,Climb,10
 
 Melee bite +15 (1d6+2), 6 slams +15 (1d4+2), or short sword +15/+10/+5 (1d6+2) and 5 short swords +15 (1d6+2), bite +10 (1d6+1 plus poison)
 
@@ -1085,7 +1091,7 @@ Immune stunning
 
 
 
-Speed 30 ft., climb 10 ft.
+MOVE:Walk,30,Climb,10
 
 Melee slam +7 (2d4+3 plus 1d6 acid plus grab)
 
@@ -1139,7 +1145,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Ranged thorns +4 (1d8)
 
@@ -1178,7 +1184,7 @@ ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 BONUS:VAR|ElectricityResistanceBonus|10
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee slam +8 (2d8+6)
 
@@ -1219,7 +1225,7 @@ Immune cold
 SR:16
 Weaknesses water dependent
 
-Speed 20 ft., swim 50 ft.
+MOVE:Walk,20,Swim,50
 
 Melee touch +7 (1d4 cold)
 
@@ -1283,7 +1289,8 @@ Immune mind-affecting effects
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 
-Speed 30 ft., climb 20 ft., fly 50 ft. (good)
+MOVE:Walk,30,Climb,20,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee 2 claws +8 (1d6+2), bite +8 (1d8+2 plus liquefy organs)
 
@@ -1324,7 +1331,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 60 ft.
+MOVE:Walk,60
 
 Melee bite +13 (2d10+7/19-20)
 
@@ -1370,7 +1377,8 @@ BONUS:VAR|HasLowLightVision|1
 DR:5/cold iron
 SR:12
 
-Speed 40 ft., fly 60 ft. (good)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee short sword +6 (1d3-3)
 
@@ -1422,7 +1430,7 @@ DR:10/piercing or slashing
 Immune poison
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 30 ft., burrow 10 ft.
+MOVE:Walk,30,Burrow,10
 
 Melee bite +18 (1d6+5 plus grab), 4 claws +18 (1d4+5 plus grab)
 
@@ -1462,7 +1470,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 40 ft., 20 ft. on two legs
+MOVE:Walk,40
 
 Melee 2 claws +7 (1d4+4) and bite +7 (1d6+4)
 
@@ -1501,7 +1509,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 DR:5/cold iron
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee greatclub +5 (1d10+3), 2 claws +4 (1d4+2), bite +5 (1d6+2)
 
@@ -1547,7 +1555,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 40 ft., climb 30 ft.
+MOVE:Walk,40,Climb,30
 
 Melee bite +5 (1d6+2) or club +5 (1d6+2)
 
@@ -1593,7 +1601,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +7 (1d6+3), bite +7 (1d6+3)
 
@@ -1654,7 +1662,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerable to fire
 
-Speed 20 ft., burrow 20 ft.
+MOVE:Walk,20,Burrow,20
 
 Melee short sword +3 (1d4) or dagger +3 (1d3)
 
@@ -1701,7 +1709,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +3 (1d6) and 2 claws +3 (1d3)
 
@@ -1736,7 +1744,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 Immune cold
 Weakness cold vulnerability
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee slam +7 (1d8+6 plus spores)
 
@@ -1795,7 +1803,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +11 (2d6+4 plus 1d6 acid)
 
@@ -1842,7 +1850,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +14 (1d8+6) and 2 claws +14 (1d6+6 plus poison)
 
@@ -1891,7 +1899,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 10 ft., fly 50 ft. (good)
+MOVE:Walk,10,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee bite +7 (2d6+3), tail lash +2 (1d6+1)
 
@@ -1939,7 +1948,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 20 ft., fly 40 ft. (good)
+MOVE:Walk,20,Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee bite +8 (1d8+4)
 
@@ -1991,7 +2001,8 @@ Immunepolymorph
 Immunespells and effects with chaotic or anarchic descriptor
 SR:20 (vs. spells with lawful descriptor only)
 
-Speed fly 50 ft. (perfect)
+MOVE:Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +11 (2d4+3)
 
@@ -2046,7 +2057,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 Immune mind-affecting effects
 Immune poison
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +2 (1d6)
 
@@ -2083,7 +2094,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +6 (2d6+6)
 
@@ -2119,7 +2130,7 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 Immune death effects
 Immune mind-affecting effects
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +11 (2d6+7)
 
@@ -2157,7 +2168,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee gore +12 (2d6+6), bite +12 (2d6+6)
 
@@ -2191,7 +2202,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +5 (2d6+3 plus grab)
 
@@ -2221,7 +2232,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee type +8 (2d8+9/19-20)
 
@@ -2262,7 +2273,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 Immune mind-affecting effects
 Weaknesses water dependent
 
-Speed 10 ft., swim 60 ft.
+MOVE:Walk,10,Swim,60
 
 Melee bite +5 (1d8+3)
 
@@ -2307,7 +2318,7 @@ DR:10/-
 Immune acid
 Immune mind-affecting effects
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee 2 claws +29 (2d8+11 plus grab), bite +29 (2d10+11)
 
@@ -2348,7 +2359,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 5 ft., fly 20 ft. (poor)
+MOVE:Walk,5,Fly,20
+BONUS:VAR|Maneuverability|2
 
 Melee slam +6 (2d4+2), tentacles +4 (grab) or bite +6 (2d4+3), tentacles +4 (grab)
 
@@ -2391,7 +2403,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +12 (1d8+5 plus grab)
 
@@ -2438,7 +2450,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
-Speed 40 ft., (30 ft. in armor)
+MOVE:Walk,40
 
 Melee 2 longswords +20/+15/+10 (3d6+10)
 
@@ -2488,7 +2500,7 @@ Fort +22; Ref +10; Will +10; +1 vs. fear
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 ABILITY:Special Ability|AUTOMATIC|Fighter ~ Bravery	BONUS:VAR|Bravery|1
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 +1 longswords +27/+22/+17/+11 (3d6+13/18-20)
 
@@ -2530,7 +2542,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +5 (1d8)
 
@@ -2571,7 +2583,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerable to sonic
 
-Speed 0 ft.
+MOVE:Walk,0
 
 Melee tendril +7 (1d4+2)
 
@@ -2622,7 +2634,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 10 ft., fly 80 ft. (average)
+MOVE:Walk,10,Fly,80
+BONUS:VAR|Maneuverability|3
 
 Melee bite +4 (1d4), 2 talons +4 (1d3)
 
@@ -2656,7 +2669,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 0 ft. (immobile)
+MOVE:Walk,0
 
 Melee 2 tendrils +9 (1d4+3 plus grab plus create host) or 4 limb rakes +8 (1d6+3)
 
@@ -2709,7 +2722,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +6 (1d6+3)
 
@@ -2756,7 +2769,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 20 ft., climb 20 ft., swim 20 ft.
+MOVE:Walk,20,Climb,20,Swim,20
 
 Melee bite +9 (1d8+7 plus grab)
 
@@ -2799,7 +2812,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +10 (1d6+5 plus disease)
 
@@ -2841,7 +2854,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 10 ft., swim 20 ft.
+MOVE:Walk,10,Swim,20
 
 Melee slam +11 (1d6+4), bite +11 (2d4+4), 4 tendrils +9 (1d4+2 plus grab)
 
@@ -2893,7 +2906,7 @@ ABILITY:Special Ability|AUTOMATIC|Undead Traits
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to cold
 
-Speed 20 ft., marsh move
+MOVE:Walk,20
 
 Melee slam +10 (1d6+4 plus bog rot)
 
@@ -2947,7 +2960,7 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee incorporeal touch +10 (1d6)
 
@@ -2999,7 +3012,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 Immune magic
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee slam +9 (2d6 electricity)
 
@@ -3063,7 +3076,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 light hammers +7 (1d4+3) or 2 claws +6 (1d3+3)
 
@@ -3117,7 +3130,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 Immune mind-affecting effects
 Weaknesses aversion to daylight
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +6 (1d3-1 plus poison)
 
@@ -3162,7 +3175,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 Immune mind-affecting effects
 Weaknesses aversion to daylight
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee bite +6 (1d6+1 plus poison)
 
@@ -3205,7 +3218,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +7 (1d8+2 plus grab), tail slap +4 (1d8+1)
 
@@ -3243,7 +3256,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/magic
 Immune flanking
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 4 tentacles +9 (1d4+4 plus grab and liquefy bones)
 
@@ -3296,7 +3309,7 @@ Immune fire
 Immune magic
 Weaknesses vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +15 (2d8+6), or large greatsword +15/+10 (3d6+9)
 
@@ -3337,7 +3350,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 DR:5/cold iron
 SR:12
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee longsword +6 (1d4-2)
 
@@ -3382,7 +3395,8 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 DR:10/magic
 Immune poison
 
-Speed 20 ft., 40 ft. (average)
+MOVE:Walk,20
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +12 (1d6+1 plus 1d6 Cha)
 
@@ -3445,7 +3459,7 @@ DR:10/silver
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 SR:17
 
-Speed 30 ft., swim 40 ft.
+MOVE:Walk,30,Swim,40
 
 Melee 2 claws +11 (1d8+4 plus disease)
 
@@ -3503,7 +3517,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 SR:13
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee dagger +5 (1d3 plus poison)
 
@@ -3551,7 +3565,8 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee sting +9 (2d6+7 plus poison)
 
@@ -3590,7 +3605,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee sting +6 (1d8+6 plus poison)
 
@@ -3631,7 +3647,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed swim 50 ft.
+MOVE:Swim,50
 
 Melee bite +8 (2d6+3)
 
@@ -3684,7 +3700,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 30 ft., fly 20 ft. (perfect)
+MOVE:Walk,30,Fly,20
+BONUS:VAR|Maneuverability|5
 
 Melee +1 falchion +14/+9 (2d4+7/18-20), or 2 slams +13 (1d6+4 plus 1d6 fire plus burn) (flame form only)
 
@@ -3739,7 +3756,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 DR:5/bludgeoning
 Immune cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +2 (1d4+1 plus disease) and bite +2 (1d6+1 plus disease)
 
@@ -3778,7 +3795,7 @@ BONUS:COMBAT|AC|2|TYPE=Insight
 
 
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee bite +1 (1d3 -2)
 
@@ -3820,7 +3837,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 15 ft., fly 60 ft. (good)
+MOVE:Walk,30,Climb,15,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee bite +8 bite (2d8+3), 4 tentacles +3 (paralysis)
 
@@ -3869,7 +3887,7 @@ DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee type +6 (1d8+2)
 
@@ -3907,7 +3925,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 SR:18
 
-Speed 30 ft., burrow 20 ft.
+MOVE:Walk,30,Burrow,20
 
 Melee bite +11 touch (1d6+5) or 4 claws +10 (1d6+5)
 
@@ -3953,7 +3971,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 50 ft., climb 20 ft.
+MOVE:Walk,50,Climb,20
 
 Melee bite +8 (1d6+2 plus grab), 2 claws +8 (1d4+2)
 
@@ -4000,7 +4018,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 kicks +2 (1d3+1)
 
@@ -4041,7 +4059,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee 2 claws +5 (1d4+3)
 
@@ -4061,7 +4079,7 @@ Skills Climb +11
 
 
 AAA	KEY:CaveFisher ~ AAA	CATEGORY:Special Ability	TYPE:CaveFisherRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
-Filament (Ex) A cave fisher can fire a thin filament of sticky silk as a standard action. This touch attack has a range of 60 feet and no range increment. A creature struck by a cave fisher's filament becomes attached to the sticky thread.  As a standard action, a creature can rip the filament free with a DC 20 Strength check. A caught creature can also attempt to escape a filament by making a DC 25 Escape Artist check. A filament is AC 14 (touch 12), has 5 hit points, and has DR 15/slashing. An application of liquid with high alcohol content (or a dose of universal solvent) dissolves the adhesive and releases the creature caught by the filament. A cave fisher can have only one filament active at a time.
+Filament (Ex) A cave fisher can fire a thin filament of sticky silk as a standard action. This touch attack has a range of 60 feet and no range increment. A creature struck by a cave fisher's filament becomes attached to the sticky thread.  As a standard action, a creature can rip the filament free with a DC 20 Strength check. A caught creature can also attempt to escape a filament by making a DC 25 Escape Artist check. A filament is AC 14 (touch 12), has 5 hit points, and has DR:15/slashing. An application of liquid with high alcohol content (or a dose of universal solvent) dissolves the adhesive and releases the creature caught by the filament. A cave fisher can have only one filament active at a time.
 
 -----------------------------------------------
 
@@ -4080,7 +4098,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:10/piercing or slashing
 
-Speed 40 ft., swim 30 ft.
+MOVE:Walk,40,Swim,30
 
 Melee 8 tentacles +11 (1d4+2 plus grab), bite +10 (1d6+2 plus grab and blood drain)
 
@@ -4119,7 +4137,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +5 (2d6+3)
 
@@ -4177,7 +4195,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:34
 
-Speed 60 ft.
+MOVE:Walk,60
 
 Melee 3 bites +42 (4d10+13/19-20)
 
@@ -4236,7 +4254,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|90
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 
-Speed 30 ft., burrow 20 ft.; earth glide
+MOVE:Walk,30,Burrow,20
 
 Melee 2 claws +10 (1d6+3 plus grab [only if both claws hit]), bite +9 (1d8+3)
 
@@ -4292,7 +4310,7 @@ BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee bite +19 (2d8+8 plus grab), tail sting +19 (2d6+8 plus poison)
 
@@ -4346,7 +4364,7 @@ Immune poison
 SR:33
 Weaknesses vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +33 (4d8+14/19-20 plus 2d6 fire plus grab), 2 claws +33 (3d6+14/19-20 plus 2d6 fire)
 
@@ -4393,7 +4411,7 @@ DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee longsword +7 (1d8+3)
 
@@ -4449,7 +4467,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +6 (1d4), 2 claws +6 (1d3 plus grab)
 
@@ -4474,6 +4492,8 @@ Blood Drain (Ex) A chupacabra can suck blood from a living creature by making a 
 Winged Chupacabra
 DESC:Rumors speak of chupacabras with fur-covered almost bat-like wings. There is a 10% chance that any chupacabra encountered is actually of the winged variety. Such a creature has a fly speed of 40 feet with average maneuverability.
 
+MOVE:Walk,20,Fly,40
+BONUS:VAR|Maneuverability|3
 
 -----------------------------------------------
 
@@ -4497,7 +4517,8 @@ ABILITY:Special Ability|AUTOMATIC|Incorporeal
 DR:10/evil
 Weaknesses limited domain
 
-Speed fly 40 ft. (perfect)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal bite +8 (1d6 holy plus 1d4 Wisdom)
 
@@ -4551,7 +4572,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee bite +10 (1d6+5), 2 claws +10 (1d6+5 plus grab)
 
@@ -4596,7 +4617,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Space 10 ft.; Reach 5 ft.
 
@@ -4638,7 +4659,8 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 
 Vulnerable sound related vulnerabilities
 
-Speed fly 50 ft. (perfect); speed of sound
+MOVE:Fly,50
+BONUS:VAR|Maneuverability|5
 
 Ranged sonic ray +10 touch (2d6 sonic)
 
@@ -4671,9 +4693,6 @@ AAA	KEY:Clamor ~ AAA	CATEGORY:Special Ability	TYPE:ClamorRaceAbility.RaceAbility
 Sonic Burst (Ex) A clamor can emit a massive onslaught of sonic energy as a full-round action that can be heard for miles in all directions. Any living creature within 100 feet of the clamor must make a successful DC 15 Fortitude save or be stunned for 1d3 rounds. Furthermore, living creatures within 50 feet of the clamor must make a successful DC 15 Fortitude save or be permanently deafened. A restoration, wish, miracle, or remove blindness/deafness spell restores hearing and negates the stunning effect. The save DCs are Constitution-based.
 
 AAA	KEY:Clamor ~ AAA	CATEGORY:Special Ability	TYPE:ClamorRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
-Speed of Sound (Ex): Once per day, a clamor can move at the speed of sound for a number of minutes equal to its Hit Dice. Its fly speed increases to 6,820 ft. (34,100 squares), but it cannot attack or use of any of its other abilities when moving this way.
-
-AAA	KEY:Clamor ~ AAA	CATEGORY:Special Ability	TYPE:ClamorRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:
 Sound-Related Vulnerabilities (Ex) Any magical silence effect or effect that creates a vacuum deals 3d6 points of damage to a clamor and forces it to make a successful Fortitude save (DC equal to 10 + spell level + spell caster's appropriate ability score modifier) or become panicked for 1 minute. In addition, the following spells can affect a clamor in unusual ways.  Ghost sound, major image, minor image, message, ventriloquism, whispering wind: These magically generated or altered sounds force a clamor to make a Will save (DC 10 + spell level + the caster's appropriate ability score modifier) or act as though affected by a confusion spell for a number of rounds equal to the caster's level.  Sculpt sound: If targeted directly at the clamor, this spell deals 1d4 points of damage per caster level. The clamor is allowed a Fortitude save for half damage. Alternately, a bard (and only a bard) using sculpt sound can attempt to completely control the actions of a clamor. The clamor is allowed an initial Fortitude save to negate the effect; if it fails, it is controlled as if by a dominate monster spell with a caster level equal to that of the bard's class level.  Shout, sound burst: These spells do no damage to a clamor, but force it to make a Will save or be affected as if by a charm monster spell with a caster level equal to that of the caster.
 
 -----------------------------------------------
@@ -4696,7 +4715,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 Weaknesses immobile
 
-Speed 0 ft.
+MOVE:Walk,0
 
 Space 5 ft.; Reach 0 ft.
 
@@ -4737,7 +4756,8 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
 
 
-Speed 20 ft., fly 60 ft. (perfect)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee slam +0 (1d3-3)
 
@@ -4776,7 +4796,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee slam +5 (1d6+2)
 
@@ -4812,7 +4832,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +7 (1d4+1)
 
@@ -4852,7 +4872,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee slam +1 (1d6-2)
 
@@ -4895,7 +4915,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee swarm (1d6)
 
@@ -4937,7 +4957,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +12 (2d8+6)
 
@@ -4970,7 +4990,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +8 (1d6+4)
 
@@ -5005,7 +5025,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee beak +5 (1d4+2), 2 claws +5 (1d4+2)
 
@@ -5044,7 +5064,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Melee bite +6 (1d8+4 plus 1d6 acid and grab)
 
@@ -5079,7 +5099,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 DR:5/magic and bludgeoning
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee slam +4
 
@@ -5133,7 +5153,7 @@ DR:15/adamantine
 Immune fire
 Immune magic
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 slams +43 (4d8+19)
 
@@ -5174,14 +5194,13 @@ MONSTERCLASS:Construct:32
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
 
-
 BONUS:VAR|AC_Natural_Armor|34|TYPE=Base.STACK
 
 DR:15/adamantine
 Immune fire
 Immune magic
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 slams +43 (4d8+19)
 
@@ -5238,7 +5257,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 Fort +5, Ref +6, Will +2; +4 vs. enchantment
 
-Speed 40 ft. (plus sprint)
+MOVE:Walk,40
 
 Melee Bite +6 (1d8+2 plus grab or trip), 2 claws +6 (1d4+1)
 
@@ -5284,7 +5303,8 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed fly 50 ft. (good), swim 50 ft.
+MOVE:Fly,50,Swim,50
+BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +7 (1d6 Strength damage)
 
@@ -5329,7 +5349,7 @@ BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 
 DR:10/piercing or slashing
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 4 slams +20 (2d6+6 plus grab)
 
@@ -5380,7 +5400,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 10 ft., fly 80 ft. (average)
+MOVE:Walk,10,Fly,80
+BONUS:VAR|Maneuverability|3
 
 Melee 3 bites +11 (1d8+5), 2 claws +10 (1d6+5)
 
@@ -5421,7 +5442,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee bite +18 (2d8+7/19-20 plus poison)
 
@@ -5484,7 +5505,7 @@ ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Weaknesses water dependency
 
-Speed 30 ft., swim 20 ft.
+MOVE:Walk,30,Swim,20
 
 Melee 2 claws +4 (1d4+2 plus grab)
 
@@ -5519,7 +5540,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
-Speed 30 ft., swim 20 ft.
+MOVE:Walk,30,Swim,20
 
 Melee 2 claws +5 (1d6+3 plus grab)
 
@@ -5559,7 +5580,7 @@ BONUS:COMBAT|AC|8|TYPE=Deflection
 
 DR:5/-
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +8 (1d6+3)
 
@@ -5611,7 +5632,7 @@ Immunty vermin traits
 
 Weaknesses water dependency
 
-Speed 20 ft., swim 40 ft.
+MOVE:Walk,20,Swim,40
 
 Melee 2 claws +5 (1d6+3 plus grab/19-20)
 
@@ -5655,7 +5676,8 @@ BONUS:COMBAT|AC|5|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 SR:22
 
-Speed fly 50 ft. (perfect)
+MOVE:Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +14 (1d8 plus paralysis)
 
@@ -5702,7 +5724,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 DR:10/magic
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +7 (1d6+1)
 
@@ -5760,7 +5782,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/magic
 BONUS:VAR|ColdResistanceBonus|10
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +9 (1d6+4)
 
@@ -5812,7 +5834,7 @@ Immune earth attacks
 Immune earth magic
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 30 ft., burrow 30 ft.
+MOVE:Walk,30,Burrow,30
 
 Melee 2 claws +21 (2d10+7 plus 1d6 bleed)
 
@@ -5879,7 +5901,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +20 (1d8+7)
 
@@ -5948,7 +5970,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:33
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee +3 quarterstaff +46/+41/+36/+31 (1d6+13 plus paralysis/19-20)
 
@@ -6020,7 +6042,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:19
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee quarterstaff +15/+10 (1d6+5)
 
@@ -6078,7 +6100,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 5 claws +17 (1d6+8 plus grab) and bite +17 (1d8+8)
 
@@ -6148,7 +6170,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses limited domain
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +11 (2d6+4), 2 claws +11 (1d6+4)
 
@@ -6197,13 +6219,14 @@ DR:10/good
 Immune acid
 Immune death effects
 Immune disease
-Immune poison;
+Immune poison
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:18
 
-Speed 30 ft., fly 40 ft. (average, see below), swim 60 ft.
+MOVE:Walk,30,Fly,40,Swim,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +10 (1d6+4), bite +10 (2d6+4 plus grab)
 
@@ -6284,7 +6307,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:48
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 slams +61 (2d6+12/19-20 plus disease)
 
@@ -6397,7 +6420,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 30 ft., swim 50 ft.
+MOVE:Walk,30,Swim,50
 
 Melee 2 claws +18 (2d6+7/18-20/x3 plus grab and 1d6 bleed), tentacles +16 (1d10+3 plus poison)
 
@@ -6457,7 +6480,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 30 ft.
+MOVE:Walk,30,Climb,30
 
 Melee 2 claws +6 (1d6+5)
 
@@ -6492,7 +6515,7 @@ ABILITY:Special Ability|AUTOMATIC|See In Darkness
 
 Weaknesses light blindness
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee dagger +6 (1d3/19-20 plus poison)
 
@@ -6547,7 +6570,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 Weaknesses light blindness
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 short swords +6 (1d6+2/19-20 plus poison)
 
@@ -6599,7 +6622,7 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +7 (1d6+1 plus curse of the grave)
 
@@ -6650,7 +6673,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 bites +4 (1d6+1 plus rotting death and trip)
 
@@ -6690,7 +6713,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Speed 20 ft., burrow 10 ft.
+MOVE:Walk,20,Burrow,10
 
 Melee bite +10 (1d8+6 plus 1d6 acid)
 
@@ -6732,7 +6755,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed 10 ft., climb 30 ft.
+MOVE:Walk,10,Climb,30
 
 Melee 9 tentacles +6 (1d4+2 plus grab)
 
@@ -6791,7 +6814,8 @@ Immune polymorph
 Immune turning
 Weaknesses vorpal susceptibility
 
-Speed fly 30 ft. (perfect)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|5
 
 Space 2-1/2 ft.; Reach 0 ft.
 
@@ -6854,7 +6878,8 @@ ABILITY:Special Ability|AUTOMATIC|Incorporeal
 SR:17
 Weaknesses vulnerability to iron
 
-Speed fly 40 ft. (good)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +8 (1d4 cold)
 
@@ -6909,7 +6934,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:26
 
-Speed 40 ft., fly 50 ft. (average)
+MOVE:Walk,40,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +24 (1d6+9), bite +24 (2d6+9) or morningstar +24/+19/+14 (1d8+9), bite +24 (2d6+9)
 
@@ -6965,7 +6991,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:24
 
-Speed 40 ft., fly 50 ft. (average)
+MOVE:Walk,40,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +22 (1d6+8 plus 1d6 acid), bite +21 (1d8+8 plus 1d6 acid)
 
@@ -7027,7 +7054,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +19 (1d6+7 plus grab), bite +18 (1d8+7)
 
@@ -7090,7 +7118,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 40 ft., fly 60 ft. (good)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee +1 wounding spear +21/+16/+11 (2d6+10/19-20/x3 plus 1 bleed) or 2 claws +19 (1d6+6)
 
@@ -7156,7 +7185,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:16
 
-Speed 30 ft., fly 50 ft. (average)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee longsword +9/+4 (1d8+3/19-20) or 2 claws +9 (1d6+3 plus vampiric touch)
 
@@ -7212,7 +7242,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:19
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 slam +16 (2d6+8), bite +16 (1d8+8)
 
@@ -7272,7 +7302,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:17
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee longsword +12/+7 (1d8+4/19-20) or 2 claws +12 (1d6+4)
 
@@ -7325,7 +7355,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +18 (1d8+8 plus grab), bite +18 (2d6+8)
 
@@ -7381,7 +7411,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:29
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +30 (2d8+11/19-20), 2 claws +29 (1d8+11 plus daze)
 
@@ -7453,7 +7483,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:15
 
-Speed 30 ft., fly 50 ft. (good)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee 2 claws +8 (1d4+2), bite +8 (1d6+2)
 
@@ -7504,7 +7535,8 @@ BONUS:VAR|FireResistanceBonus|10
 SR:14
 
 
-Speed 30 ft., fly 50 ft. (good)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee 2 claws +7 (1d4), bite +6 (1d6)
 
@@ -7562,7 +7594,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:16
 
-Speed 30 ft., fly 50 ft. (good)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee 2 claws +10 (1d4+1), bite +10 (1d6+1)
 
@@ -7622,7 +7655,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:23
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +21 (1d8+9 plus grab), bite +20 (2d6+9)
 
@@ -7684,7 +7717,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:17
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +12 (1d6+6 plus grab), bite +12 (1d8+6)
 
@@ -7740,7 +7773,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:25
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee battleaxe +25/+20/+15/+10 (2d6+10/19-20/x3) or battleaxe +25 (2d6+10/19-20/x3), 2 stings +26 (1d8+10/19-20 plus poison)
 
@@ -7801,7 +7834,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +16 (2d6+7) or tongue +16 (grab) or ranseur +16/+11 (2d6+10/x3)
 
@@ -7869,7 +7902,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:24
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee +1 anarchic longspear +22/+17/+12 (2d6+13/x3 plus poison) or 2 claws +21 (1d6+8 plus poison)
 
@@ -7939,7 +7972,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:15
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +11 (2d6+5 plus disease), 2 hooves +11 (1d6+5)
 
@@ -7992,7 +8025,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 10 ft., fly 50 ft. (good)
+MOVE:Walk,10,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee sting +16 (2d6+4 plus poison), 2 claws +16 (1d6+4 plus grab)
 
@@ -8073,7 +8107,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:18
 
-Speed 30 ft., fly 60 ft. (average)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +11 (1d6+4), bite +11 (1d8+4)
 
@@ -8136,7 +8171,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 30 ft., fly 60 ft.
+MOVE:Walk,30,Fly,60
 
 Melee 2 claws +20 (1d6+7), bite +20 (1d8+7)
 
@@ -8196,7 +8231,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:20
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +16 (1d6+6), sting +16 (1d8+6 plus poison)
 
@@ -8252,7 +8287,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:24
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +22 (2d6+7 plus grab), sting +22 (2d4+7 plus poison)
 
@@ -8315,7 +8350,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +16 (1d6+10 plus 1d4 acid plus grab) or bite +17 (1d6+7 plus 1d4 acid), 2 claws +16 (1d4+7 plus 1d4 acid)
 
@@ -8376,7 +8411,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:14
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +6 (1d6+4 plus 1d4 acid plus grab) or bite +6 (1d6+3 plus 1d4 acid), 2 claws +6 (1d4+3 plus 1d4 acid)
 
@@ -8427,7 +8462,8 @@ BONUS:VAR|FireResistanceBonus|10
 SR:18
 Weaknesses sunlight powerlessness
 
-Speed fly 40 ft. (perfect)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|5
 
 Melee 2 claws +11 touch (1d6 plus 1d6 cold), bite +11 touch (1d8 plus 1d6 cold)
 
@@ -8491,7 +8527,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:23
 
-Speed 20 ft., swim 60 ft.
+MOVE:Walk,20,Swim,60
 
 Melee trident +19/+12/+9 (3d6+9) or 2 claws +19 (1d6+9), bite +19 (1d8+9), 6 tentacles +14 (2d6+4 plus grab)
 
@@ -8556,7 +8592,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:14
 
-Speed 20 ft., fly 40 ft. (good)
+MOVE:Walk,20,Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee 2 claws +9 (1d3-1), bite +9 (1d4-1)
 
@@ -8617,7 +8654,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:21
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 claws +13 (2d4+6 plus 1d4 bleed), bite +13 (2d6+6 plus blood drain)
 
@@ -8680,7 +8718,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:36
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee Huge +4 unholy halberd of speed +48/+48/+43/+38/+33 (3d8+25/19-20/x3), bite +38 (1d8+7) or gore +43 (1d8+21)
 
@@ -8784,7 +8822,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:26
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +22 (1d6+6 plus poison)
 
@@ -8853,7 +8891,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:27
 
-Speed 40 ft., fly 60 ft. (good)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee +2 dagger +27/+22/+17/+12 (2d4+8/19-20) or 2 claws +25 (1d6+6) or
 
@@ -8927,7 +8966,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:38
 
-Speed 20 ft., swim 60 ft.
+MOVE:Walk,20,Swim,60
 
 Melee +5 unholy mighty cleaving trident +54/+49/+44/+39 (2d6+18/19-20) or 2 slams +48 (1d8+13)
 
@@ -9030,7 +9069,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:40
 
-Speed 40 ft., fly 60 ft. (perfect)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +53 (2d8+14 plus grab/19-20), bite +52 (3d6+14), tail slash +47 (2d8+21)
 
@@ -9119,7 +9159,7 @@ ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 BONUS:VAR|FireResistanceBonus|10
 SR:34
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +42 (2d6+22/19-20 plus 4d6 acid plus grab)
 
@@ -9218,7 +9258,7 @@ BONUS:VAR|FireResistanceBonus|10
 SR:34
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee Huge +4 cold iron thundering icy burst warhammer +48/+43/+38/+33 (3d6+26/19-20/x3 plus stun)
 
@@ -9310,7 +9350,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:32
 
-Speed 40 ft., fly 80 ft. (good)
+MOVE:Walk,40,Fly,80
+BONUS:VAR|Maneuverability|4
 
 Melee +3 unholy crushing heavy mace +35/+30/+25/+20 (2d6+16 plus bone knit) or 2 claws +32 (1d6+13), bite +32 (1d8+13 plus disease)
 
@@ -9391,7 +9432,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:46
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee +5 unholy greatclub +62/+57/+52/+47 (2d8+26 plus death) or 2 slams +57 (2d6+14), sting +52 (2d4+7 plus poison)
 
@@ -9526,7 +9568,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:39
 
-Speed 40 ft., fly 80 ft. (perfect)
+MOVE:Walk,40,Fly,80
+BONUS:VAR|Maneuverability|5
 
 Melee +5 anarchic keen greatsword +56/+51/+46+41 (3d6+23/17-20) or +5 anarchic keen greatsword +56 (3d6+23/17-20) and 2 talons +46 (1d8+6/19-20)
 
@@ -9630,7 +9673,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:32
 
-Speed 40 ft., fly 80 ft. (good)
+MOVE:Walk,40,Fly,80
+BONUS:VAR|Maneuverability|4
 
 Melee +4 unholy wounding heavy pick +39/+34/+29/+24 (1d8+17/19-20/x4 plus 1 bleed) or 2 claws +34 (1d8+13)
 
@@ -9705,7 +9749,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:41
 
-Speed 40 ft., swim 20 ft.
+MOVE:Walk,40,Swim,20
 
 Melee bite +50 (4d8+15/19-20 plus 2d8 acid), 2 claws +50 (2d8+15 plus 2d8 acid)
 
@@ -9811,7 +9855,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:32
 
-Speed 20 ft., swim 60 ft.
+MOVE:Walk,20,Swim,60
 
 Melee +2 trident +35/+30/+25/+20 (2d6+13/19-20) or 2 claws +33 (1d8+11 plus hypothermic touch)
 
@@ -9871,7 +9915,7 @@ BONUS:COMBAT|AC|4|TYPE=Profane
 DR:10 cold iron or magic
 SR:23
 
-Speed 20 ft. (30 ft. base)
+MOVE:Walk,20
 
 Melee +1 anarchic longsword +17/+12 (1d8+7/19-20) or 2 slams +15 (1d6+6)
 
@@ -9938,7 +9982,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:19
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +16 (1d8+7), bite +15 (2d6+7)
 
@@ -9998,7 +10042,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:19
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee barbed dire flail +16/+11 (2d6+9/19-20 plus stun) or 2 claws +15 (2d6+6)
 
@@ -10062,7 +10106,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:22
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +21 (1d8+9/19-20), bite +21 (2d6+9)
 
@@ -10129,7 +10173,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:27
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +26 (2d6+11 plus grab), bite +25 (2d8+11 plus vorpal bite)
 
@@ -10192,7 +10236,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:16
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee longspear +7 (1d8+3/x3) or 2 claws +7 (1d6+2)
 
@@ -10259,7 +10303,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:17
 
-Speed 30 ft., fly 50 ft. (average)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee +1 longsword +11/+6 (1d8+4/19-20) or 2 claws +10 (1d6+3)
 
@@ -10314,7 +10359,7 @@ Immune poison
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee spear +1 (1d6) or 2 claws +1 (1d4)
 
@@ -10358,7 +10403,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:18
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee +1 ghost touch battleaxe +13/+8 (1d8+5/x3) or 2 claws +12 (1d8+4)
 
@@ -10435,7 +10480,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:34
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee +3 unholy vorpal battleaxe +59/+54/+49/+44 (2d6+19/19-20/x3) or 2 claws +55 (2d6+16), bite +55 (4d6+16 plus poison and disease), 2 wings +53 (2d6+16), tail slap +53 (2d8+24 plus grab)
 
@@ -10516,7 +10562,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:36
 
-Speed 60 ft.
+MOVE:Walk,60
 
 Melee Huge +4 axiomatic thundering heavy mace +45/+40/+35/+30 (3d6+30/19-20), bite +35 (2d6+6)
 
@@ -10596,7 +10642,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:33
 
-Speed 30 ft. (40 ft. base)
+MOVE:Walk,30
 
 Melee +4 unholy morningstar +40/+35/+30/+25 (2d6+17/19-20)
 
@@ -10664,7 +10710,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:32
 
-Speed 30 ft., fly 50 ft. (good) (40 ft., fly 60 ft. base)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee +3 axiomatic keen scythe +35/+30/+25/+20 (2d4+19/19-20/x4) or fear touch +31 (fear)
 
@@ -10736,7 +10783,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:34
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee +3 cold iron good outsider bane quarterstaff +39/+34/+29/+24 (1d6+15 plus inflict moderate wounds)
 
@@ -10807,7 +10854,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:30
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee +3 unholy short sword +30/+25/+20/+15 (1d6+9/19- 20) or 2 claws +26 (1d6+6)
 
@@ -10883,7 +10931,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:40
 
-Speed 20 ft., fly 50 ft. (average)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +48 (2d8+14 plus grab), sting +48 (4d8+14/19- 20 plus poison)
 
@@ -10988,7 +11037,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:33
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee +3 wounding battleaxe +39/+34/+29/+24 (2d6+15/19- 20/x3 plus 1 bleed), 2 forepaws +30 (2d8+6 plus grab)
 
@@ -11058,7 +11107,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:33
 
-Speed 50 ft., fly 100 ft. (average)
+MOVE:Walk,50,Fly,100
+BONUS:VAR|Maneuverability|3
 
 Melee +4 unholy flaming burst trident +39/+34/+29/+24 (2d6+17/19-20 plus 1d6 fire)
 
@@ -11131,7 +11181,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:27
 
-Speed 40 ft., fly 60 ft. (good)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee +2 axiomatic unholy longsword +25/+20/+15/+10 (1d8+7/19-20) or 2 claws +22 (1d6+5)
 
@@ -11203,7 +11254,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:50
 
-Speed 50 ft., fly 80 ft. (good)
+MOVE:Walk,50,Fly,80
+BONUS:VAR|Maneuverability|4
 
 Melee Huge +6 trident +71/+66/+61/+56 (3d6+28), bite +62 (2d8+7 plus 1d8 acid), sting +62 (2d8+7 plus poison) or 2 claws +64 (2d6+14 plus 1d8 acid), bite +64 (2d8+14 plus 1d8 acid), sting +62 (2d8+7 plus poison)
 
@@ -11395,7 +11447,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:37
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee +4 unholy shocking six-tailed whip +50/+45/+40/+35 (2d8+22/19-20 plus 1d6 electricity), bite +40 (2d8+6) or 2 claws +45 (2d6+12 plus grab), bite +45 (2d8+12)
 
@@ -11500,7 +11552,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:31
 
-Speed 50 ft., fly 60 ft. (average)
+MOVE:Walk,50,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee +3 silver wounding longsword +29/+24/+19/+14 (1d8+10/19-20 plus 1 bleed) or fear touch +26 (fear)
 
@@ -11571,7 +11624,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 SR:37
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee +4 unholy flaming burst falchion +52/+47/+42/+37 (2d6+23/15-20 plus 1d6 fire)
 
@@ -11659,7 +11713,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +9 (1d6+3 plus trip)
 
@@ -11698,7 +11752,8 @@ BONUS:VAR|BlindsightRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 5 ft., fly 30 ft (poor), swim 40 ft.
+MOVE:Walk,5,Fly,30,Swim,40
+BONUS:VAR|Maneuverability|2
 
 Melee slam +3 (1d4+3 plus 1d4 acid plus paralysis)
 
@@ -11741,7 +11796,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +5 (1d4+3)
 
@@ -11781,7 +11836,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/magic
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee snout +7 touch (disenchantment) or 2 hooves +6 (1d6+3)
 
@@ -11880,7 +11935,8 @@ Immune energy type
 Immune sleep
 Immune paralysis
 
-Speed 30 ft., fly 60 ft. (poor)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|2
 
 Melee bite +16 (2d6+6), 2 claws +16 (1d6+6)
 
@@ -11926,7 +11982,7 @@ BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 DR:10/magic
 BONUS:VAR|FireResistanceBonus|5
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee 2 bites +17 (2d6+7 plus poison)
 
@@ -11961,7 +12017,8 @@ DESC:This dragon has a fringed and frilled head and wings that sweep back from i
 N dragon (air)
 
 CR:3; Size Small; Hit Dice 4d12
-Speed 40 ft., fly 150 ft. (average)
+MOVE:Walk,40,Fly,150
+BONUS:VAR|Maneuverability|3
 Natural Armor +4; Breath Weapon cone, 2d6 cold
 BONUS:STAT|STR|1
 BONUS:STAT|DEX|3
@@ -11976,13 +12033,13 @@ Wyrmling	Immunity to winds 	-
 Very Young	Immunity to electricity, cloud vision 	-
 Young	Create water 	-
 Juvenile	Cloud form, obscuring mist	1st
-Young Adult	DR 5/magic, spell resistance	3rd
+Young Adult	DR:5/magic, spell resistance	3rd
 Adult	Frightful presence, stinking cloud	5th
-Mature Adult	DR 10/magic	7th
+Mature Adult	DR:10/magic	7th
 Old	Call lightning, cold bite	9th
-Very Old	DR 15/magic	11th
+Very Old	DR:15/magic	11th
 Ancient	Control winds	14th
-Wyrm 	DR 20/magic 	15th
+Wyrm 	DR:20/magic 	15th
 Great Wyrm	Control weather, whirlwind	17th
 *A cloud dragon can also cast cleric spells and those from the
 Air, Protection, Water, and Weather domains as arcane spells.
@@ -12025,7 +12082,8 @@ ABILITY:Special Ability|AUTOMATIC|Dragon Senses
 
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
-Speed 40 ft., fly 200 ft. (poor)
+MOVE:Walk,40,Fly,200
+BONUS:VAR|Maneuverability|2
 
 Melee bite +12 (2d6+7), 2 claws +12 (1d8+5), 2 wings +7 (1d6+2), tail slap +7 (1d8+7)
 
@@ -12077,7 +12135,8 @@ Immune sleep
 Immune winds
 SR
 
-Speed 40 ft., fly 200 ft. (poor)
+MOVE:Walk,40,Fly,200
+BONUS:VAR|Maneuverability|2
 
 Melee bite +20 (2d8+12), 2 claws +20 (2d6+8), 2 wings +15 (1d8+4), tail slap +15 (2d6+12)
 
@@ -12138,7 +12197,8 @@ Immune sleep
 Immune winds
 SR:27
 
-Speed 40 ft., fly 250 ft. (clumsy)
+MOVE:Walk,40,Fly,250
+BONUS:VAR|Maneuverability|1
 
 Melee bite +30 (4d6+18 plus 2d6 cold), 2 claws +30 (2d8+12), 2 wings +28 (2d6+6), tail slap +28 (2d8+18)
 
@@ -12192,7 +12252,8 @@ DESC:This dragon has a long serpentine neck, small wings, and glistening scales.
 N dragon (shapechanger)
 
 CR:1; Size Tiny; Hit Dice 1d12
-Speed 30 ft., fly 100 ft. (average)
+MOVE:Walk,30,Fly,100
+BONUS:VAR|Maneuverability|3
 Natural Armor +1; Breath Weapon line or cone, confusion
 BONUS:STAT|DEX|2
 BONUS:STAT|CON|-1
@@ -12205,14 +12266,14 @@ Wyrmling	Craft crystal ball,
 Very Young	Change shape	-
 Young 	Charm person	-
 Juvenile	Detect thoughts	1st
-Young Adult	Craft Wondrous Item, DR 5/magic,	3rd
+Young Adult	Craft Wondrous Item, DR:5/magic,	3rd
 	spell resistance
 Adult 	Frightful presence, suggestion 	5th
-Mature Adult 	DR 10/magic	7th
+Mature Adult 	DR:10/magic	7th
 Old	Charm monster	9th
-Very Old	DR 15/magic	11th
+Very Old	DR:15/magic	11th
 Ancient	Mass suggestion	14th
-Wyrm	DR 20/magic	15th
+Wyrm	DR:20/magic	15th
 Great Wyrm	Dominate monster, mass charm monster 	17th
 
 
@@ -12257,7 +12318,8 @@ Immune enchantment spells and effects
 Immune paralysis
 Immune sleep
 
-Speed 30 ft., fly 150 ft. (average)
+MOVE:Walk,30,Fly,150
+BONUS:VAR|Maneuverability|3
 
 Melee bite +9 (1d8+6), 2 claws +9 (1d6+4), 2 wings +4 (1d4+2)
 
@@ -12307,7 +12369,8 @@ Immune paralysis
 Immune sleep
 SR:20
 
-Speed 30 ft., fly 200 ft. (poor)
+MOVE:Walk,30,Fly,200
+BONUS:VAR|Maneuverability|2
 
 Melee bite +17 (2d6+10), 2 claws +17 (1d8+7), 2 wings +15 (1d6+3), tail slap +15 (1d6+10)
 
@@ -12366,7 +12429,8 @@ Immune paralysis
 Immune sleep
 SR:25
 
-Speed 30 ft., fly 200 ft. (poor)
+MOVE:Walk,30,Fly,200
+BONUS:VAR|Maneuverability|2
 
 Melee bite +28 (2d8+16), 2 claws +28 (2d6+11), 2 wings +26 (1d8+5), tail slap +26 (2d6+16)
 
@@ -12436,7 +12500,8 @@ Immune paralysis
 Immune sleep
 SR:28
 
-Speed 30 ft., fly 250 ft. (clumsy)
+MOVE:Walk,30,Fly,250
+BONUS:VAR|Maneuverability|1
 
 Melee bite +32 (4d6+19), 2 claws +32 (2d8+13), 2 wings +30 (2d6+6), tail slap +30 (2d8+19)
 
@@ -12509,7 +12574,8 @@ Immune magical paralysis
 Immune sleep
 SR:14
 
-Speed 10 ft., fly 60 ft. (perfect), swim 30 ft.
+MOVE:Walk,10,Fly,60,Swim,30
+BONUS:VAR|Maneuverability|5
 
 Melee bite +8 (1d3-1)
 
@@ -12569,7 +12635,8 @@ DESC:This great dragon has a ridge of swept-back horns encircling its head with 
 N dragon (air, fire, water)
 
 CR:3; Size Small; Hit Dice 6d12
-Speed 40 ft., fly 150 ft. (average), swim 20 ft.
+MOVE:Walk,40,Fly,150,Swim,20
+BONUS:VAR|Maneuverability|3
 Natural Armor +5; Breath Weapon cone, 1d6 fire plus blindness
 
 BONUS:STAT|STR|1
@@ -12603,13 +12670,13 @@ Wyrmling	Fire subtype	-
 Very Young	Water breathing, mist vision	-
 Young	Create water	-
 Juvenile	Mist form, fog cloud	1st
-Young Adult 	DR 5/magic, spell resistance 	3rd
+Young Adult 	DR:5/magic, spell resistance 	3rd
 Adult	Frightful presence, wind wall	5th
-Mature Adult 	DR 10/magic	7th
+Mature Adult 	DR:10/magic	7th
 Old	Solid fog, boiling bite	9th
-Very Old	DR 15/magic	11th
+Very Old	DR:15/magic	11th
 Ancient	Control winds	14th
-Wyrm	DR 20/magic	15th
+Wyrm	DR:20/magic	15th
 Great Wyrm	Control water,	17th
 	greater mist form
 
@@ -12636,7 +12703,8 @@ Immune paralysis
 Immune sleep
 Weakness vulnerability to cold
 
-Speed 40 ft., fly 200 ft. (poor), swim 20 ft.
+MOVE:Walk,40,Fly,200,Swim,20
+BONUS:VAR|Maneuverability|2
 
 Melee bite +14 (2d6+7), 2 claws +14 (1d8+5), 2 wings +12 (1d6+2), tail slap +12 (1d8+7)
 
@@ -12689,7 +12757,8 @@ DR 5/magic
 SR:22
 Weakness vulnerability to cold
 
-Speed 40 ft., fly 200 ft. (poor), swim 20 ft.
+MOVE:Walk,40,Fly,200,Swim,20
+BONUS:VAR|Maneuverability|2
 
 Melee bite +22 (2d8+12), 2 claws +22 (2d6+8), 2 wings +20 (1d8+4), tail slap +20 (2d6+12)
 
@@ -12746,7 +12815,8 @@ DR 10/magic
 SR:27
 Weakness vulnerability to cold
 
-Speed 40 ft., fly 250 ft. (clumsy), swim 20 ft.
+MOVE:Walk,40,Fly,250,Swim,20
+BONUS:VAR|Maneuverability|1
 
 Melee bite +32 (4d6+18 plus 4d6 fire), 2 claws +32 (2d8+12), 2 wings +30 (2d6+6), tail slap +30 (2d8+18)
 
@@ -12813,7 +12883,8 @@ Immune paralysis
 Immune sleep
 SR:10
 
-Speed 15 ft., fly 60 ft. (good)
+MOVE:Walk,15,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee bite +5 (1d6), 2 claws +5 (1d4)
 
@@ -12866,7 +12937,8 @@ Immune paralysis
 Immune sleep
 SR:29
 
-Speed 50 ft., fly 200 ft. (poor)
+MOVE:Walk,50,Fly,200
+BONUS:VAR|Maneuverability|2
 
 Melee bite +37 (2d8+15), 2 claws +37 (2d6+10), 2 wings +34 (1d8+5), tail slap +34 (2d6+15)
 
@@ -12944,7 +13016,8 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 SR:16
 
-Speed 60 ft., fly 120 ft. (good)
+MOVE:Walk,60,Fly,120
+BONUS:VAR|Maneuverability|4
 
 Melee 2 hooves +14 (1d6+7)
 
@@ -13001,7 +13074,8 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Speed 20 ft., fly 80 ft. (perfect)
+MOVE:Walk,20,Fly,80
+BONUS:VAR|Maneuverability|5
 
 Melee bite +11 (1d10+9)
 
@@ -13034,7 +13108,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed 40 ft., fly 100 ft. (poor)
+MOVE:Walk,40,Fly,100
+BONUS:VAR|Maneuverability|2
 
 Melee bite +12 (2d6+6), 2 claws +12 (1d8+6)
 
@@ -13074,7 +13149,7 @@ DR:15/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Weaknesses vulnerability to fire
 
-Speed Swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +25 (1d8+9), 4 slams +25 (2d6+9)
 
@@ -13122,7 +13197,8 @@ Immune paralysis
 Immune sleep
 Weaknesses vulnerability to cold
 
-Speed 20 ft., fly 60 ft. (average)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee bite +7 (1d6+1), 2 claws +6 (1d4+1)
 
@@ -13184,7 +13260,8 @@ Immune sleep
 SR:18
 Weaknesses vulnerability to fire
 
-Speed 20 ft., fly 50 ft. (average)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee bite +6 (1d6+1), 2 claws +5 (1d4+1)
 
@@ -13240,7 +13317,8 @@ BONUS:VAR|FastHealingRate|2
 Immune paralysis
 Immune sleep
 
-Speed 40 ft., fly 150 ft. (poor)
+MOVE:Walk,40,Fly,150
+BONUS:VAR|Maneuverability|2
 
 Melee bite +13 (2d6+4), 2 claws +13 (1d8+3), 2 wings +11 (1d6+1), tail slap +11 (1d8+4)
 
@@ -13287,7 +13365,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +20 (2d6+8/19-20), 2 claws +19 (1d6+8)
 
@@ -13338,7 +13416,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +25 (2d6+7/19-20), 2 claws +24 (2d6+7)
 
@@ -13397,7 +13475,8 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Evasion Output
 
-Speed 10 ft., fly 60 ft. (average)
+MOVE:Walk,10,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 talons +9 (1d4-2)
 
@@ -13437,7 +13516,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee cutlass +6 (1d6+2/19-20) or 2 claws +5 (1d4+2)
 
@@ -13504,7 +13583,8 @@ BONUS:COMBAT|AC|4|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 Weaknesses sunlight powerlessnes
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +13 (1d4 plus 1d4 Charisma)
 
@@ -13563,7 +13643,8 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed 20 ft., fly 20 ft. (good)
+MOVE:Walk,20,Fly,20
+BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +9 (1d4 plus nether chill)
 
@@ -13612,7 +13693,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 
-Speed 10 ft., burrow 10 ft.
+MOVE:Walk,10,Burrow,10
 
 Melee 5 tentacles +8 (1d6+3 plus grab) and bite +8 (2d6+3)
 
@@ -13658,7 +13739,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:VAR|FireResistanceBonus|5
 
 
-Speed 30 ft., fly 30 ft. (average)
+MOVE:Walk,30,Fly,30
+BONUS:VAR|Maneuverability|3
 
 Melee beak +5 (1d6+1)
 
@@ -13715,7 +13797,8 @@ BONUS:COMBAT|AC|1|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed fly 30 ft. (perfect)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +3 (1d8 Strength damage)
 
@@ -13811,7 +13894,8 @@ BONUS:VAR|DarkvisionRange|60
 Immune missile weapons
 Immune mass-dependent spells
 
-Speed fly 100 ft. (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee slam +5 (1d3+1)
 
@@ -13850,7 +13934,8 @@ BONUS:VAR|DarkvisionRange|60
 Immune missile weapons
 Immune mass-dependent spells
 
-Speed fly 100 ft.  (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee slam +8 (1d4+3)
 
@@ -13890,7 +13975,8 @@ DR:5/-
 Immune missile weapons
 Immune mass-dependent spells
 
-Speed fly 100 ft. (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +13 (1d6+3)
 
@@ -13933,7 +14019,8 @@ DR:5/-
 Immune missile weapons
 Immune mass-dependent spells
 
-Speed fly 100 ft.  (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +16 (1d8+5)
 
@@ -13976,7 +14063,8 @@ DR:10/-
 Immune missile weapons
 Immune mass-dependent spells
 
-Speed fly 100 ft. (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +20 (1d8+6)
 
@@ -14019,7 +14107,8 @@ DR:10/-
 Immune missile weapons
 Immune mass-dependent spells
 
-Speed fly 100 ft. (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +25 (1d8+7)
 
@@ -14096,7 +14185,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee slam +6 (1d4 plus 1d4 negative energy)
 
@@ -14133,7 +14223,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee slam +9 (1d6+1 plus 1d6 negative energy plus energy drain)
 
@@ -14171,7 +14262,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +15 (1d8+2 plus 1d8 negative energy plus energy drain)
 
@@ -14211,7 +14303,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +17 (2d6+4 plus 2d6 negative energy plus energy drain)
 
@@ -14251,7 +14344,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +21 (2d8+5 plus 2d8 negative energy plus energy drain)
 
@@ -14289,7 +14383,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +25 (2d8+6 plus 2d8 negative energy plus energy drain)
 
@@ -14360,7 +14455,8 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee slam +6 (1d4 plus 1d4 positive energy)
 
@@ -14396,7 +14492,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee slam +9 (1d6+1 plus 1d6 positive energy)
 
@@ -14433,7 +14530,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +15 (1d8+2 plus 1d8 positive energy)
 
@@ -14472,7 +14570,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +17 (2d6+4 plus 2d6 positive energy)
 
@@ -14511,7 +14610,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +21 (2d8+5 plus 2d8 positive energy)
 
@@ -14549,7 +14649,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (good)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 slams +25 (2d8+6 plus 2d8 positive energy)
 
@@ -14601,7 +14702,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee slam +3 (1d4)
 
@@ -14635,7 +14737,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee slam +6 (1d6+3)
 
@@ -14675,9 +14778,10 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 DR:5/magic
-PR 16
+PR:16
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +10 (1d8+3)
 
@@ -14720,9 +14824,10 @@ ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
 Fort +7; Ref +13; Will +10; reroll Will save 1/day
 DR:5/magic
-PR 18
+PR:18
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +13 (2d6+5)
 
@@ -14766,9 +14871,10 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 Fort +8; Ref +15; Will +11; reroll Will save 1/day
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-PR 20
+PR:20
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +18 (2d8+6)
 
@@ -14813,9 +14919,10 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 Fort +9; Ref +18; Will +14; reroll Will save 1/day
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-PR 22
+PR:22
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +22 (2d8+7)
 
@@ -14891,7 +14998,8 @@ DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 SR:19
 
-Speed fly 20 ft. (perfect)
+MOVE:Fly,20
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +17 (1d6+3 plus cell death)
 
@@ -14931,7 +15039,8 @@ DR:15/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 SR:25
 
-Speed fly 20 ft. (perfect)
+MOVE:Fly,20
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +24 (2d6+4)
 
@@ -14978,7 +15087,8 @@ DR:15/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 SR:28
 
-Speed fly 20 ft. (perfect)
+MOVE:Fly,20
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +28 (2d6+4 plus cell death)
 
@@ -15044,7 +15154,8 @@ BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed fly 100 ft. (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +36 (2d6+8)
 
@@ -15096,7 +15207,7 @@ BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +42 (2d10+14)
 
@@ -15148,7 +15259,7 @@ Immune fire
 Immune magic
 Weaknesses vulnerability to cold
 
-Speed 60 ft.
+MOVE:Walk,60
 
 Melee 2 slams +36 (2d6+8 plus burn)
 
@@ -15192,7 +15303,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 30 ft., swim 120 ft.
+MOVE:Walk,30,Swim,120
 
 Melee 2 slams +39 (2d8+11)
 
@@ -15244,7 +15355,8 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 DR:15/magic and silver
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 20 ft., fly 120 ft. (poor)
+MOVE:Walk,20,Fly,120
+BONUS:VAR|Maneuverability|2
 
 Melee bite +31 (2d8+12), 2 claws +31 (2d6+8), 2 wings +28 (1d8+8), tail slap +28 (2d6+12)
 
@@ -15302,7 +15414,8 @@ BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 DR:10/magic and cold iron
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 20 ft., fly 100 ft. (poor), burrow 20 ft.
+MOVE:Walk,20,Fly,100,Burrow,20
+BONUS:VAR|Maneuverability|2
 
 Melee bite +35 (2d8+18), 2 claws +35 (2d6+12), 2 wings +32 (1d8+12), tail slap +32 (2d6+18)
 
@@ -15363,7 +15476,8 @@ ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 40 ft., fly 100 ft. (poor)
+MOVE:Walk,40,Fly,100
+BONUS:VAR|Maneuverability|2
 
 Melee bite +32 (2d8+13 plus burn), 2 claws +32 (2d6+9 plus burn), 2 wings +29 (1d8+9 plus burn), tail slap +29 (2d6+13 plus burn)
 
@@ -15417,7 +15531,8 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 DR:10/magic and silver
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 40 ft., fly 100 ft. (poor), swim 90 ft.
+MOVE:Walk,40,Fly,100,Swim,90
+BONUS:VAR|Maneuverability|2
 
 Melee bite +32 (2d8+13), 2 claws +32 (2d6+9), 2 wings +29 (1d8+9), tail slap +29 (2d6+13)
 
@@ -15478,7 +15593,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 3
 
@@ -15519,7 +15634,8 @@ Airfiend (Air Subtype)
 DESC:Airfiends are typically found on the Plane of Air. Their weapons are masterwork scimitars forged of an unknown silvery metal. They are constantly cool to the touch and are immune to electricity damage. They have cloud and lightning designs that run the length of the blade.
 Immune add electricity. Weaknesses vulnerability to fire.
 
-Speed add fly 30 ft. (perfect)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|5
 
 Melee 3 scimitars (damage 1d6+4/18-20 plus shock)
 
@@ -15544,7 +15660,7 @@ Earthfiend
 Earthfiend (Earth Subtype)
 DESC:Earthfiends are typically found on the Plane of Earth. Their weapons are masterwork battleaxes forged of an unknown brown metal with handles of rock. They are constantly warm to the touch and are immune to acid damage. They have crystalline designs etched on the heads and handles.
 
-DR:increase to 10/-.
+DR:10/-.
 Immune add acid.
 Melee 3 battleaxes (damage 1d8+4/x3 plus abrade)
 Elemental Effect abrade (see below). Feats Weapon Focus (battleaxe) Languages Terran
@@ -15583,7 +15699,7 @@ Waterfiend (Water Subtype)
 DESC:Waterfiends are typically found on the Plane of Water. Their weapons are masterwork tridents forged of an unknown blue metal. They are constantly cool to the touch and are immune to cold damage. They have wave-like designs that run the length of the handle.
 
 Immune add cold.
-Speed add Swim 30 ft.
+MOVE:Swim,30
 Melee 3 tridents (damage 1d8+4/x2 plus freeze) Ranged 3 tridents +10 ranged (damage 1d8+4/x2 plus freeze)
 Elemental Effect freeze (see below). Special Attacks add water mastery. Feats Weapon Focus (trident)
 Skills add Swim +12
@@ -15612,7 +15728,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 SR:12
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +6 (1d6+3 plus trip)
 
@@ -15668,7 +15784,7 @@ BONUS:VAR|FastHealingRate|5
 
 BONUS:VAR|ColdResistanceBonus|10
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +10 (1d6+1 plus grab)
 
@@ -15723,7 +15839,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 Immune sleep
 Weaknesses light sensitivity, vulnerability to alcohol
 
-Speed 10 ft., climb 5 ft.
+MOVE:Walk,10,Climb,5
 
 Melee slam +3 (1d4 plus grab)
 
@@ -15769,7 +15885,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Weaknesses sunlight vulnerability
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee tail slap +10 (1d8+4 plus grab)
 
@@ -15825,7 +15941,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Speed 5 ft., swim 20 ft.
+MOVE:Walk,5,Swim,20
 
 Melee 2 pincers +7 (1d8 plus grab), bite +7 (1d6)
 
@@ -15888,7 +16004,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 pincers +2 (1d6+1 plus grab), bite +2 (1d6+1)
 
@@ -15937,7 +16053,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 pincers +6 (1d6+3 plus grab), bite +6 (1d6+1)
 
@@ -15979,7 +16095,8 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 Weaknesses daylight vulnerability
 
-Speed fly 30 ft. (good)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +7 (1d3 Wis damage)
 
@@ -16029,7 +16146,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 SR:15
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +9 (1d4+1)
 
@@ -16086,7 +16203,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +6 (1d4+3 plus 1d4 cold)
 
@@ -16133,7 +16250,7 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Vulnerabilities cold
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee 2 claws +7 (1d6 +4 plus 1d8 fire plus grab)
 
@@ -16181,7 +16298,7 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Vulnerabilities cold
 
-Speed 20 ft., swim 20 ft.
+MOVE:Walk,20,Swim,20
 
 Melee 2 claws +3 (1d2 plus 1d4 fire plus grab)
 
@@ -16224,7 +16341,7 @@ Immune fire
 SR:10
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee masterwork dagger +3 (1d4/19-20 plus burn), slam +2 (1d4)
 
@@ -16274,7 +16391,7 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +10 (1d4+4 plus 1d6 fire))
 
@@ -16326,7 +16443,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +6 (1d4 plus paralysis)
 
@@ -16366,7 +16483,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 Immune fire
 Weakness vulnerability to cold
 
-Speed Swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +22 (3d6+12), tail slap +19 (1d6+6)
 
@@ -16417,7 +16534,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 Immune poison;
 BONUS:VAR|FireResistanceBonus|20
 
-Speed 10 ft., climb 10 ft.
+MOVE:Walk,10,Climb,10
 
 Melee 4 slams +7 (1d6+3)
 
@@ -16486,7 +16603,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee touch +6 (1d2-2 plus blood drain)
 
@@ -16535,7 +16652,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee flindbar +5 (1d6+4)
 
@@ -16581,7 +16698,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
 
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +0 (1d2-5)
 
@@ -16623,7 +16740,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 BONUS:VAR|AcidResistanceBonus|10
 
-Speed 5 ft., fly 20 ft. (perfect)
+MOVE:Walk,5,Fly,20
+BONUS:VAR|Maneuverability|5
 
 Melee sting +5 (1d4 plus acid injection)
 
@@ -16664,7 +16782,8 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 30 ft., fly 60 ft. (average)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee bite +4 (1d6+3)
 
@@ -16703,7 +16822,8 @@ Immune electricity
 Immune poison
 Weakness vulnerability to sunlight
 
-Speed fly 40 ft. (good)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|4
 
 Special Attacks animate dead, lightning bolt (30 ft. line, DC 16, 3d6 electricity, useable every other round)
 
@@ -16753,7 +16873,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Speed 0 ft. (immobile)
+MOVE:Walk,0
 
 Melee 4 leaves +5 touch (grab), 6 stalks +5 (1d4+3)
 
@@ -16785,7 +16905,7 @@ MONSTERCLASS:Fey:3
 BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee shortspear +9 (1d2-4 plus poison)
 
@@ -16836,7 +16956,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:5/cold iron
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +3 (1d4+1)
 
@@ -16885,7 +17005,7 @@ BONUS:VAR|ColdResistanceBonus|5
 BONUS:VAR|FireResistanceBonus|5
 SR:9
 
-Speed 40 ft., swim 40 ft.
+MOVE:Walk,40,Swim,40
 
 Melee bite +10 (1d8+8 plus grab) or tongue +10 touch (grab)
 
@@ -16927,7 +17047,7 @@ Immune electricity (partial)
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses slowed by electricity
 
-Speed 20 ft., swim 30 ft.
+MOVE:Walk,20,Swim,30
 
 Melee bite +20 (2d6+10/19-20), 4 tentacles +18 (1d8+5 plus grab), tongue +18 (1d4+5 plus grab)
 
@@ -16973,7 +17093,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee morningstar +3 (1d8)
 
@@ -17018,7 +17138,7 @@ ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
 BONUS:VAR|ElectricityResistanceBonus|10
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +8 (1d8+4)
 
@@ -17057,7 +17177,8 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed fly 50 ft. (perfect)
+MOVE:Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +5 (1d6 plus possession)
 
@@ -17106,7 +17227,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 DR:5/cold iron
 SR:15
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee butt +3 (1d4+1) or longsword +4 (1d6+1)
 
@@ -17157,7 +17278,7 @@ DR:10/magic and slashing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 6 slams +23 (2d6+10/19-20 plus grab)
 
@@ -17209,7 +17330,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 BONUS:VAR|FastHealingRate|5
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +8 (1d6+4)
 
@@ -17255,7 +17376,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +5 (1d8+2), 2 claws +5 (1d4+2)
 
@@ -17304,7 +17425,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 DR:10/magic
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 4 claws +8 (1d6+2), bite +8 (1d6+2), gore +8 (1d6+2)
 
@@ -17348,7 +17470,8 @@ DR:10/slashing or piercing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|5
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +9 (1d8+4)
 
@@ -17395,7 +17518,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 DR:10/magic
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +6 (1d6+2), bite +6 (1d6+2), gore +6 (1d6+2)
 
@@ -17439,7 +17563,8 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 DR:10/magic
 
-Speed 40 ft., fly 60 ft. (average)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +9 (1d6+3), bite +9 (1d6+3), gore +9 (1d6+3)
 
@@ -17481,7 +17606,7 @@ BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +18 (1d6+9/19-20 plus 1d8 cold)
 
@@ -17528,7 +17653,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 Melee bite +6 (1d4+2 plus 1d4 cold)
 Space 5 ft.; Reach 5 ft.
 Special Attacks cold, cold spray
@@ -17566,7 +17691,8 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-Speed 20 ft., fly 50 ft. (perfect)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +12 (2d6+3) or masterwork falchion +13/+8 (2d6+3/18-20)
 
@@ -17622,7 +17748,8 @@ Immune acid
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 20 ft., fly 50 ft. (perfect)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +20 (2d6+8 plus 1d8 fire) or masterwork falchion +21/+16/+11 (2d6+12/18-20 plus 1d8 fire)
 
@@ -17684,8 +17811,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-
-Speed 20 ft., swim 60 ft.
+MOVE:Walk,20,Swim,60
 
 Melee 2 slams +17 (2d6+6) or masterwork trident +18/+13/+8 (2d6+9)
 
@@ -17764,7 +17890,7 @@ ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|FireResistanceBonus|5
 SR:20
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +15 (2d8+7)
 
@@ -17819,7 +17945,8 @@ DR:10/magic
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed fly 40 ft. (perfect)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|5
 
 Melee slam +10 (1d8+4 plus 1d6 fire plus burn plus energy drain)
 
@@ -17867,7 +17994,8 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed 40 ft., fly 40 ft. (perfect), burrow 20 ft.
+MOVE:Walk,40,Fly,40,Burrow,20
+BONUS:VAR|Maneuverability|5
 
 Melee bite +16 (2d6+6), 2 claws +16 (1d8+6/19-20x3)
 
@@ -17923,7 +18051,8 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 20 ft., fly 50 ft. (average)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee bite +6 (1d6 plus paralysis)
 
@@ -17965,7 +18094,7 @@ ABILITY:Special Ability|AUTOMATIC|Rock Catching
 DR:10/-
 BONUS:VAR|FireResistanceBonus|20
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee longsword +21/+16/+11 (3d6+11) or 2 slams +21 (2d6+11)
 
@@ -18015,7 +18144,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee Gargantuan greatclub +16/+11 (3d6+12) or 2 slams +15 (2d6+8 plus grab)
 
@@ -18070,7 +18199,7 @@ DR:15/cold iron
 Immune fire
 Immune mind-affecting effects
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee +31/+26/+21/+16 greataxe (4d6+22, 19-20/x3) or +31/+26/+21/+16 greatsword (4d6+22, 17-20/x2); or 2 slams +31 (2d6+15 plus grab)
 
@@ -18134,7 +18263,7 @@ BONUS:VAR|AC_Natural_Armor|19|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee spiked greatclub +31/+26/+21/+16 (3d8+19 plus daze) or great chain +31/+26/+21/+16 (2d8+13 plus daze) or 2 slams +30 (2d6+13 plus daze)
 
@@ -18193,7 +18322,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee greatsword +24/+19/+14 (4d6+16) or 2 slams +23 (2d6+11)
 
@@ -18256,7 +18385,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 
-Speed 40 ft., swim 30 ft.
+MOVE:Walk,40,Swim,30
 
 Melee 2 slams +20 (1d8+10)
 
@@ -18314,7 +18443,7 @@ ABILITY:Special Ability|AUTOMATIC|Rock Catching
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee heavy mace +12/+7 (2d6+6), 2 slams +11 (1d8+6)
 
@@ -18351,7 +18480,8 @@ AAA	KEY:SmokeGiant ~ AAA	CATEGORY:Special Ability	TYPE:SmokeGiantRaceAbility.Rac
 Heated Rock (Su) Smoke giants transfer the heat of their bodies to rocks as part of an attack action when they throw rocks. A heated rock deals 1d6 points of additional fire damage on a hit.
 
 AAA	KEY:SmokeGiant ~ AAA	CATEGORY:Special Ability	TYPE:SmokeGiantRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
-Smoke Form (Su) A smoke giant's form is solid. As a free action it can change to a smoky form. It can switch forms once per round as a free action and can spend up to 20 rounds per day in smoke form. In smoke form, a smoke giant can fly at a speed of 50 feet (perfect). This ability is otherwise similar to a gaseous form spell (caster level 9th).
+Smoke Form (Su) A smoke giant's form is solid. As a free action it can change to a smoky form. It can switch forms once per round as a free action and can spend up to 20 rounds per day in smoke form. In smoke form, a smoke giant can fly at a speed of 50 feet. This ability is otherwise similar to a gaseous form spell (caster level 9th).
+BONUS:VAR|Maneuverability|5
 
 
 -----------------------------------------------
@@ -18374,7 +18504,7 @@ ABILITY:Special Ability|AUTOMATIC|Rock Catching
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee Gargantuan longspear +24/+19/+14 (4d6+16, crit x3) or 2 slams +24 (2d6+11)
 
@@ -18429,7 +18559,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee greatsword +9 (3d6+7/19-20)
 
@@ -18478,7 +18608,7 @@ DR:10/magic and bludgeoning
 Immune paralysis
 Immune sleep Weakness vulnerability to sonic spells
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +21 (2d6+9/19-20), 2 claws +21 (1d8+6), tail slap +19 (1d8+9)
 
@@ -18530,7 +18660,7 @@ ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 Immune flanking
 Weaknesses vulnerability to sunlight
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +16 (1d8+7), 10 tentacles +11 (1d6+3 plus grab)
 
@@ -18569,7 +18699,7 @@ Aura weakness pheromone (30 ft., DC 13, 1d2 Str damage)
 
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
-Speed 5 ft., fly 40 ft. (average)
+MOVE:Walk,5,Fly,40
 
 Melee 2 claws +7 (1d6), bite +7 (1d8)
 
@@ -18623,7 +18753,7 @@ ABILITY:Special Ability|AUTOMATIC|Plant Traits
 SR:22
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 4 claws +18 (2d6+9)
 
@@ -18678,7 +18808,8 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 DR:10/silver
 
-Speed fly 30 ft. (good)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|4
 
 Melee 3 bites +15 (1d4+5 plus 1d6 acid), 6 tentacles +12 (1d6+2 plus grab)
 
@@ -18719,7 +18850,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 20 ft., climb 10 ft.
+MOVE:Walk,20,Climb,10
 
 Melee bite +5 (1d3-1), 2 claws +5 (1d2-1)
 
@@ -18768,7 +18899,7 @@ Immune mind-affecting effects
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to magic
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee 2 slams +7 (1d8+3 plus blood consumption)
 
@@ -18818,7 +18949,7 @@ DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +13 (2d8+6 plus stun)
 
@@ -18876,7 +19007,7 @@ Immune magic
 Immune rust
 BONUS:VAR|ColdResistanceBonus|20
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +28 (4d6+11 plus 2d6 fire plus grab)
 
@@ -18922,7 +19053,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune electricity
 Immune magic
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +19 (2d6+6 plus 2d6 acid and paralysis)
 
@@ -18980,7 +19111,7 @@ Immune cold
 Immune magic
 Weaknesses vulnerability to fire
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +9 (1d6+4 plus 1d6 cold)
 
@@ -19027,7 +19158,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 Weaknesses vulnerability to rust
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +19 (2d10+8 plus grab)
 
@@ -19086,7 +19217,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 Weaknesses rust vulnerability
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +10 (2d6+2 plus 1d4 Dexterity damage)
 
@@ -19137,7 +19268,7 @@ DR:10/magic and slashing or piercing
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +13 (1d8+5 plus grab)
 
@@ -19176,7 +19307,7 @@ BONUS:VAR|FastHealingRate|5
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +15 (2d8+6 plus 1d6 acid)
 
@@ -19227,7 +19358,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +9 (2d6+3 plus grab)
 
@@ -19269,7 +19400,7 @@ BONUS:VAR|ColdResistanceBonus|5
 BONUS:VAR|FireResistanceBonus|5
 BONUS:VAR|ElectricityResistanceBonus|5
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +10 (1d8+5)
 
@@ -19315,7 +19446,7 @@ Immune cold
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Weaknesses vulnerability to fire
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +13 (2d8+3 plus grab)
 
@@ -19354,7 +19485,7 @@ DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +21 (2d10+8) or needle +21/+16/+11 (2d6+12/19-20)
 
@@ -19412,7 +19543,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune electricity
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +13 (1d8+5)
 
@@ -19449,7 +19580,8 @@ DR:5/slashing or piercing
 Immune flanking
 Weaknesses explosion
 
-Speed 5 ft., fly 60 ft. (average)
+MOVE:Walk,5,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +3 (1d4+1 plus grab), bite +3 (1d6+1) Special Abilities grab and bite
 
@@ -19492,7 +19624,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 40 ft., fly 50 ft. (poor)
+MOVE:Walk,40,Fly,50
+BONUS:VAR|Maneuverability|2
 
 Melee 2 bites +14 (2d6+4), slam +13 (1d6+4), 2 claws +13
 
@@ -19558,7 +19691,8 @@ Immune sleep
 Immune stunning
 SR:33
 
-Speed 30 ft., fly 50 ft. (poor)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|2
 
 Melee 2 claws +32 (2d6+12 plus grab), bite +32 (1d10+12), snake bite +30 (1d8+6 plus poison)
 
@@ -19619,7 +19753,8 @@ Immune sleep
 Immune stunning
 SR:31
 
-Speed 30 ft., fly 50 ft. (poor)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|2
 
 Melee 2 claws +28 (2d6+10 plus grab), bite +28 (1d10+10), snake bite +26 (1d8+5 plus poison)
 
@@ -19670,7 +19805,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +8 (1d8+5 plus grab), bite +8 (1d8+5)
 
@@ -19710,7 +19845,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +6 (1d4+2 plus blood poisoning)
 
@@ -19754,7 +19889,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 
-Speed 10 ft., swim 80 ft.
+MOVE:Walk,10,Swim,80
 
 Melee 2 claws +10 (1d6+6), bite +9 (1d8+6)
 
@@ -19827,7 +19962,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee bite +6 (1d4-2), 2 claws +6 (1d3-2)
 
@@ -19870,7 +20005,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee bite +8 (1d4-1), 2 claws +8 (1d3-1)
 
@@ -19916,7 +20051,7 @@ DR:5/cold iron
 SR:11
 Weaknesses light blindness
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee shortsword +4 (1d4-2), bite -1 (1d4-2) or bite +4 (1d4-2), 2 claws +4 (1d4-2)
 
@@ -19975,7 +20110,7 @@ DR:5/cold iron
 SR:17
 Weaknesses light blindness
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee short sword +10 (1d4-2), bite +5 (1d4-2) or bite +10 (1d4-2), 2 claws +10 (1d4-2)
 
@@ -20032,7 +20167,7 @@ BONUS:VAR|FastHealingRate|5
 DR:15/silver and good
 SR:24 (28 vs. fey magic)
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +19 (2d8+8), 2 claws +19 (1d8+8)
 
@@ -20094,7 +20229,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/cold iron
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee 2 claws +9 (1d4+1 plus poison)
 
@@ -20138,7 +20273,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 30 ft., climb 30 ft.
+MOVE:Walk,30,Climb,30
 
 Melee short sword +2 (1d4/19-20)
 
@@ -20191,7 +20326,8 @@ Immune electricity
 SR:18
 Weaknesses vulnerability to dispel evil
 
-Speed fly 30 ft. (perfect)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +11 (1d8 plus chill touch)
 
@@ -20242,7 +20378,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +7 (1d6+4), 2 slams +7 (1d6+4) or greatclub +7 (2d8+6) and +2 gore (1d6+2)
 
@@ -20278,7 +20414,8 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed 30 ft., fly 50 ft. (good)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|4
 Melee bite +5 (1d6/x3), legs +5 (attach)
 Special Attacks implant eggs
 
@@ -20314,7 +20451,8 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 Vulnerabilities gutslug vulnerabilities
 
-Speed 20 ft., fly 50 ft. (perfect)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee type +6 (1d6+2 plus grab plus blood drain)
 
@@ -20357,7 +20495,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 20 ft., 30 ft. base
+MOVE:Walk,20
 
 Melee greatsword +5 (2d6+4/19-20), longspear +4 (1d8+4/x3)
 
@@ -20397,7 +20535,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +5 (1d4+2)
 
@@ -20423,7 +20561,7 @@ AAA	KEY:HangedMan ~ AAA	CATEGORY:Special Ability	TYPE:HangedManRaceAbility.RaceA
 Drag (Ex) If the hanged man entangles a foe with his rope attack, it drags its opponent 10 feet closer as a standard action on each subsequent round that it succeeds on a CMB check (including a +5 racial bonus) without provoking attacks of opportunity. When an opponent is dragged within 5 feet, the hanged man can attack with both of its claws in the same round. It gains a +4 attack bonus against opponents entangled in its rope.
 
 AAA	KEY:HangedMan ~ AAA	CATEGORY:Special Ability	TYPE:HangedManRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
-Entangle (Su) The hanged man's noose is a 20-ft. length of rope that entangles opponents of any size as an animate rope spell (CL 15th, DC 21). A hanged man can lash its rope outward 20 feet with no range penalty. The rope functions only for the hanged man it belongs to and no other. It has AC 22, hardness 10, hp 10, and DR 5/slashing. If the rope is severed, both it and the hanged man are destroyed. The save DC is Strength-based.
+Entangle (Su) The hanged man's noose is a 20-ft. length of rope that entangles opponents of any size as an animate rope spell (CL 15th, DC 21). A hanged man can lash its rope outward 20 feet with no range penalty. The rope functions only for the hanged man it belongs to and no other. It has AC 22, hardness 10, hp 10, and DR:5/slashing. If the rope is severed, both it and the hanged man are destroyed. The save DC is Strength-based.
 
 -----------------------------------------------
 
@@ -20445,7 +20583,7 @@ ABILITY:Special Ability|AUTOMATIC|Plant Traits
 SR:19
 Weaknesses paralyzed by cold, slowed by darkness, vulnerability to electricity
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee 4 vines +13 (1d6+8 plus grab)
 
@@ -20505,7 +20643,8 @@ Immune channel energy
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weakness vulnerability to dispel evil/good/law/chaos
 
-Speed 20 ft., fly 30 ft. (perfect)
+MOVE:Walk,20,Fly,30
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +5 (1d4 cold plus 1d3 Dex)
 
@@ -20564,7 +20703,7 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee bite +9 (1d8+3 plus grab plus 1d6 acid)
 
@@ -20598,7 +20737,8 @@ BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee bite +15 (2d8+5 plus 1d8 acid plus grab), tail sting +15 (2d6+2 plus poison)
 
@@ -20642,7 +20782,8 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 BONUS:VAR|FireResistanceBonus|20
 
-Speed 10 ft., fly 40 ft. (average)
+MOVE:Walk,10,Fly,40
+BONUS:VAR|Maneuverability|3
 
 Melee bite +10 (1d6+7 plus grab)
 
@@ -20694,7 +20835,7 @@ DR:10/good
 BONUS:VAR|SonicResistanceBonus|15
 Weaknesses bloated
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee bite +21 (2d6+7 plus grab), 10 tentacles +20 (1d8+3 plus paralysis), tongue +20 (1d6+3 plus grab)
 
@@ -20745,7 +20886,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Weakness water dependent
 
-Speed Swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +7 (1d4+4) or tail slap +7 (1d6+4) or butt +7 (1d3+4)
 
@@ -20787,7 +20928,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +5 (1d6)
 
@@ -20833,7 +20974,7 @@ Immune cold
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weaknesses vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +7 (1d4+3 plus 1d3 cold plus glaciate)
 
@@ -20881,7 +21022,9 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Speed 20 ft., fly 60 ft. (good)
+
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee bite +9 (1d3+5), sting +9 (1d4+5 plus poison)
 
@@ -20926,7 +21069,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Immune mind-affecting effects
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee bite +6 (1d6+6 plus grab)
 
@@ -20964,7 +21108,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 DR:5/magic or silver
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +4 (1d6+1 plus disease) Spell-like Abilities (CL 3rd):
 
@@ -21011,7 +21155,7 @@ natural cunning
 
 Immune natural cunning
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee hook-blade +5 (1d4))
 
@@ -21078,7 +21222,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 snake-hand bites +9 (1d4+3 plus poison)
 
@@ -21122,7 +21266,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 snake-hand bites +6 (1d4+2 plus poison)
 
@@ -21166,7 +21310,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 snake-hand bites +5 (1d4+1 plus poison)
 
@@ -21209,7 +21353,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 snake-hand bites +8 (1d4+1 plus poison)
 
@@ -21255,7 +21399,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 snake-hand bites +11 (1d6+1 plus poison)
 
@@ -21321,7 +21465,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 20 ft., swim 20 ft.
+MOVE:Walk,30,Climb,20,Swim,20
 
 Melee 2 snake-hand bites +11 (1d6+4 plus poison)
 
@@ -21366,7 +21510,7 @@ DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 SR:13
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +3 (1d6+1 plus poison)
 
@@ -21403,7 +21547,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 3 slams +6 (1d6+2 plus grab) or pitchfork +6 (1d6+3)
 
@@ -21444,7 +21588,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +4 (1d6+1)
 
@@ -21485,7 +21629,8 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 DR:5/piercing or slashing
 
-Speed 5 ft., fly 30 ft. (average)
+MOVE:Walk,5,Fly,30
+BONUS:VAR|Maneuverability|3
 
 Melee 4 tentacles +6 (1d6+3 plus poison)
 
@@ -21537,7 +21682,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 5 ft., fly 30 ft. (average)
+MOVE:Walk,5,Fly,30
+BONUS:VAR|Maneuverability|3
 
 Melee 4 tentacles +18 (1d8+7 plus 1d6 acid and poison)
 
@@ -21593,7 +21739,7 @@ Immune visual effects
 BONUS:VAR|ColdResistanceBonus|10
 SR:18
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +9 (2d4+3 plus 1d4 acid)
 
@@ -21644,7 +21790,7 @@ BONUS:VAR|BlindsightRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee slam +3 (1d6+1 plus 1d6 acid plus paralysis)
 
@@ -21686,7 +21832,7 @@ BONUS:VAR|BlindsightRange|60
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee 4 tendrils +2 (1d4 plus 1d4 acid)
 
@@ -21722,7 +21868,7 @@ MONSTERCLASS:Vermin:3
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed Swim 10 ft.
+MOVE:Swim,10
 
 Melee tentacles +3 (1d6 plus poison and grab)
 
@@ -21768,7 +21914,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to fire
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Melee 6 vine leaves +4 (1d6+1 plus blood drain and grab)
 
@@ -21806,7 +21952,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +7 (1d6+4), bite +7 (1d8+4), and 6 snakes +2 (1d4)
 
@@ -21857,7 +22003,7 @@ BONUS:VAR|BlindsightRange|30
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee 6 tendrils +5 (1d3+3 plus grab)
 
@@ -21896,7 +22042,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee 4 hooves +7 (1d6+4), bite +7 (1d4+4) K
 
@@ -21942,7 +22088,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
+
 Melee 2 claws +6 (1d4+1 and bite +6 (1d6+1)
 Special Attacks rend (2 claws, 1d4+1)
 
@@ -21980,7 +22127,7 @@ Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 30 ft., swim 50 ft.
+MOVE:Walk,30,Swim,50
 
 Melee 6 fronds +13 (1d6+8 plus grab)
 
@@ -22029,7 +22176,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft., swim 30 ft.
+MOVE:Walk,20,Swim,30
 
 Melee slam +5 (1d4+2 plus grab plus charm touch)
 
@@ -22086,7 +22233,7 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerabilities (see below)
 
-Speed 10 ft., burrow 30 ft.
+MOVE:Walk,10,Burrow,30
 
 Melee 3 claws +8 (1d3+2 plus grab) and bite +8 (2d8+2)
 
@@ -22138,7 +22285,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 SR:11
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee needle +7 (1d2-3)
 
@@ -22181,7 +22328,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/cold iron
 SR:15
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +8 (1d2+4) or shears +8 (1d4+4) or club +8 (1d4+4)
 
@@ -22241,7 +22388,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee dagger +0 (1d4-1/19-20)
 
@@ -22290,7 +22437,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +3 (1d3-1 plus attach)
 
@@ -22333,7 +22480,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee head butt +10 (1d6+1), 2 hooves +10 (1d4+1)
 
@@ -22380,7 +22527,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 elee head butt +17 (2d6+5), 2 hooves +17 (1d6+5)
 
@@ -22421,7 +22568,7 @@ Immune metal
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses elemental vulnerability, vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +4 (1d4+1) and bite +4 (1d6+1)
 
@@ -22470,7 +22617,7 @@ ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
 Weaknesses vulnerability to salt
 
-Speed 5 ft., swim 20 ft.
+MOVE:Walk,5,Swim,20
 
 Melee bite +2 (1d6 plus attach)
 
@@ -22507,7 +22654,7 @@ BONUS:VAR|HasLowLightVision|1
 DR:10/cold iron
 SR:27
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee dagger +5 (1d3-2)
 
@@ -22553,7 +22700,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|ElectricityResistanceBonus|10
 SR:20
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +15 (1d6+7 plus 1d6 cold)
 
@@ -22603,7 +22750,7 @@ BONUS:VAR|BlindsightRange|60
 
 Immune petrification
 
-Speed 20 ft.
+MOVE:Walk,20
 Melee slam +10 (1d8+7)
 Space 10 ft.; Reach 5 ft.
 Special Attacks engulf (DC 17, 1 acid)
@@ -22647,7 +22794,7 @@ Immune paralysis
 Immune polymorph
 Immune stunning
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 4 (or more) slams +31 (4d6+17 plus grab)
 
@@ -22714,7 +22861,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee bite +10 (2d6+7 plus grab)
 
@@ -22756,7 +22903,7 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +17 (2d6+8), 2 claws +16 (1d8+8)
 
@@ -22794,7 +22941,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +17 (2d10+10 plus grab)
 
@@ -22840,7 +22987,8 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses light sensitivity
 
-Speed 10 ft., climb 5 ft., fly 40 ft. (poor) L
+MOVE:Walk,10,Climb,5,Fly,40
+BONUS:VAR|Maneuverability|2
 
 Melee slam +15 (3d8+15 plus grab)
 
@@ -22889,7 +23037,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 30 ft., burrow 20 ft.
+MOVE:Walk,30,Burrow,20
 
 Melee 2 slams +9 (1d4+3)
 
@@ -22942,7 +23090,7 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to cold
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee slam +11 (2d6+2 plus 2d6 fire)
 
@@ -22993,7 +23141,7 @@ Immune incorporeal
 SR:18
 Weaknesses vulnerability to holy water
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee incorporeal tail slap +8 (1d6 plus 1d6 Str damage)
 
@@ -23047,7 +23195,7 @@ BONUS:VAR|FireResistanceBonus|10
 SR:12
 Weaknesses light blindness
 
-Speed 30 ft., burrow 20 ft.
+MOVE:Walk,30,Burrow,20
 
 Melee 2 tentacle slaps +2 (1d4 plus grab)
 
@@ -23081,7 +23229,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 5 ft., fly 60 ft. (good)
+MOVE:Walk,5,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee tail sting +3 (1d6)
 
@@ -23120,7 +23269,8 @@ Immune energy
 Immune paralysis
 Immune sleep
 
-Speed 30 ft., fly 50 ft. (clumsy)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|1
 
 Melee bite +15 (1d8+7), 2 claws +15 (1d8+7)
 
@@ -23171,7 +23321,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +6 (1d6+6)
 
@@ -23212,7 +23362,7 @@ Aura magic aura
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +9 (1d4+1 plus grab)
 
@@ -23258,7 +23408,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee dagger +9/+4 (1d4+2/19-20) or snakes +9 (1d4 plus poison)
 
@@ -23312,7 +23462,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:10/silver
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee touch +9 (1d4 plus thought consumption)
 
@@ -23367,7 +23517,8 @@ DR:5/magic
 Immune electricity
 Weaknesses vulnerability to water
 
-Speed 30 ft., fly 60 ft. (perfect)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 claw +3 (1d4 plus 1d4 electricity)
 
@@ -23425,7 +23576,8 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Outsider Traits
 Weakness vulnerability to cold
 
-Speed 30 ft., fly 50 ft. (perfect)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|5
 
 Melee 2 claw +3 (1d3)
 
@@ -23477,7 +23629,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee touch +7 (death chill)
 
@@ -23531,7 +23683,8 @@ Immune electricity
 SR:13
 Weaknesses susceptible to cold
 
-Speed 20 ft., fly 20 ft. (good)
+MOVE:Walk,20,Fly,20
+BONUS:VAR|Maneuverability|4
 
 Melee 4 tentacles +14(1d6+1)
 
@@ -23586,7 +23739,8 @@ Immune cold
 SR:15
 Weaknesses vulnerability to fire
 
-Speed 20 ft., fly 50 ft. (average)
+MOVE:Walk,20,Fly,50
+BONUS:VAR|Maneuverability|3
 
 Melee short sword +6 (1d3-3)
 
@@ -23646,7 +23800,7 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|ColdResistanceBonus|15
 
-Speed 20 ft., swim 60 ft.
+MOVE:Walk,20,Swim,60
 
 Melee 2 slams +31 (3d6+11/19-20 plus grab)
 
@@ -23699,7 +23853,7 @@ BONUS:VAR|HasLowLightVision|1
 DR:2/cold iron
 Weaknesses light sensitivity
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee dagger +2 (1d3-1/19-20), bite +2 (1d2-1)
 
@@ -23751,12 +23905,10 @@ ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|90
 BONUS:VAR|HasLowLightVision|1
 
-
-
 DR:2/cold iron
 Weaknesses light sensitivity
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee dagger +5 (1d3-1/19-20)
 
@@ -23807,7 +23959,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee club +5 (1d6+4) or slam +5 (1d4+4)
 
@@ -23960,7 +24112,7 @@ DR:10/evil
 Immune fear
 SR:16
 
-Speed 50 ft., 30 ft. on 2 legs
+MOVE:Walk,50
 
 Melee bite +14 (1d8+4 plus trip)
 
@@ -24027,7 +24179,7 @@ DR:15/bludgeoning and magic
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 SR:31
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee slam +33 (2d8+16/19-20 plus energy drain)
 
@@ -24086,7 +24238,8 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Speed 30 ft., fly 60 ft. (good)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee touch +3 (attach)
 
@@ -24125,11 +24278,9 @@ MONSTERCLASS:Magical Beast:1
 RACESUBTYPE:Reptilian
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 10 ft., swim 30 ft.
+MOVE:Walk,10,Swim,30
 
 Melee bite +4 (1d4-2)
 
@@ -24164,7 +24315,7 @@ BONUS:VAR|BlindsightRange|60
 
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Space 10 ft.; Reach 0 ft.
 
@@ -24213,7 +24364,7 @@ DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses magic
 
-Speed 10 ft.
+MOVE:Walk,10
 Melee slam +4 (1d4+3)
 Ranged touch +3 (mud bomb)
 M Special Attacks engulf, mud bomb
@@ -24262,7 +24413,7 @@ DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft., swim 20 ft.
+MOVE:Walk,20,Swim,20
 
 Melee slam +6 (1d6+4 plus grab)
 
@@ -24302,13 +24453,11 @@ SIZE:M
 RACETYPE:Undead
 MONSTERCLASS:Undead:9 
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-ABILITY:Special Ability|AUTOMATIC|Undead Traits
-Speed 10 ft.; fly 70 ft. (average)
+MOVE:Walk,10,Fly,70
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +7 (1d4+1), 1 bite +7 (1d6+1)
 
@@ -24353,7 +24502,8 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
-Speed fly 40 ft. (good)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +9 (1d6 Cha)
 
@@ -24395,10 +24545,9 @@ MONSTERCLASS:Magical Beast:8
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +13 (1d8+5), 1 bite +13 (1d8+5)
 
@@ -24443,7 +24592,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +5 (1d8+3 plus paralysis)
 
@@ -24529,7 +24678,7 @@ Immune poison
 SR:21
 Weaknesses shawl
 
-Speed 30 ft., swim 60 ft
+MOVE:Walk,30,Swim,60
 
 Melee touch +15 (poison)
 
@@ -24596,7 +24745,7 @@ DR:10/magic
 Immune negative energy
 Resist positive energy 16
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slam +14 (1d6+4)
 
@@ -24644,7 +24793,7 @@ BONUS:VAR|DarkvisionRange|60
 
 Aura spatio-temporal reversal (20 ft., Will DC 11)
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee morningstar +1 (1d6)
 
@@ -24686,9 +24835,10 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Defenses elemental traits; DR 5/-
+Defenses elemental traits; DR:5/-
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee slam +9 (2d6+1)
 
@@ -24714,7 +24864,8 @@ AAA	KEY:Niln ~ AAA	CATEGORY:Special Ability	TYPE:NilnRaceAbility.RaceAbility.Spe
 Drench (Ex) The niln's touch puts out torches, campfires, exposed lanterns, and other open flames of nonmagical origin if these are of Large size or smaller. The creature can dispel magical fire as dispel magic (caster level equals the niln's HD).
 
 AAA	KEY:Niln ~ AAA	CATEGORY:Special Ability	TYPE:NilnRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:
-Vapor Form (Su) The niln spends the majority of its time in more or less solid form, but it can assume vapor form at will. It can switch forms once per round as a free action and can spend up to 20 rounds per day in vapor form. A niln in vapor form can fly at 60 feet per round (perfect). This ability is otherwise similar to a gaseous form spell (caster level 5th).
+Vapor Form (Su) The niln spends the majority of its time in more or less solid form, but it can assume vapor form at will. It can switch forms once per round as a free action and can spend up to 20 rounds per day in vapor form. A niln in vapor form can fly at 60 feet per round. This ability is otherwise similar to a gaseous form spell (caster level 5th).
+BONUS:VAR|Maneuverability|5
 
 -----------------------------------------------
 
@@ -24733,7 +24884,7 @@ BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 DR:10/cold-iron
 SR:20
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee 2 hooves +13 (1d6+5, 19-20/x3), bite +11 (1d6+2, 19- 20/x3), Huge greataxe +10 (3d6+2, crit x3)
 
@@ -24782,7 +24933,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 DR:5/cold iron
 Weaknesses tree dependent
 
-Speed 20 ft., climb 30 ft.
+MOVE:Walk,20,Climb,30
 
 Melee +1 club +5 (1d8+2 )
 
@@ -24858,7 +25009,7 @@ DR:10/adamantine
 Immune magic
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 20 ft.
+MOVE:Walk,20
 Melee 2 claws +17 (2d8+6 plus 1d6 fire)
 Space 10 ft.; Reach 10 ft.
 Special Attacks breath weapon (10-ft. cube, DC 16, 1d4 Dex damage, useable every 1d4+1 rounds), burn
@@ -24894,7 +25045,7 @@ BONUS:VAR|DarkvisionRange|30
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee longspear +5 (1d8+3 x3 crit)
 
@@ -24930,7 +25081,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee unarmed strike +6 (1d4+4)
 
@@ -24971,15 +25122,13 @@ RACETYPE:Magical Beast
 MONSTERCLASS:Magical Beast:10 
 RACESUBTYPE:Aquatic|Extraplanar|Fire
 BONUS:VAR|BlindsenseRange|30
-
-
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 DR:5/-
 Immune fire
 Weakness vulnerability to cold
 
-Speed Swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +14 (2d6+9)
 
@@ -25021,7 +25170,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 Immune petrification
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +10 (1d8+4), 1 bite +10 (1d8+4), 2 hooves +5 (1d8+2)
 
@@ -25065,7 +25214,7 @@ BONUS:VAR|BlindsightRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Space 1 ft.; Reach 0 ft.
 
@@ -25107,7 +25256,7 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 Weaknesses water dependent
 
-Speed 10 ft., swim 30 ft.
+MOVE:Walk,10,Swim,30
 
 Melee slam +6 (1d6+4 plus 1d6 acid plus grab plus paralysis)
 
@@ -25154,7 +25303,7 @@ Immune negative energy
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 SR:24 (against positive energy)
 
-Speed 20 ft. (4 squares), climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +13 (2d6+9 plus energy drain)
 
@@ -25199,7 +25348,7 @@ Immune negative energy
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 SR:24 (against positive energy)
 
-Speed 20 ft. (4 squares), climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +28 (2d8+15 plus energy drain)
 
@@ -25241,7 +25390,7 @@ Immune cold
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits;
 Weaknesses vulnerable to fire
 
-Speed 20 ft. (4 squares), swim 20 ft.
+MOVE:Walk,20,Swim,20
 
 Melee slam +5 (2d4+3 plus 1d6 cold)
 
@@ -25289,7 +25438,7 @@ BONUS:VAR|BlindsightRange|60
 Immune fire
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 10 ft., climb 10 ft.
+MOVE:Walk,10,Climb,10
 
 Melee slam +9 (2d4+4 plus 2d6 fire and grab)
 
@@ -25328,7 +25477,7 @@ BONUS:VAR|BlindsightRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 10 ft., climb 20 ft.
+MOVE:Walk,10,Climb,20
 
 Melee slam +4 (2d4+4 plus mercury poisoning and grab)
 
@@ -25367,7 +25516,7 @@ BONUS:VAR|BlindsightRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 20 ft., climb 10 ft.
+MOVE:Walk,20,Climb,10
 
 Melee slam +7 (1d8+4 plus 1d6 acid plus poison)
 
@@ -25412,7 +25561,7 @@ Immune cold
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +3 (2d4+1 plus 1d6 cold)
 
@@ -25458,7 +25607,7 @@ ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 Weaknesses sunlight vulnerability
 
-Speed 10 ft., climb 10 ft.
+MOVE:Walk,10,Climb,10
 
 Melee slam +10 (2d4+3 plus energy drain and grab)
 
@@ -25512,7 +25661,7 @@ Fort +4; Ref +1; Will -1; +4 vs. undead attacks
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
 DR:1/-
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee longspear +5 (1d8+6/x3)
 
@@ -25561,7 +25710,7 @@ Fort +9; Ref +5; Will +10; +4 vs. undead attacks
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
 DR:1/-
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee +1 longspear +12/+7 (1d8+7/x3)
 
@@ -25628,7 +25777,7 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
 Weaknesses light sensitivity
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee greataxe +5 (1d12+6/x3), bite +0 (1d4+2)
 
@@ -25675,7 +25824,7 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
 Weaknesses light sensitivity
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee greataxe +4 (1d12+4/x3)
 
@@ -25719,7 +25868,7 @@ BONUS:VAR|DarkvisionRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee longsword +3 (1d8+2/19-20)
 
@@ -25759,7 +25908,7 @@ RACESUBTYPE:Orc
 BONUS:VAR|DarkvisionRange|60
 
 
-Speed 20 ft. (30 ft. base)
+MOVE:Walk,20
 
 Melee greataxe +5 (1d12+4)
 
@@ -25806,7 +25955,7 @@ Immune petrification
 SR:16
 Weaknesses light blindness
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee heavy pick +7 (1d4+4/x4)
 
@@ -25867,7 +26016,8 @@ ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +17 (1d6+2 plus energy drain)
 
@@ -25912,7 +26062,8 @@ Immune fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to cold
 
-Speed 30 ft., fly 60 ft. (average)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 burning claws +10 (1d4+4 plus 1d4 fire and grab)
 
@@ -25965,7 +26116,8 @@ BONUS:COMBAT|AC|5|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed fly 40 ft. (perfect)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +14 (1d6 plus 1d6 Wisdom drain)
 
@@ -26019,7 +26171,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 Immune plant immunities
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 0 ft. (immobile)
+MOVE:Walk,0
 
 Melee 4 tendrils +6 (1d6+3)
 
@@ -26066,7 +26218,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 SR:14
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee dagger +6 (1d3)
 
@@ -26116,7 +26268,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Ranged fluid globule
 
@@ -26164,7 +26316,7 @@ Immune fire
 Immune poison
 SR:24
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee pitchfork +23 (2d6+7) or 2 claws +23 (1d8+5)
 
@@ -26225,7 +26377,8 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed 10 ft., fly 20 ft. (good)
+MOVE:Walk,10,Fly,20
+BONUS:VAR|Maneuverability|4
 
 Melee telekinesis (see below)
 
@@ -26285,7 +26438,7 @@ BONUS:VAR|FireResistanceBonus|10
 Resist electricity
 SR:26
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee +2 longsword +24 (1d8+9)
 
@@ -26406,7 +26559,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Outsider Traits
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee longsword +9/+4 (1d8+2 /19-20)
 
@@ -26483,9 +26636,10 @@ Immune charm
 Immune paralysis
 Immune sleep
 SR:23
-PR 23
+PR:23
 
-Speed 40 ft., fly 200 ft. (poor)
+MOVE:Walk,40,Fly,200
+BONUS:VAR|Maneuverability|2
 
 Melee bite +22 (2d6+10), 2 claws +21 (1d8+7), 2 wings +19 (1d6+3), tail +19 (1d8+10)
 
@@ -26535,7 +26689,7 @@ ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses racial vulnerabilities
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +4 (2d4+1 plus grab)
 
@@ -26581,7 +26735,7 @@ BONUS:VAR|BlindsightRange|60
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +9 (2d4+4 plus 2d6 acid plus grab)
 
@@ -26627,7 +26781,7 @@ BONUS:VAR|BlindsightRange|60
 
 
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +8 (2d6+4 plus 2d6 acid plus grab)
 
@@ -26671,7 +26825,7 @@ BONUS:VAR|BlindsightRange|60
 Immune fire
 Immune mindaffecting effects
 
-Speed 20 ft. (4 squares), climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +11 (2d6+3 plus grab plus 1d6 acid, plus petrifying touch)
 
@@ -26720,7 +26874,7 @@ BONUS:VAR|BlindsightRange|60
 
 BONUS:VAR|ColdResistanceBonus|5
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee slam +7 (2d6+4 plus 2d6 acid plus grab)
 
@@ -26772,7 +26926,8 @@ BONUS:VAR|HasLowLightVision|1
 Immune fire
 Weaknesses vulnerability to cold
 
-Speed 20 ft., fly 60 ft. (poor)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|2
 
 Melee bite +8 (1d4-2)
 
@@ -26810,15 +26965,13 @@ RACETYPE:Aberration
 MONSTERCLASS:Aberration:34 
 RACESUBTYPE:Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|17|TYPE=Base.STACK
 BONUS:COMBAT|AC|3|TYPE=Deflection
 
-
 DR:15/adamantine
 
-Speed fly 40 ft. (good)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee 5 tentacles +34 (2d6+11)
 
@@ -26897,7 +27050,7 @@ Immune acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
-Speed 20 ft., swim 80 ft.
+MOVE:Walk,20,Swim,80
 
 Melee slam +2 (1d3 plus 1d3 acid)
 
@@ -26931,7 +27084,7 @@ Immune acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
-Speed 20 ft., swim 80 ft.
+MOVE:Walk,20,Swim,80
 
 Melee slam +4 (1d4+1 plus 1d4 acid)
 
@@ -26969,7 +27122,7 @@ Immune acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
-Speed 20 ft., swim 80 ft.
+MOVE:Walk,20,Swim,80
 
 Melee 2 slams +8 (1d6+3 plus 1d6 acid)
 
@@ -27009,7 +27162,7 @@ Immune acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
-Speed 20 ft., swim 80 ft.
+MOVE:Walk,20,Swim,80
 
 Melee 2 slams +11 (1d8+5 plus 1d8 acid)
 
@@ -27049,7 +27202,7 @@ Immune acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
-Speed 20 ft., swim 80 ft.
+MOVE:Walk,20,Swim,80
 
 Melee 2 slams +14 (1d8+6 plus 1d8 acid)
 
@@ -27090,7 +27243,7 @@ Immune acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weakness vulnerability to water
 
-Speed 20 ft., swim 80 ft.
+MOVE:Walk,20,Swim,80
 
 Melee 2 slams +17 (1d8+7 plus 1d8 acid)
 
@@ -27165,7 +27318,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to water
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +9 (1d6 electricity)
 
@@ -27205,7 +27359,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to water
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +16 (1d8 electricity)
 
@@ -27247,7 +27402,8 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 Weaknesses vulnerability to water
 
-Speed fly 60 ft. (perfect)
+MOVE:Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee 2 slams +19 (2d6 electricity)
 
@@ -27330,7 +27486,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee claw +4 (1d4+3)
 
@@ -27364,7 +27520,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee claw +7 (1d6+6)
 
@@ -27399,7 +27555,7 @@ DR:5/-
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 claws +11 (1d8+6)
 
@@ -27435,7 +27591,7 @@ DR:5/-
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 claws +14 (2d6+8/19-20)
 
@@ -27471,7 +27627,7 @@ DR:10/-
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 claws +17 (2d6+9/19-20)
 
@@ -27507,7 +27663,7 @@ DR:10/-
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 claws +20 (2d6+10/19-20)
 
@@ -27545,7 +27701,7 @@ ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge
 DR:5/cold iron
 Weaknesses slow susceptibility
 
-Speed 120 ft.
+MOVE:Walk,120
 
 Melee dagger +10 (1d3-1/19-20 plus poison)
 
@@ -27610,7 +27766,7 @@ Immune electricity
 Immune fire
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee 9 roots
 
@@ -27668,7 +27824,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:10/magic
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +16 (1d8+6), 4 claws +16 (1d6+6 plus grab)
 
@@ -27713,7 +27869,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +5 (1d4)
 
@@ -27759,7 +27915,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 15 ft., climb 15 ft., burrow 15 ft
+MOVE:Walk,15,Climb,15,Burrow,15
 
 Melee bite +5 (1d3-3)
 
@@ -27804,7 +27960,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +5 (1d3-4)
 
@@ -27856,7 +28012,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +4 (1d4-2 plus ethereal poison)
 
@@ -27900,7 +28056,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 40 ft., climb 15 ft.
+MOVE:Walk,40,Climb,15
 
 Melee bite +4 (1d3-2 plus 1d2 Strength damage plus disease)
 
@@ -27937,7 +28093,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee bite +4 (1d4 plus 1d3 Strength damage plus disease)
 
@@ -27989,7 +28145,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +6 (1d4-2 plus spores)
 
@@ -28034,7 +28190,7 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 DR:10/magic or silver
 Immune cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +15 (1d8+4) or entrails lash +14 (1d4+4 plus grab)
 
@@ -28086,7 +28242,7 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 DR:10/magic
 SR:21
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee +2 light mace of merriment +17 (1d6+4 plus merriment) or 2 slams +13 (1d4+2)
 
@@ -28146,7 +28302,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 DR:5/cold iron
 SR:16
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee tiny short sword +6 (1d3-2 plus poison) or 2 claws +6 (1d2-2)
 
@@ -28204,9 +28360,9 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
-PR 15
+PR:15
 
-Speed 30 ft., climb 30 ft.
+MOVE:Walk,30,Climb,30
 
 Melee bite +8 (1d8+4), 2 claws +8 (1d6+4), or club +8 (1d8+4), bite +3 (1d8+2)
 
@@ -28257,7 +28413,7 @@ DR:10/chaotic and good
 Immune magic
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee +1 unholy greatsword +26/+21/+16/+11 (3d6+16/19- 20)  or 2 slams +25 (3d8+10)
 
@@ -28340,7 +28496,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 SR:17
 
-Speed Swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +9 (1d8+2 plus grab) and two claws +9 (1d6+2)
 
@@ -28390,7 +28546,7 @@ Aura stench (DC 13, 10 rounds)
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +5 (1d6+2 plus trip)
 
@@ -28431,7 +28587,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/piercing or slashing
 Weaknesses vulnerability to electricity
 
-Speed 20 ft., swim 40 ft.
+MOVE:Walk,20,Swim,40
 
 Melee 6 tentacles +5 (1d4+1 plus grab plus poison) and 6 bites +4 (1d6+1)
 
@@ -28478,7 +28634,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee bite +9 (1d6+6)
 
@@ -28521,7 +28677,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 60 ft.
+MOVE:Walk,60
 
 Melee bite +7 (1d6+3)
 
@@ -28560,7 +28716,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|200
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee bite +7 (1d8+4)
 
@@ -28613,7 +28769,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee short sword +6 (1d6+2) or 2 claws +6 (1d4+2), bite +6 (1d6+2)
 
@@ -28658,7 +28814,9 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:5/good or silver
 
-Speed 30 ft., fly 60 ft. (good)
+
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee 2 wing slashes +11 (1d6+5/19-20/x3)
 
@@ -28708,7 +28866,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee 10 tentacles +13 (1d4+5 plus grab) or bite +8 (2d6+2)
 
@@ -28752,7 +28910,7 @@ Aura info
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 50 ft., burrow 30 ft.
+MOVE:Walk,50,Burrow,30
 
 Melee bite +9 (1d8+6 plus poison)
 
@@ -28801,7 +28959,7 @@ DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to water
 
-Speed 30 ft., burrow 20 ft.
+MOVE:Walk,30,Burrow,20
 
 Melee bite +6 (1d8+4)
 
@@ -28841,7 +28999,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 SR:15
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +7 (1d4+3 plus sleep)
 
@@ -28887,7 +29045,7 @@ Immune cold
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Weaknesses vulnerability to fire
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 slams +8 (1d6+3 plus fear)
 
@@ -28926,7 +29084,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 5 ft., fly 30 ft. (poor)
+MOVE:Walk,5,Fly,30
+BONUS:VAR|Maneuverability|2
 
 Melee tail-barb +7 (1d4)
 
@@ -28968,7 +29127,7 @@ DR:5/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 Immune magic
 
-Speed 0 ft., immobile
+MOVE:Walk,0
 
 Space 2-1/2 ft.; Reach 0 ft.
 
@@ -29011,7 +29170,7 @@ BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 Weaknesses water dependency
 
-Speed 10 ft., swim 50 ft.
+MOVE:Walk,10,Swim,50
 Melee 6 bites +16 (1d8+6/19-20)
 Space 15 ft.; Reach 10 ft.
 Special Attacks boil water, heat, scalding blast
@@ -29059,7 +29218,7 @@ DR:10/slashing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to fire
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 3 branches +10 (2d4+6/19-20)
 
@@ -29122,7 +29281,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 Immune paralysis and sleep
 ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +19 (2d6+7 plus poison and grab)
 
@@ -29176,7 +29335,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 Immune paralysis and sleep
 ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +31 (2d8+15/19-20 plus poison and grab)
 
@@ -29224,7 +29383,7 @@ BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 Immune paralysis and sleep
 ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee bite +12 (1d8+6 plus poison)
 
@@ -29271,7 +29430,7 @@ DR:5/gold
 Immune paralysis and sleep
 ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
-Speed 10 ft.; swim 40 ft.
+MOVE:Walk,10,Swim,40
 
 Melee bite +9 (1d8+1 plus poison)
 
@@ -29320,7 +29479,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 Immune paralysis and sleep
 ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
-Speed 10 ft.; swim 40 ft.
+MOVE:Walk,10,Swim,40
 
 Melee bite +43 (5d6+16/19-20 plus poison and grab)
 
@@ -29371,7 +29530,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 Immune paralysis and sleep
 ABILITY:Special Ability|AUTOMATIC|Dragon Traits
 
-Speed 10 ft.; swim 40 ft.
+MOVE:Walk,10,Swim,40
 
 Melee bite +12 (1d8+1 plus poison)
 
@@ -29422,7 +29581,7 @@ BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Speed swim 50 ft.
+MOVE:Swim,50
 
 Melee bite +19 (2d8+16 plus grab plus paralysis)
 
@@ -29463,7 +29622,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
 
-Speed Swim 90 ft.
+MOVE:Swim,90
 
 Melee bite +19 (2d6+5 plus 1d4 acid plus grab), 4 slams +18 (1d8+5)
 
@@ -29509,7 +29668,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed Swim 90 ft.
+MOVE:Swim,90
 
 Melee bite +26 (2d8+7 plus poison plus grab), 4 slams +25 (2d6+7)
 
@@ -29592,7 +29751,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee tentacle +3 (1d3-5 plus poison)
 
@@ -29627,7 +29786,7 @@ BONUS:VAR|DarkvisionRange|60
 
 
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee tentacle +2 (1d4-3 plus poison)
 
@@ -29663,7 +29822,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed swim 50 ft.
+MOVE:Swim,50
 
 Melee tentacle +1 (1d6-3 plus poison)
 
@@ -29698,7 +29857,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee tentacle +3 (1d8+1 plus poison)
 
@@ -29733,7 +29892,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee tentacle +7 (2d6+4 plus poison)
 
@@ -29768,7 +29927,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee tentacle +13 (2d6+7 plus poison)
 
@@ -29806,7 +29965,8 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:10/magic
 
-Speed 40 ft., fly 50 ft. (good)
+MOVE:Walk,40,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee bite +17 (1d8+7 plus grab) tail sting +18 (1d8+3 plus poison)
 
@@ -29861,7 +30021,7 @@ BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|ElectricityResistanceBonus|10
 SR:19
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee +1 longsword +18/+13 (1d8+8), 2 slams +17 (2d6+7 plus disease)
 
@@ -29906,7 +30066,8 @@ BONUS:COMBAT|AC|1|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|1
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed fly 40 ft. (good)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +2 (1 Strength damage)
 
@@ -29947,7 +30108,8 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 SR:16
 
-Speed 30 ft., fly 60 ft. (average)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee 2 hooves +13 (1d6+5)
 
@@ -29998,7 +30160,8 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/evil
 SR:18
 
-Speed 40 ft., fly 80 ft. (average)
+MOVE:Walk,40,Fly,80
+BONUS:VAR|Maneuverability|3
 
 Melee 2 hooves +20 (1d6+7)
 
@@ -30063,7 +30226,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed fly 40 ft. (good)
+MOVE:Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee slam +4 (1d6+3)
 
@@ -30105,7 +30269,7 @@ BONUS:VAR|DarkvisionRange|60
 
 Weaknesses light blindness
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee short sword +4 (1d6+1)
 
@@ -30152,7 +30316,8 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 DR:10/bludgeoning and good
 
-Speed 40 ft.
+
+MOVE:Walk,40
 
 Melee 2 short swords +10 (1d6/19-20 plus 1d3 Strength damage) or 2 claws +9 (1d4 plus 1d3 Strength damage)
 
@@ -30206,7 +30371,7 @@ Immune fire
 Immune magic
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +16 (1d8+6)
 
@@ -30239,7 +30404,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee spiked chain +9 (2d4+4/x3) or 2 claws +8 (1d4+3)
 
@@ -30288,7 +30453,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 Fort +1; Ref +5; Will +1; -4 penalty vs. fear
 Weakness cowardice
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee short sword +1 (1d6)
 
@@ -30334,7 +30499,8 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 
-Speed fly 10 ft. (perfect)
+MOVE:Fly,10
+BONUS:VAR|Maneuverability|5
 
 Melee bite +5 (1d3-2 plus disease)
 
@@ -30399,7 +30565,7 @@ BONUS:VAR|FireResistanceBonus|10
 BONUS:VAR|SonicResistanceBonus|10
 SR:40
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee +5 anarchic scythe +66/+61/+56/+51 (2d6+24/19-20/ x4 plus death stroke)
 
@@ -30473,7 +30639,7 @@ BONUS:VAR|FireResistanceBonus|10
 BONUS:VAR|SonicResistanceBonus|10
 SR:37
 
-Speed 40 ft., fly 60 ft.
+MOVE:Walk,40,Fly,60
 
 Melee 3 slam +54 (2d6+13 plus energy drain) Reach 5 ft. (10 ft. with slam)
 
@@ -30536,7 +30702,7 @@ DR:15/adamantine
 Immune fire
 Weaknesses susceptible to rust, vulnerability to cold
 
-Speed 30 ft., burrow 30 ft.
+MOVE:Walk,30,Burrow,30
 
 Melee bite +36 (6d10+22/19-20 plus grab)
 
@@ -30588,7 +30754,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 SR:19
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 arm blades +13 (1d8+3/19-20 x3) or flurry +11/+11/+11 (1d8+3/19-20 x3)
 
@@ -30634,7 +30800,7 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 Weaknesses vulnerability to fire
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee 4 slams +15 (2d6+8 19-12/x2 plus grab plus Constitution drain)
 
@@ -30684,7 +30850,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 20 ft., climb 10 ft.
+MOVE:Walk,20,Climb,10
 
 Melee tentacles +1 (1d3+1 plus grab) and bite +1 (1d4+1)
 
@@ -30725,7 +30891,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 15 ft.
+MOVE:Walk,30,Climb,15
 
 Melee 4 tentacles +3 (1d4+2 plus paralysis) and bite +3 (1d6+2)
 
@@ -30764,7 +30930,7 @@ BONUS:VAR|BlindsightRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee slam +3 (1d8+1 plus disease plus grab)
 
@@ -30808,7 +30974,7 @@ BONUS:VAR|BlindsightRange|60
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 10 ft., climb 10 ft.
+MOVE:Walk,10,Climb,10
 
 Melee slam +6 (1d4+3 plus paralysis)
 
@@ -30857,7 +31023,7 @@ Immune cold
 SR:32
 Weaknesses vulnerability to fire
 
-Speed 30 ft., burrow 10 ft.
+MOVE:Walk,30,Burrow,10
 
 Melee bite +26 (2d8+15)
 
@@ -30912,7 +31078,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 30 ft., swim 30
+MOVE:Walk,30,Climb,30,Swim,30
 
 Melee bite +8 (1d4+1 plus poison)
 
@@ -30960,7 +31126,7 @@ Immune mind-affecting effects
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Weaknesses salt vulnerability
 
-Speed 20 ft., burrow 10 ft.
+MOVE:Walk,20,Burrow,10
 
 Melee bite +15 (2d6+12) 1d8 acid)
 
@@ -31016,7 +31182,8 @@ Immune poison
 Immune sleep
 Immune stun
 
-Speed fly 100 ft., (perfect)
+MOVE:Fly,100
+BONUS:VAR|Maneuverability|5
 
 Melee 2 claws +16 (1d6+1/19-20 plus 1d6 Wis damage)
 
@@ -31068,7 +31235,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 Immune necromancy spells
 
-Speed 15 ft., climb 15 ft.
+MOVE:Walk,15,Climb,15
 
 Melee bite +5 (1d3-4 plus energy drain)
 
@@ -31112,7 +31279,7 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 DR:15/silver and magic
 SR:26
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee +1 scythe +25/+20/+15/+10 (2d6+13/19-20)
 
@@ -31169,7 +31336,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 20 ft., climb 10 ft.
+MOVE:Walk,20,Climb,10
 
 Melee sting +0 (1d2-2 plus poison)
 
@@ -31214,7 +31381,7 @@ MONSTERCLASS:Fey:5
 BONUS:VAR|HasLowLightVision|1
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee halberd +3 (1d8-1/x3) or short sword +7 (1d4-1/19-20)
 
@@ -31255,7 +31422,7 @@ MONSTERCLASS:Fey:5
 BONUS:VAR|HasLowLightVision|1
 
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee halberd +7 (2d8+7/x3) or short sword +6 (1d8+5/19-20)
 
@@ -31296,7 +31463,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:5/cold iron
 
-Speed 30 ft., fly 50 ft. (good)
+MOVE:Walk,30,Fly,50
+BONUS:VAR|Maneuverability|4
 
 Melee short sword +5 (1d4-1/19-20)
 
@@ -31358,7 +31526,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
-Speed 40 ft., climb 30 ft.
+MOVE:Walk,40,Climb,30
 
 Melee 2 claws +17 (1d6+6/19-20), bite +17 (1d8+6 plus grab)
 
@@ -31400,7 +31568,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 Immune mind-affecting effects
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +8 (2d6+4 plus poison), sting +8 (2d6+4 plus poison)
 
@@ -31445,7 +31613,7 @@ Immune cold
 Immune fire
 Immune poison
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +6 (1d8+6)
 
@@ -31490,7 +31658,7 @@ DR:10/magic
 Immune earth magic
 Weaknesses veil
 
-Speed 30 ft., burrow 30 ft.
+MOVE:Walk,30,Burrow,30
 
 Melee longsword +16/+11 (1d8+5) or 2 slams +15 (1d8+5)
 
@@ -31551,7 +31719,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee longsword +3 (1d8+1)
 
@@ -31598,7 +31766,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 BONUS:VAR|FireResistanceBonus|10
 
-Speed swim 5 ft.
+MOVE:Swim,5
 
 Melee slam +7 (1d6+6 plus grab)
 
@@ -31644,7 +31812,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/cold iron
 SR:17
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slap +8 (1d6+3 plus 1d6 Dexterity drain)
 
@@ -31690,7 +31858,7 @@ BONUS:VAR|BlindsightRange|120
 BONUS:VAR|AC_Natural_Armor|25|TYPE=Base.STACK
 
 
-Speed Swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +45 (4d6+24/19-20/x2 plus grab)
 
@@ -31737,7 +31905,8 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 
-Speed 40 ft., fly 70 ft. (average)
+MOVE:Walk,40,Fly,70
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +6 (1d6+2, 19-20), bite +6 (1d8+2, 19-20)
 
@@ -31779,10 +31948,10 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Defense DR 5/slashing or piercing
+DR:5/slashing or piercing
 Weakness Water dependant
 
-Speed 5 ft., swim 30 ft.
+MOVE:Walk,5,Swim,30
 
 Melee 2 slam +7 (1d6+4), spear +7 (1d8+4), tentacle +5 (1d8+2 plus paralysis)
 
@@ -31830,7 +31999,8 @@ ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:21
 Weaknesses swarm traits
 
-Speed 5 ft., fly 40 ft. (good)
+MOVE:Walk,5,Fly,40
+BONUS:VAR|Maneuverability|4
 
 Melee swarm (3d6 plus poison)
 
@@ -31882,7 +32052,8 @@ ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:17
 Weaknesses swarm traits
 
-Speed 20 ft., fly 40 ft. (poor)
+MOVE:Walk,20,Fly,40
+BONUS:VAR|Maneuverability|2
 
 Melee swarm (2d6)
 
@@ -31935,7 +32106,8 @@ ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits, vulnerability to cold
 
-Speed 30 ft., fly 60 ft. (average)
+MOVE:Walk,30,Fly,60
+BONUS:VAR|Maneuverability|3
 
 Melee swarm (2d6 plus 2d6 fire and burn)
 
@@ -31981,7 +32153,7 @@ Immune weapon damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee swarm (1d6)
 
@@ -32030,7 +32202,7 @@ Immune weapon damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee swarm (1d6 plus poison)
 
@@ -32073,7 +32245,8 @@ BONUS:VAR|HasLowLightVision|1
 
 Weaknesses swarm traits
 
-Speed 10 ft., fly 40 ft. (average)
+MOVE:Walk,10,Fly,40
+BONUS:VAR|Maneuverability|3
 
 Melee swarm (1d6 plus eye-rake)
 
@@ -32116,7 +32289,8 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 Weaknesses swarm traits
 
-Speed 10 ft., fly 40 ft. (average)
+MOVE:Walk,10,Fly,40
+BONUS:VAR|Maneuverability|3
 
 Melee swarm (3d6 plus eye-rake plus disease)
 
@@ -32168,7 +32342,7 @@ ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Weaknesses swarm traits
 
-Speed 10 ft., climb 10 ft.
+MOVE:Walk,10,Climb,10
 
 Melee swarm (1d6 plus disease)
 
@@ -32211,7 +32385,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed 40 ft., climb 60 ft.
+MOVE:Walk,40,Climb,60
 
 Melee swarm (2d6 plus 1d4 Strength damage plus disease)
 
@@ -32267,7 +32441,7 @@ ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 Weaknesses swarm traits
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee swarm (1d6 plus poison)
 
@@ -32316,7 +32490,7 @@ ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 Weaknesses swarm traits
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee swarm (1d6)
 
@@ -32356,7 +32530,7 @@ Aura alien thoughts (30 ft. DC 13)
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 5 ft.; burrow 5 ft.
+MOVE:Walk,5,Burrow,5
 
 Melee slam +4 (1d4)
 
@@ -32401,7 +32575,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee 2 claws +3 (1d4+1 plus grab) or short sword +3 (1d6+1); bite +3 (1d3+1)
 
@@ -32449,7 +32623,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee 2 slams +6 (1d4+3), bite +6 (1d4+3)
 
@@ -32487,7 +32661,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +7 (1d6+3), 2 claws +7 (1d4+3)
 
@@ -32530,7 +32704,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +10 (1d6+4), bite +11 (2d6+4)
 
@@ -32579,7 +32753,7 @@ BONUS:COMBAT|AC|1|TYPE=Insight
 
 Immune temporal magic
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee bite +8 (1d6+3 plus paralysis)
 
@@ -32628,7 +32802,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 10 ft.; swim 40 ft.
+MOVE:Walk,10,Swim,40
 
 Melee bite +10 (1d8+5 plus grab), tail slap +5 (1d6+2)
 
@@ -32681,7 +32855,7 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Cold/Fire
 BONUS:VAR|AcidResistanceBonus|10
 SR:21
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 4 tentacles +16 (1d8+7/19-20 plus grab), bite +16 (3d6+7)
 
@@ -32726,7 +32900,7 @@ BONUS:VAR|BlindsightRange|30
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 5 ft., climb 5 ft.
+MOVE:Walk,5,Climb,5
 
 Melee constricting tentacle +5 (1d4+2 plus grab), stinging tentacle +5 (1d4+2 plus grab plus paralysis)
 
@@ -32778,7 +32952,7 @@ Immune fire
 Immune mind-affecting effects
 Weakness vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +9 (2d6+6 plus 2d6 fire plus burn)
 
@@ -32822,7 +32996,7 @@ Immune fire
 Immune mind-affecting effects
 Weakness vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +6 (1d8+4 plus 2d6 fire plus burn)
 
@@ -32860,7 +33034,7 @@ Immune fire
 Immune mind-affecting effects
 Weakness vulnerability to cold
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +3 (1d6+1 plus 1d6 fire plus burn)
 
@@ -32892,7 +33066,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +5 (1d6+3 plus trip)
 
@@ -32932,7 +33106,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +14 (2d6+15)
 
@@ -32972,7 +33146,8 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
-Speed 20 ft., fly 70 ft. (average)
+MOVE:Walk,20,Fly,70
+BONUS:VAR|Maneuverability|3
 
 Melee 2 claws +19 (1d8+8), bite +20 (2d6+8)
 
@@ -33021,7 +33196,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee bite +2 (1d4 plus attach and disease)
 
@@ -33062,7 +33237,7 @@ BONUS:COMBAT|AC|5|TYPE=Insight
 DR:10/magic
 Immune time
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee +1 greatsword +19/+14/+9 (2d6+7, 19-20/x2)
 
@@ -33125,7 +33300,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/good and cold iron
 SR:20
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee dagger +12 (1d3-1)
 
@@ -33172,7 +33347,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +5 (1d6+1 plus transposition)
 
@@ -33226,7 +33401,7 @@ DR:10/slashing or piercing
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee buffet +17 (1d8+15)
 
@@ -33276,7 +33451,7 @@ DR:10/slashing
 Immune electricity
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 slam +16 (2d8+9)
 
@@ -33329,7 +33504,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 0 ft. (immobile)
+MOVE:Walk,0
 
 Melee 4 tendrils +3 (1d2+2 plus sleep pollen)
 
@@ -33376,7 +33551,7 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Acid/Fire
 
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee greatclub +5 (1d10+4), bite +0 (1d6+1) or 2 claws +5 (1d4+3), bite +5 (1d6+3)
 
@@ -33484,7 +33659,7 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Fire/Acid
 
 
 
-Speed 60 ft., climb 20 ft.
+MOVE:Walk,60,Climb,20
 
 Melee 2 claws +6 (1d4+2), claw (from haste) +6 (1d4+2), and bite +6 (1d6+2)
 
@@ -33539,7 +33714,7 @@ DR:5/magic
 Immune cold
 Weaknesses slashing weapon vulnerability, vulnerability to fire
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +4 (1d6+4)
 
@@ -33593,7 +33768,7 @@ BONUS:VAR|FastHealingRate|5
 
 Weaknesses vulnerability to sunlight
 
-Speed 30 ft., burrow 20 ft.
+MOVE:Walk,30,Burrow,20
 
 Melee 2 claws +12 (1d6+7) and bite +12 (1d8+7)
 
@@ -33648,7 +33823,7 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Acid/Fire
 
 Weaknesses swamp dependent
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee bite +6 (2d6+4), 2 claws +6 (1d6+4)
 
@@ -33698,7 +33873,7 @@ BONUS:VAR|FastHealingRate|5
 
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee longsword +12/+7 (2d6+6), longsword +12/+7 (2d6+6), 2 bites +7 (1d8+3) or 2 claws +12 (1d6+6 ), 2 bites +12 (1d8+6)
 
@@ -33743,7 +33918,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Weaknesses light blindness
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee shortspear +3 (1d6+1) or kukri +3 (1d4+1/18-20) or 2 claws +3 (1d6+1), and bite +3 (1d4+1)
 
@@ -33797,7 +33972,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 Weaknesses light blindness
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee shortspear +6 (1d6+2) or kukri +6 (1d4+2/18-20) or 2 claws +6 (1d6+2); and bite +6 (1d4+2)
 
@@ -33844,7 +34019,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 Immune electricity
 Weaknesses vulnerability to water
 
-Speed 30 ft., fly 30 ft. (perfect)
+MOVE:Walk,30,Fly,30
+BONUS:VAR|Maneuverability|5
 
 Melee slam +8 (1d6+3)
 
@@ -33887,7 +34063,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 
-Speed 20 ft., burrow 20 ft.
+MOVE:Walk,20,Burrow,20
 
 Melee bite +14 (2d6+9 plus grab)
 
@@ -33930,7 +34106,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 
 
-Speed 30 ft., swim 40 ft.
+MOVE:Walk,30,Swim,40
 
 Melee bite +27 (3d8+18/19-20 plus grab)
 
@@ -33978,7 +34154,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed 10 ft., swim 40 ft.
+MOVE:Walk,10,Swim,40
 
 Melee bite +13 (2d6+8 plus grab), slam +12 (1d8+8)
 
@@ -34027,7 +34203,7 @@ BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:23
 
-Speed 10 ft., swim 40 ft.
+MOVE:Walk,10,Swim,40
 
 Melee bite +23 (4d8+12/19-20 plus grab), slam +22 (2d6+12)
 
@@ -34068,7 +34244,7 @@ ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 Immune flanks
 Weaknesses multiple personalities
 
-Speed 20 ft. (30 ft. base)
+MOVE:Walk,20
 
 Melee 3 clubs +5 (1d8+3) or 3 slams +4 (1d6+3)
 
@@ -34118,7 +34294,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Melee stalk +6 (1d4+2 plus grab)
 
@@ -34162,7 +34338,7 @@ BONUS:VAR|FastHealingRate|2
 BONUS:VAR|FireResistanceBonus|5
 Weaknesses cold susceptibility
 
-Speed 40 ft., climb 20 ft., swim 20 ft.
+MOVE:Walk,40,Climb,20,Swim,20
 
 Melee bite +5 (1d4 plus disease)
 
@@ -34208,7 +34384,8 @@ BONUS:VAR|FastHealingRate|2
 
 BONUS:VAR|FireResistanceBonus|5
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee sting +8 (1d8+6 plus poison)
 
@@ -34265,7 +34442,7 @@ DR:5/bludgeoning or slashing
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +1 (1d3) or spear +1 (1d6x3)
 
@@ -34302,7 +34479,7 @@ DR:5/bludgeoning or slashing
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +3 (1d3) or spear +3 (1d6/x3)
 
@@ -34339,7 +34516,7 @@ DR:5/bludgeoning or slashing
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +5 (1d3+1) or spear +5 (1d6+1/x3)
 
@@ -34376,7 +34553,7 @@ DR:5/bludgeoning or slashing
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 Melee 2 claws +6 (1d3+2) or spear +7 (1d6+3 /x3)
 Ranged spear +7 (1d6+2/x3)
 
@@ -34410,7 +34587,7 @@ DR:5/bludgeoning or slashing
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +8 (1d4+4) or spear +9 (1d8+6 /x3)
 
@@ -34450,7 +34627,7 @@ DR:5/bludgeoning or slashing
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +11 (1d6+5) or mwk spear +13/+8 (1d8+7/x3)
 
@@ -34490,7 +34667,7 @@ MONSTERCLASS:Aberration:1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 slams +2 (1d4+2)
 
@@ -34528,7 +34705,8 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 Immune electricity
 
-Speed fly 30 ft. (good)
+MOVE:Fly,30
+BONUS:VAR|Maneuverability|4
 
 Melee bite +6 (1d4 plus attach), tail slap +1 (1d4 plus shock)
 
@@ -34571,7 +34749,7 @@ DR:15/slashing or piercing
 Immune acid
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee sting +20 (2d6+9 plus poison), bite +19 (2d6+9)
 
@@ -34623,7 +34801,8 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 20 ft., fly 10 ft. (average)
+MOVE:Walk,20,Fly,10
+BONUS:VAR|Maneuverability|3
 
 Melee bite +3 (1d6), 2 claws +3 (1d4)
 
@@ -34661,7 +34840,7 @@ DR:5/silver
 Immune poison
 BONUS:VAR|FireResistanceBonus|5
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +6 (1d6+1 plus poison), 2 claws +6 (1d4+1 plus poison)
 
@@ -34713,7 +34892,7 @@ Immune disease
 Immune poison
 BONUS:VAR|FireResistanceBonus|5
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +12 (1d6+2 plus poison), 2 claws +12 (1d4+2 plus poison), or unarmed strike +12/+7 (1d8+2), or +1 kama +14/+9 (1d6+3), or unarmed flurry of blows +12/+12/+7 (1d8+2), or kama flurry of blows +1 kama +14/+14/+9 (1d6+3)
 
@@ -34773,7 +34952,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 DR:10/bludgeoning
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +14 (2d6+6 plus siphon and grab)
 
@@ -34836,7 +35015,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +7 (1d8+4 plus grab)
 
@@ -34889,7 +35068,7 @@ DR:10/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 Weaknesses vulnerability to cold
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +15 (1d8+7 plus grab)
 
@@ -34950,7 +35129,7 @@ DR:10/bludgeoning
 Immune electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +15 (1d8+4 plus 1d8 electricity plus grab)
 
@@ -35004,7 +35183,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:5/-
 
-Speed 10 ft.
+MOVE:Walk,10
 
 Melee 6 tentacles +15 (1d8+4 plus grab), bite +16 (2d8+8)
 
@@ -35043,7 +35222,7 @@ BONUS:VAR|AC_Natural_Armor|19|TYPE=Base.STACK
 DR:15/magic and slashing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 30 ft., climb 20 ft.
+MOVE:Walk,30,Climb,20
 
 Melee 2 tentacles +20 (2d8+8 plus grab)
 
@@ -35098,7 +35277,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 Weaknesses resurrection vulnerability
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee slam +5 (1d4+3 plus energy drain)
 
@@ -35151,7 +35330,7 @@ ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance
 DR:10/bludgeoning and magic
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee 2 claws +14 (1d8+5 plus 1 bleed)
 
@@ -35199,7 +35378,7 @@ ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 4 slams +23 (2d8+9 plus grab)
 
@@ -35247,7 +35426,8 @@ DR:5/magic
 Immune magic
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 
-Speed 40 ft., fly 60 ft. (perfect)
+MOVE:Walk,40,Fly,60
+BONUS:VAR|Maneuverability|5
 
 Melee wind blast +10 (2d6+6)
 
@@ -35302,7 +35482,7 @@ BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:22
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 4 tendrils +16 (2d6+9 plus grab)
 
@@ -35347,7 +35527,7 @@ Aura stench (DC 12, while within 30 ft. plus 1 round)
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 20 ft.
+MOVE:Walk,20
 
 Melee 2 claws +5 (1d4-1)
 
@@ -35382,7 +35562,7 @@ BONUS:VAR|BlindsightRange|30
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed 0 ft.
+MOVE:Walk,0
 
 Melee 5 fronds +5 (1d4+3 plus 1d4 Dex)
 
@@ -35417,7 +35597,7 @@ RACETYPE:Magical Beast
 MONSTERCLASS:Magical Beast:1 
 BONUS:VAR|BlindsightRange|10
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Melee bite +5 (1d2-5 plus attach)
 
@@ -35468,7 +35648,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/cold iron
 SR:18
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +11 (1d8+7 plus trip)
 
@@ -35520,7 +35700,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +7 (1d6+4 plus paralysis plus trip)
 
@@ -35556,7 +35736,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +17 (2d6+12 plus paralysis and trip)
 
@@ -35598,7 +35778,7 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee incorporeal bite +5 (1d4
 
@@ -35646,7 +35826,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 Immune flanks
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Melee bite +11 (1d6+3), 7 tentacles +10 (1d4+1 plus grab)
 
@@ -35692,7 +35872,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee bite +8 (1d8+3 plus poison plus trip)
 
@@ -35740,7 +35920,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/cold iron
 Immune wood
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee club +11 (1d6+3) or 2 slams +11 (1d6+3)
 
@@ -35808,7 +35988,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 
-Speed 5 ft.
+MOVE:Walk,5
 
 Melee 2 tendrils +6 (1d8+5)
 
@@ -35861,7 +36041,8 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 Immune mind-affecting effects
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Speed 20 ft., fly 60 ft. (good)
+MOVE:Walk,20,Fly,60
+BONUS:VAR|Maneuverability|4
 
 Melee bite +7 (1d3+4) or sting +7 (1d4+4 plus poison)
 
@@ -35904,7 +36085,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 Immune cold
 Weaknesses vulnerability to fire
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +7 (1d6+4 plus grab)
 
@@ -35956,7 +36137,7 @@ DR:5/slashing
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 BONUS:VAR|FireResistanceBonus|10
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee cutlass +5 (1d6+2/19-20) or slam +5 (1d6+3)
 
@@ -35994,7 +36175,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +4 (1d6)
 
@@ -36035,7 +36216,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +4 (1d6+3) and 2 claws +4 (1d4+3)
 
@@ -36074,7 +36255,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed swim 70 ft.
+MOVE:Swim,70
 
 Melee bite +4 (1d4-1)
 
@@ -36108,7 +36289,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +4 (1d6+1/19-20)
 
@@ -36143,7 +36324,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed swim 50 ft.
+MOVE:Swim,50
 
 Melee bite +10 (1d8+7/19-20)
 
@@ -36180,7 +36361,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +15 (2d6+13)
 
@@ -36220,7 +36401,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +4 (1d6+1)
 
@@ -36264,7 +36445,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +11 (1d8+6 plus grab)
 
@@ -36308,7 +36489,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 Immune flanks
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 Melee bite +5 (1d8+4 plus grab)
 Ranged tongue +5 (1d3+3 plus grab)
 Space 10 ft.; Reach 5 ft. (10 ft. with tongue)
@@ -36364,7 +36545,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +2 (1d6+1), 2 hooves -3 (1d4)
 
@@ -36404,7 +36585,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed swim 20 ft.
+MOVE:Swim,20
 
 Melee bite +2 (1d4)
 
@@ -36450,7 +36631,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 Immune electricity
 
-Speed swim 40 ft.
+MOVE:Swim,40
 
 Melee bite +7 (1d8)
 
@@ -36496,7 +36677,7 @@ Immune disease
 Immune fear
 Weakness water dependency
 
-Speed 5 ft., swim 30 ft.
+MOVE:Walk,5,Swim,30
 
 Melee bite +11(2d6+9 plus disease and grab)
 
@@ -36555,7 +36736,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Speed swim 50 ft.
+MOVE:Swim,50
 
 Melee bite +9 (2d6+4 plus grab)
 
@@ -36594,7 +36775,8 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 10 ft., fly 80 ft. (average)
+MOVE:Walk,10,Fly,80
+BONUS:VAR|Maneuverability|3
 
 Melee 2 talons +4 (1d6+3), bite +4 (1d8+3)
 
@@ -36632,7 +36814,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +4 (1d4-1)
 
@@ -36666,7 +36848,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee bite +3 (1d6+2 plus grab) or tongue +3 touch (grab)
 
@@ -36707,7 +36889,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Speed 40 ft., swim 40 ft.
+MOVE:Walk,40,Swim,40
 
 Melee bite +8 (1d8+6 plus grab) or tongue +8 touch (grab)
 
@@ -36744,7 +36926,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 10 ft., swim 30 ft.
+MOVE:Walk,10,Swim,30
 
 Melee 2 claws +2 (1d4+1 plus grab), bite +2 (1d4+1)
 
@@ -36776,7 +36958,7 @@ RACETYPE:Animal
 MONSTERCLASS:Animal:1 
 BONUS:VAR|HasLowLightVision|1
 
-Speed 10 ft., swim 20 ft.
+MOVE:Walk,10,Swim,20
 
 Melee bite +3 (1 plus poison)
 
@@ -36815,7 +36997,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 Immune disease
 
-Speed 20 ft., burrow 10 ft.
+MOVE:Walk,20,Burrow,10
 
 Melee bite +6 (1d8+6 plus grab)
 
@@ -36859,7 +37041,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Speed 30 ft., swim 30 ft.
+MOVE:Walk,30,Swim,30
 
 Melee bite +7 (2d8+6)
 
@@ -36903,7 +37085,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +11 (1d8+12 plus trip)
 
@@ -36938,7 +37120,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 40 ft., climb 20 ft., swim 20 ft.
+MOVE:Walk,40,Climb,20,Swim,20
 
 Melee 2 claw +7 (1d4+4), bite +8 (1d8+4 plus grab)
 
@@ -36974,7 +37156,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee 2 claw +7 (1d4+2), bite +7 (1d6+2)
 
@@ -37014,7 +37196,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee 2 claws +13 (1d8+7) and bite +12 (1d8+7/19-20 plus grab)
 
@@ -37052,7 +37234,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +7 (1d6+3 plus grab), 2 claws +7 (1d4+3 plus grab)
 
@@ -37089,7 +37271,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
-Speed 30 ft., swim 20 ft.
+MOVE:Walk,30,Swim,20
 
 Melee bite +8 (1d6+6)
 
@@ -37124,7 +37306,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 40 ft., climb 20 ft.
+MOVE:Walk,40,Climb,20
 
 Melee 2 claw +4 (1d3+2 plus grab), bite +4 (1d4+2)
 
@@ -37163,7 +37345,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +19 (2d6+11), slam +19 (1d8+11), 2 stomps +17 (2d6+5)
 
@@ -37199,7 +37381,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
-Speed 30 ft., climb 30 ft.
+MOVE:Walk,30,Climb,30
 
 Melee bite +4 (1d4)
 
@@ -37227,7 +37409,7 @@ SIZE:S
 RACETYPE:Animal
 MONSTERCLASS:Animal:2 
 
-Speed 40 ft., climb 30 ft.
+MOVE:Walk,40,Climb,30
 
 Melee bite +5 (1d4+1 plus grab), 2 claws +5 (1d3+1)
 
@@ -37266,7 +37448,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
-Speed 40 ft., climb 30 ft.
+MOVE:Walk,40,Climb,30
 
 Melee 2 claws +4 (1d4), bite +4 (1d6) or 2 claws +4 (1d4), tail slap -1 (1d6)
 
@@ -37296,7 +37478,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +23 (2d8+12), slam +23 (2d6+12), 2 stomps +21 (2d6+6)
 
@@ -37332,7 +37514,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee head butt +6 (1d8+4), 2 hooves +1 (1d6+2)
 
@@ -37366,7 +37548,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +13 (2d8+13), 2 stamps +13 (2d6+9)
 
@@ -37406,7 +37588,7 @@ BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 Immune flanks
 
-Speed swim 60 ft.
+MOVE:Swim,60
 
 Melee bite +7 (1d8+3 plus grab)
 
@@ -37448,7 +37630,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee bite +10 (1d2-2)
 
@@ -37490,7 +37672,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed 20 ft., climb 20 ft.
+MOVE:Walk,20,Climb,20
 
 Melee bite +4 (1d3-3)
 
@@ -37531,7 +37713,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 30 ft., climb 30 ft.
+MOVE:Walk,30,Climb,30
 
 Melee bite +5 (1d4+1 plus disease)
 
@@ -37570,7 +37752,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee gore +19 (2d6+15/19-20)
 
@@ -37606,7 +37788,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee gore +21 (2d6+15/19-20)
 
@@ -37644,7 +37826,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee antlers +11 (2d6+6) or butt +10 (1d8+6)
 
@@ -37696,7 +37878,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 Immune flanks
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee slam +6 (1d6+6)
 
@@ -37731,7 +37913,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +1 (1d6)
 
@@ -37766,7 +37948,7 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Ferocity
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee gore +3 (1d6+1)
 
@@ -37798,7 +37980,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Speed 30 ft.
+MOVE:Walk,30
 
 Melee bite +3 (1d3-4)
 
@@ -37836,7 +38018,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +10 (1d8+6 plus grab plus bleed), 2 claws +10 (1d4+6 plus grab)
 
@@ -37874,7 +38056,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 
-Speed 50 ft.
+MOVE:Walk,50
 
 Melee bite +15 (2d6+10/19-20 plus grab plus bleed), 2 claws +15 (1d6+10 plus grab)
 
@@ -37913,7 +38095,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed 40 ft.
+MOVE:Walk,40
 
 Melee bite +10 (1d6+6 plus grab plus bleed), 2 claws +10 (1d4+6 plus grab)
 
@@ -37955,7 +38137,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|100
 
 
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee sting +3 (1d3 plus poison)
 
@@ -37995,7 +38177,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|100
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee sting +5 (1d4+3 plus poison)
 
@@ -38036,7 +38218,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|100
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed swim 30 ft.
+MOVE:Swim,30
 
 Melee sting +11 (1d8+6 plus poison), wing +9 (1d6+3)
 
@@ -38085,7 +38267,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 
-Speed swim 50 ft.
+MOVE:Swim,50
 
 Melee bite +5 (1d8+3)
 
@@ -38122,7 +38304,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 
-Speed 30 ft., burrow 10 ft.
+MOVE:Walk,30,Burrow,10
 
 Melee bite +7 (1d8+7)
 
@@ -38157,7 +38339,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 
-Speed 10 ft., swim 20 ft.
+MOVE:Walk,10,Swim,20
 
 Melee bite +16 (2d10+16/19-20 plus grab)
 
