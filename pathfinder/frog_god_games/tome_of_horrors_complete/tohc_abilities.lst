@@ -198,8 +198,8 @@ Rage				KEY:Aeshma Demon ~ Rage			CATEGORY:Special Ability	TYPE:AeshmaDemonRaceA
 Racial Abilities		KEY:Ahlinni ~ Racial Abilities	CATEGORY:Internal			ABILITY:Special Ability|AUTOMATIC|TYPE=AhlinniRaceAbility	VISIBLE:NP
 Resistances			KEY:Ahlinni ~ Resistances		CATEGORY:Special Ability	VISIBLE:NO	TYPE:AhlinniRaceAbility.RaceAbility	ABILITY:Special Ability|AUTOMATIC|Resistance to Sonic	BONUS:VAR|SonicResistanceBonus|10
 Birdsong			KEY:Ahlinni ~ Birdsong			CATEGORY:Special Ability	TYPE:AhlinniRaceAbility.RaceAbility.SpecialQuality.Supernatural		DESC:An ahlinni can freely communicate with any bird or bird-like creature (such as rocs, giant eagles, and giant owls), perfectly mimicking any bird song or vocalization. Communication with non-intelligent bird creatures is on an empathic level, and can only take place if the bird is within 100 feet of the ahlinni. In these cases, this ability functions as speak with animals (caster level 4th). This ability is always active, but can be negated. The ahlinni can restart it as a free action on its next turn.
-Impale			KEY:Ahlinni ~ Impale			CATEGORY:Special Ability	TYPE:AhlinniRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:When an ahlinni charges a foe, it deals double damage on a successful strike with its bite attack.
-
+Impale				KEY:Ahlinni ~ Impale			CATEGORY:Special Ability	TYPE:AhlinniRaceAbility.RaceAbility.SpecialAttack.Extraordinary	DESC:When an ahlinni charges a foe, it deals double damage on a successful strike with its bite attack.
+Breath Weapon			KEY:Ahlinni ~ Breath Weapon		CATEGORY:Special Ability		TYPE:AhlinniRaceAbility.RaceAbility.SpecialAttack.Supernatural		DEFINE:BreathWeaponDC|0		DESC:20 foot cone of gas, fall prone and hideous laughter 1d3 rounds [CL 4th] usable every 3 rounds, Fortitude DC %1 negates|BreathWeaponDC		BONUS:VAR|BreathWeaponDC|13|TYPE=Base		ASPECT:Ability Benefit|(Cone of gas, DC %1)|BreathWeaponDC
 
 ### Al-mi'raj
 
@@ -224,6 +224,11 @@ Animate Trees			KEY:Algoid ~ Animate Trees		CATEGORY:Special Ability	TYPE:Algoid
 Mind Blast			KEY:Algoid ~ Mind Blast			CATEGORY:Special Ability	TYPE:AlgoidRaceAbility.RaceAbility.SpecialQuality.SpellLike	DESC:Once per day, an algoid can use a mind blast in a 60-foot cone.  Any creature caught in the cone must succeed on a DC 14 Will save or be stunned for 3d4 rounds. The save DC is Charisma-based and includes a +2 racial bonus.|AlgoidMindBlastDC	DEFINE:AlgoidMindBlastDC|0	BONUS:VAR|AlgoidMindBlastDC|12+(HD/2)+CHA
 Stun				KEY:Algoid ~ Stun				CATEGORY:Special Ability	TYPE:AlgoidRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:If an algoid scores a critical hit with a slam attack, the opponent struck must succeed on a DC 16 Fortitude save or be stunned for 1d2 rounds.  The save DC is Strength-based.|AlgoidStunDC	DEFINE:AlgoidStunDC|0	BONUS:VAR|AlgoidStunDC|10+(HD/2)+STR
 Vulnerability to Water		KEY:Algoid ~ Vulnerability to Water	CATEGORY:Special Ability	TYPE:AlgoidRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A control water spell deals 1d6 points of damage per caster level (maximum 10d6) to an algoid (no save).
+
+### Animate Tree
+
+Racial Abilities	KEY:Animated Tree ~ Racial Abilities	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimatedTreeRaceAbility	VISIBLE:NO
+Double Damage Against Objects	KEY:Animated Tree ~ Double Damage Against Objects	CATEGORY:Special Ability	TYPE:AnimatedTreeRaceAbility.RaceAbility.SpecialAttaack.Supernatural	DESC:An AnimatedTree deals dopuble damage against object when it takes a full attack.
 
 ### Alu Demon
 
