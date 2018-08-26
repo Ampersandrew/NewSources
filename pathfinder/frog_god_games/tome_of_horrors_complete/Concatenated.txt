@@ -21,14 +21,10 @@ BONUS:STAT|CON|2
 BONUS:STAT|INT|-2
 ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Focus (bite)
 AUTO:LANG|Birdsong
+ABILITY:Internal|AUTOMATIC|Bite
+BONUS:SKILLANK|Acrobatics,Climb,Perception,Stealth|4|PREDEFAULTMONSTER:Y
 
-
-
-Melee bite +7 (1d8+2)
-
-Base Atk +4; CMB +6; CMD 17
-
-Skills Acrobatics +5, Climb +14, Perception +7, Stealth +5 (+15 in trees); Racial Modifiers +10 Stealth when in trees large enough to conceal it
+# (+15 in trees); Racial Modifiers +10 Stealth when in trees large enough to conceal it
 
 
 -----------------------------------------------
@@ -44,14 +40,11 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 BONUS:VAR|TrampleDamageDice|1
 BONUS:VAR|TrampleDamageDieSize|6
-
 DR:5/slashing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 Weaknesses vulnerability to fire
 
 MOVE:Walk,30
-
-Melee 2 slams +7 (2d6+5)
 
 REACH:15
 
@@ -63,6 +56,7 @@ BONUS:STAT|WIS|1
 
 ABILITY:FEAT|AUTOMATIC|Improved Sunder|Power Attack|Weapon Focus (slam)|Trample
 
+Melee 2 slams +7 (2d6+5)
 
 
 Skills Perception +5
