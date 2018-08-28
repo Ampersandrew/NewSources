@@ -41,7 +41,7 @@ TEMPLATE:tohc_templates.lst
 # EQUIPMOD:tohc_equipmods.lst
 # ABILITY:tohc_feats.lst
 # LANGUAGE:tohc_languages.lst
-# 
+#
 # ARMORPROF:tohc_profs_armor.lst
 # SHIELDPROF:tohc_profs_shield.lst
 # WEAPONPROF:tohc_profs_weapon.lst

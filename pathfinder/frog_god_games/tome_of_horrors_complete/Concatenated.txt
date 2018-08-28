@@ -1,3 +1,5 @@
+/^\cweaknesses vulnerability to \(Acid\|Cold\|Electricity\|Fire\|Sonic\|Sunlight\):s/^\cweaknesses vulnerability to \(Acid\|Cold\|Electricity\|Fire\|Sonic\|Sunlight\)/ABILITY:Special Ability|AUTOMATIC|vulnerability to \1/
+
 
 -----------------------------------------------
 
@@ -42,7 +44,7 @@ BONUS:VAR|TrampleDamageDice|1
 BONUS:VAR|TrampleDamageDieSize|6
 DR:5/slashing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -79,18 +81,21 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 DR:5/bludgeoning and magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Weaknesses vulnerability to water
 
 
 MOVE:Walk,20
 
 Melee 2 slams +8 (1d6+4)
 
-Special Attacks animate trees, mind blast, stun Psi-like Abilities (ML 5th):
+Special Attacks animate trees, mind blast, stun Psi-like
+
+Abilities (ML 5th):
 
 At will-detect psionics, know direction and location
 
-1/day-energy push (3d6, DC 13) If you do not use psionics in your campaign, replace the algoid's psi-like abilities with the following spell-like abilities:
+1/day-energy push (3d6, DC 13)
+
+If you do not use psionics in your campaign, replace the algoid's psi-like abilities with the following spell-like abilities:
 
 At will- detect thoughts (DC 15), know location;
 
@@ -817,7 +822,6 @@ BONUS:COMBAT|AC|3|TYPE=Deflection
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
-Weaknesses resurrection vulnerability, sunlight powerlessness
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -1060,7 +1064,6 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 DR:5/cold iron
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 SR:16
-Weaknesses water dependent
 
 MOVE:Walk,20,Swim,50
 
@@ -1449,7 +1452,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerable to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20,Burrow,20
 
@@ -1526,7 +1529,6 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weakness cold vulnerability
 
 MOVE:Walk,20
 
@@ -1970,13 +1972,8 @@ RACETYPE:Vermin
 MONSTERCLASS:Vermin:4 
 RACESUBTYPE:Aquatic
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
-Weaknesses water dependent
-
 MOVE:Walk,10,Swim,60
 
 Melee bite +5 (1d8+3)
@@ -2253,7 +2250,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses vulnerable to sonic
+ABILITY:Special Ability|AUTOMATIC|vulnerability to sonic
 
 MOVE:Walk,0
 
@@ -2524,7 +2521,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,20
 
@@ -2697,7 +2694,6 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
-Weaknesses aversion to daylight
 
 MOVE:Walk,20,Climb,20
 
@@ -2736,7 +2732,6 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
-Weaknesses aversion to daylight
 
 MOVE:Walk,30,Climb,20
 
@@ -2857,7 +2852,7 @@ BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
 DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Magic
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -3190,7 +3185,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Fly,20
 BONUS:VAR|Maneuverability|5
@@ -3742,7 +3737,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:15/epic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Poison
 SR:33
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -3869,21 +3864,13 @@ MONSTERCLASS:Magical Beast:5
 RACESUBTYPE:Incorporeal
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:COMBAT|AC|2|TYPE=Deflection
-
-
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 DR:10/evil
-Weaknesses limited domain
-
 MOVE:Fly,40
 BONUS:VAR|Maneuverability|5
 
 Melee incorporeal bite +8 (1d6 holy plus 1d4 Wisdom)
-
-Special Attacks howl
 
 DEFINESTAT:NONSTAT:STR
 BONUS:STAT:DEX|2
@@ -4028,18 +4015,11 @@ RACETYPE:Construct
 MONSTERCLASS:Construct:5 
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
-
-Weaknesses immobile
-
 MOVE:Walk,0
-
 REACH:0
-
+ABILITY:FEAT|AUTOMATIC|Great Fortitude|Iron Will|Toughness
 DEFINESTAT:NONSTAT:DEX
 DEFINESTAT:NONSTAT:CON
 BONUS:STAT:INT|5
@@ -4048,7 +4028,6 @@ BONUS:STAT:CHA|2
 
 Base Atk +5; CMB +4; CMD 9 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Great Fortitude|Iron Will|Toughness
 
 Skills Diplomacy +7, Craft (metalworking) +10, Knowledge (arcana) +10, Knowledge (engineering) +10, Perception +9, Sense Motive +9, Spellcraft +10
 
@@ -4207,14 +4186,9 @@ MONSTERCLASS:Construct:4
 RACESUBTYPE:Swarm
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-Weaknesses swarm traits
-
 MOVE:Walk,40
 
 Melee swarm (1d6)
@@ -4713,13 +4687,8 @@ RACETYPE:Vermin
 MONSTERCLASS:Vermin:3 
 RACESUBTYPE:Aquatic
 BONUS:VAR|DarkvisionRange|60
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-
-Weaknesses water dependency
-
 MOVE:Walk,30,Swim,20
 
 Melee 2 claws +4 (1d4+2 plus grab)
@@ -4831,13 +4800,7 @@ RACETYPE:Vermin
 MONSTERCLASS:Vermin:4 
 RACESUBTYPE:Aquatic
 BONUS:VAR|DarkvisionRange|60
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
-
-Immunty vermin traits
-
-Weaknesses water dependency
-
 MOVE:Walk,20,Swim,40
 
 Melee 2 claws +5 (1d6+3 plus grab/19-20)
@@ -5284,22 +5247,16 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:8 
 RACESUBTYPE:Extraplanar
 BONUS:VAR|DarkvisionRange|120
-
-
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
-
 DR:10/cold iron or silver
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid|Immunity to Hold|Immunity to Mind-Affecting Effects|Immunity to Poison|Immunity to Polymorph|Immunity to Sleep
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|ElectricityResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses limited domain
-
 MOVE:Walk,30
+REACH:10
 
 Melee bite +11 (2d6+4), 2 claws +11 (1d6+4)
-
-REACH:10
 
 Special Attacks breath weapon (30 ft. cone, DC 17, 5d6 fire, useable every 1d4 rounds)
 
@@ -5597,14 +5554,14 @@ RACETYPE:Humanoid
 MONSTERCLASS:Humanoid:3 
 RACESUBTYPE:Dark Folk
 ABILITY:Special Ability|AUTOMATIC|See In Darkness
-
-Weaknesses light blindness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 MOVE:Walk,30
 
 Melee dagger +6 (1d3/19-20 plus poison)
 
-Special Attacks death throes, sneak attack (+1d6) Spell-Like Abilities (CL 3rd)
+Special Attacks sneak attack (+1d6)
+
+Spell-Like Abilities (CL 3rd)
 
 At will-darkness, detect magic
 
@@ -5638,10 +5595,8 @@ RACETYPE:Humanoid
 MONSTERCLASS:Humanoid:6 
 RACESUBTYPE:Dark Folk
 ABILITY:Special Ability|AUTOMATIC|See In Darkness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
-
-Weaknesses light blindness
 
 MOVE:Walk,30
 
@@ -5835,23 +5790,15 @@ SIZE:T
 RACETYPE:Undead
 MONSTERCLASS:Undead:14 
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:COMBAT|AC|5|TYPE=Profane
-
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 DR:20/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid|Immunity to Cold|Immunity to Electricity|Immunity to Magic|Immunity to Polymorph|Immunity to Turning
-Weaknesses vorpal susceptibility
-
 MOVE:Fly,30
 BONUS:VAR|Maneuverability|5
-
 REACH:0
-
-Special Attacks trap the soul
 
 Spell-like Abilities (CL 14th):
 
@@ -5883,21 +5830,15 @@ RACETYPE:Undead
 MONSTERCLASS:Undead:8 
 RACESUBTYPE:Incorporeal
 BONUS:VAR|DarkvisionRange|60
-
-Aura unnatural aura (30 ft.)
-
 BONUS:COMBAT|AC|4|TYPE=Deflection
-
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 SR:17
-Weaknesses vulnerability to iron
-
 MOVE:Fly,40
 BONUS:VAR|Maneuverability|4
 
-Melee incorporeal touch +8 (1d4 cold)
+Aura unnatural aura (30 ft.)
 
-Special Attacks soul touch, transfixing gaze
+Melee incorporeal touch +8 (1d4 cold)
 
 DEFINESTAT:NONSTAT:STR
 BONUS:STAT:DEX|2
@@ -7321,23 +7262,18 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:7 
 RACESUBTYPE:Chaotic|Demon|Evil|Extraplanar|Incorporeal
 BONUS:VAR|DarkvisionRange|60
-
 BONUS:COMBAT|AC|4|TYPE=Deflection
-
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 DR:10/cold iron or good
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Electricity|Immunity to Poison
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:18
-Weaknesses sunlight powerlessness
-
 MOVE:Fly,40
 BONUS:VAR|Maneuverability|5
+ABILITY:Special Ability|AUTOMATIC|Pounce
 
 Melee 2 claws +11 touch (1d6 plus 1d6 cold), bite +11 touch (1d8 plus 1d6 cold)
-
-Special Attacks pounce, sprint, shadow blend
 
 Spell-Like Abilities (CL 10th)
 
@@ -8045,7 +7981,7 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Electricity|Immun
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
 SR:34
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -10253,7 +10189,7 @@ Aura frightful presence (30 ft., DC 13)
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,50
 
@@ -11103,11 +11039,10 @@ MONSTERCLASS:Dragon:10
 RACESUBTYPE:Air|Fire|Water
 ABILITY:Special Ability|AUTOMATIC|Dragon Senses
 
-
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Paralysis|Immunity to Sleep
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40,Fly,200,Swim,20
 BONUS:VAR|Maneuverability|2
@@ -11159,7 +11094,7 @@ BONUS:VAR|AC_Natural_Armor|20|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Paralysis|Immunity to Sleep
 DR 5/magic
 SR:22
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40,Fly,200,Swim,20
 BONUS:VAR|Maneuverability|2
@@ -11215,7 +11150,7 @@ BONUS:VAR|AC_Natural_Armor|32|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Paralysis|Immunity to Sleep
 DR 10/magic
 SR:27
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40,Fly,250,Swim,20
 BONUS:VAR|Maneuverability|1
@@ -11525,7 +11460,7 @@ BONUS:VAR|AC_Natural_Armor|20|TYPE=Base.STACK
 
 DR:15/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Swim,40
 
@@ -11565,7 +11500,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Paralysis|Immunity to Sleep
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,20,Fly,60
 BONUS:VAR|Maneuverability|3
@@ -11620,7 +11555,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Paralysis|Immunity to Sleep
 SR:18
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20,Fly,50
 BONUS:VAR|Maneuverability|3
@@ -11884,21 +11819,13 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:9 
 RACESUBTYPE:Evil|Extraplanar|Incorporeal
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:COMBAT|AC|4|TYPE=Deflection
-
-
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
-Weaknesses sunlight powerlessnes
-
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +13 (1d4 plus 1d4 Charisma)
-
-Special Attacks Charisma damage, heart-stopping fear, nightmare, sleep
 
 DEFINESTAT:NONSTAT:STR
 BONUS:STAT:DEX|4
@@ -13403,7 +13330,7 @@ DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Magic
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,60
 
@@ -13577,7 +13504,7 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 DR:10/epic and silver
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40,Fly,100
 BONUS:VAR|Maneuverability|2
@@ -13705,7 +13632,7 @@ Airfiend
 
 Airfiend (Air Subtype)
 DESC:Airfiends are typically found on the Plane of Air. Their weapons are masterwork scimitars forged of an unknown silvery metal. They are constantly cool to the touch and are immune to electricity damage. They have cloud and lightning designs that run the length of the blade.
-ABILITY:Special Ability|AUTOMATIC|Immunity to Add Electricity. Weaknesses Vulnerability To Fire.
+ABILITY:Special Ability|AUTOMATIC|Immunity to Add Electricity. weaknesses Vulnerability To Fire.
 
 MOVE:Fly,30
 BONUS:VAR|Maneuverability|5
@@ -13745,7 +13672,7 @@ Firefiend (Fire Subtype)
 DESC:Firefiends are typically found on the Plane of Fire. Their weapons are masterwork longswords forged of an unknown red-gold metal. They are constantly warm to the touch and are immune to fire damage. They have fiery designs that run the length of the blade.
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Add Fire.
-Weaknesses vulnerability to cold.
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 Melee 3 longswords (1d8+4/19-20 plus burn) Ranged spit cinder +9 (1 fire plus ignite) Elemental Effect burn (see below).
 E Special Attacks spit cinder (see below).
 Feats: Weapon Focus (longsword)
@@ -13872,20 +13799,15 @@ MONSTERCLASS:Aberration:2
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|BlindsenseRange|10
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Sleep
-Weaknesses light sensitivity, vulnerability to alcohol
-
+ABILITY:Special Ability|AUTOMATIC|Light Sensitivity
+ABILITY:Special Ability|AUTOMATIC|Constrict
+BONUS:VAR|ConstrictDieSize|4
 MOVE:Walk,10,Climb,5
-
-Melee slam +3 (1d4 plus grab)
-
 REACH:0
 
-Special Attacks engulf, constrict (1d4), strangle
+Melee slam +3 (1d4 plus grab)
 
 BONUS:STAT|DEX|1
 BONUS:STAT|CON|1
@@ -13911,11 +13833,7 @@ RACETYPE:Magical Beast
 MONSTERCLASS:Magical Beast:6 
 BONUS:VAR|DarkvisionRange|120
 BONUS:VAR|HasLowLightVision|1
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
-Weaknesses sunlight vulnerability
-
 MOVE:Walk,30
 
 Melee tail slap +10 (1d8+4 plus grab)
@@ -13924,7 +13842,10 @@ Ranged eye ray +9
 
 ranged touch (death gaze)
 
-Special Attacks constrict (1d8+4)
+ABILITY:Special Ability|AUTOMATIC|Constrict
+BONUS:VAR|ConstrictDieSize|8
+BONUS:VAR|ConstrictBonusDamage|4
+
 
 BONUS:STAT|STR|3
 BONUS:STAT|DEX|2
@@ -14098,20 +14019,16 @@ Aura fear aura (20 ft., DC 17)
 
 BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:COMBAT|AC|4|TYPE=Deflection
-
-
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
-Weaknesses daylight vulnerability
 
 MOVE:Fly,30
 BONUS:VAR|Maneuverability|4
 
 Melee incorporeal touch +7 (1d3 Wis damage)
 
-Special Attacks create
 
-spawn Spell-like Abilities (CL 8th):
+Spell-like Abilities (CL 8th):
 
 At will-darkness, ray of enfeeblement (DC 15)
 
@@ -14190,7 +14107,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -14319,7 +14236,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 SR:10
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -14369,7 +14286,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -14409,7 +14326,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,20,Climb,20
 
@@ -14446,7 +14363,7 @@ BONUS:VAR|BlindsightRange|120
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Swim,40
 
@@ -14735,7 +14652,7 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Combat Maneuvers|Immunity to Electricity|Immunity to Poison
-Weakness vulnerability to sunlight
+ABILITY:Special Ability|AUTOMATIC|vulnerability to sunlight
 
 MOVE:Fly,40
 BONUS:VAR|Maneuverability|4
@@ -14927,21 +14844,17 @@ RACETYPE:Aberration
 MONSTERCLASS:Aberration:16 
 BONUS:VAR|BlindsightRange|30
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|19|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity (Partial)
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses slowed by electricity
-
 MOVE:Walk,20,Swim,30
+REACH:15 (30 with tongue)
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+BONUS:VAR|SwallowWholeDice|3
+BONUS:VAR|SwallowWholeDamageDie|6
+BONUS:VAR|SwallowWholeBonusDamage|10
 
 Melee bite +20 (2d6+10/19-20), 4 tentacles +18 (1d8+5 plus grab), tongue +18 (1d4+5 plus grab)
-
-REACH:15 (30 with tongue)
-
-Special Attacks constrict (tentacle, 1d6+10), swallow whole (3d6+10 damage, AC 19, hp 18)
 
 BONUS:STAT|STR|10
 BONUS:STAT|DEX|1
@@ -14973,7 +14886,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -15450,7 +15363,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -15491,7 +15404,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 Melee bite +6 (1d4+2 plus 1d4 cold)
@@ -15577,7 +15490,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,20,Fly,50
 BONUS:VAR|Maneuverability|5
@@ -15755,7 +15668,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Fly,40
 BONUS:VAR|Maneuverability|5
@@ -16192,7 +16105,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40
 
@@ -16247,7 +16160,7 @@ BONUS:VAR|AC_Natural_Armor|18|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Rock Catching
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40
 
@@ -16346,7 +16259,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 
 DR:10/magic and bludgeoning
-ABILITY:Special Ability|AUTOMATIC|Immunity to Paralysis|Immunity to Sleep Weakness Vulnerability To Sonic Spells
+ABILITY:Special Ability|AUTOMATIC|Immunity to Paralysis|Immunity to Sleep weakness Vulnerability To Sonic Spells
 
 MOVE:Walk,30
 
@@ -16389,7 +16302,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 ABILITY:Special Ability|AUTOMATIC|Immunity to Flanking
-Weaknesses vulnerability to sunlight
+ABILITY:Special Ability|AUTOMATIC|vulnerability to sunlight
 
 MOVE:Walk,20
 
@@ -16470,7 +16383,7 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 DR:10/slashing and good
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 SR:22
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -16598,23 +16511,15 @@ SIZE:L
 RACETYPE:Aberration
 MONSTERCLASS:Aberration:7 
 ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
-
 BONUS:VAR|FastHealingRate|3
-
-
 DR:10/magic and bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses vulnerability to magic
-
 MOVE:Walk,30,Swim,30
+REACH:5
 
 Melee 2 slams +7 (1d8+3 plus blood consumption)
-
-REACH:5
 
 BONUS:STAT|STR|3
 BONUS:STAT|DEX|1
@@ -16772,7 +16677,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:5/adamantine
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Magic
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20
 
@@ -16803,21 +16708,14 @@ RACETYPE:Construct
 MONSTERCLASS:Construct:12 
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
-
 DR:15/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Immunity to Magic
-Weaknesses vulnerability to rust
-
 MOVE:Walk,20
-
-Melee 2 slams +19 (2d10+8 plus grab)
-
 REACH:10
 
-Special Attacks animated host, bladed lid, steal essence
+Melee 2 slams +19 (2d10+8 plus grab)
 
 BONUS:STAT:STR|8
 DEFINESTAT:NONSTAT:CON
@@ -16849,12 +16747,9 @@ BONUS:VAR|HasLowLightVision|1
 Aura aura of sickness (10 ft., DC 16, sickened 1d4 minutes)
 
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
-
 DR:10/adamantine
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Immunity to Magic
-Weaknesses rust vulnerability
-
 MOVE:Walk,30
 
 Melee 2 slams +10 (2d6+2 plus 1d4 Dexterity damage)
@@ -16893,7 +16788,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:10/magic and slashing or piercing
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20
 
@@ -16968,7 +16863,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 DR:5/adamantine and slashing
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Immunity to Magic
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -17042,7 +16937,7 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 DR:10/adamantine and bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20
 
@@ -17117,7 +17012,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 DR:5/adamantine
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 ABILITY:Special Ability|AUTOMATIC|Construct Traits|Immunity to Electricity
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -17142,15 +17037,10 @@ SIZE:S
 RACETYPE:Aberration
 MONSTERCLASS:Aberration:2 
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 DR:5/slashing or piercing
 ABILITY:Special Ability|AUTOMATIC|Immunity to Flanking
-Weaknesses explosion
-
 MOVE:Walk,5,Fly,60
 BONUS:VAR|Maneuverability|3
 
@@ -17545,21 +17435,18 @@ SIZE:S
 RACETYPE:Fey
 MONSTERCLASS:Fey:1 
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
-
 DR:5/cold iron
 SR:11
-Weaknesses light blindness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 MOVE:Walk,20
 
 Melee shortsword +4 (1d4-2), bite -1 (1d4-2) or bite +4 (1d4-2), 2 claws +4 (1d4-2)
 
-Special Attacks sneak attack +
+ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+BONUS:VAR|SneakAttackDice|1
 
-1d6 Spell-like Abilities (CL 5th):
+Spell-like Abilities (CL 5th):
 
 3/day-phase door
 
@@ -17593,24 +17480,20 @@ SIZE:S
 RACETYPE:Fey
 MONSTERCLASS:Fey:1 
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
-
-
 ABILITY:Special Ability|AUTOMATIC|Evasion Output
 ABILITY:Special Ability|AUTOMATIC|Trap Sense	BONUS:VAR|TrapSense|2
 ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge
 DR:5/cold iron
 SR:17
-Weaknesses light blindness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 MOVE:Walk,20
 
 Melee short sword +10 (1d4-2), bite +5 (1d4-2) or bite +10 (1d4-2), 2 claws +10 (1d4-2)
 
-Special Attacks sneak attack +4d6
+ABILITY:Special Ability|AUTOMATIC|Sneak Attack
+BONUS:VAR|SneakAttackDice|4
 
 Spell-like Abilities (CL 5th):
 
@@ -17786,20 +17669,14 @@ ABILITY:Special Ability|AUTOMATIC|Lifesense
 Aura fear (30 ft., DC 19), unnatural aura (30 ft.)
 
 BONUS:COMBAT|AC|4|TYPE=Deflection
-
-
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|4
 ABILITY:Special Ability|AUTOMATIC|Incorporeal
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Electricity
 SR:18
-Weaknesses vulnerability to dispel evil
-
 MOVE:Fly,30
 BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +11 (1d8 plus chill touch)
-
-Special Attacks keening
 
 DEFINESTAT:NONSTAT:STR
 BONUS:STAT:DEX|3
@@ -18010,21 +17887,22 @@ RACETYPE:Plant
 MONSTERCLASS:Plant:8 
 BONUS:VAR|BlindsightRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 SR:19
-Weaknesses paralyzed by cold, slowed by darkness, vulnerability to electricity
-
+ABILITY:Special Ability|AUTOMATIC|vulnerability to electricity
 MOVE:Walk,10
 
 Melee 4 vines +13 (1d6+8 plus grab)
 
 REACH:15
-
-Special Attacks constrict (1d6+8), swallow whole (2d6+8 bludgeoning damage, AC 16, hp 7)
+ABILITY:Special Ability|AUTOMATIC|Constrict
+BONUS:VAR|ConstrictDieSize|6
+BONUS:VAR|ConstrictBonusDamage|8
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+BONUS:VAR|SwallowWholeDice|2
+BONUS:VAR|SwallowWholeDamageDie|6
+BONUS:VAR|SwallowWholeBonusDamage|8
 
 BONUS:STAT|STR|8
 BONUS:STAT|DEX|-1
@@ -18053,22 +17931,16 @@ RACETYPE:Undead
 MONSTERCLASS:Undead:5 
 RACESUBTYPE:Incorporeal
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:COMBAT|AC|2|TYPE=Deflection
-
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Channel Energy
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
-Weakness vulnerability to dispel evil/good/law/chaos
-
 MOVE:Walk,20,Fly,30
 BONUS:VAR|Maneuverability|5
 
 Melee incorporeal touch +5 (1d4 cold plus 1d3 Dex)
 
-Special Attacks Dexterity damage, malevolence (DC 14), strangle
+Special Attacks Dexterity damage
 
 DEFINESTAT:NONSTAT:STR
 BONUS:STAT:DEX|2
@@ -18216,25 +18088,26 @@ RACETYPE:Aberration
 MONSTERCLASS:Aberration:22 
 RACESUBTYPE:Chaotic|Evil|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
-
 BONUS:VAR|RegenerationRate|10
 ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Good/Fire
-
-
 DR:10/good
 BONUS:VAR|SonicResistanceBonus|15
-Weaknesses bloated
-
 MOVE:Walk,30,Swim,30
 
 Melee bite +21 (2d6+7 plus grab), 10 tentacles +20 (1d8+3 plus paralysis), tongue +20 (1d6+3 plus grab)
 
 REACH:10 (30 with tongue)
 
-Special Attacks bellow, paralysis (1d6+4 rounds, DC 26), swallow whole (2d6+7 plus 2d6 acid damage, AC 18, 23 hp)
+Special Attacks bellow
+paralysis (1d6+4 rounds, DC 26)
+
+ABILITY:Special Ability|AUTOMATIC|Paralysis ~ Su
+
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+BONUS:VAR|SwallowWholeDice|2
+BONUS:VAR|SwallowWholeDamageDie|6
+BONUS:VAR|SwallowWholeBonusDamage|7
 
 BONUS:STAT|STR|7
 BONUS:STAT|DEX|3
@@ -18248,7 +18121,6 @@ Base Atk +16; CMB +25 (+29 grapple); CMD 38
 ABILITY:FEAT|AUTOMATIC|Blind-Fight|Cleave|Iron Will|Lightning Reflexes|Multiattack|Power Attack|Skill Focus (Perception|Stealth)|Toughness|Weapon Focus (tentacle|tongue)
 
 Skills Intimidate +14, Perception +34, Stealth +15, Swim +19
-
 
 -----------------------------------------------
 
@@ -18268,7 +18140,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Weakness water dependent
+weakness water dependent
 
 MOVE:Swim,60
 
@@ -18307,7 +18179,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,40
 
@@ -18350,7 +18222,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -19177,7 +19049,7 @@ BONUS:VAR|BlindsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,5
 
@@ -19457,7 +19329,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold |Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerabilities (see below)
+weaknesses vulnerabilities (see below)
 
 MOVE:Walk,10,Burrow,30
 
@@ -19754,7 +19626,8 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Earth Magic|Immunity to Fire|Immunity to Metal
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses elemental vulnerability, vulnerability to cold
+weaknesses elemental vulnerability
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -19795,7 +19668,7 @@ BONUS:VAR|BlindsightRange|30
 
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 
-Weaknesses vulnerability to salt
+weaknesses vulnerability to salt
 
 MOVE:Walk,5,Swim,20
 
@@ -20051,7 +19924,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -20132,7 +20005,7 @@ ABILITY:Special Ability|AUTOMATIC|Amorphous
 DR:10/slashing or piercing
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses light sensitivity
+weaknesses light sensitivity
 
 MOVE:Walk,10,Climb,5,Fly,40
 BONUS:VAR|Maneuverability|2
@@ -20223,7 +20096,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/piercing
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40
 
@@ -20265,7 +20138,7 @@ BONUS:COMBAT|AC|2|TYPE=Deflection
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Incorporeal
 SR:18
-Weaknesses vulnerability to holy water
+weaknesses vulnerability to holy water
 
 MOVE:Walk,50
 
@@ -20307,7 +20180,7 @@ BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 SR:12
-Weaknesses light blindness
+weaknesses light blindness
 
 MOVE:Walk,30,Burrow,20
 
@@ -20593,7 +20466,7 @@ BONUS:VAR|FastHealingRate|2
 
 DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,30,Fly,60
 BONUS:VAR|Maneuverability|5
@@ -20643,7 +20516,7 @@ BONUS:VAR|FastHealingRate|2
 DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Outsider Traits
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Fly,50
 BONUS:VAR|Maneuverability|5
@@ -20732,7 +20605,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 SR:13
-Weaknesses susceptible to cold
+weaknesses susceptible to cold
 
 MOVE:Walk,20,Fly,20
 BONUS:VAR|Maneuverability|4
@@ -20776,7 +20649,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 SR:15
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20,Fly,50
 BONUS:VAR|Maneuverability|3
@@ -20872,7 +20745,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 DR:2/cold iron
-Weaknesses light sensitivity
+weaknesses light sensitivity
 
 MOVE:Walk,20,Climb,20
 
@@ -20921,7 +20794,7 @@ BONUS:VAR|DarkvisionRange|90
 BONUS:VAR|HasLowLightVision|1
 
 DR:2/cold iron
-Weaknesses light sensitivity
+weaknesses light sensitivity
 
 MOVE:Walk,40,Climb,20
 
@@ -21314,7 +21187,6 @@ BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses magic
 
 MOVE:Walk,10
 Melee slam +4 (1d4+3)
@@ -21579,7 +21451,7 @@ BONUS:COMBAT|AC|5|TYPE=Deflection
 DR:10/cold iron
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Poison
 SR:21
-Weaknesses shawl
+weaknesses shawl
 
 MOVE:Walk,30,Swim,60
 
@@ -21789,7 +21661,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 DR:5/cold iron
-Weaknesses tree dependent
+weaknesses tree dependent
 
 MOVE:Walk,20,Climb,30
 
@@ -21933,7 +21805,7 @@ BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Swim,60
 
@@ -22042,7 +21914,7 @@ BONUS:VAR|BlindsightRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
-Weaknesses water dependent
+weaknesses water dependent
 
 MOVE:Walk,10,Swim,30
 
@@ -22161,7 +22033,7 @@ BONUS:VAR|BlindsightRange|60
 DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits;
-Weaknesses vulnerable to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20,Swim,20
 
@@ -22350,7 +22222,7 @@ BONUS:VAR|BlindsightRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
-Weaknesses sunlight vulnerability
+weaknesses sunlight vulnerability
 
 MOVE:Walk,10,Climb,10
 
@@ -22511,7 +22383,7 @@ ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
-Weaknesses light sensitivity
+weaknesses light sensitivity
 
 MOVE:Walk,30
 
@@ -22555,7 +22427,7 @@ RACESUBTYPE:Orc
 BONUS:VAR|DarkvisionRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
-Weaknesses light sensitivity
+weaknesses light sensitivity
 
 MOVE:Walk,30
 
@@ -22680,7 +22552,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 DR:10/cold iron
 ABILITY:Special Ability|AUTOMATIC|Immunity to Petrification
 SR:16
-Weaknesses light blindness
+weaknesses light blindness
 
 MOVE:Walk,20
 
@@ -22775,7 +22647,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Fly,60
 BONUS:VAR|Maneuverability|3
@@ -23330,7 +23202,7 @@ BONUS:VAR|BlindsightRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses racial vulnerabilities
+weaknesses racial vulnerabilities
 
 MOVE:Walk,30
 
@@ -23518,7 +23390,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,20,Fly,60
 BONUS:VAR|Maneuverability|2
@@ -23609,7 +23481,7 @@ BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23643,7 +23515,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23681,7 +23553,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23721,7 +23593,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23761,7 +23633,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23802,7 +23674,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weakness vulnerability to water
+weakness vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23856,7 +23728,7 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -23897,7 +23769,7 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -23940,7 +23812,7 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -24233,7 +24105,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 ABILITY:Special Ability|AUTOMATIC|Evasion Output
 ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge
 DR:5/cold iron
-Weaknesses slow susceptibility
+weaknesses slow susceptibility
 
 MOVE:Walk,120
 
@@ -24995,7 +24867,7 @@ BONUS:VAR|BlindsightRange|30
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:10/piercing or slashing
-Weaknesses vulnerability to electricity
+ABILITY:Special Ability|AUTOMATIC|vulnerability to electricity
 
 MOVE:Walk,20,Swim,40
 
@@ -25328,7 +25200,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,30,Burrow,20
 
@@ -25402,7 +25274,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20
 
@@ -25512,7 +25384,7 @@ BONUS:VAR|HasLowLightVision|1
 
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
 
-Weaknesses water dependency
+weaknesses water dependency
 
 MOVE:Walk,10,Swim,50
 Melee 6 bites +16 (1d8+6/19-20)
@@ -25548,7 +25420,7 @@ BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/slashing
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,20
 
@@ -26516,7 +26388,7 @@ MONSTERCLASS:Humanoid:1
 RACESUBTYPE:Goblinoid
 BONUS:VAR|DarkvisionRange|60
 
-Weaknesses light blindness
+weaknesses light blindness
 
 MOVE:Walk,30
 
@@ -26677,7 +26549,7 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 Fort +1; Ref +5; Will +1; -4 penalty vs. fear
-Weakness cowardice
+weakness cowardice
 
 MOVE:Walk,30
 
@@ -26897,7 +26769,8 @@ BONUS:VAR|AC_Natural_Armor|28|TYPE=Base.STACK
 
 DR:15/adamantine
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-Weaknesses susceptible to rust, vulnerability to cold
+weaknesses susceptible to rust
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Burrow,30
 
@@ -26977,7 +26850,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,10
 
@@ -27170,7 +27043,7 @@ BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
 SR:32
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30,Burrow,10
 
@@ -27261,7 +27134,7 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/slashing or piercing
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Weaknesses salt vulnerability
+weaknesses salt vulnerability
 
 MOVE:Walk,20,Burrow,10
 
@@ -27727,7 +27600,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Earth Magic
-Weaknesses veil
+weaknesses veil
 
 MOVE:Walk,30,Burrow,30
 
@@ -27985,7 +27858,7 @@ BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 
 DR:5/slashing or piercing
-Weakness Water dependant
+weakness Water dependant
 
 MOVE:Walk,5,Swim,30
 
@@ -28027,7 +27900,6 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:21
-Weaknesses swarm traits
 
 MOVE:Walk,5,Fly,40
 BONUS:VAR|Maneuverability|4
@@ -28077,7 +27949,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:17
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,20,Fly,40
 BONUS:VAR|Maneuverability|2
@@ -28127,7 +27999,8 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-Weaknesses swarm traits, vulnerability to cold
+weaknesses swarm traits
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Fly,60
 BONUS:VAR|Maneuverability|3
@@ -28171,7 +28044,7 @@ BONUS:VAR|HasLowLightVision|1
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Swim,40
 
@@ -28214,7 +28087,7 @@ BONUS:VAR|HasLowLightVision|1
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,10
 
@@ -28254,7 +28127,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,10,Fly,40
 BONUS:VAR|Maneuverability|3
@@ -28295,7 +28168,7 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,10,Fly,40
 BONUS:VAR|Maneuverability|3
@@ -28344,7 +28217,7 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,10,Climb,10
 
@@ -28424,7 +28297,7 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,30,Climb,20
 
@@ -28470,7 +28343,7 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-Weaknesses swarm traits
+weaknesses swarm traits
 
 MOVE:Walk,40
 
@@ -28585,7 +28458,7 @@ Aura stench (DC 13, 10 rounds)
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,50
 
@@ -28877,7 +28750,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|9|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Mind-Affecting Effects
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -28911,7 +28784,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Mind-Affecting Effects
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -28945,7 +28818,7 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Mind-Affecting Effects
-Weakness vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
 
@@ -29501,7 +29374,8 @@ ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Acid/Fire
 
 DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-Weaknesses slashing weapon vulnerability, vulnerability to fire
+weaknesses slashing weapon vulnerability
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,30
 
@@ -29549,7 +29423,7 @@ BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
 BONUS:VAR|FastHealingRate|5
 
 
-Weaknesses vulnerability to sunlight
+ABILITY:Special Ability|AUTOMATIC|vulnerability to sunlight
 
 MOVE:Walk,30,Burrow,20
 
@@ -29598,7 +29472,7 @@ BONUS:VAR|RegenerationRate|3
 ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Acid/Fire
 
 
-Weaknesses swamp dependent
+weaknesses swamp dependent
 
 MOVE:Walk,30,Swim,30
 
@@ -29687,7 +29561,7 @@ BONUS:VAR|DarkvisionRange|90
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Weaknesses light blindness
+weaknesses light blindness
 
 MOVE:Walk,30,Swim,30
 
@@ -29729,7 +29603,7 @@ BONUS:VAR|DarkvisionRange|90
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
 
-Weaknesses light blindness
+weaknesses light blindness
 
 MOVE:Walk,30,Swim,30
 
@@ -29776,7 +29650,7 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
-Weaknesses vulnerability to water
+weaknesses vulnerability to water
 
 MOVE:Walk,30,Fly,30
 BONUS:VAR|Maneuverability|5
@@ -29977,7 +29851,7 @@ BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 ABILITY:Special Ability|AUTOMATIC|Immunity to Flanks
-Weaknesses multiple personalities
+weaknesses multiple personalities
 
 MOVE:Walk,20
 
@@ -30062,7 +29936,7 @@ BONUS:VAR|FastHealingRate|2
 
 
 BONUS:VAR|FireResistanceBonus|5
-Weaknesses cold susceptibility
+weaknesses cold susceptibility
 
 MOVE:Walk,40,Climb,20,Swim,20
 
@@ -30734,7 +30608,7 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 DR:10/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-Weaknesses vulnerability to cold
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,40
 
@@ -30901,7 +30775,7 @@ MONSTERCLASS:Undead:5
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
-Weaknesses resurrection vulnerability
+weaknesses resurrection vulnerability
 
 MOVE:Walk,30
 
@@ -31603,7 +31477,7 @@ RACESUBTYPE:Cold
 
 
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK|Immunity to Cold
-Weaknesses vulnerability to fire
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Walk,40
 
@@ -32149,7 +32023,7 @@ BONUS:VAR|HasLowLightVision|1
 
 
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK|Immunity to Disease|Immunity to Fear
-Weakness water dependency
+weakness water dependency
 
 MOVE:Walk,5,Swim,30
 
