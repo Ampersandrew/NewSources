@@ -18098,12 +18098,6 @@ MOVE:Walk,30,Swim,30
 Melee bite +21 (2d6+7 plus grab), 10 tentacles +20 (1d8+3 plus paralysis), tongue +20 (1d6+3 plus grab)
 
 REACH:10 (30 with tongue)
-
-Special Attacks bellow
-paralysis (1d6+4 rounds, DC 26)
-
-ABILITY:Special Ability|AUTOMATIC|Paralysis ~ Su
-
 ABILITY:Special Ability|AUTOMATIC|Swallow Whole
 BONUS:VAR|SwallowWholeDice|2
 BONUS:VAR|SwallowWholeDamageDie|6
@@ -18136,18 +18130,12 @@ RACESUBTYPE:Aquatic
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
-weakness water dependent
-
 MOVE:Swim,60
 
 Melee bite +7 (1d4+4) or tail slap +7 (1d6+4) or butt +7 (1d3+4)
 
 REACH:5
-
 BONUS:STAT|STR|4
 BONUS:STAT|DEX|2
 BONUS:STAT|CON|3
@@ -19323,19 +19311,12 @@ MONSTERCLASS:Outsider:5
 RACESUBTYPE:Earth|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold |Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerabilities (see below)
-
 MOVE:Walk,10,Burrow,30
 
 Melee 3 claws +8 (1d3+2 plus grab) and bite +8 (2d8+2)
-
-Special Attacks rend armor, sundering bite
 
 BONUS:STAT|STR|2
 BONUS:STAT|DEX|2
@@ -19620,13 +19601,9 @@ RACETYPE:Humanoid
 MONSTERCLASS:Humanoid:4 
 RACESUBTYPE:Earth|Elemental|Fire
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
-
-ABILITY:Special Ability|AUTOMATIC|Immunity to Earth Magic|Immunity to Fire|Immunity to Metal
+ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses elemental vulnerability
 ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30
