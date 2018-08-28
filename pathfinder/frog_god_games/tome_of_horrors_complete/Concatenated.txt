@@ -244,18 +244,19 @@ RACETYPE:Vermin
 MONSTERCLASS:Vermin:12 
 RACESUBTYPE:Aquatic
 BONUS:VAR|BlindsightRange|40
-
 DR:5/piercing or slashing
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
 BONUS:VAR|AcidResistanceBonus|20
-
 MOVE:Walk,0
 
 Melee tendrils +14 (paralysis plus grab)
 
 REACH:15
 
-Special Attacks acid cloud, paralytic venom, swallow whole (3d8 acid damage, AC 10, 13 hp)
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+BONUS:VAR|SwallowWholeDice|2
+BONUS:VAR|SwallowWholeDamageDie|8
+# BONUS:VAR|SwallowWholeBonusDamage|8
 
 BONUS:STAT|STR|7
 BONUS:STAT|CON|7
@@ -3745,7 +3746,10 @@ Melee bite +33 (4d8+14/19-20 plus 2d6 fire plus grab), 2 claws +33 (3d6+14/19-20
 
 REACH:30
 
-Special Attacks swallow whole (3d6+14 plus 2d6 fire damage, AC 25, 45 hp)
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+BONUS:VAR|SwallowWholeDice|2
+BONUS:VAR|SwallowWholeDamageDie|6
+BONUS:VAR|SwallowWholeBonusDamage|14
 
 BONUS:STAT|STR|14
 BONUS:STAT|DEX|4
@@ -8430,7 +8434,10 @@ Ranged tongue +39 (grab plus 2d8 acid)
 
 REACH:20 (40 with tongue)
 
-Special Attacks acidic hide, blasphemous croak, seeping darkness, swallow whole (5d6 acid damage, AC 26, 86 hp)
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+BONUS:VAR|SwallowWholeDice|4
+BONUS:VAR|SwallowWholeDamageDie|6
+# BONUS:VAR|SwallowWholeBonusDamage|14
 
 Spell-Like Abilities (CL 30th)
 
@@ -11909,7 +11916,9 @@ Melee 5 tentacles +8 (1d6+3 plus grab) and bite +8 (2d6+3)
 
 REACH:10 (5 with bite)
 
-Special Attacks sinkhole, swallow whole (1d6+3 plus 1d8 acid damage, AC 13, 10 hp)
+# BONUS:VAR|SwallowWholeDice|4
+BONUS:VAR|SwallowWholeDamageDie|6
+BONUS:VAR|SwallowWholeBonusDamage|3
 
 BONUS:STAT|STR|3
 BONUS:STAT|CON|1
@@ -13801,7 +13810,7 @@ BONUS:VAR|BlindsenseRange|10
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Immunity to Sleep
-ABILITY:Special Ability|AUTOMATIC|Light Sensitivity
+ABILITY:Special Ability|AUTOMATIC|Universal Monster Rules ~ Light Sensitivity
 ABILITY:Special Ability|AUTOMATIC|Constrict
 BONUS:VAR|ConstrictDieSize|4
 MOVE:Walk,10,Climb,5
@@ -14802,14 +14811,10 @@ RACESUBTYPE:Augmented Animal|Extraplanar
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
-
 BONUS:VAR|ColdResistanceBonus|5
 BONUS:VAR|FireResistanceBonus|5
 SR:9
-
 MOVE:Walk,40,Swim,40
 
 Melee bite +10 (1d8+8 plus grab) or tongue +10 touch (grab)
@@ -14817,6 +14822,11 @@ Melee bite +10 (1d8+8 plus grab) or tongue +10 touch (grab)
 REACH:10 (20 with tongue)
 
 Special Attacks pull (tongue, 10 feet), smite good 1/day (+4 damage), swallow whole (1d8+8 bludgeoning damage, AC 12, 2 hp), tongue
+
+ABILITY:Special Ability|AUTOMATIC|Swallow Whole
+# BONUS:VAR|SwallowWholeDice|4
+BONUS:VAR|SwallowWholeDamageDie|8
+BONUS:VAR|SwallowWholeBonusDamage|8
 
 BONUS:STAT|STR|8
 BONUS:STAT|DEX|4
@@ -19641,17 +19651,10 @@ MONSTERCLASS:Vermin:3
 RACESUBTYPE:Aquatic
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|BlindsightRange|30
-
-
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-
-weaknesses vulnerability to salt
-
 MOVE:Walk,5,Swim,20
 
 Melee bite +2 (1d6 plus attach)
-
-Special Attacks attach, blood drain (1 Strength and 1 Constitution)
 
 BONUS:STAT:DEX|1
 BONUS:STAT:CON|2
@@ -19974,24 +19977,22 @@ RACETYPE:Aberration
 MONSTERCLASS:Aberration:10 
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Amorphous
 DR:10/slashing or piercing
 BONUS:VAR|ColdResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-weaknesses light sensitivity
-
+ABILITY:Special Ability|AUTOMATIC|Universal Monster Rules ~ Light Sensitivity
 MOVE:Walk,10,Climb,5,Fly,40
 BONUS:VAR|Maneuverability|2
+REACH:10
 
 Melee slam +15 (3d8+15 plus grab)
 
-REACH:10
-
-Special Attacks constrict (3d6+15), smother
+ABILITY:Special Ability|AUTOMATIC|Constrict
+BONUS:VAR|ConstrictDice|2
+BONUS:VAR|ConstrictDieSize|6
+BONUS:VAR|ConstrictBonusDamage|15
 
 BONUS:STAT|STR|10
 BONUS:STAT|DEX|1
@@ -20108,20 +20109,14 @@ SIZE:M
 RACETYPE:Outsider
 MONSTERCLASS:Outsider:6 
 RACESUBTYPE:Evil|Extraplanar|Incorporeal|Lawful
-
-
 BONUS:COMBAT|AC|2|TYPE=Deflection
-
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Incorporeal
 SR:18
-weaknesses vulnerability to holy water
-
 MOVE:Walk,50
 
 Melee incorporeal tail slap +8 (1d6 plus 1d6 Str damage)
 
-Special Attacks blinding flash, energy drain, soul portal
+# Can't find any details of Special Attack blinding flash
 
 DEFINESTAT:NONSTAT:STR
 BONUS:STAT:DEX|2
@@ -20150,20 +20145,18 @@ MONSTERCLASS:Plant:1
 RACESUBTYPE:Fungus
 BONUS:VAR|HasLowLightVision|1
 ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|120
-
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 SR:12
-weaknesses light blindness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 MOVE:Walk,30,Burrow,20
 
 Melee 2 tentacle slaps +2 (1d4 plus grab)
 
-Special Attacks constrict (2d4)
+ABILITY:Special Ability|AUTOMATIC|Constrict
+BONUS:VAR|ConstrictDice|2
+BONUS:VAR|ConstrictDieSize|4
 
 BONUS:STAT|DEX|1
 BONUS:STAT|CON|1
@@ -20433,24 +20426,15 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:3 
 RACESUBTYPE:Air|Electricity|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|3|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
-
-
 BONUS:VAR|FastHealingRate|2
-
 DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
-weaknesses vulnerability to water
-
 MOVE:Walk,30,Fly,60
 BONUS:VAR|Maneuverability|5
 
 Melee 2 claw +3 (1d4 plus 1d4 electricity)
-
-Special Attacks breath weapon (15-foot cone of lightning, DC 13 for half, 1d8 electricity)
 
 Spell-like Abilities (CL 6th) 1/hour-shocking grasp
 
@@ -20573,23 +20557,15 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:8 
 RACESUBTYPE:Air|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
-
-
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 SR:13
-weaknesses susceptible to cold
-
 MOVE:Walk,20,Fly,20
 BONUS:VAR|Maneuverability|4
 
 Melee 4 tentacles +14(1d6+1)
-
-Special Attacks constitution damage, engulf
 
 BONUS:STAT|STR|1
 BONUS:STAT|DEX|6
@@ -20718,21 +20694,15 @@ MONSTERCLASS:Fey:1
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|90
 BONUS:VAR|HasLowLightVision|1
-
-
-
 DR:2/cold iron
-weaknesses light sensitivity
-
+ABILITY:Special Ability|AUTOMATIC|Universal Monster Rules ~ Light Sensitivity
 MOVE:Walk,20,Climb,20
 
 Melee dagger +2 (1d3-1/19-20), bite +2 (1d2-1)
 
 Ranged dart +2 (1d3-1)
 
-Special Attacks
-
-hatred Spell-like Abilities (CL 2nd)
+Spell-like Abilities (CL 2nd)
 
 At will-prestidigitation
 
@@ -20769,17 +20739,13 @@ MONSTERCLASS:Fey:2
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|90
 BONUS:VAR|HasLowLightVision|1
-
 DR:2/cold iron
-weaknesses light sensitivity
-
+ABILITY:Special Ability|AUTOMATIC|Universal Monster Rules ~ Light Sensitivity
 MOVE:Walk,40,Climb,20
 
 Melee dagger +5 (1d3-1/19-20)
 
 Ranged dart +4 (1d3-1)
-
-Special Attacks hatred, sneak attack + 1d6
 
 Spell-like Abilities (CL 2nd)
 
@@ -21419,26 +21385,18 @@ RACETYPE:Fey
 MONSTERCLASS:Fey:12 
 RACESUBTYPE:Water
 BONUS:VAR|HasLowLightVision|1
-
-Aura beguiling aura
-
 BONUS:COMBAT|AC|1|TYPE=Dodge
 BONUS:COMBAT|AC|5|TYPE=Deflection
-
 DR:10/cold iron
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Poison
 SR:21
-weaknesses shawl
-
 MOVE:Walk,30,Swim,60
 
 Melee touch +15 (poison)
 
 Ranged spray +15 (poison)
 
-Special Attacks drowning
-
-kiss Spell-like Abilities (CL 12th)
+Spell-like Abilities (CL 12th)
 
 At will-control water, suggestion (DC 20; only against creatures that are currently fascinated by her beguiling aura)
 
@@ -21633,18 +21591,11 @@ SIZE:S
 RACETYPE:Fey
 MONSTERCLASS:Fey:3 
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
 DR:5/cold iron
-weaknesses tree dependent
-
 MOVE:Walk,20,Climb,30
 
 Melee +1 club +5 (1d8+2 )
-
-Special Attacks shillelagh
 
 BONUS:STAT|STR|1
 BONUS:STAT|DEX|1
@@ -21888,7 +21839,6 @@ RACETYPE:Ooze
 MONSTERCLASS:Ooze:5 
 RACESUBTYPE:Aquatic
 BONUS:VAR|BlindsightRange|60
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 weaknesses water dependent
@@ -21897,7 +21847,11 @@ MOVE:Walk,10,Swim,30
 
 Melee slam +6 (1d6+4 plus 1d6 acid plus grab plus paralysis)
 
-Special Attacks constrict (1d6+4) 1d6+4, paralysis (3d6 rounds, DC 18)
+Special Attacks constrict (1d6+4) 1d6+4,
+paralysis (3d6 rounds, DC 18)
+ABILITY:Special Ability|AUTOMATIC|Constrict
+BONUS:VAR|ConstrictDieSize|6
+BONUS:VAR|ConstrictBonusDamage|4
 
 BONUS:STAT:STR|3
 BONUS:STAT:DEX|-4
