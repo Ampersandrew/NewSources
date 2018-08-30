@@ -262,6 +262,7 @@ Vampiric Touch	KEY:Alu Demon ~ Vampiric Touch	CATEGORY:Special Ability	TYPE:AluD
 ###Block Amaimon Devil
 
 # Ability Name	Unique Key						Category of Ability		Type							Visible	Ability																													Modify VAR											Spell Res.	Damage Reduction
+
 Racial Abilities	KEY:Amaimon Devil ~ Racial Abilities	CATEGORY:Internal										VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AmaimonDevilRaceAbility
 Resistances		KEY:Amaimon Devil ~ Resistances		CATEGORY:Special Ability	TYPE:AmaimonDevilRaceAbility.RaceAbility	VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Poison	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire	ABILITY:Special Ability|AUTOMATIC|Resistance to Cold	BONUS:VAR|FireResistanceBonus|10	BONUS:VAR|ColdResistanceBonus|10	SR:19		DR:10/silver
 

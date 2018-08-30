@@ -75,21 +75,20 @@ RACETYPE:Plant
 MONSTERCLASS:Plant:5
 RACESUBTYPE:Fungus|Psionic
 BONUS:VAR|HasLowLightVision|1
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
-
 DR:5/bludgeoning and magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Plant Traits
-
-
 MOVE:Walk,20
 
 Melee 2 slams +8 (1d6+4)
 
-Special Attacks animate trees, mind blast, stun Psi-like
+Special Attacks animate trees, mind blast, stun
 
-Abilities (ML 5th):
+
+
+
+Psi-like Abilities (ML 5th):
 
 At will-detect psionics, know direction and location
 
