@@ -21841,14 +21841,10 @@ RACESUBTYPE:Aquatic
 BONUS:VAR|BlindsightRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
-weaknesses water dependent
-
 MOVE:Walk,10,Swim,30
 
 Melee slam +6 (1d6+4 plus 1d6 acid plus grab plus paralysis)
 
-Special Attacks constrict (1d6+4) 1d6+4,
-paralysis (3d6 rounds, DC 18)
 ABILITY:Special Ability|AUTOMATIC|Constrict
 BONUS:VAR|ConstrictDieSize|6
 BONUS:VAR|ConstrictBonusDamage|4
@@ -22147,14 +22143,9 @@ SIZE:L
 RACETYPE:Undead
 MONSTERCLASS:Undead:12 
 BONUS:VAR|BlindsightRange|60
-
-
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 ABILITY:Special Ability|AUTOMATIC|Undead Traits
-weaknesses sunlight vulnerability
-
 MOVE:Walk,10,Climb,10
 
 Melee slam +10 (2d4+3 plus energy drain and grab)
@@ -22312,10 +22303,8 @@ MONSTERCLASS:Humanoid:1
 RACESUBTYPE:Orc
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
-
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
-weaknesses light sensitivity
-
+ABILITY:Special Ability|AUTOMATIC|Universal Monster Rules ~ Light Sensitivity
 MOVE:Walk,30
 
 Melee greataxe +5 (1d12+6/x3), bite +0 (1d4+2)
@@ -22358,7 +22347,7 @@ RACESUBTYPE:Orc
 BONUS:VAR|DarkvisionRange|60
 
 ABILITY:Special Ability|AUTOMATIC|Orc ~ Ferocity
-weaknesses light sensitivity
+ABILITY:Special Ability|AUTOMATIC|Universal Monster Rules ~ Light Sensitivity
 
 MOVE:Walk,30
 
@@ -22476,26 +22465,21 @@ RACETYPE:Fey
 MONSTERCLASS:Fey:4 
 RACESUBTYPE:Earth|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
 DR:10/cold iron
 ABILITY:Special Ability|AUTOMATIC|Immunity to Petrification
 SR:16
-weaknesses light blindness
-
 MOVE:Walk,20
 
 Melee heavy pick +7 (1d4+4/x4)
 
-Special Attacks earth mastery, stone
+Special Attacks earth mastery, stone knowledge
 
-knowledge Spell-like Abilities (CL 10th):
+Spell-like Abilities (CL 10th):
 
 4/day-stone shape, stone tell
 
-Cooperative Spell-like Abilities (CL 16th) P
+Cooperative Spell-like Abilities (CL 16th)
 
 1/day-stone to flesh (DC 17, eight pechs together), wall of stone (four pechs together)
 
@@ -23129,19 +23113,13 @@ SIZE:M
 RACETYPE:Ooze
 MONSTERCLASS:Ooze:5 
 BONUS:VAR|BlindsightRange|60
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
 ABILITY:Special Ability|AUTOMATIC|Ooze Traits
 BONUS:VAR|FireResistanceBonus|10
-weaknesses racial vulnerabilities
-
 MOVE:Walk,30
-
-Melee slam +4 (2d4+1 plus grab)
-
 REACH:5
 
-Special Attacks disgorge, infuse
+Melee slam +4 (2d4+1 plus grab)
 
 BONUS:STAT:STR|1
 BONUS:STAT:CON|5
@@ -23409,10 +23387,8 @@ BONUS:VAR|DarkvisionRange|60
 Aura fumes (5 ft., Fort DC 10)
 
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23446,7 +23422,6 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23484,7 +23459,6 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23524,7 +23498,6 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:5/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23564,7 +23537,6 @@ BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 DR:10/-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Acid
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerability to water
 
 MOVE:Walk,20,Swim,80
 
@@ -23659,7 +23631,6 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-weaknesses vulnerability to water
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -23700,7 +23671,6 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-weaknesses vulnerability to water
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -23743,7 +23713,6 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 BONUS:VAR|AcidResistanceBonus|10
 BONUS:VAR|FireResistanceBonus|10
-weaknesses vulnerability to water
 
 MOVE:Fly,60
 BONUS:VAR|Maneuverability|5
@@ -24028,16 +23997,10 @@ SIZE:S
 RACETYPE:Fey
 MONSTERCLASS:Fey:4 
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:COMBAT|AC|1|TYPE=Dodge
-
-
 ABILITY:Special Ability|AUTOMATIC|Evasion Output
 ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge
 DR:5/cold iron
-weaknesses slow susceptibility
-
 MOVE:Walk,120
 
 Melee dagger +10 (1d3-1/19-20 plus poison)
@@ -25125,14 +25088,9 @@ MONSTERCLASS:Outsider:4
 RACESUBTYPE:Elemental|Extraplanar|Earth
 BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
-
 DR:5/bludgeoning
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-weaknesses vulnerability to water
-
 MOVE:Walk,30,Burrow,20
 
 Melee bite +6 (1d8+4)
@@ -25311,16 +25269,12 @@ MONSTERCLASS:Magical Beast:12
 RACESUBTYPE:Aquatic
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|11|TYPE=Base.STACK
-
-weaknesses water dependency
-
 MOVE:Walk,10,Swim,50
+
 Melee 6 bites +16 (1d8+6/19-20)
+
 REACH:10
-Special Attacks boil water, heat, scalding blast
 
 BONUS:STAT|STR|6
 BONUS:STAT|DEX|2
@@ -26318,8 +26272,7 @@ RACETYPE:Humanoid
 MONSTERCLASS:Humanoid:1 
 RACESUBTYPE:Goblinoid
 BONUS:VAR|DarkvisionRange|60
-
-weaknesses light blindness
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 
 MOVE:Walk,30
 
@@ -26697,19 +26650,13 @@ BONUS:VAR|DarkvisionRange|60
 Aura intense heat (10 ft., DC 30, 4d6 fire)
 
 BONUS:VAR|AC_Natural_Armor|28|TYPE=Base.STACK
-
 DR:15/adamantine
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
-weaknesses susceptible to rust
 ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
-
 MOVE:Walk,30,Burrow,30
-
-Melee bite +36 (6d10+22/19-20 plus grab)
-
 REACH:15
 
-Special Attacks deafening roar, intense heat, swallow whole (4d6 plus 4d6 fire damage, AC 24, 34 hp)
+Melee bite +36 (6d10+22/19-20 plus grab)
 
 BONUS:STAT|STR|15
 BONUS:STAT|DEX|2
@@ -27058,22 +27005,16 @@ SIZE:H
 RACETYPE:Vermin
 MONSTERCLASS:Vermin:12 
 BONUS:VAR|BlindsightRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
-
 DR:10/slashing or piercing
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-weaknesses salt vulnerability
-
 MOVE:Walk,20,Burrow,10
+REACH:10
 
 Melee bite +15 (2d6+12) 1d8 acid)
 
 Ranged spit +7 touch (4d8 acid)
-
-REACH:10
 
 Special Attacks spit acid
 
@@ -27098,15 +27039,10 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:10 
 RACESUBTYPE:Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
-
-
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Critical Hits|Immunity to Paralysis|Immunity to Poison|Immunity to Sleep|Immunity to Stun
-
 MOVE:Fly,100
 BONUS:VAR|Maneuverability|5
 
@@ -27525,21 +27461,14 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:10 
 RACESUBTYPE:Earth|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
-
 DR:10/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Earth Magic
-weaknesses veil
-
 MOVE:Walk,30,Burrow,30
 
 Melee longsword +16/+11 (1d8+5) or 2 slams +15 (1d8+5)
 
-Special Attacks earth
-
-mastery Spell-like Abilities (CL 10th):
+Spell-like Abilities (CL 10th):
 
 At will-magic stone, meld into stone, soften earth and stone, spike stones (DC 19), stone shape, stone tell, transmute mud to rock, transmute rock to mud
 
@@ -27880,7 +27809,6 @@ BONUS:COMBAT|AC|1|TYPE=Dodge
 DR:5/cold iron
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 SR:17
-weaknesses swarm traits
 
 MOVE:Walk,20,Fly,40
 BONUS:VAR|Maneuverability|2
@@ -27930,7 +27858,6 @@ ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-weaknesses swarm traits
 ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Fly,60
@@ -27975,7 +27902,6 @@ BONUS:VAR|HasLowLightVision|1
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-weaknesses swarm traits
 
 MOVE:Swim,40
 
@@ -28018,7 +27944,6 @@ BONUS:VAR|HasLowLightVision|1
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-weaknesses swarm traits
 
 MOVE:Walk,10
 
@@ -28058,7 +27983,6 @@ BONUS:VAR|HasLowLightVision|1
 
 
 
-weaknesses swarm traits
 
 MOVE:Walk,10,Fly,40
 BONUS:VAR|Maneuverability|3
@@ -28099,7 +28023,6 @@ BONUS:VAR|DarkvisionRange|60
 
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
-weaknesses swarm traits
 
 MOVE:Walk,10,Fly,40
 BONUS:VAR|Maneuverability|3
@@ -28148,7 +28071,6 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-weaknesses swarm traits
 
 MOVE:Walk,10,Climb,10
 
@@ -28228,7 +28150,6 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-weaknesses swarm traits
 
 MOVE:Walk,30,Climb,20
 
@@ -28274,7 +28195,6 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 ABILITY:Special Ability|AUTOMATIC|Immunity to Weapon Damage
 ABILITY:Special Ability|AUTOMATIC|Construct Traits
 ABILITY:Special Ability|AUTOMATIC|Swarm Traits
-weaknesses swarm traits
 
 MOVE:Walk,40
 
@@ -29295,19 +29215,12 @@ RACESUBTYPE:Cold|Giant
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|90
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
-
 BONUS:VAR|RegenerationRate|3
 ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Acid/Fire
-
-
 DR:5/magic
 ABILITY:Special Ability|AUTOMATIC|Immunity to Cold
-weaknesses slashing weapon vulnerability
 ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
-
 MOVE:Walk,30
 
 Melee 2 claws +4 (1d6+4)
@@ -29395,16 +29308,9 @@ RACESUBTYPE:Giant
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
-
 BONUS:VAR|RegenerationRate|3
 ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Acid/Fire
-
-
-weaknesses swamp dependent
-
 MOVE:Walk,30,Swim,30
 
 Melee bite +6 (2d6+4), 2 claws +6 (1d6+4)
@@ -29489,11 +29395,8 @@ MONSTERCLASS:Monstrous Humanoid:2
 RACESUBTYPE:Aquatic
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|90
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
-weaknesses light blindness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 MOVE:Walk,30,Swim,30
 
 Melee shortspear +3 (1d6+1) or kukri +3 (1d4+1/18-20) or 2 claws +3 (1d6+1), and bite +3 (1d4+1)
@@ -29531,11 +29434,8 @@ MONSTERCLASS:Monstrous Humanoid:4
 RACESUBTYPE:Aquatic
 ABILITY:Special Ability|AUTOMATIC|Scent
 BONUS:VAR|DarkvisionRange|90
-
 BONUS:VAR|AC_Natural_Armor|4|TYPE=Base.STACK
-
-weaknesses light blindness
-
+ABILITY:Special Ability|AUTOMATIC|Light Blindness
 MOVE:Walk,30,Swim,30
 
 Melee shortspear +6 (1d6+2) or kukri +6 (1d4+2/18-20) or 2 claws +6 (1d6+2); and bite +6 (1d4+2)
@@ -29553,7 +29453,7 @@ BONUS:STAT|CHA|1
 
 Base Atk +4; CMB +6; CMD 18 (30 vs. grapple)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception) B|Improved Initiative|Toughness
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Improved Initiative|Toughness
 
 Skills Acrobatics +3 (+17 long jumping, +27 high jumping), Climb +6, Escape Artist +15, Handle Animal +7 (+15 with amphibians) , Perception +11, Stealth +8, Swim +16; Racial Modifiers +12 Escape Artist, +14 Acrobatics when long jumping or +24 Acrobatics when high jumping, +8 Handle Animal (amphibians only)
 
@@ -29574,21 +29474,14 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:5 
 RACESUBTYPE:Air|Electricity|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|5|TYPE=Base.STACK
 BONUS:COMBAT|AC|1|TYPE=Dodge
-
-
 ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity
-weaknesses vulnerability to water
-
+ABILITY:Special Ability|AUTOMATIC|vulnerability to Water
 MOVE:Walk,30,Fly,30
 BONUS:VAR|Maneuverability|5
 
 Melee slam +8 (1d6+3)
-
-Special Attacks arc, trample (1d6+3 plus 1d6 electricity, DC 14)
 
 BONUS:STAT|STR|2
 BONUS:STAT|DEX|3
@@ -29777,13 +29670,9 @@ RACETYPE:Humanoid
 MONSTERCLASS:Humanoid:3 
 RACESUBTYPE:Giant
 BONUS:VAR|HasLowLightVision|1
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
-
 ABILITY:Special Ability|AUTOMATIC|All-Around Vision
 ABILITY:Special Ability|AUTOMATIC|Immunity to Flanks
-weaknesses multiple personalities
-
 MOVE:Walk,20
 
 Melee 3 clubs +5 (1d8+3) or 3 slams +4 (1d6+3)
@@ -29791,8 +29680,6 @@ Melee 3 clubs +5 (1d8+3) or 3 slams +4 (1d6+3)
 Ranged 3 clubs +1 (1d6+3)
 
 REACH:10
-
-Special Attacks superior multiweapon fighting
 
 BONUS:STAT|STR|3
 BONUS:STAT|CON|2
@@ -29806,7 +29693,6 @@ ABILITY:FEAT|AUTOMATIC|Power Attack|Weapon Focus (club)
 Skills Climb +7, Intimidate +5, Perception +8; Racial Modifiers +4 Perception
 
 AUTO:LANG|Giant
-
 
 Gear hide armor, 3 clubs
 
@@ -29846,6 +29732,8 @@ Base Atk +3; CMB +4 (+8 g tripped)
 
 
 -----------------------------------------------
+# Can't find weaknesses cold susceptibility, have gone with vulnerability.
+# Also no definition of its death throes ability i.e. damage.
 
 Vapor Dire Rat
 DESC:This creature looks like a larger, more aggressive version of a normal rat. Its fur is coarse and brown, its eyes green, and its tail is hairless.
@@ -29859,21 +29747,13 @@ RACESUBTYPE:Augmented Animal|Vapor
 BONUS:VAR|DarkvisionRange|60
 BONUS:VAR|HasLowLightVision|1
 ABILITY:Special Ability|AUTOMATIC|Scent
-
-
 BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
-
 BONUS:VAR|FastHealingRate|2
-
-
 BONUS:VAR|FireResistanceBonus|5
-weaknesses cold susceptibility
-
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 MOVE:Walk,40,Climb,20,Swim,20
 
 Melee bite +5 (1d4 plus disease)
-
-Special Attacks death throes (DC 11), disease
 
 BONUS:STAT|DEX|3
 BONUS:STAT|CON|1
@@ -30702,17 +30582,13 @@ SIZE:M
 RACETYPE:Undead
 MONSTERCLASS:Undead:5 
 
-
 BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|2
-weaknesses resurrection vulnerability
 
 MOVE:Walk,30
 
 Melee slam +5 (1d4+3 plus energy drain)
-
-Special Attacks create spawn, energy drain (1 level, DC 14), insanity gaze
 
 BONUS:STAT:STR|2
 BONUS:STAT:DEX|1
@@ -30728,8 +30604,6 @@ Skills Intimidate +11, Knowledge (religion) +8, Perception +12, Stealth +17; Rac
 
 AUTO:LANG|Common
 
-
-
 -----------------------------------------------
 
 Wight (Blood)
@@ -30741,17 +30615,11 @@ FACT:BASESIZE|L
 SIZE:L
 RACETYPE:Undead
 MONSTERCLASS:Undead:12 
-
-
 BONUS:VAR|AC_Natural_Armor|10|TYPE=Base.STACK
-
 BONUS:VAR|FastHealingRate|5
-
-
 ABILITY:Special Ability|AUTOMATIC|Channel Resistance	BONUS:VAR|ChannelResistance|5
 DR:10/bludgeoning and magic
 BONUS:VAR|FireResistanceBonus|10
-
 MOVE:Walk,30
 
 Melee 2 claws +14 (1d8+5 plus 1 bleed)
