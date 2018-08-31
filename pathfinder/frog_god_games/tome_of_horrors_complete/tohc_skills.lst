@@ -8,3 +8,4 @@ SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgam
 ###Block:
 # Skill Name	Situational Skill
 Stealth.MOD		SITUATION:Camouflaged using sticks and leaves
+Stealth.MOD		SITUATION:in trees
