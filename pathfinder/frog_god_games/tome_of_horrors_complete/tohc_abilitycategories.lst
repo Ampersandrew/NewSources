@@ -1,10 +1,10 @@
-Tue Aug 28 03:18:10 2018 -- reformated by PCGen PrettyLST v6.06.00
+Fri Aug 31 18:32:19 2018 -- reformated by PCGen PrettyLST v6.06.00
 # CVS $Revision: 21789 $ $Author: Andrew Wilson (nuance) $ -- Thu Feb 22 13:04:59 2007 -- reformated by prettylst.pl v1.36 (build 2045)
 #SOURCELONG:Tome of Horrors Complete	SOURCESHORT:MPFC	SOURCEWEB:http://froggodgames.com/tome-horrors-complete
 # ORIGINAL ENTRY: Andrew Wilson
 # ORIGINAL ENTRY DATE: 2014/03/22
 
-# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
-ABILITYCATEGORY:Aberant Deformity			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AberantDeformity		PLURAL:Aberant Deformities		DISPLAYLOCATION:Racial Abilities
-ABILITYCATEGORY:Advanced Aberant Deformity	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AdvancedAberantDeformity	PLURAL:Advanced Aberant Deformities	DISPLAYLOCATION:Racial Abilities
-ABILITYCATEGORY:Aberant Venom Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AberantVenomType		PLURAL:Aberant Venom Choices		DISPLAYLOCATION:Racial Abilities
+# Ability Category									Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Aberant Deformity							VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AberantDeformity		PLURAL:Aberant Deformities		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Advanced Aberant Deformity					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AdvancedAberantDeformity	PLURAL:Advanced Aberant Deformities	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Aberant Venom Choice						VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AberantVenomType		PLURAL:Aberant Venom Choices		DISPLAYLOCATION:Racial Abilities

@@ -1,13 +1,10 @@
-Tue Aug 28 03:18:10 2018 -- reformated by PCGen PrettyLST v6.06.00
+Fri Aug 31 18:32:19 2018 -- reformated by PCGen PrettyLST v6.06.00
+# CVS $Revision: $ $Author: $ -- Fri Aug 31 16:25:32 2018 -- reformated by prettylst.pl v1.51 (build 23662)
 # $ $Author: Andrew Wilson (nuance) $
 SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgames.com/tome-horrors-complete	SOURCEDATE:2014-03
 # ORIGINAL ENTRY: Andrew Wilson (nuance)
 # ORIGINAL ENTRY DATE: 02 April 2014
 
 ###Block:
-# Skill Name						Key Stat	Untrained?		Classes	Type			Visible		Req. Rule (in options)		Prohibited Var. Value
-Stealth (Camouflaged using sticks and leaves)	KEYSTAT:DEX	USEUNTRAINED:YES	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	PRERULE:1,DISPLAYSKILLUSE	PREVARNEQ:var("SKILL.Stealth (Camouflaged using sticks and leaves).MISC"),SKILL.Stealth.MISC
-
-###Block:
-# Skill Name	Bonus to skill											Bonus to skill rank
-Stealth.MOD		BONUS:SKILL|Stealth (Camouflaged using sticks and leaves)|SKILL.Stealth.MISC	BONUS:SKILLRANK|Stealth (Camouflaged using sticks and leaves)|skillinfo("TOTALRANK","Stealth")|TYPE=SkillGranted|PREVARNEQ:var("SKILL.Stealth (Camouflaged using sticks and leaves).MISC"),SKILL.Stealth.MISC
+# Skill Name	Situational Skill
+Stealth.MOD		SITUATION:Camouflaged using sticks and leaves
