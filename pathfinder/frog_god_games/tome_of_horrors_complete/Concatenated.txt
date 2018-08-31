@@ -255,7 +255,7 @@ BONUS:STAT|CHA|-8
 
 Base Atk +9; CMB +18 (+22 grapple); CMD 28 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Improved InitiativeB|Lightning ReflexesB
+ABILITY:FEAT|AUTOMATIC|Improved Initiative|Lightning Reflexes
 
 Skills Perception +9, Stealth -4; Racial Modifiers +4 Stealth, +8 Perception
 
@@ -912,7 +912,7 @@ BONUS:STAT|CHA|8
 
 Base Atk +12; CMB +14; CMD 28
 
-ABILITY:FEAT|AUTOMATIC|Arcane Strike|Blind-Fight|Combat Casting|Dodge|Eschew MaterialsB|Improved Initiative|Iron Will|Still Spell|Multiweapon Fighting|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Arcane Strike|Blind-Fight|Combat Casting|Dodge|Eschew Materials|Improved Initiative|Iron Will|Still Spell|Multiweapon Fighting|Weapon Finesse
 
 Skills Climb +17, Craft (weaving) +9, Intimidate +17, Knowl- edge (arcana) +11, Knowledge (dungeoneering) +10, Perception +21, Spellcraft +11, Stealth +20; Racial Modifiers +4 Perception, +4 Stealth
 
@@ -1082,7 +1082,7 @@ BONUS:STAT|CHA|4
 
 Base Atk +1; CMB +3; CMD 10
 
-ABILITY:FEAT|AUTOMATIC|Eschew MaterialsB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Eschew Materials|Weapon Finesse
 
 Skills Knowledge (arcana) +4, Knowledge (nature) +5, Perception +6, Sense Motive +6, Stealth +14, Spellcraft +5, Swim +16; Racial Modifiers Knowledge (arcana) and Spellcraft are class skills for asrai
 
@@ -2012,7 +2012,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +22; CMB +37 (+41 grapple); CMD 48
 
-ABILITY:FEAT|AUTOMATIC|CleaveB|Power AttackB
+ABILITY:FEAT|AUTOMATIC|Cleave|Power Attack
 
 Skills Acrobatics +1 (+9 jump) Perception +8; Racial Modifiers Acrobatics (+8 jump), +8 Perception
 
@@ -3235,7 +3235,7 @@ DEFINESTAT:NONSTAT:INT
 
 Base Atk +1; CMB +2; CMD 13
 
-ABILITY:FEAT|AUTOMATIC|Improved InitiativeB
+ABILITY:FEAT|AUTOMATIC|Improved Initiative
 
 
 -----------------------------------------------
@@ -4806,7 +4806,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +3; CMB +7 (+11 to grapple); CMD 17 (29 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Improved CriticalB (claw)
+ABILITY:FEAT|AUTOMATIC|Improved Critical (claw)
 
 Skills Perception +4, Stealth +4, Swim +19; Racial Modifiers +4 Perception , +4 Stealth, +8 Swim
 
@@ -4888,7 +4888,7 @@ BONUS:STAT:CHA|6
 
 Base Atk +5; CMB +6; CMD 18
 
-ABILITY:FEAT|AUTOMATIC|Alertness|Improved InitiativeB|Skill Focus (Perception)|Skill Focus (Sense Motive)|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Alertness|Improved Initiative|Skill Focus (Perception)|Skill Focus (Sense Motive)|Weapon Finesse
 
 Skills Bluff +10, Intimidate +13, Knowledge (history) +8, Perception +17, Sense Motive +17
 
@@ -5683,7 +5683,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +2; CMB +3; CMD 15 (19 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|ToughnessB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Toughness|Weapon Finesse
 
 Skills Perception +9, Stealth +6, Survival +1 (+5 tracking by scent); Racial Modifiers +4 Perception, +4 Survival when tracking by scent.
 
@@ -6783,7 +6783,7 @@ BONUS:STAT|CHA|10
 
 Base Atk +14; CMB +23; CMD 40 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Blind-Fight|DeceitfulB|Cleave|Great Cleave|Great Fortitude|Improved Initiative|Improved Sunder|Power Attack
+ABILITY:FEAT|AUTOMATIC|Blind-Fight|Deceitful|Cleave|Great Cleave|Great Fortitude|Improved Initiative|Improved Sunder|Power Attack
 
 Skills Bluff +26, Climb +25, Diplomacy +22, Disguise +7, Intimidate +22, Knowledge (planes) +20, Perception +28, Sense Motive +20, Stealth +15, Survival +20; Racial Modifiers +8 Perception
 
@@ -8212,7 +8212,7 @@ BONUS:STAT|CHA|24
 
 Base Atk +45; CMB +61; CMD 98
 
-ABILITY:FEAT|AUTOMATIC|Alertness|Awesome Blow|Blind-Fight|Cleave|Combat Casting|Combat Expertise|Command UndeadB|Craft Wand|Craft Wondrous Item|Critical Focus|Deceitful|Empower Spell|Extend Spell|Great Cleave|Great Fortitude|Heighten Spell|Improved Initiative|Iron Will|Maximize Spell|Power Attack|Quicken Spell|Sickening Critical|Staggering Critical|Stunning Critical
+ABILITY:FEAT|AUTOMATIC|Alertness|Awesome Blow|Blind-Fight|Cleave|Combat Casting|Combat Expertise|Command Undead|Craft Wand|Craft Wondrous Item|Critical Focus|Deceitful|Empower Spell|Extend Spell|Great Cleave|Great Fortitude|Heighten Spell|Improved Initiative|Iron Will|Maximize Spell|Power Attack|Quicken Spell|Sickening Critical|Staggering Critical|Stunning Critical
 
 Skills Bluff +64, Diplomacy +60, Disguise +14, Escape Artist +51, Fly +50, Heal +54, Intimidate +60, Knowledge (arcana) +57, Knowledge (history) +54, Knowledge (nobility) +54, Knowledge (planes) +57, Knowledge (religion) +54, Perception +69, Sense Motive +61, Spellcraft +57, Survival +54; Racial Modifiers +8 Perception
 
@@ -10711,7 +10711,7 @@ BONUS:STAT|WIS|2
 
 Base Atk +5; CMB +9; CMD 20 (24 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Flyby Attack|Master CraftsmanB|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
+ABILITY:FEAT|AUTOMATIC|Flyby Attack|Master Craftsman|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
 
 Skills Bluff +8, Craft (crystal carving) +10, Craft (traps) +6, Diplomacy +6, Disable Device +3, Fly +9, Knowledge (engineering) +12, Perception +13, Sense Motive +9; Racial Modifiers +4 Perception
 
@@ -10768,7 +10768,7 @@ BONUS:STAT|CHA|4
 
 Base Atk +11; CMB +19; CMD 29 (33 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Alertness|Craft Wondrous ItemB|Flyby Attack|Iron Will|Master CraftsmanB|Multiattack|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
+ABILITY:FEAT|AUTOMATIC|Alertness|Craft Wondrous Item|Flyby Attack|Iron Will|Master Craftsman|Multiattack|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
 
 Skills Bluff +16, Craft (crystal carving) +15, Craft (traps) +11, Diplomacy +11, Disable Device +8, Fly +2, Knowledge (arcana) +17, Knowledge (dungeoneering) +10, Knowledge (engineering) +23, Linguistics +8, Perception +25, Sense Motive +21, Spellcraft +17; Racial Modifiers +4 Perception
 
@@ -10836,7 +10836,7 @@ BONUS:STAT|CHA|8
 
 Base Atk +19; CMB +32; CMD 41 (45 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Alertness|Craft Wondrous ItemB|Flyby Attack|Hover|Improved Initiative|Iron Will|Master CraftsmanB|Multiattack|Skill Focus (Bluff)|Persuasive|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
+ABILITY:FEAT|AUTOMATIC|Alertness|Craft Wondrous Item|Flyby Attack|Hover|Improved Initiative|Iron Will|Master Craftsman|Multiattack|Skill Focus (Bluff)|Persuasive|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
 
 Skills Bluff +32, Craft (crystal carving) +24, Craft (traps) +17, Diplomacy +21, Disable Device +14, Fly +13, Intimidate +6, Knowledge (arcana) +27, Knowledge (dungeoneering) +27, Knowledge (engineering) +33, Linguistics +27, Perception +35, Sense Motive +31, Spellcraft +27; Racial Modifiers +4 Perception
 
@@ -10910,7 +10910,7 @@ BONUS:STAT|CHA|10
 
 Base Atk +23; CMB +40; CMD 48 (52 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Alertness|Craft Wondrous ItemB|Flyby Attack|Great Fortitude|Hover|Improved Initiative|Iron Will|Lightning Reflexes|Master CraftsmanB|Multiattack|Skill Focus (Bluff)|Persuasive|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
+ABILITY:FEAT|AUTOMATIC|Alertness|Craft Wondrous Item|Flyby Attack|Great Fortitude|Hover|Improved Initiative|Iron Will|Lightning Reflexes|Master Craftsman|Multiattack|Skill Focus (Bluff)|Persuasive|Skill Focus (Craft [crystal carving])|Skill Focus (Knowledge [engineering])
 
 Skills Appraise +13, Bluff +37, Craft (crystal carving) +27, Craft (traps) +20, Diplomacy +24, Disable Device +17, Fly +10, Intimidate +35, Knowledge (arcana) +32, Knowledge (dungeoneering) +32, Knowledge (engineering) +38, Linguistics +28, Perception +40, Sense Motive +36, Spellcraft +32; Racial Modifiers +4 Perception
 
@@ -10975,7 +10975,7 @@ BONUS:STAT|CHA|6
 
 Base Atk +3; CMB +4; CMD 14 (18 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Acrobatic|Dodge|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Acrobatic|Dodge|Weapon Finesse
 
 Skills Acrobatics +8, Bluff +9, Diplomacy +9, Fly +23, Knowledge (nature) +9, Perception +8, Sense Motive +8, Stealth +17, Swim +11, Use Magic Device +9
 
@@ -11713,7 +11713,7 @@ BONUS:STAT|CHA|4
 
 Base Atk +18; CMB +26; CMD 39 (43 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Combat Reflexes|Critical Focus|Deadly Aim|EnduranceB|Great Cleave|Improved Critical (bite)|Improved Natural Attack (bite)|Improved Natural Attack (claw)B|Iron Will|Power Attack|Skill Focus (Perception)|Skill Focus (Survival)|Vital StrikeB|Weapon Focus (bite)
+ABILITY:FEAT|AUTOMATIC|Cleave|Combat Reflexes|Critical Focus|Deadly Aim|Endurance|Great Cleave|Improved Critical (bite)|Improved Natural Attack (bite)|Improved Natural Attack (claw)B|Iron Will|Power Attack|Skill Focus (Perception)|Skill Focus (Survival)|Vital Strike|Weapon Focus (bite)
 
 Skills Climb +27, Handle Animal +11, Heal +10, Intimidate +11, Knowledge (geography) +10, Knowledge (nature) +10, Perception +29, Spellcraft +10, Stealth +19 (+31 in forested areas), Survival +15 (+18 tracking); Racial Modifiers +12 to Stealth in forested areas
 
@@ -11956,7 +11956,7 @@ BONUS:STAT|CHA|2
 
 Base Atk +4; CMB +5; CMD 19
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Lightning Reflexes|MobilityB
+ABILITY:FEAT|AUTOMATIC|Dodge|Lightning Reflexes|Mobility
 
 Skills Acrobatics +8, Diplomacy +3, Fly +8, Intimidate +3, Perception +6, Stealth +8
 
@@ -12059,7 +12059,7 @@ BONUS:STAT|INT|-6
 
 Base Atk +2; CMB +2; CMD 16
 
-ABILITY:FEAT|AUTOMATIC|Throw AnythingB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Throw Anything|Weapon Finesse
 
 Skills Fly +12, Perception +5, Sense Motive +5, Stealth +11
 
@@ -12098,7 +12098,7 @@ BONUS:STAT|INT|-6
 
 Base Atk +4; CMB +6; CMD 22
 
-ABILITY:FEAT|AUTOMATIC|Flyby Attack|Throw AnythingB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Flyby Attack|Throw Anything|Weapon Finesse
 
 Skills Fly +12, Perception +7, Sense Motive +7, Stealth +11
 
@@ -12140,7 +12140,7 @@ BONUS:STAT|INT|-6
 
 Base Atk +8; CMB +12; CMD 31
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved Initiative|Throw AnythingB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved Initiative|Throw Anything|Weapon Finesse
 
 Skills Fly +12, Perception +11, Sense Motive +11, Stealth +13
 
@@ -12183,7 +12183,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +10; CMB +17; CMD 38
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved Initiative|Mobility|Throw AnythingB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved Initiative|Mobility|Throw Anything|Weapon Finesse
 
 Skills Fly +25, Perception +13, Sense Motive +13, Stealth +13
 
@@ -12226,7 +12226,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +13; CMB +21; CMD 43
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Dodge|Flyby Attack|Improved Initiative|Mobility|Power Attack|Throw AnythingB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Cleave|Dodge|Flyby Attack|Improved Initiative|Mobility|Power Attack|Throw Anything|Weapon Finesse
 
 Skills Fly +28, Perception +16, Sense Motive +16, Stealth +17
 
@@ -12269,7 +12269,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +16; CMB +25; CMD 48
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Dodge|Flyby Attack|Improved Initiative|Mobility|Power Attack|Throw AnythingB|Weapon Finesse|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Cleave|Dodge|Flyby Attack|Improved Initiative|Mobility|Power Attack|Throw Anything|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +33, Perception +19, Sense Motive +19, Stealth +21
 
@@ -12330,7 +12330,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +2; CMB +1; CMD 15
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Improved InitiativeB|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Dodge|Improved Initiative|Weapon Finesse
 
 Skills Fly +14, Knowledge (planes) +3, Perception +5, Stealth +12
 
@@ -12369,7 +12369,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +4; CMB +5; CMD 21
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Improved InitiativeB|Mobility|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Dodge|Improved Initiative|Mobility|Weapon Finesse
 
 Skills Fly +16, Knowledge (planes) +5, Perception +7, Stealth +12
 
@@ -12410,7 +12410,7 @@ BONUS:STAT|INT|-2
 
 Base Atk +8; CMB +11; CMD 29
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved InitiativeB|Mobility|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved Initiative|Mobility|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +20, Intimidate +11, Knowledge (planes) +10, Perception +11, Stealth +14
 
@@ -12451,7 +12451,7 @@ BONUS:STAT|INT|-2
 
 Base Atk +10; CMB +16; CMD 35
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Extra Channel|Flyby Attack|Improved InitiativeB|Spring Attack|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Dodge|Extra Channel|Flyby Attack|Improved Initiative|Spring Attack|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +21, Intimidate +13, Knowledge (planes) +12, Perception +13, Stealth +13
 
@@ -12491,7 +12491,7 @@ BONUS:STAT|CON|8
 
 Base Atk +13; CMB +20; CMD 40
 
-ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved InitiativeB|Spring Attack|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved Initiative|Spring Attack|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +25, Intimidate +16, Knowledge (planes) +16, Knowledge (religion) +16, Perception +16, Stealth +17
 
@@ -12530,7 +12530,7 @@ BONUS:STAT|CON|8
 
 Base Atk +16; CMB +24; CMD 45
 
-ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved InitiativeB|Power Attack|Spring Attack|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved Initiative|Power Attack|Spring Attack|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +29, Intimidate +19, Knowledge (planes) +19, Knowledge (religion) +19, Perception +19, Stealth +21
 
@@ -12585,7 +12585,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +2; CMB +1; CMD 15
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Improved InitiativeB|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Dodge|Improved Initiative|Weapon Finesse
 
 Skills Fly +14, Knowledge (planes) +3, Perception +5, Stealth +12
 
@@ -12623,7 +12623,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +4; CMB +5; CMD 21
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Improved InitiativeB|Mobility|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Dodge|Improved Initiative|Mobility|Weapon Finesse
 
 Skills Fly +16, Knowledge (planes) +5, Perception +7, Stealth +12
 
@@ -12663,7 +12663,7 @@ BONUS:STAT|INT|-2
 
 Base Atk +8; CMB +11; CMD 29
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved InitiativeB|Mobility|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Dodge|Flyby Attack|Improved Initiative|Mobility|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +20, Intimidate +11, Knowledge (planes) +10, Perception +11, Stealth +14
 
@@ -12703,7 +12703,7 @@ BONUS:STAT|INT|-2
 
 Base Atk +10; CMB +16; CMD 35
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Extra Channel|Flyby Attack|Improved InitiativeB|Spring Attack|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Dodge|Extra Channel|Flyby Attack|Improved Initiative|Spring Attack|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +21, Intimidate +13, Knowledge (planes) +12, Perception +13, Stealth +13
 
@@ -12742,7 +12742,7 @@ BONUS:STAT|CON|8
 
 Base Atk +13; CMB +20; CMD 40
 
-ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved InitiativeB|Spring Attack|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved Initiative|Spring Attack|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +25, Intimidate +16, Knowledge (planes) +16, Knowledge (religion) +16, Perception +16, Stealth +17
 
@@ -12781,7 +12781,7 @@ BONUS:STAT|CON|8
 
 Base Atk +16; CMB +24; CMD 45
 
-ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved InitiativeB|Power Attack|Spring Attack|Weapon FinesseB|Weapon Focus (slam)
+ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Dodge|Extra Channel|Flyby Attack|Improved Initiative|Power Attack|Spring Attack|Weapon Finesse|Weapon Focus (slam)
 
 Skills Fly +29, Intimidate +19, Knowledge (planes) +19, Knowledge (religion) +19, Perception +19, Stealth +21
 
@@ -13656,7 +13656,7 @@ Melee 3 battleaxes (damage 1d8+4/x3 plus abrade)
 
 Elemental Effect abrade (see below).
 
-Feats Weapon Focus (battleaxe)
+ABILITY:FEAT|AUTOMATIC|Weapon Focus (battleaxe)
 
 AUTO:LANG|Terran
 
@@ -13678,7 +13678,7 @@ Ranged spit cinder +9 (1 fire plus ignite)
 
 Elemental Effect burn (see below).
 
-Feats: Weapon Focus (longsword)
+ABILITY:FEAT|AUTOMATIC|Weapon Focus (longsword)
 
 AUTO:LANG|Ignan
 
@@ -13699,7 +13699,7 @@ Ranged 3 tridents +10 ranged (damage 1d8+4/x2 plus freeze)
 
 Elemental Effect freeze (see below).
 
-Feats Weapon Focus (trident)
+ABILITY:FEAT|AUTOMATIC|Weapon Focus (trident)
 
 Skills add Swim +12
 
@@ -14225,7 +14225,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +0; CMB -1; CMD 11
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Perception +4, Stealth +10, Swim +12; Racial Modifiers +4 Perception, +4 Stealth
 
@@ -14489,7 +14489,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +0; CMB +2 (+10 grapple); CMD 22 (30 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Acrobatics +4 (+24 to jump); Racial Modifiers +20 to Acrobatics checks to jump
 
@@ -15533,7 +15533,7 @@ BONUS:STAT|CHA|4
 
 Base Atk +13; CMB +22; CMD 37
 
-ABILITY:FEAT|AUTOMATIC|Combat Casting|Combat Reflexes|Dodge|Improved InitiativeB|Mobility|Power Attack|Quicken Spell-like Ability (scorching ray)|Wind Stance
+ABILITY:FEAT|AUTOMATIC|Combat Casting|Combat Reflexes|Dodge|Improved Initiative|Mobility|Power Attack|Quicken Spell-like Ability (scorching ray)|Wind Stance
 
 Skills Bluff +18, Diplomacy +18, Fly +26, Intimidate +18, Knowledge (nobility) +18, Knowledge (planes) +18, Perception +18, Sense Motive +12, Spellcraft +11
 
@@ -15593,7 +15593,7 @@ BONUS:STAT|CHA|6
 
 Base Atk +12; CMB +19; CMD 34
 
-ABILITY:FEAT|AUTOMATIC|Combat Casting|Combat Reflexes|Dodge|Great Fortitude|Improved InitiativeB|Power Attack|Wind Stance
+ABILITY:FEAT|AUTOMATIC|Combat Casting|Combat Reflexes|Dodge|Great Fortitude|Improved Initiative|Power Attack|Wind Stance
 
 Skills Craft (any one) +17, Diplomacy +18, Knowledge (planes) +17, Perception +17, Sense Motive +17, Spellcraft +17, Stealth +15, Swim +29
 
@@ -19034,7 +19034,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +2; CMB +3 (+7 to grapple); CMD 14 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Stealth +5, Swim +8; Racial Modifiers +8 Stealth
 
@@ -19383,7 +19383,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +0; CMB -7; CMD 7
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Dodge|Weapon Finesse
 
 Skills Craft (any one) +4, Escape Artist +7, Perception +8, Profession (farmer or miller) +4, Stealth +23; Racial Modifiers +2 Perception, +4 Stealth
 
@@ -19707,7 +19707,7 @@ BONUS:STAT|CHA|6
 
 Base Atk +1; CMB -1; CMD 12
 
-ABILITY:FEAT|AUTOMATIC|Improved Initiative|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Improved Initiative|Weapon Finesse
 
 Skills Acrobatics +8, Bluff +8, Craft (any one) +8, Escape Artist +8, Knowledge (local) +8, Perception +15, Perform (comedy) +8, Stealth +12, Sleight of Hand +12; Racial Modifiers +4 Sleight of Hand, +8 Perception
 
@@ -20171,7 +20171,7 @@ BONUS:STAT|INT|-2
 
 Base Atk +0; CMB -1 (+3 to grapple); CMD 10
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Perception +7, Stealth +5
 
@@ -20637,7 +20637,7 @@ BONUS:STAT|CHA|4
 
 Base Atk +0 CMB +2; CMD 10
 
-ABILITY:FEAT|AUTOMATIC|DodgeB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Dodge|Weapon Finesse
 
 Skills Bluff +6, Craft (any one) +6, Escape Artist +8, Perception +5, Perform (limericks) +6, Perform (sing) +6, Sense Motive +5, Stealth +16, Survival +2, Racial Modifiers +4 Perception
 
@@ -21047,7 +21047,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +0; CMB -1 (+7 grapple); CMD 11 (19 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Fly +8, Perception +8, Stealth +14 ; Racial Modifiers +8 Perception, +8 Stealth
 
@@ -21262,7 +21262,7 @@ BONUS:STAT:CHA|6
 
 Base Atk +4; CMB +4; CMD 15
 
-ABILITY:FEAT|AUTOMATIC|Blind-FightB|Combat Reflexes|Improved Initiative|Toughness
+ABILITY:FEAT|AUTOMATIC|Blind-Fight|Combat Reflexes|Improved Initiative|Toughness
 
 Skills Bluff +9, Fly +17, Intimidate +12, Perception +11, Sense Motive +11, Stealth +19
 
@@ -22170,7 +22170,7 @@ BONUS:STAT:CHA|-2
 
 Base Atk +9; CMB +12 (+16 to grapple); CMD 17 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Improved InititiativeB|ToughnessB
+ABILITY:FEAT|AUTOMATIC|Improved Inititiative|Toughness
 
 Skills Climb +10, Perception +3; Racial Modifiers +8 Perception
 
@@ -23322,7 +23322,7 @@ BONUS:STAT|WIS|2
 
 Base Atk +4; CMB +1; CMD 14
 
-ABILITY:FEAT|AUTOMATIC|Iron Will|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Iron Will|Skill Focus (Perception)|Weapon Finesse
 
 Skills Fly +5, Perception +9, Stealth +11
 
@@ -23811,7 +23811,7 @@ BONUS:STAT|INT|-6
 
 Base Atk +1; CMB +2; CMD 11
 
-ABILITY:FEAT|AUTOMATIC|Improved Natural AttackB|Power Attack
+ABILITY:FEAT|AUTOMATIC|Improved Natural Attack|Power Attack
 
 Skills Knowledge (planes) +1, Perception +4, Stealth +7
 
@@ -23846,7 +23846,7 @@ BONUS:STAT|INT|-6
 
 Base Atk +3; CMB +7; CMD 16
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Improved Natural AttackB|Power Attack
+ABILITY:FEAT|AUTOMATIC|Cleave|Improved Natural Attack|Power Attack
 
 Skills Knowledge (planes) +3, Perception +6, Stealth +5
 
@@ -23881,7 +23881,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +6; CMB +13; CMD 22
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Great Cleave|Improved Natural AttackB|Power Attack
+ABILITY:FEAT|AUTOMATIC|Cleave|Great Cleave|Improved Natural Attack|Power Attack
 
 Skills Knowledge (planes) +7, Perception +9, Sense Motive +9, Stealth +4
 
@@ -23917,7 +23917,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +8; CMB +18; CMD 27
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Great Cleave|Improved Critical (claw)|Improved Natural AttackB|Power Attack
+ABILITY:FEAT|AUTOMATIC|Cleave|Great Cleave|Improved Critical (claw)|Improved Natural Attack|Power Attack
 
 Skills Knowledge (planes) +9, Perception +11, Sense Motive +11, Stealth +2
 
@@ -23953,7 +23953,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +10; CMB +21; CMD 30
 
-ABILITY:FEAT|AUTOMATIC|Awesome Blow|Cleave|Great Cleave|Improved Critical (claw)|Improved Natural AttackB|Power Attack
+ABILITY:FEAT|AUTOMATIC|Awesome Blow|Cleave|Great Cleave|Improved Critical (claw)|Improved Natural Attack|Power Attack
 
 Skills Knowledge (planes) +11, Perception +13, Sense Motive +13, Stealth +4
 
@@ -23989,7 +23989,7 @@ BONUS:STAT|INT|-4
 
 Base Atk +12; CMB +24; CMD 31
 
-ABILITY:FEAT|AUTOMATIC|Awesome Blow|Cleave|Great Cleave|Improved Bull Rush|Improved Critical (claw)|Improved Natural AttackB|Power Attack
+ABILITY:FEAT|AUTOMATIC|Awesome Blow|Cleave|Great Cleave|Improved Bull Rush|Improved Critical (claw)|Improved Natural Attack|Power Attack
 
 Skills Knowledge (planes) +13, Perception +15, Sense Motive +15, Stealth +6
 
@@ -24024,7 +24024,7 @@ BONUS:STAT|CHA|4
 
 Base Atk +2; CMB +0; CMD 18
 
-ABILITY:FEAT|AUTOMATIC|Dodge|MobilityB|Spring AttackB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Dodge|Mobility|Spring Attack|Weapon Finesse
 
 Skills Acrobatics +14 (+50 jump), Bluff +9, Craft (any one) +9, Escape Artist +14, Knowledge (nature) +9, Perception +11, Stealth +18 (+26 in natural surroundings), Survival +6; Racial Modifiers +2 Perception, +8 Stealth in natural surroundings
 
@@ -24244,7 +24244,7 @@ BONUS:STAT|CHA|2
 
 Base Atk +1; CMB +1; CMD 7 (11 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Climb +14, Perception +9, Stealth +14, Swim +6; Racial Modifiers Brain rats use their Dexterity modifier for Climb checks.
 
@@ -24330,7 +24330,7 @@ BONUS:STAT:CHA|2
 
 Base Atk +0; CMB +0; CMD 8 (12 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Acrobatics +2 (+6 jump), Climb +10, Perception +8, Stealth +14; Racial Modifiers +4 Stealth. Shadow rats use their Dexterity modifier for Climb checks.
 
@@ -24366,7 +24366,7 @@ BONUS:STAT:CHA|6
 
 Base Atk +0; CMB -1; CMD 12 (16 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Acrobatics +3 (+7 jump), Climb +8, Perception +8, Stealth +11; Racial Modifiers +4 Stealth
 
@@ -25350,7 +25350,7 @@ All sea serpents can speak and understand Aquatic, and many know Draconic as wel
 
 Because they are sentient beings, sea serpents can often be reasoned with, even if the reasoning is no more complex than simple intimidation. They are adaptable to circumstances, and none throw themselves into battle rashly.
 
-Feats: All sea serpents have Swim-By Attack as a bonus feat.
+feats All sea serpents have Swim-By Attack as a bonus feat.
 
 -----------------------------------------------
 
@@ -25394,7 +25394,8 @@ BONUS:STAT|CHA|4
 
 Base Atk +16; CMB +23 (+27 grapple); CMD 36 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Ability Focus (breath weapon)|Combat Reflexes|Dodge|Improved Initiative|Lightning Reflexes|Mobility|Skill Focus (Perception)|Swim-By AttackB|Toughness
+ABILITY:FEAT|AUTOMATIC|Ability Focus (breath weapon)|Combat Reflexes|Dodge|Improved Initiative|Lightning Reflexes|Mobility|Skill Focus (Perception)|Swim-By Attack|Toughness
+
 
 Skills Bluff +21, Diplomacy +9, Intimidate +11, Perception +26, Stealth +13, Swim +22
 
@@ -25441,7 +25442,7 @@ BONUS:STAT|CHA|2
 
 Base Atk +24; CMB +38 (+42 grapple); CMD 50 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Bleeding Critical|Cleave|Dodge|Great Fortitude|Improved Critical (bite)|Improved Initiative|Improved Natural Armor|Iron Will|Mobility|Power Attack|Spring Attack|Swim-By AttackB|Weapon Focus (bite)
+ABILITY:FEAT|AUTOMATIC|Bleeding Critical|Cleave|Dodge|Great Fortitude|Improved Critical (bite)|Improved Initiative|Improved Natural Armor|Iron Will|Mobility|Power Attack|Spring Attack|Swim-By Attack|Weapon Focus (bite)
 
 Skills Bluff +13, Diplomacy +14, Intimidate +28, Knowledge (nature) +9, Perception +24, Sense Motive +14, Stealth +16, Survival +28, Swim +38
 
@@ -25486,7 +25487,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +8; CMB +13; CMD 24 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Cleave|Great Cleave|Power Attack|Swim-By AttackB|Weapon Focus (bite)
+ABILITY:FEAT|AUTOMATIC|Cleave|Great Cleave|Power Attack|Swim-By Attack|Weapon Focus (bite)
 
 Skills Perception +9, Stealth +6, Survival +9, Swim +21
 
@@ -25529,7 +25530,7 @@ BONUS:STAT|CHA|6
 
 Base Atk +5; CMB +6 (+10 grapple); CMD 20 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Great Fortitude|Swim-By AttackB|Toughness|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Great Fortitude|Swim-By Attack|Toughness|Weapon Finesse
 
 Skills Perception +11, Stealth +12, Survival +11, Swim +17
 
@@ -25576,7 +25577,7 @@ BONUS:STAT|CHA|10
 
 Base Atk +38; CMB +57 (+61 grapple); CMD 69 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Ability Focus (poison)|Alertness|Blind-Fight|Cleave|Dodge|Endurance|Great Cleave|Great Fortitude|Greater Weapon Focus (bite)|Improved C (bite)|Improved Initiative|Improved Lightning Reflexes|Improved Natural Armor|Improved Natural Attack (bite)|Iron Will|Lightning Reflexes|Power Attack|Swim-By AttackB|Toughness|Weapon Focus (bite)
+ABILITY:FEAT|AUTOMATIC|Ability Focus (poison)|Alertness|Blind-Fight|Cleave|Dodge|Endurance|Great Cleave|Great Fortitude|Greater Weapon Focus (bite)|Improved C (bite)|Improved Initiative|Improved Lightning Reflexes|Improved Natural Armor|Improved Natural Attack (bite)|Iron Will|Lightning Reflexes|Power Attack|Swim-By Attack|Toughness|Weapon Focus (bite)
 
 Skills Bluff +26, Intimidate +46, Knowledge (nature) +23, Perception +48, Sense Motive +9, Stealth +26, Survival +44, Swim +59
 
@@ -25624,7 +25625,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +12; CMB +14; CMD 30 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Ability Focus (poison)|Far Shot|Improved Initiative|Point Blank Shot|Rapid Shot|Swim-By AttackB|Weapon Focus (spit)
+ABILITY:FEAT|AUTOMATIC|Ability Focus (poison)|Far Shot|Improved Initiative|Point Blank Shot|Rapid Shot|Swim-By Attack|Weapon Focus (spit)
 
 Skills Intimidate +13, Perception +17, Stealth +17, Survival +17, Swim +16
 
@@ -25811,7 +25812,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +0; CMB -1 ; CMD 4 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Escape Artist +11, Perception +4, Stealth +19, Swim +9; Racial Modifiers +4 Perception, +10 Escape Artist, +10 Stealth
 
@@ -25845,7 +25846,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +0; CMB -4 ; CMD 7 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Escape Artist +11, Perception +4, Stealth +15 Swim +9; Racial Modifiers +4 Perception, +10 Escape Artist, +10 Stealth
 
@@ -25881,7 +25882,7 @@ BONUS:STAT:CHA|-8
 
 Base Atk +0; CMB -3; CMD 8 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Weapon Finesse
 
 Skills Escape Artist +11, Perception +4, Stealth +11, Swim +9; Racial Modifiers +4 Perception, +10 Escape Artist, +10 Stealth
 
@@ -26495,7 +26496,7 @@ BONUS:STAT:CHA|4
 
 Base Atk +3; CMB +1; CMD 9 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Dazzling Display|Weapon FinesseB|Skill Focus (Intimidate)B|Weapon Focus (bite)
+ABILITY:FEAT|AUTOMATIC|Dazzling Display|Weapon Finesse|Skill Focus (Intimidate)B|Weapon Focus (bite)
 
 Skills Fly +19, Intimidate +12, Perception +11, Stealth +16
 
@@ -26711,7 +26712,7 @@ BONUS:STAT|CHA|2
 
 Base Atk +10; CMB +13; CMD 27
 
-ABILITY:FEAT|AUTOMATIC|Critical Focus|Dodge|Improved Critical|Improved Initiative|Mobility|ToughnessB
+ABILITY:FEAT|AUTOMATIC|Critical Focus|Dodge|Improved Critical|Improved Initiative|Mobility|Toughness
 
 Skills Acrobatics +14, Intimidate +14, Perception +14, Stealth +17
 
@@ -27323,7 +27324,7 @@ BONUS:STAT|CHA|6
 
 Base Atk +0; CMB -2 ; CMD 13
 
-ABILITY:FEAT|AUTOMATIC|Dodge|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Dodge|Weapon Finesse
 
 Skills Bluff +7, Craft (any one) +5, Fly +13, Knowledge (local or nature) +5, Perception +7, Perform (any one) +7, Sense Motive +7, Stealth +9
 
@@ -31336,7 +31337,7 @@ DEFINESTAT:NONSTAT:INT
 
 Base Atk +3; CMB +5; CMD 14
 
-ABILITY:FEAT|AUTOMATIC|ToughnessB
+ABILITY:FEAT|AUTOMATIC|Toughness
 
 Skills Swim +10
 
@@ -31452,7 +31453,7 @@ BONUS:STAT|CHA|-8
 
 Base Atk +0; CMB -2; CMD 11 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Perception +5, Swim +11; Racial Modifiers Small barracudas use their Dexterity modifier for Swim checks.
 
@@ -31676,8 +31677,11 @@ BONUS:STAT|INT|-8
 BONUS:STAT|WIS|2
 BONUS:STAT|CHA|-8
 
-Base Atk +3; CMB +7 (+11 grapple); CMD 19 (23 vs. trip) Feats Skill Focus (Perception), Weapon Focus (tongue) Skills Climb +15, Perception +17, Stealth +17; Racial
-Modifiers +15 Stealth
+Base Atk +3; CMB +7 (+11 grapple); CMD 19 (23 vs. trip)
+
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Focus (tongue)
+
+Skills Climb +15, Perception +17, Stealth +17; Racial Modifiers +15 Stealth
 
 
 Giant Horned Chameleon
@@ -31726,7 +31730,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +1; CMB +2; CMD 15 (19 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|DodgeB|MobilityB|Run
+ABILITY:FEAT|AUTOMATIC|Dodge|Mobility|Run
 
 Skills Acrobatics +2 (+6 jump), Perception +10, Stealth +10 (+14 in forests), Swim +5; Racial Modifiers +4 Perception, +4 Stealth (+8 in forests), +4 Swim
 
@@ -32294,7 +32298,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +3; CMB +5; CMD 19 (23 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|ToughnessB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Toughness|Weapon Finesse
 
 Skills Acrobatics +4 (+12 balancing), Climb +10, Perception +10, Stealth +12; Racial Modifiers +8 Acrobatics when balancing, +4 Stealth
 
@@ -32369,7 +32373,7 @@ BONUS:STAT|CHA|-4
 
 Base Atk +3; CMB +6 (+10 grapple); CMD 20 (24 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Spirited RunnerB|Weapon Finesse
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Spirited Runner|Weapon Finesse
 
 Skills Acrobatics +12, Climb +7, Perception +10, Stealth +8 (+16 in heavy undergrowth or tall grass); Racial Modifiers +4 Acrobatics, +4 Stealth (+12 in heavy undergrowth or tall grass)
 
@@ -32759,7 +32763,7 @@ BONUS:STAT|CHA|-6
 
 Base Atk +0; CMB -6; CMD 2 (can't be tripped)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Perception +8, Swim +10
 
@@ -33094,7 +33098,7 @@ BONUS:STAT|CHA|-8
 
 Base Atk +0; CMB -1; CMD 5 (9 vs. trip)
 
-ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon FinesseB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Finesse
 
 Skills Perception +8, Stealth +9
 
@@ -33337,9 +33341,13 @@ Tiger Barb (Giant)
 OUTPUTNAME:[NAME] Tiger Barb
 DESC:This fish has a striped pattern like that of a tiger. It swims aggressively towards anything that draws too near.
 
-Base Atk +3; CMB +6; CMD 18 (can't be tripped) Feats Skill Focus (Perception), Weapon Focus (bite) Skills Perception +9, Swim +15
+Base Atk +3; CMB +6; CMD 18 (can't be tripped)
 
-GIANT TIGER BARB
+ABILITY:FEAT|AUTOMATIC|Skill Focus (Perception)|Weapon Focus (bite)
+
+Skills Perception +9, Swim +15
+
+GIANT TIGER BAR
 CR:2
 
 KIT:1|N
