@@ -1,4 +1,20 @@
-/^\cweaknesses vulnerability to \(Acid\|Cold\|Electricity\|Fire\|Sonic\|Sunlight\):s/^\cweaknesses vulnerability to \(Acid\|Cold\|Electricity\|Fire\|Sonic\|Sunlight\)/ABILITY:Special Ability|AUTOMATIC|vulnerability to \1/
+Resistances
+	KEY:Adamantine Wasp Swarm ~ Resistances
+	ABILITY:Special Ability|AUTOMATIC|Construct Traits|Swarm Traits
+	SR:21
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 -----------------------------------------------
