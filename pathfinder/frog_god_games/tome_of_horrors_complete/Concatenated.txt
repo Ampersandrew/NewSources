@@ -1040,7 +1040,6 @@ ABILITY:Special Ability|AUTOMATIC|Tremorsense	BONUS:VAR|TremorsenseRange|60
 BONUS:VAR|AC_Natural_Armor|8|TYPE=Base.STACK
 
 DR:10/piercing
-ABILITY:Special Ability|AUTOMATIC|Plant Traits
 BONUS:VAR|FireResistanceBonus|10
 BONUS:VAR|ElectricityResistanceBonus|10
 
@@ -1336,8 +1335,6 @@ SIZE:M
 RACETYPE:Fey
 MONSTERCLASS:Fey:5 
 BONUS:VAR|HasLowLightVision|1
-
-
 BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
 
 DR:5/cold iron
@@ -13426,13 +13423,9 @@ RACETYPE:Outsider
 MONSTERCLASS:Outsider:24 
 RACESUBTYPE:Air|Elemental|Extraplanar
 BONUS:VAR|DarkvisionRange|60
-
-
 BONUS:VAR|AC_Natural_Armor|16|TYPE=Base.STACK
-
 DR:15/magic and silver
 ABILITY:Special Ability|AUTOMATIC|Elemental Traits
-
 MOVE:Walk,20,Fly,120
 BONUS:VAR|Maneuverability|2
 
@@ -13643,8 +13636,6 @@ ABILITY:FEAT|AUTOMATIC|Cleave|Intimidating Prowess|Power Attack|Weapon Focus (va
 
 Skills Bluff +10, Intimidate +14, Knowledge (planes) +10, Perception +15, Sense Motive +11; Racial Modifiers +4 Perception
 
-AUTO:LANG|One Appropriate Elemental Language
-
 
 Gear 3 masterwork weapons
 
@@ -13656,7 +13647,10 @@ Airfiend
 
 Airfiend (Air Subtype)
 DESC:Airfiends are typically found on the Plane of Air. Their weapons are masterwork scimitars forged of an unknown silvery metal. They are constantly cool to the touch and are immune to electricity damage. They have cloud and lightning designs that run the length of the blade.
-ABILITY:Special Ability|AUTOMATIC|Immunity to Add Electricity. weaknesses Vulnerability To Fire.
+
+ABILITY:Special Ability|AUTOMATIC|Immunity to Add Electricity.
+
+ABILITY:Special Ability|AUTOMATIC|vulnerability to fire
 
 MOVE:Fly,30
 BONUS:VAR|Maneuverability|5
@@ -13683,8 +13677,14 @@ DESC:Earthfiends are typically found on the Plane of Earth. Their weapons are ma
 
 DR:10/-.
 ABILITY:Special Ability|AUTOMATIC|Immunity to Add Acid.
+
 Melee 3 battleaxes (damage 1d8+4/x3 plus abrade)
-Elemental Effect abrade (see below). Feats Weapon Focus (battleaxe) Languages Terran
+
+Elemental Effect abrade (see below).
+
+Feats Weapon Focus (battleaxe)
+
+AUTO:LANG|Terran
 
 
 
@@ -13697,9 +13697,15 @@ DESC:Firefiends are typically found on the Plane of Fire. Their weapons are mast
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Add Fire.
 ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
-Melee 3 longswords (1d8+4/19-20 plus burn) Ranged spit cinder +9 (1 fire plus ignite) Elemental Effect burn (see below).
-E Special Attacks spit cinder (see below).
+
+Melee 3 longswords (1d8+4/19-20 plus burn)
+
+Ranged spit cinder +9 (1 fire plus ignite)
+
+Elemental Effect burn (see below).
+
 Feats: Weapon Focus (longsword)
+
 AUTO:LANG|Ignan
 
 
@@ -13712,9 +13718,17 @@ DESC:Waterfiends are typically found on the Plane of Water. Their weapons are ma
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Add Cold.
 MOVE:Swim,30
-Melee 3 tridents (damage 1d8+4/x2 plus freeze) Ranged 3 tridents +10 ranged (damage 1d8+4/x2 plus freeze)
-Elemental Effect freeze (see below). Special Attacks add water mastery. Feats Weapon Focus (trident)
+
+Melee 3 tridents (damage 1d8+4/x2 plus freeze)
+
+Ranged 3 tridents +10 ranged (damage 1d8+4/x2 plus freeze)
+
+Elemental Effect freeze (see below).
+
+Feats Weapon Focus (trident)
+
 Skills add Swim +12
+
 AUTO:LANG|Aquan
 
 
@@ -14175,7 +14189,8 @@ BONUS:VAR|AC_Natural_Armor|7|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Vulnerabilities cold
+
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,30,Swim,30
 
@@ -14220,7 +14235,8 @@ BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
 
 ABILITY:Special Ability|AUTOMATIC|Immunity to Fire
 ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-Vulnerabilities cold
+
+ABILITY:Special Ability|AUTOMATIC|vulnerability to cold
 
 MOVE:Walk,20,Swim,20
 
@@ -16284,7 +16300,9 @@ BONUS:VAR|HasLowLightVision|1
 BONUS:VAR|AC_Natural_Armor|15|TYPE=Base.STACK
 
 DR:10/magic and bludgeoning
-ABILITY:Special Ability|AUTOMATIC|Immunity to Paralysis|Immunity to Sleep weakness Vulnerability To Sonic Spells
+ABILITY:Special Ability|AUTOMATIC|Immunity to Paralysis|Immunity to Sleep
+
+weakness Vulnerability To Sonic Spells
 
 MOVE:Walk,30
 
