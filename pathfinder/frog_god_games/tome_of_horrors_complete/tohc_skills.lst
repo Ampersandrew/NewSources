@@ -9,3 +9,6 @@ SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgam
 # Skill Name	Situational Skill
 Stealth.MOD		SITUATION:Camouflaged using sticks and leaves
 Stealth.MOD		SITUATION:in trees
+Stealth.MOD		SITUATION:in swamps and forests
+
+Survival.MOD	SITUATION:when tracking by scent
