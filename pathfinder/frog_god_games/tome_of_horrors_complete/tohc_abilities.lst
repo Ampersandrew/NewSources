@@ -25,12 +25,10 @@ Race Traits		KEY:Alastor ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY
 Race Traits		KEY:Algoid ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AlgoidRaceAbility
 Race Traits		KEY:Almiraj ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AlmirajRaceAbility
 Race Traits		KEY:Alu Demon ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AluDemonRaceAbility
-Race Traits		KEY:Amaimon Devil ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AmaimonDevilRaceAbility
 Race Traits		KEY:Amber Ooze ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AmberOozeRaceAbility
 Race Traits		KEY:Amon ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AmonRaceAbility
 Race Traits		KEY:Amphisbaena ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AmphisbaenaRaceAbility
 Race Traits		KEY:Animated Tree ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimatedTreeRaceAbility
-Race Traits		KEY:Ant Lion ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AntLionRaceAbility
 Race Traits		KEY:Apparition ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ApparitionRaceAbility
 Race Traits		KEY:Arach ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ArachRaceAbility
 Race Traits		KEY:Arcanoplasm ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ArcanoplasmRaceAbility
@@ -38,9 +36,8 @@ Race Traits		KEY:Archerbush ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABIL
 Race Traits		KEY:Ascomoid ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AscomoidRaceAbility
 Race Traits		KEY:Asrai ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AsraiRaceAbility
 Race Traits		KEY:Astral Shark ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AstralSharkRaceAbility
-Race Traits		KEY:Atomie ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AtomieRaceAbility
 Race Traits		KEY:Aurumvorax ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AurumvoraxRaceAbility
-Race Traits		KEY:Baal ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE
+Race Traits		KEY:Baal ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=BaalRaceAbility
 Race Traits		KEY:Baaphel ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=BaaphelRaceAbility
 Race Traits		KEY:Baaphel ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=BaaphelRaceAbility
 Race Traits		KEY:Baccae ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=BaccaeRaceAbility
@@ -523,7 +520,7 @@ Race Traits		KEY:Small Stingray ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	A
 Race Traits		KEY:Smoke Dragon ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SmokeDragonRaceAbility
 Race Traits		KEY:Smoke Giant ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SmokeGiantRaceAbility
 Race Traits		KEY:Smoke Mephit ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SmokeMephitRaceAbility
-Race Traits		KEY:Snow Leopard ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AAARaceAbility
+Race Traits		KEY:Snow Leopard ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SnowLeopardRaceAbility
 Race Traits		KEY:Soldier Thermite ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SoldierThermiteRaceAbility
 Race Traits		KEY:Sonechard ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SonechardRaceAbility
 Race Traits		KEY:Soul Eater ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=SoulEaterRaceAbility
@@ -950,16 +947,16 @@ Hell's Gleaning	KEY:Baaphel ~ Hell's Gleaning	CATEGORY:Special Ability	TYPE:Baap
 
 ###Block Baccae
 
-# Ability Name	Unique Key				Category of Ability		Type											Define		Description																																																																Modify VAR
-Beast Form		KEY:Baccae ~ Beast Form		CATEGORY:Special Ability	TYPE:BaccaeRaceAbility.RaceAbility.SpecialQuality.Supernatural				DESC:When angered or intoxicated, a baccae takes on a beast-like visage, growing sharpened fangs and claws. This transformation cannot be ended voluntarily and lasts for up to 1 hour.
-Charming Gaze	KEY:Baccae ~ Charming Gaze	CATEGORY:Special Ability	TYPE:BaccaeRaceAbility.RaceAbility.SpecialQuality.Supernatural	DEFINE:RRRAAADC|0	DESC:In human form, a baccae's gaze can charm any creature meeting her gaze and within 30 feet. An affected creature can attempt a DC %1 Will save to resist the effects. If the save fails, the opponent acts as if affected by a charm person spell CL %2 (caster level equals the baccae's HD). A baccae can suppress this ability as a free action. The save DC is Charisma-based.|RRRAAADC|HD	BONUS:VAR|RRRAAADC|10+(HD/2)+CHA
-Rage			KEY:Baccae ~ Rage			CATEGORY:Special Ability	TYPE:BaccaeRaceAbility.RaceAbility.SpecialQuality.Supernatural				DESC:Once per day, a baccae in beast form can fly into berserk frenzy.  This frenzy lasts for 1 minute (10 rounds). In this rage, she gains temporary bonuses to her ability scores: +4 Strength, +4 Constitution. She likewise gains a +2 morale bonus on Will saves, but takes a -2 penalty to Armor Class.  A baccae cannot voluntarily end her rage.
+# Ability Name	Unique Key				Category of Ability		Type											Define				Description																																																																		Modify VAR
+Beast Form		KEY:Baccae ~ Beast Form		CATEGORY:Special Ability	TYPE:BaccaeRaceAbility.RaceAbility.SpecialQuality.Supernatural						DESC:When angered or intoxicated, a baccae takes on a beast-like visage, growing sharpened fangs and claws. This transformation cannot be ended voluntarily and lasts for up to 1 hour.
+Charming Gaze	KEY:Baccae ~ Charming Gaze	CATEGORY:Special Ability	TYPE:BaccaeRaceAbility.RaceAbility.SpecialQuality.Supernatural	DEFINE:BaccaeCharmingGazeDC|0	DESC:In human form, a baccae's gaze can charm any creature meeting her gaze and within 30 feet. An affected creature can attempt a DC %1 Will save to resist the effects. If the save fails, the opponent acts as if affected by a charm person spell CL %2 (caster level equals the baccae's HD). A baccae can suppress this ability as a free action. The save DC is Charisma-based.|BaccaeCharmingGazeDC|HD	BONUS:VAR|BaccaeCharmingGazeDC|10+(HD/2)+CHA
+Rage			KEY:Baccae ~ Rage			CATEGORY:Special Ability	TYPE:BaccaeRaceAbility.RaceAbility.SpecialQuality.Supernatural						DESC:Once per day, a baccae in beast form can fly into berserk frenzy.  This frenzy lasts for 1 minute (10 rounds). In this rage, she gains temporary bonuses to her ability scores: +4 Strength, +4 Constitution. She likewise gains a +2 morale bonus on Will saves, but takes a -2 penalty to Armor Class.  A baccae cannot voluntarily end her rage.
 
 ###Block Balban Demon
 
-# Ability Name			Unique Key								Category of Ability		Type												Define		Description																																																																												Modify VAR
-Double Damage against Objects	KEY:Balban Demon ~ Double Damage against Objects	CATEGORY:Special Ability	TYPE:BalbanDemonRaceAbility.RaceAbility.SpecialQuality.Extraordinary				DESC:A balban's powerful fists are particularly effective against objects. A balban deals double damage against an object or structure.
-Pound					KEY:Balban Demon ~ Pound					CATEGORY:Special Ability	TYPE:BalbanDemonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DEFINE:RRRAAADC|0	DESC:A balban that makes a successful grapple check against a foe smaller than itself can smash the opponent into nearby solid objects (walls, floor, ground, etc.) as a standard action. This deals 2d8+12 points of bludgeoning damage to the victim. Further, the victim must succeed on a DC %1 Fortitude save or be stunned for 1 round. A balban can perform this action once per round as long as it maintains the grapple. The save DC is Strength-based.|RRRAAADC	BONUS:VAR|RRRAAADC|10+(HD/2)+STR
+# Ability Name			Unique Key								Category of Ability		Type												Define			Description																																																																													Modify VAR
+Double Damage against Objects	KEY:Balban Demon ~ Double Damage against Objects	CATEGORY:Special Ability	TYPE:BalbanDemonRaceAbility.RaceAbility.SpecialQuality.Extraordinary					DESC:A balban's powerful fists are particularly effective against objects. A balban deals double damage against an object or structure.
+Pound					KEY:Balban Demon ~ Pound					CATEGORY:Special Ability	TYPE:BalbanDemonRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DEFINE:BalbanPoundDC|0	DESC:A balban that makes a successful grapple check against a foe smaller than itself can smash the opponent into nearby solid objects (walls, floor, ground, etc.) as a standard action. This deals 2d8+12 points of bludgeoning damage to the victim. Further, the victim must succeed on a DC %1 Fortitude save or be stunned for 1 round. A balban can perform this action once per round as long as it maintains the grapple. The save DC is Strength-based.|BalbanPoundDC	BONUS:VAR|BalbanPoundDC|10+(HD/2)+STR
 
 ###Block Banderlog
 
@@ -3370,13 +3367,13 @@ Entangle		KEY:Monstrous Sea Wasp ~ Entangle			CATEGORY:Special Ability	TYPE:Mons
 Jet			KEY:Monstrous Sea Wasp ~ Jet				CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:A monstrous sea wasp can jet backward once per round as a full-round action at a speed equal to four times its swim speed. It must move in a straight line, but does not provoke attacks of opportunity while jetting.
 Transparent		KEY:Monstrous Sea Wasp ~ Transparent		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Defensive	DESC:A monstrous sea wasp is nearly invisible floating in the water. An observer must make a successful DC 20 Perception check to notice the sea wasp.
 Watersense		KEY:Monstrous Sea Wasp ~ Watersense			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Sense	DESC:Monstrous sea wasps can automatically sense the location of anything within 60 feet that is in contact with water.
-Poison		KEY:Monstrous Sea Wasp ~ Poison			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility																																																																								ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Tiny|PRESIZEEQ:T	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Small|PRESIZEEQ:S	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Medium|PRESIZEEQ:M	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Large|PRESIZEEQ:L	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Huge|PRESIZEEQ:H	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Gargantuan|PRESIZEEQ:G
-Poison		KEY:Monstrous Sea Wasp ~ Poison Tiny		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspPoisonAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 10; frequency 1/round for 1d4 rounds; effect 1 Con; cure 1 save. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Small		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspPoisonAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d4 rounds; effect 1d2 Con; cure 1 save. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Medium		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspPoisonAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d6 rounds; effect 1d3 Con; cure 1 save. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Large		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspPoisonAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 13; frequency 1/round for 1d6 rounds; effect 1d4 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Huge		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspPoisonAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 15; frequency 1/round for 1d6 rounds; effect 1d6 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Gargantuan	CATEGORY:Special Ability	TYPE:MonstrousSeaWaspPoisonAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 20; frequency 1/round for 1d6 rounds; effect 1d8 Con; cure 3 consecutive saves. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Tiny|PRESIZEEQ:T	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Small|PRESIZEEQ:S	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Medium|PRESIZEEQ:M	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Large|PRESIZEEQ:L	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Huge|PRESIZEEQ:H	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Gargantuan|PRESIZEEQ:G
+Poison		KEY:Monstrous Sea Wasp ~ Poison Tiny		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 10; frequency 1/round for 1d4 rounds; effect 1 Con; cure 1 save. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Small		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d4 rounds; effect 1d2 Con; cure 1 save. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Medium		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d6 rounds; effect 1d3 Con; cure 1 save. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Large		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 13; frequency 1/round for 1d6 rounds; effect 1d4 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Huge		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 15; frequency 1/round for 1d6 rounds; effect 1d6 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Gargantuan	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 20; frequency 1/round for 1d6 rounds; effect 1d8 Con; cure 3 consecutive saves. The DC of the save is Constitution-based.
 
 ###Block Moon Dog
 
@@ -4296,8 +4293,8 @@ Stygian Poisoning	KEY:Stygian Leviathan ~ Stygian Poisoning	CATEGORY:Special Abi
 
 ###Block Stymphalian Bird
 
-# Ability Name	Unique Key							Category of Ability		Type															Description
-Feathers		KEY:Stymphalian Bird(Bronze Beak) ~ Feathers	CATEGORY:Special Ability	TYPE:StymphalianBird(BronzeBeak)RaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A stymphalian bird can loose a volley of four feathers as a standard action when flying (make an attack roll for each feather). This attack has a range of 60 feet with no range increment. All targets must be within 30 feet of each other. The creature can launch only twelve feathers (3 volleys) in a single day. The stymphalian bird may use this ability in conjunction with its Flyby Attack feat.
+# Ability Name	Unique Key					Category of Ability		Type															Description
+Feathers		KEY:Stymphalian Bird ~ Feathers	CATEGORY:Special Ability	TYPE:StymphalianBirdRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A stymphalian bird can loose a volley of four feathers as a standard action when flying (make an attack roll for each feather). This attack has a range of 60 feet with no range increment. All targets must be within 30 feet of each other. The creature can launch only twelve feathers (3 volleys) in a single day. The stymphalian bird may use this ability in conjunction with its Flyby Attack feat.
 
 ###Block Sudoth
 
@@ -4441,7 +4438,7 @@ Sleep Pollen	KEY:Tri-Flower Frond ~ Sleep Pollen	CATEGORY:Special Ability	TYPE:T
 
 # Ability Name			Unique Key							Category of Ability		Type											Description
 Mutation				KEY:Troblin ~ Mutation					CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:The regenerative ability of a troblin does not function as well as those of its trollish parent. Sometimes when an injured troblin regenerates, its body warps in an inexplicable fashion. A severed arm may regrow as two arms, or a scar may grow to cover the troblin's entire body in thick skin. Further, if a troblin suffers a critical hit in melee, it has a 25%% chance of gaining a mutation once it is fully healed. See the sidebar for random mutations.  Each troblin has the potential to possess 1d2 random mutations brought about by its bizarre regeneration. Roll on the table below for each mutation.  d20; Mutation; 1-2; Dual forearm; 3-4; Dual foreleg; 5-6; Massive scarring; 7; Multiple muscles; 8; Shortened tendons; 9; Redundant vital organs; 10; Third leg; 11; Two arms on one side; 12; Two heads; 13-20; No mutation.;
-Dual foreleg			KEY:Troblin ~ Dual foreleg:				CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality			DESC:+2 racial bonus to Acrobatics checks, +2 racial bonus on CMD to resist being bull rushed or tripped when standing on solid ground.
+Dual foreleg			KEY:Troblin ~ Dual foreleg				CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality			DESC:+2 racial bonus to Acrobatics checks, +2 racial bonus on CMD to resist being bull rushed or tripped when standing on solid ground.
 Massive scarring			KEY:Troblin ~ Massive scarring			CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality			DESC:natural armor bonus increases by +1.
 Multiple muscles			KEY:Troblin ~ Multiple muscles			CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality			DESC:+2 Strength.
 Shortened tendons			KEY:Troblin ~ Shortened tendons			CATEGORY:Special Ability	TYPE:TroblinRaceAbility.RaceAbility.SpecialQuality			DESC:+2 Dexterity.
