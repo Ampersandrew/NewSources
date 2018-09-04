@@ -93,6 +93,74 @@ SKILL:Perception	RANK:23
 TEMPLATE:By the Book Afanc
 
 
-#STARTPACK:XXX Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,XXX]
-#RACE:XXX		!PRERACE:1,%
-#NAME:XXX
+STARTPACK:Ahlinni Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ahlinni]
+RACE:Ahlinni	!PRERACE:1,%
+NAME:Ahlinni
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Skill Focus (Perception)
+ABILITY:CATEGORY=FEAT|Weapon Focus (bite)
+
+
+STARTPACK:Animated Tree Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Animated Tree]
+RACE:Animated Tree	!PRERACE:1,%
+NAME:Animated Tree
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+SKILL:Perception	RANK:4
+ABILITY:CATEGORY=FEAT|Improved Sunder
+ABILITY:CATEGORY=FEAT|Power Attack
+ABILITY:CATEGORY=FEAT|Weapon Focus (slam)
+ABILITY:CATEGORY=FEAT|Trample
+
+
+STARTPACK:Algoid (Magic) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Algoid (Magic)]
+RACE:Algoid (Magic)	!PRERACE:1,%
+NAME:Algoid (Magic)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Perception	RANK:5
+SKILL:Stealth	RANK:5
+ABILITY:CATEGORY=FEAT|Iron Will
+ABILITY:CATEGORY=FEAT|Skill Focus (Perception)
+ABILITY:CATEGORY=FEAT|Weapon Focus (slam)
+
+
+STARTPACK:Algoid (Psionic) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Algoid (Psionic)]
+RACE:Algoid (Psionic)	!PRERACE:1,%
+NAME:Algoid (Psionic)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Perception	RANK:5
+SKILL:Stealth	RANK:5
+ABILITY:CATEGORY=FEAT|Iron Will
+ABILITY:CATEGORY=FEAT|Skill Focus (Perception)
+ABILITY:CATEGORY=FEAT|Weapon Focus (slam)
+
+
+STARTPACK:Al-mi'raj Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Al-mi'raj]
+RACE:Al-mi'raj	!PRERACE:1,%
+NAME:Al-mi'raj
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+SKILL:Perception	RANK:1
+SKILL:Stealth	RANK:1
+SKILL:Survival	RANK:1
+ABILITY:CATEGORY=FEAT|Weapon Finesse
+ABILITY:CATEGORY=FEAT|Skill Focus (Stealth)
+
+STARTPACK:Al-mi'raj (Magic) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Al-mi'raj (Magic)]
+RACE:Al-mi'raj (Magic)	!PRERACE:1,%
+NAME:Al-mi'raj (Magic)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+SKILL:Perception	RANK:1
+SKILL:Stealth	RANK:1
+SKILL:Survival	RANK:1
+ABILITY:CATEGORY=FEAT|Weapon Finesse
+ABILITY:CATEGORY=FEAT|Skill Focus (Stealth)
+
+
+STARTPACK:Al-mi'raj (Psionic) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Al-mi'raj (Psionic)]
+RACE:Al-mi'raj (Psionic)	!PRERACE:1,%
+NAME:Al-mi'raj (Psionic)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+SKILL:Perception	RANK:1
+SKILL:Stealth	RANK:1
+SKILL:Survival	RANK:1
+ABILITY:CATEGORY=FEAT|Weapon Finesse
+ABILITY:CATEGORY=FEAT|Skill Focus (Stealth)

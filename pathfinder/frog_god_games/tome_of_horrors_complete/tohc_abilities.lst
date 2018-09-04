@@ -1,4 +1,4 @@
-# CVS $Revision: $ $Author: $ -- Fri Aug 31 15:30:44 2018 -- reformated by prettylst.pl v1.51 (build 23662)
+# CVS $Revision: $ $Author: $ -- Tue Sep  4 13:08:15 2018 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgames.com/tome-horrors-complete	SOURCEDATE:2014-03
 # ORIGINAL ENTRY: Andrew Wilson
 # ORIGINAL ENTRY DATE: 2014/03/22
@@ -7,14 +7,14 @@ SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgam
 
 # Ability Name	Unique Key								Category of Ability	Visible	Ability																										Modify VAR
 Race Traits		KEY:Abasheen ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AbasheenRaceAbility
-Race Traits		KEY:Aberant ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE.AberantRaceAbility	ABILITY:Special Ability|AUTOMATIC|Darkvision										BONUS:VAR|DarkvisionRange|60
+Race Traits		KEY:Aberant ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE.AberantRaceAbility
 Race Traits		KEY:Abyssal Harvester ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AbyssalHarvesterRaceAbility
 Race Traits		KEY:Abyssal Larva ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AbyssalLarvaRaceAbility
 Race Traits		KEY:Abyssal Wolf ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AbyssalWolfRaceAbility
 Race Traits		KEY:Acid Quasi Elemental ~ Race Traits			CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AcidQuasiElementalRaceAbility
 Race Traits		KEY:Adamantine Wasp Swarm ~ Race Traits			CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AdamantineWaspSwarmRaceAbility
 Race Traits		KEY:Adherer ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AdhererRaceAbility
-Race Traits		KEY:Aerial Servant ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AerialServantRaceAbility	ABILITY:Special Ability|AUTOMATIC|Darkvision									BONUS:VAR|Maneuverability|5	BONUS:VAR|DarkvisionRange|60|TYPE=Base
+Race Traits		KEY:Aerial Servant ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AerialServantRaceAbility
 Race Traits		KEY:Aeshma Demon ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AeshmaDemonRaceAbility
 Race Traits		KEY:Afanc ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AfancRaceAbility
 Race Traits		KEY:Ahlinni ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=AhlinniRaceAbility
@@ -1657,7 +1657,7 @@ Poison		KEY:Deep Hunter Sea Serpent ~ Poison	CATEGORY:Special Ability	TYPE:DeepH
 ###Block Demi Lich
 
 # Ability Name		Unique Key						Category of Ability		Type													Description
-Immunity to Magic		KEY:Demi Lich ~ Immunity to Magic		CATEGORY:Special Ability	TYPE:DemiLichRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A demi-lich is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.  A shatter spell deals 1d6 points of damage per two caster levels (maximum 10d6), with no saving throw.  A power word kill spell cast by an ethereal caster deals 50 points of damage to the demi-lich if it fails a Fortitude save (DC 19 + caster's relevant ability score modifier). Note: power word kill does not normally allow a save. A holy smite spell affects the demi-lich normally.  A dispel evil spell deals 2d6 points of damage, with no saving throw.
+Immunity to Magic		KEY:Demi Lich ~ Immunity to Magic		CATEGORY:Special Ability	TYPE:DemiLichRaceAbility.RaceAbility.SpecialQuality.Extraordinary			DESC:A demi-lich is immune to any spell or spell-like ability that allows spell resistance. In addition, certain spells and effects function differently against the creature, as noted below.  A shatter spell deals 1d6 points of damage per two caster levels (maximum 10d6), with no saving throw.  A power word kill spell cast by an ethereal caster deals 50 points of damage to the demi-lich if it fails a Fortitude save (DC 19 + caster's relevant ability score modifier). Note: power word kill does not normally allow a save. A holy smite spell affects the demi-lich normally.  A dispel evil spell deals 2d6 points of damage, with no saving throw.
 Rejuvenation		KEY:Demi Lich ~ Rejuvenation			CATEGORY:Special Ability	TYPE:DemiLichRaceAbility.RaceAbility.SpecialQuality.Supernatural			DESC:Unless holy water is poured over the destroyed remains of a demi-lich, the creature reforms in 1d10 days with a successful level check (1d20 + demi-lich's HD) against DC 16.
 Trap the Soul		KEY:Demi Lich ~ Trap the Soul			CATEGORY:Special Ability	TYPE:DemiLichRaceAbility.RaceAbility.SpecialAttack.Supernatural			DESC:A demi-lich can trap the souls of up to eight living creatures per day. To use this power, it selects any target it can see within 300 feet. The target is allowed a DC 22 Fortitude saving throw. If the target makes its saving throw, it gains three negative levels (this does not count as a use of trap the soul). If the target fails its save, the soul of the target is instantly drawn from its body and trapped within one of the gems incorporated into the demi-lich's mouth. The gem gleams for 24 hours, indicating the captive soul within. The soulless body collapses in a mass of corruption and molders in a single round, reduced to dust. If left to its own devices, the demi-lich slowly devours the soul over 24 hours-at the end of that time the sou l is completely absorbed, and the victim is forever gone.  If the demi-lich is overcome before the soul is eaten, crushing the gem releases the soul, after which time it is free to seek the afterlife or be returned to its body by the use of resurrection, true resurrection, clone, or miracle. A potential victim protected by a death ward spell is not immune to trap the soul, but receives a +5 bonus on its Fortitude save and is effective against the level loss on a successful save.  The save DC is Charisma-based.
 Unholy Grace		KEY:Demi Lich ~ Unholy Grace			CATEGORY:Special Ability	TYPE:DemiLichRaceAbility.RaceAbility.SpecialQuality.Supernatural.Defensive	DESC:A demi-lich adds its Charisma modifier as a bonus on its saving throws and as a profane bonus to its Armor Class.
@@ -3362,18 +3362,32 @@ Watersense		KEY:Monstrous Jellyfish ~ Watersense	CATEGORY:Special Ability	TYPE:M
 
 ###Block Monstrous Sea Wasp
 
-# Ability Name	Unique Key							Category of Ability		Type														Description																																																																Ability
-Entangle		KEY:Monstrous Sea Wasp ~ Entangle			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:A sea wasp can entangle a creature up to two sizes smaller than itself with its tentacles with a successful CMB check. An entangled opponent suffers tentacle damage and the effect of its poison each round the hold is maintained. An entangled creature still receives a save to avoid the effects of its poison. While a foe is entangled, the sea wasp cannot attack any other creature.
-Jet			KEY:Monstrous Sea Wasp ~ Jet				CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary		DESC:A monstrous sea wasp can jet backward once per round as a full-round action at a speed equal to four times its swim speed. It must move in a straight line, but does not provoke attacks of opportunity while jetting.
-Transparent		KEY:Monstrous Sea Wasp ~ Transparent		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Defensive	DESC:A monstrous sea wasp is nearly invisible floating in the water. An observer must make a successful DC 20 Perception check to notice the sea wasp.
-Watersense		KEY:Monstrous Sea Wasp ~ Watersense			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Sense	DESC:Monstrous sea wasps can automatically sense the location of anything within 60 feet that is in contact with water.
-Poison		KEY:Monstrous Sea Wasp ~ Poison			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Tiny|PRESIZEEQ:T	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Small|PRESIZEEQ:S	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Medium|PRESIZEEQ:M	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Large|PRESIZEEQ:L	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Huge|PRESIZEEQ:H	ABILITY:Special Ability|AUTOMATIC|MonstrousSeaWasp ~ Poison Gargantuan|PRESIZEEQ:G
-Poison		KEY:Monstrous Sea Wasp ~ Poison Tiny		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 10; frequency 1/round for 1d4 rounds; effect 1 Con; cure 1 save. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Small		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d4 rounds; effect 1d2 Con; cure 1 save. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Medium		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d6 rounds; effect 1d3 Con; cure 1 save. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Large		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 13; frequency 1/round for 1d6 rounds; effect 1d4 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Huge		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 15; frequency 1/round for 1d6 rounds; effect 1d6 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
-Poison		KEY:Monstrous Sea Wasp ~ Poison Gargantuan	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary		DESC:Sting-injury; Fort DC 20; frequency 1/round for 1d6 rounds; effect 1d8 Con; cure 3 consecutive saves. The DC of the save is Constitution-based.
+# Ability Name	Unique Key						Category of Ability		Type														Visible	Description
+Entangle		KEY:Monstrous Sea Wasp ~ Entangle		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary				DESC:A sea wasp can entangle a creature up to two sizes smaller than itself with its tentacles with a successful CMB check. An entangled opponent suffers tentacle damage and the effect of its poison each round the hold is maintained. An entangled creature still receives a save to avoid the effects of its poison. While a foe is entangled, the sea wasp cannot attack any other creature.
+Jet			KEY:Monstrous Sea Wasp ~ Jet			CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary				DESC:A monstrous sea wasp can jet backward once per round as a full-round action at a speed equal to four times its swim speed. It must move in a straight line, but does not provoke attacks of opportunity while jetting.
+Transparent		KEY:Monstrous Sea Wasp ~ Transparent	CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Defensive			DESC:A monstrous sea wasp is nearly invisible floating in the water. An observer must make a successful DC 20 Perception check to notice the sea wasp.
+Watersense		KEY:Monstrous Sea Wasp ~ Watersense		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Sense			DESC:Monstrous sea wasps can automatically sense the location of anything within 60 feet that is in contact with water.
+Poison		KEY:Monstrous Sea Wasp ~ Poison		CATEGORY:Special Ability	TYPE:MonstrousSeaWaspRaceAbility.RaceAbility							VISIBLE:NO
+
+###Block Monstrous Sea Wasp Poison by size
+
+# Ability Name	Unique Key							Category of Ability		Type								Description
+Poison		KEY:Monstrous Sea Wasp ~ Poison Tiny		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary	DESC:Sting-injury; Fort DC 10; frequency 1/round for 1d4 rounds; effect 1 Con; cure 1 save. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Small		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary	DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d4 rounds; effect 1d2 Con; cure 1 save. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Medium		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary	DESC:Sting-injury; Fort DC 11; frequency 1/round for 1d6 rounds; effect 1d3 Con; cure 1 save. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Large		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary	DESC:Sting-injury; Fort DC 13; frequency 1/round for 1d6 rounds; effect 1d4 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Huge		CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary	DESC:Sting-injury; Fort DC 15; frequency 1/round for 1d6 rounds; effect 1d6 Con; cure 2 consecutive saves. The DC of the save is Constitution-based.
+Poison		KEY:Monstrous Sea Wasp ~ Poison Gargantuan	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality.Extraordinary	DESC:Sting-injury; Fort DC 20; frequency 1/round for 1d6 rounds; effect 1d8 Con; cure 3 consecutive saves. The DC of the save is Constitution-based.
+
+###Block Monstrous Sea Wasp Poison mod
+
+# Ability Name								Ability
+CATEGORY=Special Ability|Monstrous Sea Wasp ~ Poison.MOD	ABILITY:Special Ability|AUTOMATIC|Monstrous Sea Wasp ~ Poison Tiny|PRESIZEEQ:T
+CATEGORY=Special Ability|Monstrous Sea Wasp ~ Poison.MOD	ABILITY:Special Ability|AUTOMATIC|Monstrous Sea Wasp ~ Poison Small|PRESIZEEQ:S
+CATEGORY=Special Ability|Monstrous Sea Wasp ~ Poison.MOD	ABILITY:Special Ability|AUTOMATIC|Monstrous Sea Wasp ~ Poison Medium|PRESIZEEQ:M
+CATEGORY=Special Ability|Monstrous Sea Wasp ~ Poison.MOD	ABILITY:Special Ability|AUTOMATIC|Monstrous Sea Wasp ~ Poison Large|PRESIZEEQ:L
+CATEGORY=Special Ability|Monstrous Sea Wasp ~ Poison.MOD	ABILITY:Special Ability|AUTOMATIC|Monstrous Sea Wasp ~ Poison Huge|PRESIZEEQ:H
+CATEGORY=Special Ability|Monstrous Sea Wasp ~ Poison.MOD	ABILITY:Special Ability|AUTOMATIC|Monstrous Sea Wasp ~ Poison Gargantuan|PRESIZEEQ:G
 
 ###Block Moon Dog
 
@@ -4293,7 +4307,7 @@ Stygian Poisoning	KEY:Stygian Leviathan ~ Stygian Poisoning	CATEGORY:Special Abi
 
 ###Block Stymphalian Bird
 
-# Ability Name	Unique Key					Category of Ability		Type															Description
+# Ability Name	Unique Key					Category of Ability		Type													Description
 Feathers		KEY:Stymphalian Bird ~ Feathers	CATEGORY:Special Ability	TYPE:StymphalianBirdRaceAbility.RaceAbility.SpecialQuality.Extraordinary	DESC:A stymphalian bird can loose a volley of four feathers as a standard action when flying (make an attack roll for each feather). This attack has a range of 60 feet with no range increment. All targets must be within 30 feet of each other. The creature can launch only twelve feathers (3 volleys) in a single day. The stymphalian bird may use this ability in conjunction with its Flyby Attack feat.
 
 ###Block Sudoth
