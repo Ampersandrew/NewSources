@@ -860,7 +860,7 @@ Craver		KEY:Amon ~ Craver			CATEGORY:Special Ability	TYPE:AmonRaceAbility.RaceAb
 ###Block Amphisbaena
 
 # Ability Name	Unique Key				Category of Ability		Type														Description
-Poison		KEY:Amphisbaena ~ Poison	CATEGORY:Special Ability	TYPE:AmphisbaenaRaceAbility.RaceAbility.SpecialQuality.Extraordinary			DESC:Bite-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d3 Con; cure 1 save. The save DC is Constitution-based.
+Poison		KEY:Amphisbaena ~ Poison	CATEGORY:Special Ability	TYPE:AmphisbaenaRaceAbility.RaceAbility.SpecialAttack.Extraordinary			DESC:Bite-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d3 Con; cure 1 save. The save DC is Constitution-based.
 Split			KEY:Amphisbaena ~ Split		CATEGORY:Special Ability	TYPE:AmphisbaenaRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Defensive	DESC:An amphisbaena functions normally even if cut in half. If dealt a critical hit with a slashing weapon, the creature is cut in half but continues to function as two separate creatures, each with half the original amphisbaena's current hit points (rounded down). Once split, an amphisbaena cannot be split again. If left alone for 1 minute, the split amphisbaena can rejoin its two halves and become a single whole creature again (add the two creatures' hit points together). If one of the split creatures is slain, the amphisbaena can regrow the lost portion over the course of a few weeks.
 
 ###Block Angel (Chalkydri)
