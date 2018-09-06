@@ -1,81 +1,6 @@
 
 -----------------------------------------------
 
-Amphisbaena
-CR:4
-KIT:1|N
-FACT:Basesize|L
-SIZE:L
-RACETYPE:Magical Beast
-MONSTERCLASS:Magical Beast:5 
-ABILITY:Special Ability|AUTOMATIC|All-Around Vision
-BONUS:VAR|DarkvisionRange|60
-BONUS:VAR|HasLowLightVision|1
-BONUS:VAR|AC_Natural_Armor|6|TYPE=Base.STACK
-ABILITY:Special Ability|AUTOMATIC|Immunity to Petrification
-BONUS:VAR|ColdResistanceBonus|10
-MOVE:Walk,20,Climb,20,Swim,20
-REACH:5
-BONUS:STAT|STR|6
-BONUS:STAT|DEX|4
-BONUS:STAT|CON|4
-BONUS:STAT|INT|-8
-BONUS:STAT|WIS|2
-BONUS:STAT|CHA|-8
-BONUS:SITUATION|Acrobatics=when balancing|4
-BONUS:SKILL|Perception,Stealth|4|TYPE=Racial
-ABILITY:Internal|AUTOMATIC|Bite
-BONUS:VAR|BiteAttacks|1
-
-Base Atk +5; CMB +9; CMD 21 (can't be tripped)
-
-
------------------------------------------------
-
-STARTPACK:Great Sea Anemone Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Great Sea Anemone]
-RACE:Great Sea Anemone		!PRERACE:1,%
-NAME:Great Sea Anemone
-STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
-
-Great Sea Anemone
-DESC:This is a flowerlike creature with a dark green to gray trunk and a brightly colored interior. It has a smooth front bordered by dozens of fleshy tendrils, and a rougher outer trunk. At the center of the creature's front is a circular opening that leads into its interior.
-CR:8
-KIT:1|N
-FACT:Basesize|H
-SIZE:H
-RACETYPE:Vermin
-MONSTERCLASS:Vermin:12 
-RACESUBTYPE:Aquatic
-BONUS:VAR|BlindsightRange|40
-DR:5/piercing or slashing
-ABILITY:Special Ability|AUTOMATIC|Vermin Traits
-BONUS:VAR|AcidResistanceBonus|20
-MOVE:Walk,0
-
-Melee tendrils +14 (paralysis plus grab)
-
-REACH:15
-
-ABILITY:Special Ability|AUTOMATIC|Swallow Whole
-BONUS:VAR|SwallowWholeDice|2
-BONUS:VAR|SwallowWholeDamageDie|8
-# BONUS:VAR|SwallowWholeBonusDamage|8
-
-BONUS:STAT|STR|14
-BONUS:STAT|CON|14
-DEFINESTAT:NONSTAT|INT
-BONUS:STAT|WIS|2
-BONUS:STAT|CHA|-8
-
-Base Atk +9; CMB +18 (+22 grapple); CMD 28 (can't be tripped)
-
-ABILITY:FEAT|AUTOMATIC|Improved Initiative|Lightning Reflexes
-
-Skills Perception +9, Stealth -4; Racial Modifiers +4 Stealth, +8 Perception
-
-
------------------------------------------------
-
 STARTPACK:Angel (Chalkydri) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Chalkydri)]
 RACE:Angel (Chalkydri)		!PRERACE:1,%
 NAME:Angel (Chalkydri)
@@ -83,7 +8,6 @@ STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
 Angel (Chalkydri)
 OUTPUTNAME:[NAME]
-DESC:This angelic-looking creature resembles a muscular humanoid with coppery skin and coppery eyes. It has four large feathery wings of white and carries a longsword swathed in fire.
 CR:14
 KIT:1|NG
 FACT:Basesize|M

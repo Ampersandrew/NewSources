@@ -3,7 +3,7 @@ SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgam
 # ORIGINAL ENTRY: Andrew Wilson
 # ORIGINAL ENTRY DATE: 2014/03/22
 
-STARTPACK:Aberant Default	TYPE:Default Monster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aberant]
+STARTPACK:Default Aberant	TYPE:Default Monster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aberant]
 RACE:Aberant	!PRERACE:1,%
 NAME:Aberant
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
@@ -15,7 +15,7 @@ ABILITY:CATEGORY=FEAT|Power Attack
 ABILITY:CATEGORY=FEAT|Vital Strike
 ABILITY:CATEGORY=FEAT|Weapon Focus (greatclub)
 
-STARTPACK:Abyssal Harvester Default	TYPE:Default Monster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abyssal Harvester]
+STARTPACK:Default Abyssal Harvester	TYPE:Default Monster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abyssal Harvester]
 RACE:Abyssal Harvester	!PRERACE:1,%
 NAME:Abyssal Harvester
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
@@ -37,7 +37,7 @@ ABILITY:CATEGORY=FEAT|Improved Grapple				FREE:YES
 TEMPLATE:By the Book Abyssal Harvester
 
 
-STARTPACK:Abyssal Larva Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abyssal Larva]
+STARTPACK:Default Abyssal Larva	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Abyssal Larva]
 RACE:Abyssal Larva	!PRERACE:1,%
 NAME:Abyssal Larva
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
@@ -46,7 +46,7 @@ SKILL:Stealth	RANK:1
 ABILITY:CATEGORY=FEAT|Toughness	FREE:YES
 
 
-STARTPACK:Adherer Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Adherer]
+STARTPACK:Default Adherer	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Adherer]
 RACE:Adherer	!PRERACE:1,%
 NAME:Adherer
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
@@ -56,7 +56,7 @@ ABILITY:CATEGORY=FEAT|Skill Focus (perception)
 ABILITY:CATEGORY=FEAT|Weapon Focus (slam)		FREE:YES
 
 
-STARTPACK:Aerial Servant Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aerial Servant]
+STARTPACK:Default Aerial Servant	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Aerial Servant]
 RACE:Aerial Servant	!PRERACE:1,%
 NAME:Aerial Servant
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
@@ -73,7 +73,7 @@ SKILL:Stealth			RANK:11
 SKILL:Survival			RANK:8
 
 
-STARTPACK:Afanc Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Afanc]
+STARTPACK:Default Afanc	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Afanc]
 RACE:Afanc	!PRERACE:1,%
 NAME:Afanc
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
@@ -93,7 +93,7 @@ SKILL:Perception	RANK:23
 TEMPLATE:By the Book Afanc
 
 
-STARTPACK:Ahlinni Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ahlinni]
+STARTPACK:Default Ahlinni	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ahlinni]
 RACE:Ahlinni	!PRERACE:1,%
 NAME:Ahlinni
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
@@ -101,7 +101,7 @@ ABILITY:CATEGORY=FEAT|Skill Focus (Perception)
 ABILITY:CATEGORY=FEAT|Weapon Focus (bite)
 
 
-STARTPACK:Animated Tree Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Animated Tree]
+STARTPACK:Default Animated Tree	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Animated Tree]
 RACE:Animated Tree	!PRERACE:1,%
 NAME:Animated Tree
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
@@ -166,16 +166,25 @@ ABILITY:CATEGORY=FEAT|Weapon Finesse
 ABILITY:CATEGORY=FEAT|Skill Focus (Stealth)
 
 
-STARTPACK:Amphisbaena Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Amphisbaena]
-RACE:Amphisbaena		!PRERACE:1,%
+STARTPACK:Default Amphisbaena	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Amphisbaena]
+RACE:Amphisbaena	!PRERACE:1,%
 NAME:Amphisbaena
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Lunge
 ABILITY:CATEGORY=FEAT|Toughness
 ABILITY:CATEGORY=FEAT|Weapon Focus (bite)
-SKILL:Acrobatics		RANK:5
-SKILL:Climb			RANK:5
-SKILL:Perception		RANK:5
-SKILL:Stealth		RANK:5
-SKILL:Swim			RANK:5
+SKILL:Acrobatics	RANK:5
+SKILL:Climb		RANK:5
+SKILL:Perception	RANK:5
+SKILL:Stealth	RANK:5
+SKILL:Swim		RANK:5
+
+
+STARTPACK:Default Great Sea Anemone	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Great Sea Anemone]
+RACE:Great Sea Anemone	!PRERACE:1,%
+NAME:Great Sea Anemone
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+
+
 
