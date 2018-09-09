@@ -186,5 +186,36 @@ NAME:Great Sea Anemone
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
 
+STARTPACK:Angel (Chalkydri) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Chalkydri)]
+RACE:Angel (Chalkydri)	!PRERACE:1,%
+NAME:Angel (Chalkydri)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+SKILL:Diplomacy             RANK:12
+SKILL:Fly                   RANK:12
+SKILL:Heal                  RANK:12
+SKILL:Intimidate            RANK:12
+SKILL:Knowledge (planes)    RANK:12
+SKILL:Knowledge (religion)  RANK:12
+SKILL:Perception            RANK:12
+SKILL:Sense Motive          RANK:12
+SKILL:Stealth               RANK:12
+SKILL:Survival              RANK:12
+GEAR:Longsword		SIZE:PC	LOCATION:Primary Hand	EQMOD:MWORK.PLUS2W.FLAME
+GEAR:Javelin	QTY:2	SIZE:PC	LOCATION:Carried		EQMOD:MWORK.PLUS2W.FLAME
 
 
+STARTPACK:Angel (Empyreal) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Empyreal)]
+RACE:Angel (Empyreal)	!PRERACE:1,%
+NAME:Angel (Empyreal)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Diplomacy             RANK:13
+SKILL:Fly                   RANK:13
+SKILL:Heal                  RANK:13
+SKILL:Intimidate            RANK:13
+SKILL:Knowledge (planes)    RANK:13
+SKILL:Knowledge (religion)  RANK:13
+SKILL:Perception            RANK:13
+SKILL:Sense Motive          RANK:13
+SKILL:Stealth               RANK:13
+SKILL:Survival              RANK:13
+GEAR:Longsword	SIZE:PC	LOCATION:Primary Hand	EQMOD:MWORK.PLUS3W.FLAME

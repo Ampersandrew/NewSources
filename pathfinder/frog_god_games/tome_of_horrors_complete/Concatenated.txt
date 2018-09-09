@@ -1,144 +1,4 @@
 
------------------------------------------------
-
-STARTPACK:Angel (Chalkydri) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Chalkydri)]
-RACE:Angel (Chalkydri)		!PRERACE:1,%
-NAME:Angel (Chalkydri)
-STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
-
-Angel (Chalkydri)
-OUTPUTNAME:[NAME]
-CR:14
-KIT:1|NG
-FACT:Basesize|M
-SIZE:M
-RACETYPE:Outsider
-MONSTERCLASS:Outsider:12 
-RACESUBTYPE:Angel|Extraplanar|Good
-BONUS:VAR|DarkvisionRange|60
-ABILITY:Special Ability|AUTOMATIC|Detect Evil ~ Constant
-ABILITY:Special Ability|AUTOMATIC|See Invisibility ~ Constant
-
-Aura protective aura
-
-BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
-BONUS:COMBAT|AC|4|TYPE=Sacred
-
-DR:10/evil
-ABILITY:Special Ability|AUTOMATIC|Immunity to Acid|Immunity to Cold|Immunity to Petrification|Immunity to Death Effects
-BONUS:VAR|ElectricityResistanceBonus|10
-BONUS:VAR|FireResistanceBonus|10
-SR:25
-
-MOVE:Walk,40,Fly,90
-BONUS:VAR|Maneuverability|4
-
-Melee +2 flaming longsword +21/+16/+11 (1d8+8 plus 1d6 fire)
-
-Ranged +2 flaming javelin +17 (1d6+8 plus 1d6 fire)
-
-Spell-Like Abilities (CL 12th)
-
-Constant-detect evil, see invisibility
-
-At will-aid, bless, consecrate, continual flame, discern lies (DC 18), dispel evil (DC 19), dispel magic, fog cloud, holy smite (DC 18), invisibility (self only), plane shift (DC 21), remove curse (DC 18), remove disease (DC 17), remove fear (DC 15)
-
-3/day-holy word (DC 21), polymorph (self only), atonement, cure serious wounds, flame strike (DC 19), greater restoration
-
-1/day-heal, raise dead, summon (level 8, 1d4 movanic devas 35%)
-
-BONUS:STAT|STR|12
-BONUS:STAT|DEX|6
-BONUS:STAT|CON|10
-BONUS:STAT|INT|8
-BONUS:STAT|WIS|8
-BONUS:STAT|CHA|8
-
-Base Atk +12; CMB +18; CMD 35
-
-ABILITY:FEAT|AUTOMATIC|Blind-Fight|Cleave|Improved Initiative|Power Attack|Weapon Focus (longsword)|Iron Will
-
-Skills Diplomacy +19, Fly +22, Heal +19, Intimidate +16, Knowledge (planes) +19, Knowledge (religion) +16, Perception +23, Sense Motive +23, Stealth +18, Survival +19; Racial Modifiers +4 Perception, Sense Motive
-
-AUTO:LANG|Celestial|Common|Draconic|Infernal
-truespeech
-
-Gear +2 flaming longsword, 2 +2 flaming javelins
-
-
------------------------------------------------
-
-STARTPACK:Angel (Empyreal) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Empyreal)]
-RACE:Angel (Empyreal)		!PRERACE:1,%
-NAME:Angel (Empyreal)
-STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
-
-Angel (Empyreal)
-OUTPUTNAME:[NAME]
-DESC:This creature resembles a man-sized column of white fire. Within the burning fires seems to be a winged humanoid-shaped creature dressed in shining armor.
-CR:15
-KIT:1|LG
-FACT:Basesize|L
-SIZE:L
-RACETYPE:Outsider
-MONSTERCLASS:Outsider:13 
-RACESUBTYPE:Angel|Extraplanar|Good|Lawful
-BONUS:VAR|DarkvisionRange|60
-ABILITY:Special Ability|AUTOMATIC|Detect Evil ~ Constant
-BONUS:VAR|HasLowLightVision|1
-
-Aura aura of goodness, protective aura
-
-BONUS:VAR|AC_Natural_Armor|14|TYPE=Base.STACK
-
-DR:10/evil
-ABILITY:Special Ability|AUTOMATIC|Immunity to Acid|Immunity to Cold|Immunity to Petrification|Immunity to Death Effects
-BONUS:VAR|ElectricityResistanceBonus|10
-BONUS:VAR|FireResistanceBonus|10
-SR:26
-
-MOVE:Walk,40,Fly,70
-BONUS:VAR|Maneuverability|4
-
-Melee +3 flaming longsword +23/+18/+13 (1d8+10 plus 1d6 fire)
-
-REACH:10
-
-Special Attacks radiant blast
-
-Spell-Like Abilities (CL 13th) Constant-detect evil
-
-At will-aid, continual flame, discern lies (DC 19), dispel magic, holy smite (DC 19), invisibility (self only), plane shift (DC 22), remove curse (DC 19), remove disease (DC 18), remove fear (DC 16)
-
-5/day-cure moderate wounds
-
-3/day-blade barrier (DC 21), cure serious wounds, flame
-
-STRIKE (DC 20), SCORCHING RAY (3 RAYS)
-
-1/day-heal, raise dead
-
-BONUS:STAT|STR|14
-BONUS:STAT|DEX|8
-BONUS:STAT|CON|10
-BONUS:STAT|INT|8
-BONUS:STAT|WIS|8
-BONUS:STAT|CHA|10
-
-Base Atk +13; CMB +21; CMD 35
-
-ABILITY:FEAT|AUTOMATIC|Alertness|Blind-Fight|Cleave|Great Fortitude|Improved Initiative|Power Attack|Weapon Focus (longsword)
-
-Skills Diplomacy +21, Fly +22, Heal +20, Intimidate +18, Knowledge (planes) +20, Knowledge (religion) +17, Perception +28, Sense Motive +24, Stealth +16, Survival +20; Racial Modifiers +4 Perception
-
-AUTO:LANG|Celestial|Common|Draconic|Infernal
-truespeech
-
-Gear +3 flaming longsword
-
-
------------------------------------------------
-
 STARTPACK:Angel (Monadic Deva) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Monadic Deva)]
 RACE:Angel (Monadic Deva)		!PRERACE:1,%
 NAME:Angel (Monadic Deva)
@@ -158,7 +18,6 @@ BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Detect Evil ~ Constant
 BONUS:VAR|HasLowLightVision|1
 
-Aura protective aura
 
 BONUS:VAR|AC_Natural_Armor|13|TYPE=Base.STACK
 
@@ -199,7 +58,6 @@ ABILITY:FEAT|AUTOMATIC|Alertness|Cleave|Improved Initiative|Lightning Reflexes|P
 Skills Bluff +17, Diplomacy +17, Fly +20, Heal +17, Knowledge (planes) +17, Knowledge (religion) +17, Perception +25, Sense Motive +21, Stealth +16, Survival +17; Racial Modifiers +4 Perception
 
 AUTO:LANG|Celestial|Common|Plus Any Three
-truespeech
 
 Gear +3 mace of smiting
 
@@ -226,9 +84,6 @@ RACESUBTYPE:Angel|Extraplanar|Good
 BONUS:VAR|DarkvisionRange|60
 ABILITY:Special Ability|AUTOMATIC|Detect Evil ~ Constant
 BONUS:VAR|HasLowLightVision|1
-
-Aura protective aura
-
 BONUS:VAR|AC_Natural_Armor|12|TYPE=Base.STACK
 
 DR:10/evil
@@ -266,7 +121,6 @@ ABILITY:FEAT|AUTOMATIC|Cleave|Improved Initiative|Iron Will|Power Attack
 Skills Diplomacy +15, Fly +19, Heal +15, Intimidate +12, Knowledge (planes) +15, Knowledge (religion) +12, Perception +19, Sense Motive +15, Stealth +15, Survival +15; Racial Modifiers +4 Perception
 
 AUTO:LANG|Celestial|Common|Plus Any Three
-truespeech
 
 Gear +1 flaming greatsword
 

@@ -103,7 +103,7 @@ Race Traits		KEY:Cave Troll ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABIL
 Race Traits		KEY:Cerberus ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=CerberusRaceAbility
 Race Traits		KEY:Cerebral Stalker ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=CerebralStalkerRaceAbility
 Race Traits		KEY:Chain Worm ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ChainWormRaceAbility
-Race Traits		KEY:Chalkydri ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE
+Race Traits		KEY:Chalkydri ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ChalkydriRaceAbility	ABILITY:Special Ability|AUTOMATIC|TYPE=AngelRaceAbility
 Race Traits		KEY:Charon ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=CharonRaceAbility
 Race Traits		KEY:Cherum ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=CherumRaceAbility
 Race Traits		KEY:Choronzon Demon ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ChoronzonDemonRaceAbility
@@ -180,7 +180,7 @@ Race Traits		KEY:Ectoplasm ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILI
 Race Traits		KEY:Electric Eel ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ElectricEelRaceAbility
 Race Traits		KEY:Elemental Fiend ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ElementalFiendRaceAbility
 Race Traits		KEY:Elusa Hound ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=ElusaHoundRaceAbility
-Race Traits		KEY:Empyreal ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=EmpyrealRaceAbility
+Race Traits		KEY:Empyreal ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=EmpyrealRaceAbility	ABILITY:Special Ability|AUTOMATIC|TYPE=AngelRaceAbility
 Race Traits		KEY:Encephalon Gorger ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=EncephalonGorgerRaceAbility
 Race Traits		KEY:Entropic Ooze ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=EntropicOozeRaceAbility
 Race Traits		KEY:Ethereal Rat ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=EtherealRatRaceAbility
@@ -384,7 +384,7 @@ Race Traits		KEY:Mist Dragon ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABI
 Race Traits		KEY:Mite ~ Race Traits						CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MiteRaceAbility
 Race Traits		KEY:Mobat Bat ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MobatBatRaceAbility
 Race Traits		KEY:Moloch ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MolochRaceAbility
-Race Traits		KEY:Monadic Deva ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MonadicDevaRaceAbility
+Race Traits		KEY:Monadic Deva ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MonadicDevaRaceAbility	ABILITY:Special Ability|AUTOMATIC|TYPE=AngelRaceAbility
 Race Traits		KEY:Mongrelman ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MongrelmanRaceAbility
 Race Traits		KEY:Monstrous Crab ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MonstrousCrabRaceAbility
 Race Traits		KEY:Monstrous Crayfish ~ Race Traits			CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MonstrousCrayfishRaceAbility
@@ -393,7 +393,7 @@ Race Traits		KEY:Monstrous Sea Wasp ~ Race Traits			CATEGORY:Internal		VISIBLE:N
 Race Traits		KEY:Moon Dog ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MoonDogRaceAbility
 Race Traits		KEY:Mortuary Cyclone ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MortuaryCycloneRaceAbility
 Race Traits		KEY:Mouse Lord ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MouseLordRaceAbility
-Race Traits		KEY:Movanic Deva ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MovanicDevaRaceAbility
+Race Traits		KEY:Movanic Deva ~ Race Traits				CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MovanicDevaRaceAbility	ABILITY:Special Ability|AUTOMATIC|TYPE=AngelRaceAbility
 Race Traits		KEY:Muckdweller ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MuckdwellerRaceAbility
 Race Traits		KEY:Mudbog ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MudbogRaceAbility
 Race Traits		KEY:Mudman ~ Race Traits					CATEGORY:Internal		VISIBLE:NO	ABILITY:Special Ability|AUTOMATIC|TYPE=MudmanRaceAbility
@@ -863,6 +863,12 @@ Craver		KEY:Amon ~ Craver			CATEGORY:Special Ability	TYPE:AmonRaceAbility.RaceAb
 Poison		KEY:Amphisbaena ~ Poison	CATEGORY:Special Ability	TYPE:AmphisbaenaRaceAbility.RaceAbility.SpecialAttack.Extraordinary			DESC:Bite-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d3 Con; cure 1 save. The save DC is Constitution-based.
 Split			KEY:Amphisbaena ~ Split		CATEGORY:Special Ability	TYPE:AmphisbaenaRaceAbility.RaceAbility.SpecialQuality.Extraordinary.Defensive	DESC:An amphisbaena functions normally even if cut in half. If dealt a critical hit with a slashing weapon, the creature is cut in half but continues to function as two separate creatures, each with half the original amphisbaena's current hit points (rounded down). Once split, an amphisbaena cannot be split again. If left alone for 1 minute, the split amphisbaena can rejoin its two halves and become a single whole creature again (add the two creatures' hit points together). If one of the split creatures is slain, the amphisbaena can regrow the lost portion over the course of a few weeks.
 
+###Block Angel
+
+# Ability Name	Unique Key				Category of Ability		Type											Description																																																																								Aspects
+Protective Aura	KEY:Angel ~ Protective Aura	CATEGORY:Special Ability	TYPE:AngelRaceAbility.RaceAbility.Aura.ModifyAC.Supernatural	DESC:Against attacks made or effects created by evil creatures, this ability provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws to anyone within 20 feet of the cetaceal.  Otherwise, it functions as a magic circle against evil effect and a lesser globe of invulnerability, both with a radius of 20 feet (caster level %1).  The defensive benefits from the circle are not included in the above stat block.|TL	ASPECT:SaveBonus|+4 resistance vs. evil	ASPECT:ModifyAC|+4 deflection vs. evil	ASPECT:Ability Benefit|(20 ft.)
+Truespeech		KEY:Angel ~ Truespeech		CATEGORY:Special Ability	TYPE:AngelRaceAbility.RaceAbility.SpecialQuality.Supernatural	DESC:All angels can speak with any creature that has a language, as though using a tongues spell (caster level equal to angel’s Hit Dice). This ability is always active.
+
 ###Block Angel (Chalkydri)
 
 # Ability Name	Unique Key					Category of Ability		Type									Description
@@ -872,7 +878,7 @@ Exploding weapons	KEY:Chalkydri ~ Exploding weapons	CATEGORY:Special Ability	TYP
 
 # Ability Name	Unique Key					Category of Ability		Type											Define					Description																																																																																																								Modify VAR
 Aura of Goodness	KEY:Empyreal ~ Aura of Goodness	CATEGORY:Special Ability	TYPE:EmpyrealRaceAbility.RaceAbility.SpecialQuality.Supernatural	DEFINE:EmpyrealAuraofGoodnessDC|0	DESC:An empyreal radiates an aura in a 30-foot radius spread around its form. Any non-evil creature in this area must succeed on a DC 23 Will save or be overcome with awe and unable to attack the empyreal that round.  Evil creatures within the area must make a successful DC 23 Will save or be unable to even look at that empyreal for one day. An affected evil creature functions as if blinded (as the blindness spell) when attacking that empyreal.  On a successful save, a creature is immune to the aura of goodness of that empyreal for one day. The save DC is Charisma-based and includes a +2 bonus.|EmpyrealAuraofGoodnessDC	BONUS:VAR|EmpyrealAuraofGoodnessDC|12+(HD/2)+CHA
-Radiant Blast	KEY:Empyreal ~ Radiant Blast		CATEGORY:Special Ability	TYPE:EmpyrealRaceAbility.RaceAbility.SpecialQuality.Supernatural	DEFINE:EmpyrealRadiantBlastDC|0	DESC:Once per day, an empyreal can increase the radiance of its form and release it in a cone-shaped blast to a range of 60 feet that deals 15d6 points of damage and blinds any creature in the area (as the blindness spell) for 3d6 minutes. Affected creatures can make a successful DC 21 Reflex save to halve the damage and avoid being blinded. The save DC is Constitution-based.|EmpyrealRadiantBlastDC																																							BONUS:VAR|EmpyrealRadiantBlastDC|10+(HD/2)+CON
+Radiant Blast	KEY:Empyreal ~ Radiant Blast		CATEGORY:Special Ability	TYPE:EmpyrealRaceAbility.RaceAbility.SpecialAttack.Supernatural	DEFINE:EmpyrealRadiantBlastDC|0	DESC:Once per day, an empyreal can increase the radiance of its form and release it in a cone-shaped blast to a range of 60 feet that deals 15d6 points of damage and blinds any creature in the area (as the blindness spell) for 3d6 minutes. Affected creatures can make a successful DC 21 Reflex save to halve the damage and avoid being blinded. The save DC is Constitution-based.|EmpyrealRadiantBlastDC																																							BONUS:VAR|EmpyrealRadiantBlastDC|10+(HD/2)+CON
 
 ###Block Angel (Monadic Deva)
 
