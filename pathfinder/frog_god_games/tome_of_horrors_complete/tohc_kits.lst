@@ -219,3 +219,37 @@ SKILL:Sense Motive          RANK:13
 SKILL:Stealth               RANK:13
 SKILL:Survival              RANK:13
 GEAR:Longsword	SIZE:PC	LOCATION:Primary Hand	EQMOD:MWORK.PLUS3W.FLAME
+
+
+STARTPACK:Angel (Monadic Deva) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Monadic Deva)]
+RACE:Angel (Monadic Deva)		!PRERACE:1,%
+NAME:Angel (Monadic Deva)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+SKILL:Bluff			RANK:10
+SKILL:Diplomacy			RANK:10
+SKILL:Fly 			RANK:10
+SKILL:Heal			RANK:10
+SKILL:Knowledge (planes)	RANK:10
+SKILL:Knowledge (religion)	RANK:10
+SKILL:Perception 		RANK:10
+SKILL:Sense Motive 		RANK:10
+SKILL:Stealth			RANK:10
+SKILL:Survival			RANK:10
+GEAR:Mace of smiting	SIZE:PC	LOCATION:Primary Hand
+
+
+STARTPACK:Angel (Movanic Deva) Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Angel (Movanic Deva)]
+RACE:Angel (Movanic Deva)		!PRERACE:1,%
+NAME:Angel (Movanic Deva)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Diplomacy			RANK:8
+SKILL:Fly			RANK:8
+SKILL:Heal			RANK:8
+SKILL:Intimidate		RANK:8
+SKILL:Knowledge (planes)	RANK:8
+SKILL:Knowledge (religion)	RANK:8
+SKILL:Perception		RANK:8
+SKILL:Sense Motive		RANK:8
+SKILL:Stealth			RANK:8
+SKILL:Survival			RANK:8
+GEAR:Greatsword	SIZE:PC	LOCATION:Primary Hand	EQMOD:MWORK.PLUS1W.FLAME
