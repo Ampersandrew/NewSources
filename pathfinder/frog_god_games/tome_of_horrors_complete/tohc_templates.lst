@@ -1,9 +1,10 @@
+# Wed Jan 30 16:39:55 2019 -- reformatted by PCGen TidyLst v1.03.00
 SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgames.com/tome-horrors-complete	SOURCEDATE:2014-03
 # ORIGINAL ENTRY: Andrew Wilson
 # ORIGINAL ENTRY DATE: 2014/03/22
 
-# Template Name			Visible	Bonus to HP			Bonus to skill rank		Modify VAR									Weapon prof. bonus
-By the Book Abyssal Harvester	VISIBLE:NO	BONUS:HP|CURRENTMAX|-11						BONUS:VAR|CMB|-5	BONUS:VAR|CMD|-5	BONUS:VAR|CMB_Grapple|4	BONUS:WEAPONPROF=Tentacle|TOHIT|-5
-By the Book Afanc			VISIBLE:NO	BONUS:HP|CURRENTMAX|-12	BONUS:SKILLRANK|Perception|-4											BONUS:WEAPONPROF=Tentacle|TOHIT|-5
+# Template Name			Visible		Bonus to HP		Bonus to skill rank		Modify VAR								Weapon prof. bonus
+By the Book Abyssal Harvester	VISIBLE:NO	BONUS:HP|CURRENTMAX|-11					BONUS:VAR|CMB|-5	BONUS:VAR|CMD|-5	BONUS:VAR|CMB_Grapple|4	BONUS:WEAPONPROF=Tentacle|TOHIT|-5
+By the Book Afanc		VISIBLE:NO	BONUS:HP|CURRENTMAX|-12	BONUS:SKILLRANK|Perception|-4										BONUS:WEAPONPROF=Tentacle|TOHIT|-5
 
 Therianthrope			VISIBLE:YES

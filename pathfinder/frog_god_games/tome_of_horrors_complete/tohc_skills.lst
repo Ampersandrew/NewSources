@@ -1,4 +1,4 @@
-# CVS $Revision: $ $Author: $ -- Fri Aug 31 18:32:19 2018 -- reformated by PCGen PrettyLST v6.06.00
+# Wed Jan 30 16:39:55 2019 -- reformatted by PCGen TidyLst v1.03.00
 SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgames.com/tome-horrors-complete	SOURCEDATE:2014-03
 # ORIGINAL ENTRY: Andrew Wilson (nuance)
 # ORIGINAL ENTRY DATE: 02 April 2014
@@ -8,8 +8,8 @@ SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgam
 Acrobatics.MOD	SITUATION:when balancing
 
 
-Stealth.MOD		SITUATION:Camouflaged using sticks and leaves
-Stealth.MOD		SITUATION:in trees
-Stealth.MOD		SITUATION:in swamps and forests
+Stealth.MOD	SITUATION:Camouflaged using sticks and leaves
+Stealth.MOD	SITUATION:in trees
+Stealth.MOD	SITUATION:in swamps and forests
 
 Survival.MOD	SITUATION:when tracking by scent

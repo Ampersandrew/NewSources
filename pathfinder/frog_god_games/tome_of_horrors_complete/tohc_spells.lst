@@ -1,10 +1,10 @@
-# CVS $Revision: $ $Author: $ -- Tue Aug 28 03:18:10 2018 -- reformated by PCGen PrettyLST v6.06.00
+# Wed Jan 30 16:39:55 2019 -- reformatted by PCGen TidyLst v1.03.00
 SOURCELONG:Tome of Horrors Complete	SOURCESHORT:TOHC	SOURCEWEB:http://froggodgames.com/tome-horrors-complete	SOURCEDATE:2014-03
 # ORIGINAL ENTRY: Andrew Wilson
 # ORIGINAL ENTRY DATE: 2014/03/22
 
-# Spell Name													Type				Classes of caster				School			Sub-School			Components		Casting Time			Range		Target Area or Effect										Duration			Save Info			Spell Resistance	Description
-Plane Shift (Astral Plane or the Abyss or the Nine Hells or the Material Plane only)	TYPE:Arcane.Divine	CLASSES:Cleric=5|Sorcerer,Wizard=7	SCHOOL:Conjuration	SUBSCHOOL:Teleportation	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched, or up to eight willing creatures joining hands	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:This spell functions like Plane Shift, but only to the Astral Plane, the Abyss, the Nine Hells, or the Material Plane
+# Spell Name										Type			Classes of caster			School			Sub-School		Components	Casting Time			Range		Target Area or Effect								Duration		Save Info		Spell Resistance	Description
+Plane Shift (Astral Plane or the Abyss or the Nine Hells or the Material Plane only)	TYPE:Arcane.Divine	CLASSES:Cleric=5|Sorcerer,Wizard=7	SCHOOL:Conjuration	SUBSCHOOL:Teleportation	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched, or up to eight willing creatures joining hands	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes		DESC:This spell functions like Plane Shift, but only to the Astral Plane, the Abyss, the Nine Hells, or the Material Plane
 
 
 
